@@ -5,8 +5,10 @@ name: Refresh Stars
 # 脚本遍历数据文件全部条目，后续新收录自动纳入，无需改本工作流。
 on:
   schedule:
-    # 每日 UTC 20:47（北京时间凌晨 4:47）；避开整点防 GitHub 静默丢弃
+    # 主跑：每日 UTC 20:47（北京凌晨 4:47）
     - cron: '47 20 * * *'
+    # 备份：每日 UTC 02:15（北京上午 10:15）——错峰 6 小时，防单条 schedule 被静默丢弃
+    - cron: '15 2 * * *'
   workflow_dispatch:
 
 permissions:

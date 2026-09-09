@@ -7,7 +7,11 @@ name: Refresh Tool Health
 
 on:
   schedule:
-    - cron: '11 4 * * *' # UTC 04:11（北京 12:11）
+    # 主跑：每日 UTC 04:11（北京 12:11）
+    - cron: '11 4 * * *'
+    # 备份：每日 UTC 10:47（北京 18:47）——错峰 6.5 小时，防单条 schedule 被静默丢弃
+    # 判定必须在海外 CI 环境做（国内本地网络会误判 UNREACHABLE）；备份 cron 也走海外 runner。
+    - cron: '47 10 * * *'
   workflow_dispatch:
 
 permissions:

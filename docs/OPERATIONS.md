@@ -27,10 +27,11 @@
 | `ci.yml` | push/PR main | 内部文件泄露检测 → `npm test` 五连检 → build → 冒烟 |
 | `cloudflare-deploy.yml` | push main | 构建并部署 CF Pages（唯一部署通道） |
 | `refresh-ranking.yml` | 双 cron UTC 00:37/02:53 + 手动 | 排行榜刷新 + 当日快照 + `pages-data` 分支活数据发布（详见 `docs/ranking/RUNBOOK.md`） |
-| `refresh-stars.yml` | UTC 20:47 | MCP/Skills 星数刷新，自动 commit |
+| `refresh-stars.yml` | 双 cron UTC 20:47/02:15 + 手动 | MCP/Skills 星数刷新，自动 commit |
+| `refresh-tool-health.yml` | 双 cron UTC 04:11/10:47 + 手动 | 存活探测 + deadStreak 连续 ≥4 自动开 issue（需海外 CI 环境判定） |
 | `link-health.yml` | 每周一 | 官网存活检测（唯一会 fail）+ 内容审计（warn-only） |
 
-所有 cron 刻意避开整点（GitHub 高峰丢调度）；`refresh-ranking` 双 cron 兜底。
+所有 cron 刻意避开整点（GitHub 高峰丢调度）；`refresh-ranking` / `refresh-stars` / `refresh-tool-health` 均双 cron 兜底，防低活跃仓库 schedule 被静默丢弃。
 
 ## 关键纪律
 
