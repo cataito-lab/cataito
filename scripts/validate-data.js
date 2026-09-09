@@ -262,9 +262,9 @@ function validateBlogPosts() {
   });
 }
 
-// ─── 4. skills.json ──────────────────────────────────────────────
+// ─── 4. src/data/skills/ ────────────────────────────────────────
 function validateSkills() {
-  console.log('\n━━━ skills.json ━━━');
+  console.log('\n━━━ src/data/skills/ ━━━');
   const data = loadSkills();
   if (!data) return;
 
@@ -354,9 +354,9 @@ console.log('🔍 数据文件结构验证开始\n');
 validateTools();
 validateToolDetails();
 validateBlogPosts();
-// ─── 5. mcp.json ────────────────────────────────
+// ─── 5. src/data/mcp/ ────────────────────────────────
 function validateMcp() {
-  console.log('\n━━━ mcp.json ━━━');
+  console.log('\n━━━ src/data/mcp/ ━━━');
   const data = loadMcp();
   if (!data) return;
 

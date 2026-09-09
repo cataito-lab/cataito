@@ -2,7 +2,7 @@
 // 用法：node scripts/check-tool-liveness.mjs
 //   - 本地若需代理：设置 HTTPS_PROXY 环境变量后运行
 //   - CI（GitHub Actions）海外节点直连，无需代理
-// 覆盖三类实体：工具（从 tools.json 读取 url）/ Skills（从 skills.json 读取 repo）/ MCP（从 mcp.json 读取 repo）
+// 覆盖三类实体：工具（tools/）/ Skills（skills/）/ MCP（mcp/）——均通过 load-data.cjs 聚合读取
 // 分级规则（保守设计，避免误报）：
 //   DEAD        → 域名无法解析 / 404 / 410，两轮复测均失败 —— 视为已关停，进程退出码 1
 //   UNREACHABLE → 超时 / 连接被重置 / 5xx —— 可能是临时故障或地域屏蔽，仅告警不判死

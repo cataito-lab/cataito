@@ -10,7 +10,7 @@
  *     解析，再回退 /favicon.ico）。
  *  3. 任一步失败则保留现有 logo 字段，并在结尾汇总，便于人工处理。
  *
- * 幂等：可重复运行。仅处理 tools.json（skills.json 使用各自 GitHub 图标）。
+ * 幂等：可重复运行。仅处理 tools/ 目录（skills 使用各自 GitHub 图标）。
  */
 const fs = require('fs');
 const path = require('path');
