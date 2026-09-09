@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y duckduckgo-mcp-server",
   "logo": "/logos/mcp/duckduckgo-mcp.png",
-  "stars": 1455,
+  "stars": 1468,
   "featured": false,
   "faqs": [
     {

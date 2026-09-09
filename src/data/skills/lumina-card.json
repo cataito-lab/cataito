@@ -19,7 +19,7 @@
   ],
   "installCommand": "git clone https://github.com/catex-lab/lumina-card.git ~/.workbuddy/skills/lumina-card",
   "logo": "/logos/skills/lumina-card.png",
-  "stars": 1,
+  "stars": 2,
   "featured": false,
   "faqs": [
     {

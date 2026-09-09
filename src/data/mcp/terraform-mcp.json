@@ -24,7 +24,7 @@
   ],
   "installCommand": "docker run -i --rm hashicorp/terraform-mcp-server",
   "logo": "/logos/mcp/terraform-mcp.png",
-  "stars": 1522,
+  "stars": 1525,
   "featured": false,
   "faqs": [
     {
