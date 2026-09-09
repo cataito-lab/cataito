@@ -11,7 +11,7 @@
 | 部署平台 | Cloudflare Pages（免费档），项目名 `cataito` |
 | 唯一部署通道 | GitHub Actions `.github/workflows/cloudflare-deploy.yml`（push main 触发，`wrangler pages deploy out`） |
 | CF 自动 GitHub 部署 | 已关闭（2026-09-06，分支控制：生产/预览自动部署均禁用）——只保留 Actions 一条通道，避免双通道对 lockfile 宽容度不同导致的静默失败 |
-| 301 重定向 / 安全头 | CF Pages 原生：`public/_redirects`（110 条）+ `public/_headers`（CSP 等；AdSense 上线后已放行 Google 广告域，广告不显示优先查这里） |
+| 301 重定向 / 安全头 | CF Pages 原生：`public/_redirects`（110 条）+ `public/_headers`（CSP 等；AdSense 上线后已放行 Google 广告域，`https://cataito-lab.github.io` 是排行榜活数据客户端唯一 fetch 目标——新增外部 fetch 前先补 `connect-src`，否则浏览器静默拦截、页面卡在 SSR 静态壳） |
 | DNS | Cloudflare 代理模式 |
 
 ## 为什么是静态导出（架构约束）

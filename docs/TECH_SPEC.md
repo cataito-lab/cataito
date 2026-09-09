@@ -50,7 +50,7 @@ docs/                 OPERATIONS.md、TECH_SPEC.md、ranking/（RUNBOOK/IDEAS/AL
 
 - hreflang / canonical：`src/lib/seo.ts` `generateAlternates`；与 noindex 策略联动（`TEMP_NOINDEX_LOCALES` 过滤）
 - Consent Mode v2：`GoogleAnalytics.tsx` 默认全 denied，`ConsentBanner.tsx` 按用户选择 update（localStorage `catai-consent`）
-- AdSense：`src/lib/adsense.ts` 常量源（ID 硬编码即配置）；广告仅博客详情 + 工具详情两类长内容页；CSP 白名单在 `public/_headers`（Google 域变更会导致广告消失，优先排查）
+- AdSense：`src/lib/adsense.ts` 常量源（ID 硬编码即配置）；广告仅博客详情 + 工具详情两类长内容页；CSP 白名单在 `public/_headers`（Google 广告域变更会导致广告消失，`https://cataito-lab.github.io` 是排行榜客户端拉取活数据的唯一 fetch 目标——新增任何前端 fetch/外部域名必须先补 `connect-src`，否则浏览器静默拦截，页面回退到 SSR 静态壳）
 - 表单防滥用：`src/lib/form-guard.tsx`（honeypot + 时间陷阱 + Turnstile 可选启用）
 
 ## 排行榜（核心差异化资产）
