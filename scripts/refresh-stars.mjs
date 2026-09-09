@@ -98,7 +98,7 @@ if (starsByRepo.size === 0) {
 }
 
 let changedTotal = 0;
-for (const { label, dir, entries } of datasets) {
+for (const { label, dir, orderKey, entries } of datasets) {
   let changed = 0;
   for (const entry of entries) {
     const fresh = starsByRepo.get(entry.repo);
