@@ -33,14 +33,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # 有变化才提交推送（匿名品牌身份），推送后自动触发 CI 与 Vercel 部署
+      # 注意：数据已拆成每条一文件（c2be080），mcp.json/skills.json 已不存在——
+      #       改成 diff 检查目录树，否则永远"无变化"，星数更新静默丢弃。
       - name: 提交并推送
         run: |
-          if git diff --quiet -- src/data/mcp.json src/data/skills.json; then
+          if git diff --quiet -- src/data/mcp/ src/data/skills/ src/data/canonical-order.json; then
             echo "星数无变化，跳过提交"
             exit 0
           fi
           git config user.name "CATAI"
           git config user.email "309386950+cataito-lab@users.noreply.github.com"
-          git add src/data/mcp.json src/data/skills.json
+          git add src/data/mcp/ src/data/skills/ src/data/canonical-order.json
           git commit -m "chore(data): 自动刷新 MCP / Skills 星数"
           git push
