@@ -24,7 +24,7 @@
   ],
   "installCommand": "npm install -g @cloudbase/cloudbase-mcp && cloudbase-mcp",
   "logo": "/logos/mcp/cloudbase-mcp.png",
-  "stars": 1097,
+  "stars": 1098,
   "featured": false,
   "faqs": [
     {

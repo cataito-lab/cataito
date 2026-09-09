@@ -24,7 +24,7 @@
   ],
   "installCommand": "git clone https://github.com/vercel-labs/skills.git ~/.codex/skills/vercel-labs-skills",
   "logo": "/logos/skills/find-skills.png",
-  "stars": 30757,
+  "stars": 30822,
   "featured": false,
   "faqs": [
     {
