@@ -30,17 +30,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run health probe
-        run: node scripts/refresh-tool-health.mjs
+      - name: Run health probe and auto-open issues for persistent DEAD entries
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/refresh-tool-health.mjs --auto-issue
 
       - name: Commit results (if changed)
-        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/tool-health.json
           if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "健康数据无变化"
           else
             git commit -m "chore(data): 每日存活巡检 $(date -u +%F)"
@@ -48,32 +48,4 @@ jobs:
               if git push; then break; fi
               git pull --rebase || true
             done
-            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
-      # 自动开 issue：连续 ≥4 次 DEAD 的条目，人工裁决是否按「产品已死」红线处理
-      - name: Open issues for persistent DEAD entries
-        if: steps.commit.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          node -e "
-          const h = require('./src/data/tool-health.json');
-          const dead = Object.entries(h.tools).filter(([, v]) => v.deadStreak >= 4);
-          if (!dead.length) { console.log('无连续 4 次 DEAD 条目'); process.exit(0); }
-          for (const [slug, v] of dead) {
-            const title = '[tool-health] ' + slug + ' 连续 ' + v.deadStreak + ' 次 DEAD，请人工裁决';
-            const existing = require('child_process').execSync(
-              'gh issue list --state open --search \"' + title + '\" --json number --jq length',
-              { encoding: 'utf8' }
-            ).trim();
-            if (existing !== '0') { console.log('issue 已存在，跳过: ' + slug); continue; }
-            require('child_process').execSync(
-              'gh issue create --title \"' + title + '\" --body \"' +
-              '条目 ' + slug + '（' + v.kind + '）连续 ' + v.deadStreak + ' 次存活探测 DEAD。\\n\\n' +
-              '按收录红线「产品已死」条款人工核实后处理：确认已死则下架（删除条目），误报则调整探测。\\n\\n' +
-              '数据：\\n\`\`\`json\\n' + JSON.stringify(v, null, 2) + '\\n\`\`\`\" --label tool-health\"'",
-              { stdio: 'inherit' }
-            );
-          }
-          "

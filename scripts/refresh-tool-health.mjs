@@ -12,7 +12,7 @@
  *   ok          探测通过（含 PROTECTED 403/429 反爬拦截——站点存活）
  *   moved       200 但跳到不同主域 → 人工核对项
  *
- * 自动开 issue 由 workflow 步骤消费：deadStreak ≥4 的条目触发人工裁决（收录纪律：机器降级、人工删除）。
+ * 自动开 issue 由脚本 --auto-issue 开关消费（workflow 传参）：deadStreak ≥4 的条目触发人工裁决（收录纪律：机器降级、人工删除）。
  * 设计要点：判定必须在海外 CI 环境做（本地国内网络会把正常站误判 UNREACHABLE）；
  * 本地运行只应使用 --dry。退出码恒 0（warn-only，不阻塞 CI）。
  *
@@ -22,12 +22,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
+import { execFileSync } from 'node:child_process';
 const _require = createRequire(import.meta.url);
 const { loadTools, loadSkills, loadMcp, DATA_DIR } = _require('./lib/load-data.cjs');
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(DATA_DIR, 'tool-health.json');
 const DRY = process.argv.includes('--dry');
+const AUTO_ISSUE = process.argv.includes('--auto-issue');
 const CONCURRENCY = 8;
 const TIMEOUT = 20000;
 
@@ -169,4 +171,55 @@ if (!DRY) {
   console.log('[dry] 未写盘');
 }
 console.log(`汇总：ok ${okCount} / dead ${deadCount} / unreachable ${unreachableCount}（合计 ${targets.length}）`);
+
+// ── 自动开 issue：连续 ≥4 次 DEAD 的条目交人工裁决 ──────────
+// 用 execFileSync 走参数数组，完全避开 shell 引号/三引号转义地狱
+// （workflow 里原先内联 node -e 拼 gh 命令，SyntaxError: Unexpected end of input）。
+if (AUTO_ISSUE && !DRY) {
+  const dead = Object.entries(tools).filter(([, v]) => v.deadStreak >= 4);
+  if (dead.length === 0) {
+    console.log('无连续 4 次 DEAD 条目，跳过 issue 扫描');
+  } else {
+    for (const [slug, v] of dead) {
+      const title = `[tool-health] ${slug} 连续 ${v.deadStreak} 次 DEAD，请人工裁决`;
+      // 已有 open issue 则跳过（幂等：多次重跑不会重复开）
+      let existingCount = '0';
+      try {
+        existingCount = execFileSync(
+          'gh',
+          ['issue', 'list', '--state', 'open', '--search', title, '--json', 'number', '--jq', 'length'],
+          { encoding: 'utf8', timeout: 30_000 },
+        ).trim();
+      } catch {
+        // gh 命令失败（未登录/网络）——视为不存在，继续尝试创建
+      }
+      if (existingCount !== '0' && existingCount !== '') {
+        console.log(`  跳过（issue 已存在）：${slug}`);
+        continue;
+      }
+      const body = [
+        `条目 **${slug}**（${v.kind}）连续 ${v.deadStreak} 次存活探测 DEAD。`,
+        '',
+        '按收录红线「产品已死」条款人工核实后处理：确认已死则下架（删除条目），误报则调整探测。',
+        '',
+        '数据：',
+        '```json',
+        JSON.stringify(v, null, 2),
+        '```',
+      ].join('\n');
+      try {
+        execFileSync(
+          'gh',
+          ['issue', 'create', '--title', title, '--body', body, '--label', 'tool-health'],
+          { stdio: 'inherit', timeout: 60_000 },
+        );
+        console.log(`  已开 issue：${slug}`);
+      } catch (e) {
+        // 单条失败不阻塞整体（warn-only）
+        console.warn(`  ⚠️ 开 issue 失败 ${slug}: ${String(e.message || e).slice(0, 120)}`);
+      }
+    }
+  }
+}
+
 console.log('（本脚本 warn-only：健康数据供横幅与 issue 消费，退出码恒 0）');
