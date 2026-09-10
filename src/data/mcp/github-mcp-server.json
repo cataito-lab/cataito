@@ -24,7 +24,7 @@
   ],
   "installCommand": "claude mcp add --transport http github https://api.githubcopilot.com/mcp/",
   "logo": "/logos/mcp/github-mcp-server.png",
-  "stars": 32830,
+  "stars": 32841,
   "featured": false,
   "faqs": [
     {
