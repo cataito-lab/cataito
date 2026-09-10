@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y mongodb-mcp-server",
   "logo": "/logos/mcp/mongodb-mcp.png",
-  "stars": 1124,
+  "stars": 1125,
   "featured": false,
   "faqs": [
     {

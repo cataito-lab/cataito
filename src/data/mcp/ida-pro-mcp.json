@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y ida-pro-mcp",
   "logo": "/logos/mcp/ida-pro-mcp.png",
-  "stars": 11940,
+  "stars": 11955,
   "featured": false,
   "faqs": [
     {

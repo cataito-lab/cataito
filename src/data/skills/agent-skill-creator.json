@@ -24,7 +24,7 @@
   ],
   "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
   "logo": "/logos/skills/agent-skill-creator.png",
-  "stars": 2380,
+  "stars": 2381,
   "developer": "FrancyJGLisboa",
   "developerZh": "FrancyJGLisboa",
   "faqs": [

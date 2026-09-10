@@ -23,7 +23,7 @@
   ],
   "installCommand": "uvx --from git+https://github.com/redis/mcp-redis.git redis-mcp-server",
   "logo": "/logos/mcp/redis-mcp.png",
-  "stars": 618,
+  "stars": 619,
   "featured": false,
   "faqs": [
     {
