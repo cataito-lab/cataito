@@ -31,6 +31,11 @@
 /mcp/:splat /en/mcp/:splat 301
 /tutorials/:splat /en/tutorials/:splat 301
 /blog/:splat /en/blog/:splat 301
+# 旧分类名一步直达最终目标（GSC 诊断 2026-09-11：若先命中下方 /category/:splat
+# 会形成 /category/platform → /en/category/platform → /en/category/open-source 二跳链，
+# 即 GSC「重定向错误」的来源）。CF Pages 按顺序首条命中，必须放在 splat 规则之前。
+/category/platform /en/category/open-source 301
+/category/developer /en/category/api-platform 301
 /category/:splat /en/category/:splat 301
 
 # 尾斜杠修复（带语言前缀的页面）
