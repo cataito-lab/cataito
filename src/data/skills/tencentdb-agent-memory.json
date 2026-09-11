@@ -24,7 +24,7 @@
   ],
   "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
   "logo": "/logos/skills/tencentdb-agent-memory.png",
-  "stars": 26307,
+  "stars": 26334,
   "featured": false,
   "faqs": [
     {

@@ -21,7 +21,7 @@
   ],
   "installCommand": "git clone https://github.com/Dlcccc71913/skill-make-photo-stamp-archive ~/.codex/skills/photo-stamp-archive",
   "logo": "/logos/skills/photo-stamp-archive.png",
-  "stars": 338,
+  "stars": 340,
   "featured": false,
   "faqs": [
     {
