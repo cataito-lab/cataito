@@ -24,7 +24,7 @@
   ],
   "installCommand": "uvx elevenlabs-mcp --api-key YOUR_API_KEY",
   "logo": "/logos/mcp/elevenlabs-mcp.png",
-  "stars": 1535,
+  "stars": 1536,
   "featured": false,
   "faqs": [
     {

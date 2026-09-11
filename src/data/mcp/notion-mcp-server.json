@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y @notionhq/notion-mcp-server",
   "logo": "/logos/mcp/notion-mcp-server.png",
-  "stars": 4625,
+  "stars": 4627,
   "featured": false,
   "faqs": [
     {
