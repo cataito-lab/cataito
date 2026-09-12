@@ -26,7 +26,7 @@
   ],
   "installCommand": "curl -fsSL https://raw.githubusercontent.com/QwenLM/Qwen-MM-Plugins/main/install.sh | bash",
   "logo": "/logos/skills/qwen-mm-plugins.png",
-  "stars": 2815,
+  "stars": 2816,
   "featured": false,
   "faqs": [
     {

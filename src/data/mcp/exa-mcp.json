@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y exa-mcp-server",
   "logo": "/logos/mcp/exa-mcp.png",
-  "stars": 4994,
+  "stars": 4995,
   "featured": false,
   "faqs": [
     {
