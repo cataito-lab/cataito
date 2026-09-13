@@ -19,7 +19,7 @@
   ],
   "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill ~/.codex/skills/gathered-scenes-zine-skill",
   "logo": "/logos/skills/gathered-scenes-zine-skill.png",
-  "stars": 4980,
+  "stars": 4982,
   "featured": false,
   "faqs": [
     {

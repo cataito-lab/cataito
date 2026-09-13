@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx skills add op7418/guizang-social-card-skill",
   "logo": "/logos/skills/guizang-social-card.png",
-  "stars": 7001,
+  "stars": 7003,
   "featured": false,
   "faqs": [
     {
