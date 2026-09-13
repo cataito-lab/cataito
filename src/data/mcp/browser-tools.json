@@ -25,7 +25,7 @@
   ],
   "installCommand": "npx -y @agentdeskai/browser-tools-mcp",
   "logo": "/logos/mcp/browser-tools.png",
-  "stars": 7319,
+  "stars": 7318,
   "featured": false,
   "faqs": [
     {
