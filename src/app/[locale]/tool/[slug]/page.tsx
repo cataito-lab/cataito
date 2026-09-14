@@ -183,12 +183,19 @@ export default async function ToolDetailPage({ params }: Props) {
     verified: detailMeta.lastVerified ?? null,
   };
 
-  // P4.3 内容保鲜：每日存活探测结果驱动的横幅（dead/unreachable 显示，suspect 不显示）
+  // P4.3 内容保鲜：每日存活探测结果驱动的横幅（dead 显示，suspect 不显示）
+  // 2026-09-14 unreachable 判定暂时停用（Aaron 指示）：GitHub Actions 海外节点探测
+  // 国内/墙外站点普遍失败，tool-health.json 当前 288/288 全 unreachable（streak ≥ 7）
+  // 但实际都是网络假阳性，导致每个工具详情页顶上一个黄横幅，E-E-A-T 严重扣分。
+  // DEAD 判定（连续两轮 404 / ENOTFOUND / 410）保留——真挂时仍能告警。
+  // 恢复条件：check-tool-liveness.mjs 换国内/双区域探测节点，unreachable 恢复可信后
+  // 把下方 `|| healthEntry?.status === 'unreachable'` 注释解开。
   const healthEntry = (toolHealth as { tools?: Record<string, { status?: string }> }).tools?.[
     tool.slug
   ];
   const healthStatus =
-    healthEntry?.status === 'dead' || healthEntry?.status === 'unreachable'
+    healthEntry?.status === 'dead'
+    // || healthEntry?.status === 'unreachable'  // 停用中，见上方注释
       ? healthEntry.status
       : null;
 
