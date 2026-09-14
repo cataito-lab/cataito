@@ -203,7 +203,7 @@
       "Google AdSense - Para mostrar anuncios",
       "Google Favicon Service - Para mostrar iconos de sitios web de herramientas de IA",
       "Cloudflare - Para servicios de CDN y seguridad",
-      "Vercel - Para alojamiento web",
+      "Cloudflare Pages - Para alojamiento web",
       "Formsubmit - Para procesar envíos de recursos de usuarios"
     ],
     "third_text2": "Estos servicios pueden recopilar y procesar datos según sus propias políticas de privacidad.",

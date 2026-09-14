@@ -203,7 +203,7 @@
       "Google AdSense - 広告の表示",
       "Google Favicon Service - AIツールのウェブサイトアイコン表示",
       "Cloudflare - CDNおよびセキュリティサービス",
-      "Vercel - ウェブサイトホスティング",
+      "Cloudflare Pages - ウェブサイトホスティング",
       "Formsubmit - ユーザーのリソース送信処理"
     ],
     "third_text2": "これらのサービスは、独自のプライバシーポリシーに従ってデータを収集・処理する場合があります。各ポリシーの確認をお勧めします。",
