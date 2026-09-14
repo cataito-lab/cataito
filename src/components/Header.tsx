@@ -41,9 +41,11 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
 
   const isHome = pathname === '/';
   const isCategory = pathname.startsWith('/category');
+  const isTools = pathname.startsWith('/tools');
   const isSkills = pathname.startsWith('/skills');
   const isMcp = pathname.startsWith('/mcp');
   const isRanking = pathname.startsWith('/ranking');
+  const isReport = pathname.startsWith('/report');
   const isBlog = pathname.startsWith('/blog');
   const isTutorials = pathname.startsWith('/tutorials');
 
@@ -100,9 +102,11 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
               )}
             </div>
 
+            <Link href="/tools" className={isTools ? navActive : navIdle}>{t('nav.tools')}</Link>
             <Link href="/skills" className={isSkills ? navActive : navIdle}>{t('nav.skills')}</Link>
             <Link href="/mcp" className={isMcp ? navActive : navIdle}>{t('nav.mcp')}</Link>
             <Link href="/ranking" className={isRanking ? navActive : navIdle}>{t('nav.ranking')}</Link>
+            <Link href="/report" className={isReport ? navActive : navIdle}>{t('nav.report')}</Link>
             <Link href="/blog" className={isBlog ? navActive : navIdle}>{t('nav.blog')}</Link>
             <Link href="/tutorials" className={isTutorials ? navActive : navIdle}>{t('nav.tutorials')}</Link>
 
@@ -229,6 +233,9 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             <Link href="/" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition">
               {t('nav.home')}
             </Link>
+            <Link href="/tools" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition">
+              {t('nav.tools')}
+            </Link>
             <Link href="/skills" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition">
               {t('nav.skills')}
             </Link>
@@ -237,6 +244,9 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             </Link>
             <Link href="/ranking" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition">
               {t('nav.ranking')}
+            </Link>
+            <Link href="/report" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition">
+              {t('nav.report')}
             </Link>
             <Link href="/blog" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition">
               {t('nav.blog')}

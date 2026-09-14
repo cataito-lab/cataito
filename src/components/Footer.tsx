@@ -83,8 +83,11 @@ export default function Footer() {
           <div>
             <h3 className="text-xs font-semibold text-[var(--foreground)] mb-4 uppercase tracking-wider">{t('navigation')}</h3>
             <ul className="space-y-2.5">
+              <li><Link href="/tools" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('tools')}</Link></li>
               <li><Link href="/skills" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('skills')}</Link></li>
               <li><Link href="/mcp" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('mcp')}</Link></li>
+              <li><Link href="/ranking" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('ranking')}</Link></li>
+              <li><Link href="/report" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('report')}</Link></li>
               <li><Link href="/blog" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('blog')}</Link></li>
               <li><Link href="/tutorials" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('tutorials')}</Link></li>
               <li><Link href="/submit" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('submit')}</Link></li>
