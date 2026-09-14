@@ -39,6 +39,7 @@
 - **排行榜变更四步走**：递增 `ALGO_VERSION` → `docs/ranking/ALGO-CHANGELOG.md` 追加 → `--dry` 对比前 20 → `algo:` 前缀单独 commit
 - **收录规模上限 350 条**（2026-09-06 定）：CF Pages 单次部署上限 20,000 文件（实测 10,636 @ 195 条），扩容前先拆子站或瘦身
 - **多语言 noindex**：ja/es/fr 全站 noindex（`src/i18n/routing.ts` 的 `TEMP_NOINDEX_LOCALES` 单一来源，同步驱动 robots / hreflang / sitemap），本地化完成后移除即全链路恢复
+- **AI 爬虫封锁只走 robots.txt，绝不用 CF「训练=阻止」**（2026-09-15 起生效）：Cloudflare AI 自动程序策略按"最严格规则"处理多用途爬虫，Googlebot / Bingbot / Applebot 兼具 Search+Training 行为，**"训练=阻止"会连 Googlebot 一起网络层封锁**（Google 无法绕过）→ 全站无法被搜索收录。正确做法：CF 三项设为"搜索=允许、代理=阻止、训练=允许"，纯训练爬虫（GPTBot/ClaudeBot/CCBot/Google-Extended 等）在 `src/app/robots.ts` 逐条 disallow。AI 搜索爬虫（OAI-SearchBot/PerplexityBot 等）保留以获取引用流量
 - **内容审计**：`npm run audit:all`（信息过期/Verdict 腐化/Pricing 漂移，warn-only）；DRIFT 对 JS 渲染定价页是已知误报，人工核对即可
 
 ## 回滚
