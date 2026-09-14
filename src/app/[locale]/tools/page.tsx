@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { tools } from '@/data/aggregated';
-import { generateAlternates, BASE_URL } from '@/lib/seo';
+import { generateAlternates, BASE_URL, DEFAULT_OG_IMAGES, DEFAULT_TWITTER_IMAGES } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
 import ToolsClient from './ToolsClient';
 
@@ -26,11 +26,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       url: `${BASE_URL}/${locale}/tools`,
       type: 'website',
+      images: DEFAULT_OG_IMAGES,
     },
     twitter: {
       card: 'summary',
       title,
       description,
+      images: DEFAULT_TWITTER_IMAGES,
     },
   };
 }

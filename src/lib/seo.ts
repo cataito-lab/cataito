@@ -10,6 +10,28 @@ export const LOCALES = locales;
 export type Locale = (typeof LOCALES)[number];
 
 /**
+ * 全站默认 OG 图片常量（1200x630 社交分享卡片标准比例）
+ * 各页 generateMetadata 的 openGraph 必须引用此常量，否则 Next.js Metadata API
+ * 对 openGraph 是整体替换——页面级不写 images 就会把 layout 的 images 覆盖掉。
+ */
+export const DEFAULT_OG_IMAGE = {
+  url: 'https://cataito.com/logo.png',
+  width: 1200,
+  height: 630,
+  alt: 'Cataito - Best AI Tools, Models & Agents Directory',
+} as const;
+
+/**
+ * 全站默认 OG 图片集（数组形式，供 openGraph.images 使用）
+ */
+export const DEFAULT_OG_IMAGES = [DEFAULT_OG_IMAGE];
+
+/**
+ * 全站默认 Twitter 图片（供 twitter.images 使用）
+ */
+export const DEFAULT_TWITTER_IMAGES = ['https://cataito.com/logo.png'];
+
+/**
  * 为指定路径生成 hreflang + canonical alternates 对象
  * @param path 以 / 开头的路径，如 /tool/chatgpt 或 /blog
  * @param currentLocale 当前页面语言（必填）；canonical 自引用到该语言版本

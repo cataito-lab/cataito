@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { tools } from '@/data/aggregated';
-import { generateAlternates, getCategorySeo, BASE_URL } from '@/lib/seo';
+import { generateAlternates, getCategorySeo, BASE_URL, DEFAULT_OG_IMAGES, DEFAULT_TWITTER_IMAGES } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
 import CategoryClient from './CategoryClient';
 import { CATEGORIES, categoryToSlug, slugToCategory } from '@/lib/categories';
@@ -36,11 +36,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       url: `${BASE_URL}/${locale}/category/${slug}`,
       type: 'website',
+      images: DEFAULT_OG_IMAGES,
     },
     twitter: {
       card: 'summary',
       title,
       description,
+      images: DEFAULT_TWITTER_IMAGES,
     },
   };
 }

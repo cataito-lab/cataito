@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import blogPosts from '@/data/blogPosts.json';
 import BlogClient from './BlogClient';
-import { generateAlternates } from '@/lib/seo';
+import { generateAlternates, DEFAULT_OG_IMAGES } from '@/lib/seo';
 
 export const revalidate = 3600;
 
@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       type: 'website',
+      images: DEFAULT_OG_IMAGES,
     },
   };
 }

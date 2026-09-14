@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { generateAlternates, generateWebSiteJsonLd, generateOrganizationJsonLd, getHomeSeo } from '@/lib/seo';
+import { generateAlternates, DEFAULT_OG_IMAGES, DEFAULT_TWITTER_IMAGES, getHomeSeo, generateWebSiteJsonLd, generateOrganizationJsonLd } from '@/lib/seo';
 import HomePageClient from './HomePageClient';
 
 // Cloudflare Cache Everything 已设 1h；这里再设 1h 作为第二层缓存兜底
@@ -22,11 +22,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       type: 'website',
       siteName: 'Cataito',
+      images: DEFAULT_OG_IMAGES,
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
+      images: DEFAULT_TWITTER_IMAGES,
     },
   };
 }
