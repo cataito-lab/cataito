@@ -503,14 +503,24 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                 </div>
               </div>
 
-              {/* Latest Update */}
-              <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
-                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
-                  <Zap className="w-5 h-5 text-indigo-500" />
-                  {t('latestUpdate')}
-                </h2>
-                <p className="text-[var(--muted)] leading-relaxed">{getLocalized(details.latestUpdate, locale) as string}</p>
-              </div>
+              {/* Latest Update — 2026-09-14 暂时封存（Aaron 指示）
+                原因：该板块在 975 个工具详情页展示人工撰写的「最新动态」文本，
+                但站点未配备定时刷新机制，一旦产品方发布新特性而文案未同步，
+                即向 Google 输出陈旧事实，触发 E-E-A-T「信息时效性」扣分。
+                封存后保留数据层与 i18n 键，随时可恢复。
+                恢复条件：建立自动化数据管道（或明确的人工巡检 + 时间戳刷新流程），
+                确保「最新动态」字段在近 90 天内被复核或标记过期。
+                恢复方法：把下方 false 改为 true（或直接删除条件表达式）。
+                i18n key latestUpdate 与 data/tool-details/*.json 的 latestUpdate 字段均未动。 */}
+              {false && (
+                <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
+                  <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                    <Zap className="w-5 h-5 text-indigo-500" />
+                    {t('latestUpdate')}
+                  </h2>
+                  <p className="text-[var(--muted)] leading-relaxed">{getLocalized(details.latestUpdate, locale) as string}</p>
+                </div>
+              )}
             </>
           )}
 
