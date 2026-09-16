@@ -23,12 +23,12 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   const tSites = useTranslations('sites');
   const pathname = usePathname();
   const [langOpen, setLangOpen] = useState(false);
-  const [catOpen, setCatOpen] = useState(false);
   const [siteOpen, setSiteOpen] = useState(false);
+  const [resOpen, setResOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
-  const catRef = useRef<HTMLDivElement>(null);
   const siteRef = useRef<HTMLDivElement>(null);
+  const resRef = useRef<HTMLDivElement>(null);
 
   const locales: { code: string; label: string; short: string }[] = [
     { code: 'en', label: 'English', short: 'EN' },
@@ -40,7 +40,6 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   const currentLang = locales.find(l => l.code === locale) || locales[0];
 
   const isHome = pathname === '/';
-  const isCategory = pathname.startsWith('/category');
   const isTools = pathname.startsWith('/tools');
   const isSkills = pathname.startsWith('/skills');
   const isMcp = pathname.startsWith('/mcp');
@@ -55,8 +54,8 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (langRef.current && !langRef.current.contains(e.target as Node)) setLangOpen(false);
-      if (catRef.current && !catRef.current.contains(e.target as Node)) setCatOpen(false);
       if (siteRef.current && !siteRef.current.contains(e.target as Node)) setSiteOpen(false);
+      if (resRef.current && !resRef.current.contains(e.target as Node)) setResOpen(false);
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
@@ -75,40 +74,46 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
               {t('nav.home')}
             </Link>
 
-            {/* Categories dropdown */}
-            <div className="relative" ref={catRef}>
-              <button
-                onClick={() => setCatOpen(!catOpen)}
-                className={`${isCategory ? navActive : navIdle} flex items-center gap-1`}
-              >
-                {t('nav.categories')}
-                <ChevronDown className={`w-3 h-3 transition-transform ${catOpen ? 'rotate-180' : ''}`} />
-              </button>
-              {catOpen && (
-                <div className="absolute left-0 top-full mt-2 w-[min(90vw,32rem)] bg-[var(--card-bg)] border border-[var(--muted-border)] rounded-xl shadow-lg p-3 z-50">
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-1">
-                    {CATEGORIES.map((cat) => (
-                      <Link
-                        key={cat}
-                        href={`/category/${categoryToSlug(cat)}`}
-                        onClick={() => setCatOpen(false)}
-                        className="px-3 py-2 text-sm text-[var(--foreground)] rounded-lg hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] transition"
-                      >
-                        {tCategories(cat as any)}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-
             <Link href="/tools" className={isTools ? navActive : navIdle}>{t('nav.tools')}</Link>
             <Link href="/skills" className={isSkills ? navActive : navIdle}>{t('nav.skills')}</Link>
             <Link href="/mcp" className={isMcp ? navActive : navIdle}>{t('nav.mcp')}</Link>
             <Link href="/ranking" className={isRanking ? navActive : navIdle}>{t('nav.ranking')}</Link>
-            <Link href="/report" className={isReport ? navActive : navIdle}>{t('nav.report')}</Link>
-            <Link href="/blog" className={isBlog ? navActive : navIdle}>{t('nav.blog')}</Link>
-            <Link href="/tutorials" className={isTutorials ? navActive : navIdle}>{t('nav.tutorials')}</Link>
+
+            {/* Resources dropdown: Report / Blog / Tutorials */}
+            <div className="relative" ref={resRef}>
+              <button
+                onClick={() => setResOpen(!resOpen)}
+                className={`${isReport || isBlog || isTutorials ? navActive : navIdle} flex items-center gap-1`}
+              >
+                {t('nav.resources')}
+                <ChevronDown className={`w-3 h-3 transition-transform ${resOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {resOpen && (
+                <div className="absolute left-0 top-full mt-2 w-44 bg-[var(--card-bg)] border border-[var(--muted-border)] rounded-xl shadow-lg p-2 z-50">
+                  <Link
+                    href="/report"
+                    onClick={() => setResOpen(false)}
+                    className="block px-3 py-2 text-sm text-[var(--foreground)] rounded-lg hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] transition"
+                  >
+                    {t('nav.report')}
+                  </Link>
+                  <Link
+                    href="/blog"
+                    onClick={() => setResOpen(false)}
+                    className="block px-3 py-2 text-sm text-[var(--foreground)] rounded-lg hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] transition"
+                  >
+                    {t('nav.blog')}
+                  </Link>
+                  <Link
+                    href="/tutorials"
+                    onClick={() => setResOpen(false)}
+                    className="block px-3 py-2 text-sm text-[var(--foreground)] rounded-lg hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] transition"
+                  >
+                    {t('nav.tutorials')}
+                  </Link>
+                </div>
+              )}
+            </div>
 
             {/* Ecosystem dropdown: subsites (tools.cataito.com etc.) */}
             <div className="relative" ref={siteRef}>
