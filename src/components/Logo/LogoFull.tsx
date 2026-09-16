@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { CSSProperties } from 'react';
 import LogoIcon from './LogoIcon';
 import LogoWordmark from './LogoWordmark';
+import { useTheme } from '@/components/ThemeProvider';
 import {
   BRAND_WHITE,
   BRAND_WHITE_85,
@@ -24,10 +25,14 @@ export interface LogoFullProps {
   layout?: 'stacked' | 'horizontal';
   /** Whether to render the localized tagline. Default true. */
   showTagline?: boolean;
+  /** Whether to render the A icon. Default true. */
+  showIcon?: boolean;
   /** Use the richer cyan→blue→purple palette from the brand mockup (icon + tagline). */
   vivid?: boolean;
   /** Optional theme override: "auto" follows dark mode, "light" forces white on colored backgrounds. */
   variant?: 'light' | 'dark' | 'auto';
+  /** Override icon tone directly: "gradient" (dark A, light bg) / "vivid"|"white" (light A, dark/colored bg) / "auto" (follow theme). */
+  iconTone?: 'gradient' | 'vivid' | 'white' | 'auto';
   /** Optional horizontal gradient stops for the wordmark letterforms. */
   wordmarkGradient?: { offset: string; color: string }[];
 }
@@ -43,15 +48,27 @@ export default function LogoFull({
   style,
   layout = 'stacked',
   showTagline = true,
+  showIcon = true,
   vivid = false,
   variant = 'auto',
+  iconTone: iconToneProp,
   wordmarkGradient,
 }: LogoFullProps) {
   const t = useTranslations('brand');
   const tagline = t('tagline');
+  const { theme } = useTheme();
   const isLight = variant === 'light';
 
-  const iconTone = isLight ? 'white' : vivid ? 'vivid' : 'gradient';
+  // iconTone 优先级：调用方显式传 iconTone > variant/vivid 推导
+  // - "auto" = 跟随 theme（亮底黑 A，暗底白 A）
+  // - "gradient" = 深色 A（亮底用）
+  // - "vivid" / "white" = 浅色 A（彩色/渐变底）
+  const iconTone = iconToneProp
+    ?? (isLight ? 'white' : vivid ? 'vivid' : 'gradient');
+  const resolvedTone = iconTone === 'auto'
+    ? (theme === 'dark' ? 'vivid' : 'gradient')
+    : iconTone;
+
   const wordColor = isLight ? BRAND_WHITE : 'var(--foreground)';
   // Accent dots on the two "A"s: monochrome (white) on colored backgrounds, brand accents otherwise.
   const accentDots: [string, string] = vivid ? WORDMARK_DOTS_VIVID : WORDMARK_DOTS_DEFAULT;
@@ -74,7 +91,7 @@ export default function LogoFull({
         className={`inline-flex flex-row items-center gap-3 ${className ?? ''}`}
         style={{ maxWidth, ...style }}
       >
-        <LogoIcon size={Math.round(maxWidth * 0.2)} ariaLabel="Cataito" tone={iconTone} />
+        {showIcon && <LogoIcon size={Math.round(maxWidth * 0.2)} ariaLabel="Cataito" tone={resolvedTone} />}
         <div className="flex flex-col items-start justify-center">
           <LogoWordmark
             height={Math.round(maxWidth * 0.135)}
@@ -102,12 +119,14 @@ export default function LogoFull({
       className={`inline-flex flex-col items-center text-center ${className ?? ''}`}
       style={{ maxWidth, ...style }}
     >
-      <LogoIcon
-        size={Math.round(maxWidth * 0.28)}
-        className="mb-3"
-        ariaLabel="Cataito"
-        tone={iconTone}
-      />
+      {showIcon && (
+        <LogoIcon
+          size={Math.round(maxWidth * 0.28)}
+          className="mb-3"
+          ariaLabel="Cataito"
+          tone={resolvedTone}
+        />
+      )}
       <LogoWordmark
         height={Math.round(maxWidth * 0.17)}
         color={wordColor}

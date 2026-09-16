@@ -40,22 +40,17 @@ export async function generateMetadata({ params }: LayoutMetadataProps): Promise
     // AdSense 站点所有权元标记（配合根目录 public/ads.txt，双通道验证）
     other: { "google-adsense-account": ADSENSE_CLIENT },
     icons: {
-      // 浏览器 tab：亮/暗双版 SVG + 派生 PNG；由 prefers-color-scheme 自动切换
-      // SVG 源（favicon.svg / favicon-dark.svg）来自 _internal/generate-brand-assets.js 生成
+      // 浏览器 tab：亮/暗双版 SVG（A 字母：V 形主体 + 蓝点横杠），用 media 属性让浏览器按系统偏好自动选
+      // 注意：SVG 作为 favicon 加载时（外部图像），内部 <style> 和 @media 不生效，
+      // 必须用双文件 + <link media="..."> 让浏览器在加载时选对版本
+      // .ico 兜底老浏览器（渲染默认色=黑 A，仅亮色模式可见；暗色模式下仍显示黑 A，可接受）
       icon: [
-        { url: '/favicon.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: light)' },
+        { url: '/favicon-light.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: light)' },
         { url: '/favicon-dark.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: dark)' },
-        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png', media: '(prefers-color-scheme: light)' },
-        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png', media: '(prefers-color-scheme: light)' },
-        { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png', media: '(prefers-color-scheme: light)' },
-        { url: '/favicon-dark-16x16.png', sizes: '16x16', type: 'image/png', media: '(prefers-color-scheme: dark)' },
-        { url: '/favicon-dark-32x32.png', sizes: '32x32', type: 'image/png', media: '(prefers-color-scheme: dark)' },
+        { url: '/favicon.ico', type: 'image/x-icon' },
       ],
-      // iOS / Android 添加到主屏（180×180；dark 变体供深色模式）
-      apple: [
-        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png', media: '(prefers-color-scheme: light)' },
-        { url: '/apple-touch-icon-dark.png', sizes: '180x180', type: 'image/png', media: '(prefers-color-scheme: dark)' },
-      ],
+      // iOS/Android 添加到主屏：用 SVG 渲染的 PNG 兜底（无暗色变体，iOS 不支持 SVG favicon）
+      apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
     },
     openGraph: {
       title: "Cataito - AI Ecosystem Portal",

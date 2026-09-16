@@ -18,6 +18,8 @@ export interface LogoCompactProps {
   href?: string;
   /** When false, hides the CATAITO text (icon-only mode). */
   showText?: boolean;
+  /** When false, hides the A icon (wordmark-only mode). Default true. */
+  showIcon?: boolean;
   /** If true, the whole logo is hidden on small screens (used in stacked layouts). */
 }
 
@@ -31,6 +33,7 @@ export default function LogoCompact({
   style,
   href = '/',
   showText = true,
+  showIcon = true,
 }: LogoCompactProps) {
   const { theme } = useTheme();
   const iconSize = Math.round(height * 1.05);
@@ -43,7 +46,7 @@ export default function LogoCompact({
       className={`group inline-flex items-center gap-2 shrink-0 ${className ?? ''}`}
       style={style}
     >
-      <LogoIcon size={iconSize} ariaLabel="Cataito" tone="auto" />
+      {showIcon && <LogoIcon size={iconSize} ariaLabel="Cataito" tone="auto" />}
       {showText && (
         <LogoWordmark
           height={wordHeight}

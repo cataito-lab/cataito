@@ -22,6 +22,7 @@ export default function Footer() {
               layout="horizontal"
               maxWidth={220}
               vivid
+              iconTone="auto"
               wordmarkGradient={WORDMARK_GRADIENT_VIVID}
               className="relative z-[1]"
             />
