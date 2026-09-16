@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y @browsermcp/mcp",
   "logo": "/logos/mcp/browser-mcp.png",
-  "stars": 7095,
+  "stars": 7099,
   "featured": false,
   "faqs": [
     {
