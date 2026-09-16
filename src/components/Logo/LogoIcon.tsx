@@ -1,12 +1,12 @@
 'use client';
 
 import { CSSProperties } from 'react';
-import { BRAND_WHITE, ICON_GRADIENT_VIVID, ICON_GRADIENT_DEFAULT } from '@/lib/brandColors';
+import { useTheme } from '@/components/ThemeProvider';
 
 export interface LogoIconProps {
   /** Pixel size of the icon (square). Default 40. */
   size?: number;
-  /** Optional className for the wrapping <svg> */
+  /** Optional className for the wrapping <img> */
   className?: string;
   /** Optional inline style */
   style?: CSSProperties;
@@ -14,15 +14,42 @@ export interface LogoIconProps {
   ariaLabel?: string;
   /** If true, disables hover animation */
   static?: boolean;
-  /** Color treatment: "gradient" (brand blue→purple), "vivid" (cyan→blue→purple, richer) or "white" (dark/colored backgrounds). */
-  tone?: 'gradient' | 'vivid' | 'white';
+  /**
+   * Color treatment — maps directly to which icon variant is used:
+   *   - "gradient" → dark A (for light backgrounds; navbar default on light theme)
+   *   - "vivid"    → light A (for colorful/gradient backgrounds; matches old brand mockup)
+   *   - "white"    → light A (forced, for colored backgrounds like hero/footer)
+   *   - "auto"     → follows current theme (dark A on light theme, light A on dark theme)
+   *
+   * All icons are pre-rendered transparent PNGs at multiple sizes in
+   * `_internal/brand-icon/` — no SVG parse cost, theme swap is instant
+   * via `<img>` with srcset.
+   */
+  tone?: 'gradient' | 'vivid' | 'white' | 'auto';
+}
+
+const VARIANT_MAP: Record<'gradient' | 'vivid' | 'white', 'light' | 'dark'> = {
+  gradient: 'light', // 深色 A → 亮色背景
+  vivid: 'dark',     // 浅色 A → 彩色/渐变背景
+  white: 'dark',     // 浅色 A → 强制白色
+};
+
+/** Srcset string for a variant; picks best PNG from 96/128/256/512px. */
+function buildSrcset(variant: 'light' | 'dark'): string {
+  return [96, 128, 256, 512]
+    .map(s => `/brand-icon/brand-icon-${variant}-${s}.png ${s}w`)
+    .join(', ');
 }
 
 /**
- * Brand icon: the letter "A" — two round-capped legs meeting at the apex with
- * a node dot in place of the crossbar (the "AI Gateway" mark). Blue→cyan/purple
- * gradient. Pure inline SVG so it inherits currentColor / CSS for theme
- * flexibility. Use tone="white" on dark or colored backgrounds (e.g. the hero).
+ * Brand icon: the letter "A" — rendered as a static PNG with theme-aware
+ * variants (light A / dark A). The A-light variant is the dark-colored A
+ * for light backgrounds; A-black is the light-colored A for dark or
+ * colorful backgrounds.
+ *
+ * Use tone="auto" in components that need to follow dark mode
+ * (e.g. LogoCompact in navbar). Use tone="white" or tone="vivid" on
+ * colored/gradient backgrounds (hero, footer).
  */
 export default function LogoIcon({
   size = 40,
@@ -32,59 +59,27 @@ export default function LogoIcon({
   static: isStatic = false,
   tone = 'gradient',
 }: LogoIconProps) {
-  const gradId = `ca-grad-${tone}-${size}`;
-  const paint = tone === 'white' ? BRAND_WHITE : `url(#${gradId})`;
-  // "vivid" mirrors the brand mockup (cyan→blue→purple); "gradient" is the core blue→purple.
-  const stops = tone === 'vivid' ? ICON_GRADIENT_VIVID : ICON_GRADIENT_DEFAULT;
+  const { theme } = useTheme();
+  const variant = tone === 'auto'
+    ? (theme === 'dark' ? 'dark' : 'light')
+    : VARIANT_MAP[tone];
+  // Choose the best-fit PNG based on rendered size
+  const candidates = [96, 128, 256, 512];
+  const srcSize = candidates.find(s => s >= size) ?? 512;
+  const src = `/brand-icon/brand-icon-${variant}-${srcSize}.png`;
+
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 96 96"
+    <img
+      src={src}
+      srcSet={buildSrcset(variant)}
+      sizes={`${size}px`}
       width={size}
       height={size}
-      className={className}
+      className={`select-none ${className ?? ''}`}
       style={style}
       role="img"
       aria-label={ariaLabel}
-    >
-      <defs>
-        <linearGradient
-          id={gradId}
-          x1="0"
-          y1="0"
-          x2="96"
-          y2="96"
-          gradientUnits="userSpaceOnUse"
-        >
-          {stops.map((s) => (
-            <stop key={s.offset} offset={s.offset} stopColor={s.color} />
-          ))}
-        </linearGradient>
-        <filter id={`${gradId}-glow`} x="-20%" y="-20%" width="140%" height="140%">
-          <feGaussianBlur stdDeviation="1.4" result="b" />
-          <feMerge>
-            <feMergeNode in="b" />
-            <feMergeNode in="SourceGraphic" />
-          </feMerge>
-        </filter>
-      </defs>
-
-      <g
-        className={isStatic ? '' : 'transition-transform duration-300 group-hover:scale-105'}
-        filter={`url(#${gradId}-glow)`}
-      >
-        {/* A: wide splayed legs meeting at the apex — same stance as the CATAITO wordmark's "A" */}
-        <path
-          d="M 14 80 L 48 18 L 82 80"
-          stroke={paint}
-          fill="none"
-          strokeWidth="15"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        {/* AI node: low dot in place of the A's crossbar (mirrors the wordmark motif) */}
-        <circle cx="48" cy="73" r="8" fill={paint} />
-      </g>
-    </svg>
+      alt=""
+    />
   );
 }

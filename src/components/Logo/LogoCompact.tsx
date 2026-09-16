@@ -43,7 +43,7 @@ export default function LogoCompact({
       className={`group inline-flex items-center gap-2 shrink-0 ${className ?? ''}`}
       style={style}
     >
-      <LogoIcon size={iconSize} ariaLabel="Cataito" tone={theme === 'dark' ? 'vivid' : 'gradient'} />
+      <LogoIcon size={iconSize} ariaLabel="Cataito" tone="auto" />
       {showText && (
         <LogoWordmark
           height={wordHeight}

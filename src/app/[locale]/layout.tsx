@@ -40,8 +40,22 @@ export async function generateMetadata({ params }: LayoutMetadataProps): Promise
     // AdSense 站点所有权元标记（配合根目录 public/ads.txt，双通道验证）
     other: { "google-adsense-account": ADSENSE_CLIENT },
     icons: {
-      icon: '/favicon.svg',
-      apple: '/favicon.svg',
+      // 浏览器 tab：亮/暗双版 SVG + 派生 PNG；由 prefers-color-scheme 自动切换
+      // SVG 源（favicon.svg / favicon-dark.svg）来自 _internal/generate-brand-assets.js 生成
+      icon: [
+        { url: '/favicon.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: light)' },
+        { url: '/favicon-dark.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: dark)' },
+        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png', media: '(prefers-color-scheme: light)' },
+        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png', media: '(prefers-color-scheme: light)' },
+        { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png', media: '(prefers-color-scheme: light)' },
+        { url: '/favicon-dark-16x16.png', sizes: '16x16', type: 'image/png', media: '(prefers-color-scheme: dark)' },
+        { url: '/favicon-dark-32x32.png', sizes: '32x32', type: 'image/png', media: '(prefers-color-scheme: dark)' },
+      ],
+      // iOS / Android 添加到主屏（180×180；dark 变体供深色模式）
+      apple: [
+        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png', media: '(prefers-color-scheme: light)' },
+        { url: '/apple-touch-icon-dark.png', sizes: '180x180', type: 'image/png', media: '(prefers-color-scheme: dark)' },
+      ],
     },
     openGraph: {
       title: "Cataito - AI Ecosystem Portal",
