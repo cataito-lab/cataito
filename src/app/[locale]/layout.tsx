@@ -43,11 +43,10 @@ export async function generateMetadata({ params }: LayoutMetadataProps): Promise
       // 浏览器 tab：亮/暗双版 SVG（A 字母：V 形主体 + 蓝点横杠），用 media 属性让浏览器按系统偏好自动选
       // 注意：SVG 作为 favicon 加载时（外部图像），内部 <style> 和 @media 不生效，
       // 必须用双文件 + <link media="..."> 让浏览器在加载时选对版本
-      // .ico 兜底老浏览器（渲染默认色=黑 A，仅亮色模式可见；暗色模式下仍显示黑 A，可接受）
+      // 不声明 .ico 兜底——ICO 渲染的是默认色（黑 A），会覆盖 SVG dark 版导致暗色模式仍显示黑
       icon: [
         { url: '/favicon-light.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: light)' },
         { url: '/favicon-dark.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: dark)' },
-        { url: '/favicon.ico', type: 'image/x-icon' },
       ],
       // iOS/Android 添加到主屏：用 SVG 渲染的 PNG 兜底（无暗色变体，iOS 不支持 SVG favicon）
       apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
