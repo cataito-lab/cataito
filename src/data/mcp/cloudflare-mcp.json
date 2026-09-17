@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx mcp-remote https://docs.mcp.cloudflare.com/sse",
   "logo": "/logos/mcp/cloudflare-mcp.png",
-  "stars": 4201,
+  "stars": 4204,
   "featured": false,
   "faqs": [
     {
