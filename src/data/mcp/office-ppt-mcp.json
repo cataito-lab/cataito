@@ -24,7 +24,7 @@
   ],
   "installCommand": "pip install -r https://raw.githubusercontent.com/GongRzhe/Office-PowerPoint-MCP-Server/main/requirements.txt",
   "logo": "/logos/mcp/office-ppt-mcp.png",
-  "stars": 1852,
+  "stars": 1854,
   "featured": false,
   "faqs": [
     {
