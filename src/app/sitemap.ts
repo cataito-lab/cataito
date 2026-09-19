@@ -58,21 +58,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  // Blog pages
+  // Blog pages（publishedAt 是裸日期 "YYYY-MM-DD"，过 dataDate() 转 ISO 8601 Z，
+  // 否则 Next 直接字符串插值会输出不合规的 lastmod）
   const blogPages = blogPosts.flatMap((post: any) =>
     locales.map((locale) => ({
       url: `${BASE_URL}/${locale}/blog/${post.slug}`,
-      lastModified: post.publishedAt || new Date(),
+      lastModified: dataDate(post.publishedAt),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     }))
   );
 
-  // Tutorial pages
+  // Tutorial pages（同上）
   const tutorialPages = tutorials.flatMap((tutorial: any) =>
     locales.map((locale) => ({
       url: `${BASE_URL}/${locale}/tutorials/${tutorial.slug}`,
-      lastModified: tutorial.publishedAt || new Date(),
+      lastModified: dataDate(tutorial.publishedAt),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     }))

@@ -49,6 +49,8 @@ docs/                 OPERATIONS.md、TECH_SPEC.md、ranking/（RUNBOOK/IDEAS/AL
 ## SEO / 合规架构
 
 - hreflang / canonical：`src/lib/seo.ts` `generateAlternates`；与 noindex 策略联动（`TEMP_NOINDEX_LOCALES` 过滤）
+- JSON-LD：`src/lib/seo.ts` 各 `generate*JsonLd` 单一来源。Article 的 `dateModified` 缺省取 `datePublished`（Google 规范期望两字段成对，缺失会进富文本结果质量提示区并可能被 GSC 误报为内容问题）；SoftwareApplication 用 `verdictDate` / `lastVerified`
+- sitemap：`src/app/sitemap.ts`。lastmod 走 `dataDate()` 取各页真实数据日期，**禁回退 `new Date()`**——全站每天"集体变更"会稀释 Google 对 lastmod 的信任（2026-09-11 GSC 诊断后修）；`dataDate()` 内部统一输出 ISO 8601（Z 后缀），博客/教程的裸日期不要绕开它直传
 - Consent Mode v2：`GoogleAnalytics.tsx` 默认全 denied，`ConsentBanner.tsx` 按用户选择 update（localStorage `catai-consent`）
 - AdSense：`src/lib/adsense.ts` 常量源（ID 硬编码即配置）；广告仅博客详情 + 工具详情两类长内容页；CSP 白名单在 `public/_headers`（Google 广告域变更会导致广告消失，`https://cataito-lab.github.io` 是排行榜客户端拉取活数据的唯一 fetch 目标——新增任何前端 fetch/外部域名必须先补 `connect-src`，否则浏览器静默拦截，页面回退到 SSR 静态壳）
 - 表单防滥用：`src/lib/form-guard.tsx`（honeypot + 时间陷阱 + Turnstile 可选启用）

@@ -294,6 +294,8 @@ export function generateArticleJsonLd(params: {
   image: string;
   author: string;
   datePublished: string;
+  /** 缺省取 datePublished（单发布日文章，两字段同值即合规） */
+  dateModified?: string;
   url: string;
 }) {
   return {
@@ -315,6 +317,9 @@ export function generateArticleJsonLd(params: {
       },
     },
     datePublished: params.datePublished,
+    // Google Article 规范期望两字段成对出现；缺失会进富文本结果的质量提示区，
+    // 也可能让 GSC 把该页标记为内容问题而非单纯的待验证。
+    dateModified: params.dateModified || params.datePublished,
     url: params.url,
   };
 }
