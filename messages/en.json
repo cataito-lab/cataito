@@ -503,6 +503,10 @@
       "name": "Free Tools",
       "desc": "Free online image, icon & color tools"
     },
+    "aihot": {
+      "name": "AI Hot",
+      "desc": "Real-time AI news & trending models"
+    },
     "more": "More coming soon"
   },
   "report": {

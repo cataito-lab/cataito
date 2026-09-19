@@ -503,6 +503,10 @@
       "name": "Outils",
       "desc": "Outils en ligne gratuits : images, icônes et couleurs"
     },
+    "aihot": {
+      "name": "AI Hot",
+      "desc": "Actualités IA en temps réel et modèles à la une"
+    },
     "more": "Bientôt disponible"
   },
   "report": {

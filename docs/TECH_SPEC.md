@@ -25,7 +25,7 @@ src/data/*.json       主档+详情成对（tools/toolDetails、skills/skillDeta
                       + blogPosts + tutorials + ranking.json
 src/i18n/             routing.ts（语言与 noindex 单一来源）/ request.ts / navigation.ts
 src/lib/              categories.ts（16 分类单一来源）、seo.ts（hreflang/JSON-LD）、
-                      sites.ts（生态子站）、adsense.ts、form-guard.tsx（表单防滥用）、brandColors.ts
+                      sites.ts（生态子站：tools + aihot）、adsense.ts、form-guard.tsx（表单防滥用）、brandColors.ts
 public/               _redirects/_headers（CF 原生）、logos/（全站 logo 本地托管）
 scripts/              校验/审计/排行榜/星数刷新脚本
 docs/                 OPERATIONS.md、TECH_SPEC.md、ranking/（RUNBOOK/IDEAS/ALGO-CHANGELOG）
