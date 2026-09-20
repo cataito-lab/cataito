@@ -1,0 +1,80 @@
+{
+  "slug": "browser-skill",
+  "name": "BrowserSkill",
+  "nameZh": "BrowserSkill",
+  "description": "让 AI Agent 借用你已登录的真实浏览器，不干扰你的工作。`bsk` CLI + 浏览器扩展双运行时，任务跑在独立可见的 Agent Window；遇到验证码或登录弹窗可转人工接管，任务完成后归还标签页。适配任何能调用 shell 的 Agent，无框架锁定。",
+  "descriptionEn": "Lets AI agents use your real, logged-in browser without interrupting your work. A `bsk` CLI plus browser extension run tasks in a separate, visible Agent Window — with built-in human-in-the-loop for captchas and login prompts, and the borrowed tab returned when done. Works with any shell-capable agent, no framework lock-in.",
+  "descriptionJa": "ログイン済みの実ブラウザをAIエージェントが作業を遮られずに使用。`bsk` CLIと拡張機能の二つのランタイムで、タスクは独立した可視のAgent Windowで実行。認証コードやログイン確認は人間が引き継いでから再開でき、完了時にタブを返却。シェルを呼べるAgentならすべて対応、フレームワークに縛られません。",
+  "descriptionEs": "Permite que los agentes IA usen tu navegador real con sesión iniciada sin interrumpir tu trabajo. Un CLI `bsk` más una extensión ejecutan las tareas en una Ventana de Agente separada y visible — con intervención humana integrada para captchas e inicio de sesión, y devuelve la pestaña al terminar. Funciona con cualquier agente capaz de ejecutar shell, sin depender de un framework.",
+  "descriptionFr": "Permet aux agents IA d'utiliser votre navigateur réel déjà connecté sans interrompre votre travail. Un CLI `bsk` plus une extension exécutent les tâches dans une Fenêtre Agent distincte et visible — avec prise en main humaine intégrée pour les captchas et connexions, et la restauration de l'onglet une fois terminé. Compatible avec tout agent pouvant appeler un shell, sans verrouillage de framework.",
+  "developer": "Tencent",
+  "developerZh": "腾讯",
+  "repo": "Tencent/BrowserSkill",
+  "agents": [
+    "cursor",
+    "claude",
+    "codex",
+    "openclaw",
+    "codebuddy",
+    "hermes"
+  ],
+  "category": "Platform",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh",
+  "logo": "/logos/skills/browser-skill.png",
+  "stars": 5984,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "BrowserSkill 和普通的浏览器自动化工具（Playwright、Selenium）有什么区别？",
+        "en": "How is BrowserSkill different from ordinary browser automation tools like Playwright or Selenium?",
+        "ja": "BrowserSkillはPlaywrightやSeleniumのような普通のブラウザ自動化ツールと何が違いますか？",
+        "es": "¿En qué se diferencia BrowserSkill de herramientas de automatización de navegador normales como Playwright o Selenium?",
+        "fr": "Comment BrowserSkill diffère-t-il des outils d'automatisation classiques comme Playwright ou Selenium ?"
+      },
+      "answer": {
+        "zh": "核心区别是它操作的是你正在用的那个真实浏览器。Playwright/Selenium 启动一个全新无状态实例，需要重新登录一切；BrowserSkill 通过 `bsk` CLI 借用你已登录的标签页——访问需要登录的数据后台、验证已部署页面的真实表现都不必造测试账号。用完会归还标签页，其余部分保持原样。",
+        "en": "The key difference is that it drives the browser you are actually using. Playwright and Selenium spin up a fresh stateless instance where you have to log in again for everything; BrowserSkill borrows a tab that is already logged in via the `bsk` CLI — so reaching a gated data backend or verifying real behaviour on a deployed page needs no test account. It returns the tab when finished and leaves the rest of your browser alone.",
+        "ja": "決定的な違いは、操作対象が実際に使っているブラウザ本体である点です。PlaywrightやSeleniumは新しい無状態インスタンスを立てるので毎回再ログインが必要ですが、BrowserSkillは`bsk` CLI経由でログイン済みのタブを借用します。ログインが必要なデータ基盤へのアクセスや、デプロイ済みページの実際動作の確認にテストアカウントは不要です。完了後はタブを返却し、それ以外のブラウザは変わりません。",
+        "es": "La diferencia clave es que controla el navegador que realmente estás usando. Playwright y Selenium crean una instancia nueva y sin estado donde tienes que iniciar sesión de nuevo para todo; BrowserSkill toma prestada una pestaña ya autenticada vía el CLI `bsk`, así que acceder a un panel de datos con restricción o verificar el comportamiento real de una página desplegada no necesita cuentas de prueba. Devuelve la pestaña al terminar y deja el resto de tu navegador intacto.",
+        "fr": "La différence clé est qu'il pilote le navigateur que vous utilisez réellement. Playwright et Selenium démarrent une instance neuve et sans état où il faut se reconnecter pour tout ; BrowserSkill emprunte un onglet déjà connecté via le CLI `bsk`, si bien que accéder à un backend à accès restreint ou vérifier le comportement réel d'une page déployée ne demande aucun compte de test. Il restitue l'onglet une fois terminé et laisse le reste de votre navigateur intact."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 BrowserSkill？",
+        "en": "How do I install BrowserSkill?",
+        "ja": "BrowserSkillのインストール方法は？",
+        "es": "¿Cómo instalo BrowserSkill?",
+        "fr": "Comment installer BrowserSkill ?"
+      },
+      "answer": {
+        "zh": "两步。先装 CLI：macOS/Linux 用 `curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh`，Windows PowerShell 用 `irm https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.ps1 | iex`，都装到 `~/.local/bin`。再从 Chrome Web Store 或 Edge 附加组件商店装浏览器扩展。最后 `bsk install-skill` 把技能装进 Cursor / Claude Code / Codex / OpenClaw / CodeBuddy / Hermes 等 Agent。更省事的做法是把 README 里那一行交给你的 Agent，它自己装完并带你走扩展加载。",
+        "en": "Two steps. Install the CLI first: `curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh` on macOS/Linux, or `irm https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.ps1 | iex` on Windows PowerShell — both install to `~/.local/bin`. Then install the browser extension from the Chrome Web Store or Edge Add-ons store. Finally run `bsk install-skill` to load the skill into Cursor, Claude Code, Codex, OpenClaw, CodeBuddy, Hermes and similar agents. Easiest path: hand your agent the one-liner from the README and it installs everything and walks you through loading the extension.",
+        "ja": "二ステップです。まずCLIをインストール：macOS/Linux は `curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh`、Windows PowerShell は `irm https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.ps1 | iex`。どちらも `~/.local/bin` に配置されます。次にChrome Web StoreかEdgeのアドオンストアから拡張機能を。最後に `bsk install-skill` で Cursor / Claude Code / Codex / OpenClaw / CodeBuddy / Hermes などのAgentにスキルを読み込みます。最も手軽なのはREADMEの一行をAgentに渡す方法で、自分でインストール完了し拡張機能の読み込みまで案内します。",
+        "es": "Dos pasos. Instala primero el CLI: en macOS/Linux usa `curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh`, o en Windows PowerShell `irm https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.ps1 | iex` — ambos instalan en `~/.local/bin`. Luego instala la extensión desde la Chrome Web Store o la tienda de complementos de Edge. Por último ejecuta `bsk install-skill` para cargar la skill en Cursor, Claude Code, Codex, OpenClaw, CodeBuddy, Hermes y similares. Lo más cómodo: pásale al agente la línea del README y él instala todo y te guía para cargar la extensión.",
+        "fr": "Deux étapes. Installez d'abord le CLI : sur macOS/Linux `curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh`, ou sur Windows PowerShell `irm https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.ps1 | iex` — les deux s'installent dans `~/.local/bin`. Puis installez l'extension depuis la Chrome Web Store ou le magasin de extensions Edge. Enfin lancez `bsk install-skill` pour charger la compétence dans Cursor, Claude Code, Codex, OpenClaw, CodeBuddy, Hermes et similaires. Le plus simple : confiez la ligne du README à votre agent, qui installe tout et vous guide pour charger l'extension."
+      }
+    },
+    {
+      "question": {
+        "zh": "支持哪些操作系统和浏览器？安全吗？",
+        "en": "Which operating systems and browsers are supported? Is it safe?",
+        "ja": "対応OSとブラウザは？安全か？",
+        "es": "¿Qué sistemas operativos y navegadores soporta? ¿Es seguro?",
+        "fr": "Quels systèmes et navigateurs sont pris en charge ? Est-ce sûr ?"
+      },
+      "answer": {
+        "zh": "系统：macOS（Apple Silicon 与 Intel）、Linux（x64 与 ARM64）、Windows x64。浏览器：Chrome 与 Microsoft Edge 已支持，其他支持未打包扩展的 Chromium 内核浏览器预计可用，Firefox 在计划中。安全方面有两点值得注意：它能触及你已登录的真实浏览器会话，所以权限不小；同时 `bsk` CLI 的规范明确要求绝不提取凭据、cookie、token 等秘密，并把页面内容一律当作不可信数据处理。安装脚本和仓库都是开源可审计的（MIT）。",
+        "en": "OS: macOS (Apple Silicon and Intel), Linux (x64 and ARM64), Windows x64. Browsers: Chrome and Microsoft Edge are supported; other Chromium-based browsers that accept unpacked extensions are expected to work, with Firefox planned. Two things matter on the security side: it can reach your real logged-in browser sessions, so the permissions are non-trivial; at the same time the `bsk` CLI spec explicitly forbids extracting credentials, cookies, tokens or other secrets, and treats everything a page says as untrusted data. Both the installer scripts and the repository are open source and auditable (MIT).",
+        "ja": "OS：macOS（Apple Silicon・Intel）、Linux（x64・ARM64）、Windows x64。ブラウザ：ChromeとMicrosoft Edge対応。未パッケージ拡張機能を受け付けられるその他のChromium系ブラウザも動作する見込みで、Firefoxは予定。セキュリティ面は2点留意：ログイン済みの実ブラウザセッションに触れるため権限は小さくないこと。一方`bsk` CLIの規約は凭拠・Cookie・トークンなどの秘密情報を絶対に抽出しないこと、ページに表示される内容をすべて信頼できないデータとして扱うことを明記しています。インストーラもリポジトリもOSSで監査可能（MIT）。",
+        "es": "SO: macOS (Apple Silicon e Intel), Linux (x64 y ARM64) y Windows x64. Navegadores: Chrome y Microsoft Edge soportados; otros basados en Chromium que admiten extensiones sin empaquetar deberían funcionar, con Firefox previsto. Dos cosas importan en seguridad: puede acceder a tus sesiones reales autenticadas, así que los permisos no son menores; al mismo tiempo la especificación del CLI `bsk` prohíbe explícitamente extraer credenciales, cookies, tokens u otros secretos, y trata todo lo que muestra una página como datos no confiables. Los scripts de instalación y el repositorio son de código abierto y auditable (MIT).",
+        "fr": "OS : macOS (Apple Silicon et Intel), Linux (x64 et ARM64), Windows x64. Navigateurs : Chrome et Microsoft Edge pris en charge ; les autres navigateurs basés sur Chromium acceptant les extensions non empaquetées devraient fonctionner, Firefox est prévu. Deux points comptent côté sécurité : il peut atteindre vos vraies sessions de navigateur connectées, donc les permissions ne sont pas anodines ; en même temps la spécification du CLI `bsk` interdit explicitement d'extraire des identifiants, cookies, jetons ou autres secrets, et traite tout ce qu'affiche une page comme des données non fiables. Les scripts d'installation et le dépôt sont open source et auditable (MIT)."
+      }
+    }
+  ]
+}

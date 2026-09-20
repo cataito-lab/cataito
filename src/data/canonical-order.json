@@ -235,7 +235,8 @@
     "global-stock-data",
     "travel-photo-abstraction",
     "photo-stamp-archive",
-    "lumina-card"
+    "lumina-card",
+    "browser-skill"
   ],
   "mcp": [
     "mcp-official-servers",

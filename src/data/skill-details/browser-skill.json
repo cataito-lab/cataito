@@ -1,0 +1,119 @@
+{
+  "pros": {
+    "en": [
+      "Drives your real, logged-in browser instead of a fresh stateless instance — no test accounts to provision",
+      "Tasks run in a separate, visible Agent Window, so you can keep working in your own browser at the same time",
+      "Built-in human-in-the-loop hands off to you on captcha, login and confirmation steps, then picks the task back up",
+      "Harness-agnostic: any agent that can call a shell can use it through the `bsk` CLI, with no lock-in to a model or framework",
+      "Free and open source under MIT, and pushed to yesterday — the repo is actively maintained"
+    ],
+    "zh": [
+      "操作的是你已登录的真实浏览器，不是全新无状态实例——不用准备测试账号",
+      "任务跑在独立可见的 Agent Window，你同时可以继续用自己的浏览器",
+      "内置人工接管：验证码、登录、确认弹窗转给你处理，之后自动续上",
+      "不绑定框架：任何能调用 shell 的 Agent 都能通过 `bsk` CLI 使用",
+      "免费开源（MIT），昨天仍有提交，仓库活跃"
+    ],
+    "ja": [
+      "新しい無状態インスタンスではなくログイン済みの実ブラウザを操作するため、テストアカウントの用意が不要",
+      "タスクは独立した可視のAgent Windowで実行され、同時に自分のブラウザを続けられる",
+      "人間による引き継ぎを内蔵：認証コード・ログイン・確認ダイアログは人間が処理してから自動で再開",
+      "Harness非依存：シェルを呼べるAgentなら`bsk` CLI経由で使用でき、モデルやフレームワークに縛られない",
+      "MITライセンスの無料OSSで、昨日もpushされており開発が継続中"
+    ],
+    "es": [
+      "Controla tu navegador real con sesión iniciada en lugar de una instancia nueva sin estado — sin provisionar cuentas de prueba",
+      "Las tareas corren en una Ventana de Agente separada y visible, por lo que puedes seguir trabajando en tu propio navegador a la vez",
+      "La intervención humana integrada te cede el control ante captchas, inicios de sesión y diálogos de confirmación, y retoma la tarea después",
+      "Independiente de framework: cualquier agente capaz de llamar a shell lo usa vía el CLI `bsk`, sin depender de un modelo o framework",
+      "Gratis y open source bajo MIT, con un push ayer — el repositorio se mantiene con actividad"
+    ],
+    "fr": [
+      "Pilote votre navigateur réel déjà connecté plutôt qu'une instance neuve sans état — aucune compte de test à provisionner",
+      "Les tâches s'exécutent dans une Fenêtre Agent distincte et visible, vous pouvez continuer à travailler dans votre navigateur en parallèle",
+      "La prise en main humaine intégrée vous cède le contrôle sur captcha, connexion et boîtes de confirmation, puis reprend la tâche",
+      "Indépendant du framework : tout agent capable d'appeler un shell l'utilise via le CLI `bsk`, sans verrouillage de modèle ou de framework",
+      "Gratuit et open source sous licence MIT, poussé hier — le dépôt est activement maintenu"
+    ]
+  },
+  "cons": {
+    "en": [
+      "The permission surface is broad by design — it touches your real authenticated sessions, so you should weigh that trade-off before adopting it",
+      "Two moving parts (`bsk` CLI/daemon plus browser extension) mean a real install ceremony; sandboxed agents that reap background processes need extra daemon setup steps",
+      "Firefox is not supported yet — Chrome and Edge only, with other Chromium builds on a best-effort basis"
+    ],
+    "zh": [
+      "权限面偏大（这是设计使然）——它能触及你真实的登录会话，采用前值得权衡这笔交易",
+      "两个组件（`bsk` CLI/守护进程 + 浏览器扩展），安装环节不少；会回收后台进程的沙箱 Agent 还需要额外的守护进程配置",
+      "尚不支持 Firefox——仅 Chrome 与 Edge，其他 Chromium 内核浏览器属于尽力支持"
+    ],
+    "ja": [
+      "権限の範囲が設計上広く、実在の認証済みセッションに触れるため、採用前にこのトレードオフを天秤にかける価値がある",
+      "構成要素が2つ（`bsk` CLI/デーモンと拡張機能）あり、インストール手順が少なからず。バックグラウンドプロセスを回収するサンドボックスAgentは追加のデーモン設定が必要",
+      "Firefoxはまだ非対応——ChromeとEdgeのみで、その他のChromium系は最善努力ベース"
+    ],
+    "es": [
+      "La superficie de permisos es amplia por diseño — toca tus sesiones reales autenticadas, así que conviene pesar ese intercambio antes de adoptarlo",
+      "Dos piezas móviles (el CLI/daemon `bsk` más la extensión del navegador) suponen una ceremonia de instalación real; los agentes en sandbox que recolectan procesos en segundo plano requieren pasos adicionales de configuración del daemon",
+      "Firefox aún no está soportado — solo Chrome y Edge, con los demás builds de Chromium en la mejor medida de lo posible"
+    ],
+    "fr": [
+      "La surface de permissions est large par conception — il touche à vos vraies sessions authentifiées, il convient donc de peser ce compromis avant de l'adopter",
+      "Deux pièces mobiles (le CLI/daemon `bsk` plus l'extension navigateur) représentent une vraie cérémonie d'installation ; les agents sandboxés qui récoltent les processus en arrière-plan nécessitent des étapes de configuration du daemon supplémentaires",
+      "Firefox n'est pas encore pris en charge — Chrome et Edge uniquement, les autres builds Chromium sur une base du mieux possible"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (MIT). The CLI, the browser extension and the skill are all released in the same repository — no paid tier.",
+      "zh": "免费开源（MIT）。CLI、浏览器扩展和技能都在同一个仓库发布，没有付费档位。",
+      "ja": "無料・オープンソース（MIT）。CLI・拡張機能・スキルはすべて同一リポジトリで公開され、有料プランは存在しません。",
+      "es": "Gratis y open source (MIT). El CLI, la extensión del navegador y la skill se publican en el mismo repositorio — sin plan de pago.",
+      "fr": "Gratuit et open source (MIT). Le CLI, l'extension navigateur et la compétence sont publiés dans le même dépôt — aucun niveau payant."
+    }
+  },
+  "verdict": {
+    "en": "BrowserSkill is the pragmatic answer to a problem almost every agent workflow eventually hits: you need to reach something inside a logged-in browser without re-authenticating from scratch. The \"borrow the tab, return it when done\" model plus human-in-the-loop is genuinely well thought out, and the harness-agnostic CLI means it composes with the agent you already use. This is the right tool for verifying a deployed page against your real account state and for extracting from gated backends. The permission trade-off is real, though: it reaches live sessions, so it belongs on a machine you trust with your logins. We do not recommend it as a general-purpose headless scraping layer, and we cap our enthusiasm accordingly — pick it for authenticated workflows, not for anonymous crawling.",
+    "zh": "BrowserSkill 给出的是一个几乎所有 Agent 工作流最终都会撞上的问题的务实解法：你需要进入已登录的浏览器里做事，但不想从头再登录一遍。\"借用标签页、用完归还\"加上人工接管的设计确实想得清楚，而 CLI 不绑定 harness 意味着它能和你已经在用的 Agent 直接组合。用来验证已部署页面在真实账号状态下的表现、以及从需要登录的后台取数，它是选对了的工具。不过权限这笔交易是实实在在的：它能触及活跃会话，所以应该装在你信任的、存着你登录态的机器上。我们不建议把它当通用无头爬虫层用，推荐强度也相应有所保留——用于需要登录的工作流，而不是匿名抓取。",
+    "ja": "BrowserSkillは、ほぼすべてのAgentワークフローが最終的にぶつかる問題への実務的な解です。ログイン済みのブラウザ内で作業したいのに、毎回最初から認証やりたくない、という状態。\"タブを借りて、終わったら返す\"モデルと人間による引き継ぎの設計は genuinely 考え抜かれており、Harness非依存のCLIは既存のAgentとそのまま組合わさいます。デプロイ済みページを実のアカウント状態に対して検証したり、ログインが必要なバックエンドからデータを取る用途には選定の正解です。ただし権限のトレードオフは現実的なもので、生きたセッションに触れられるため、ログイン情報を預けられる信頼できるマシン上で使うべきです。汎用のヘッドレススクレイピングレイヤーとしての推奨はしませんし、推奨度もそこまでに抑えています。認証を伴うワークフローには選べ、匿名のクロールには選ばない、というスタンスです。",
+    "es": "BrowserSkill es la respuesta pragmática a un problema que casi cada flujo de agentes acaba encontrando: necesitas llegar a algo dentro de un navegador con sesión iniciada sin volver a autenticarte desde cero. El modelo de \"tomar la pestaña prestada y devolverla al terminar\" junto con la intervención humana está verdaderamente bien pensado, y el CLI independiente de framework se compone con el agente que ya usas. Es la herramienta correcta para verificar una página desplegada contra tu estado de cuenta real y para extraer datos de paneles con restricción. El intercambio de permisos es real, eso sí: alcanza sesiones activas, así que debe vivir en una máquina de la que te fíes con tus credenciales. No lo recomendamos como capa de raspado headless generalista, y moderamos nuestro entusiasmo en consecuencia: elige la skill para flujos autenticados, no para rastreo anónimo.",
+    "fr": "BrowserSkill est la réponse pragmatique à un problème que presque chaque flux d'agents finit par rencontrer : vous devez atteindre quelque chose à l'intérieur d'un navigateur connecté sans vous réauthentifier à zéro. Le modèle « emprunter l'onglet, le restituer à la fin » combiné à la prise en main humaine est réellement bien conçu, et le CLI indépendant du framework se combine avec l'agent que vous utilisez déjà. C'est le bon outil pour vérifier le comportement d'une page déployée face à votre état de compte réel, et pour extraire des données d'un backend à accès restreint. Le compromis de permissions est néanmoins réel : il atteint des sessions vivantes, il doit donc vivre sur une machine dont vous vous méfiez de vos identifiants. Nous ne le recommandons pas comme couche de scraping headless généraliste, et nous modérons notre enthousiasme en conséquence — choisissez-le pour des flux authentifiés, pas pour un crawl anonyme."
+  },
+  "useCases": {
+    "en": [
+      "Regression-testing a PR or a deployed page against your real account state instead of a fresh login",
+      "Extracting data from backends and dashboards that require authentication",
+      "Filling forms and clicking through multi-step flows that trigger captcha, login or confirmation steps",
+      "Adding a real-browser layer to Cursor, Claude Code, Codex, OpenClaw, CodeBuddy or Hermes agents that have no browser capability of their own"
+    ],
+    "zh": [
+      "回归测试：在真实账号状态下验证 PR 或已部署页面的表现，而不是用全新登录",
+      "从需要登录的后台、数据面板取数",
+      "填写表单并点击通过会触发验证码、登录、确认弹窗的多步流程",
+      "给没有浏览器能力的 Cursor / Claude Code / Codex / OpenClaw / CodeBuddy / Hermes Agent 加一层真实浏览器"
+    ],
+    "ja": [
+      "リグレッションテスト：PRやデプロイ済みページを実アカウント状態で検証（新しいログインではなく）",
+      "認証が必要なバックエンドやダッシュボードからのデータ抽出",
+      "認証コード・ログイン・確認ダイアログが出る多段フローのフォーム入力と操作",
+      "ブラウザ能力のない Cursor / Claude Code / Codex / OpenClaw / CodeBuddy / Hermes Agent に実ブラウザ層を付与"
+    ],
+    "es": [
+      "Pruebas de regresión: verificar una PR o una página desplegada contra tu estado de cuenta real en lugar de un inicio de sesión nuevo",
+      "Extraer datos de paneles y backends que requieren autenticación",
+      "Rellenar formularios y avanzar por flujos de varios pasos que disparan captchas, inicios de sesión o confirmaciones",
+      "Añadir una capa de navegador real a agentes Cursor, Claude Code, Codex, OpenClaw, CodeBuddy o Hermes que no tienen capacidad de navegador propia"
+    ],
+    "fr": [
+      "Tests de régression : vérifier un PR ou une page déployée face à votre état de compte réel plutôt qu'une nouvelle connexion",
+      "Extraire des données d'un backend ou d'un tableau de bord nécessitant une authentification",
+      "Remplir des formulaires et avancer dans des flux multi-étapes déclenchant captcha, connexion ou confirmation",
+      "Ajouter une couche navigateur réel aux agents Cursor, Claude Code, Codex, OpenClaw, CodeBuddy ou Hermes qui n'ont pas de capacité navigateur propre"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-09-20",
+    "verdictDate": "2026-09-20",
+    "pricingVerified": "2026-09-20"
+  }
+}
