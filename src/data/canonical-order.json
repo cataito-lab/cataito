@@ -236,7 +236,9 @@
     "travel-photo-abstraction",
     "photo-stamp-archive",
     "lumina-card",
-    "browser-skill"
+    "browser-skill",
+    "agent-skills",
+    "anthropic-skills"
   ],
   "mcp": [
     "mcp-official-servers",

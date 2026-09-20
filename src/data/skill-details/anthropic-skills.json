@@ -1,0 +1,129 @@
+{
+  "pros": {
+    "en": [
+      "It is Anthropic's own reference implementation of the Agent Skills format — the skills that teach other skills how to be written",
+      "The four document skills (docx, pdf, pptx, xlsx) are the actual production code behind Claude's document capabilities, which makes them the most instructive examples of a complex, shipping skill",
+      "Broadest range of any skills repo: creative, technical, enterprise and document work under one tree",
+      "Includes the official specification (`spec/`) and a starter template, so it doubles as documentation for building your own",
+      "Huge reach — 177k stars, 21k forks — and every skill is free to read and learn from"
+    ],
+    "zh": [
+      "它是 Anthropic 自己对 Agent Skills 格式的实现——教其他技能怎么写的那一套",
+      "四个文档技能（docx / pdf / pptx / xlsx）是 Claude 文档能力背后的真实生产代码，因此是复杂且在用技能的最佳教学样本",
+      "覆盖范围最广：创意、技术、企业、文档四类都在一棵树下",
+      "含官方规范（`spec/`）和起步模板，本身就是一部自建技能的文档",
+      "影响力巨大——177k 星、21k fork——且每个技能都免费可读可学"
+    ],
+    "ja": [
+      "Agent Skills形式そのものをAnthropic自身が実装した参考実装——スキルをかく方法を他のスキルに教える一揃い",
+      "4つの文書スキル（docx・pdf・pptx・xlsx）はClaudeの文書機能を裏で支える実際の本番コードであり、複雑で実運用されているスキルの最良の教材となる",
+      "どのスキルリポジトリより幅広いカテゴリを1ツリーに収容：クリエイティブ・技術・エンタープライズ・文書",
+      "公式仕様（`spec/`）とスターターテンプレートが同梱され、自社スキルを学ぶための資料も兼ねる",
+      "影響力が大きく177kスター・21kフォーク——すべてのスキルは無料で見せて読んで学べる"
+    ],
+    "es": [
+      "Es la implementación de referencia propia de Anthropic para el formato Agent Skills — las skills que enseñan a las demás skills cómo escribirse",
+      "Las cuatro skills de documentos (docx, pdf, pptx, xlsx) son el código de producción real detrás de las capacidades de documentos de Claude, lo que las convierte en el ejemplo más instructivo de una skill compleja y en marcha",
+      "El rango más amplio de cualquier repositorio de skills: creatividad, técnica, empresa y documentos bajo un mismo árbol",
+      "Incluye la especificación oficial (`spec/`) y una plantilla inicial, así que sirve también como documentación para crear las tuyas",
+      "Alcance enorme — 177 mil estrellas, 21 mil forks — y cada skill es gratuita para leer y aprender"
+    ],
+    "fr": [
+      "C'est l'implémentation de référence d'Anthropic elle-même pour le format Agent Skills — les compétences qui enseignent aux autres compétences à s'écrire",
+      "Les quatre compétences documentaires (docx, pdf, pptx, xlsx) sont le code de production réel derrière les capacités documentaires de Claude, ce qui en fait les exemples les plus instructifs de compétence complexe en service",
+      "La plus large palette de tous les dépôts de compétences : création, technique, entreprise et documents sous un même arbre",
+      "Inclut la spécification officielle (`spec/`) et un modèle de départ, si bien qu'il sert aussi de documentation pour construire les vôtres",
+      "Portée immense — 177 k étoiles, 21 k fourches — et chaque compétence est gratuite à lire et à étudier"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Not genuinely open source — there is no LICENSE file at the repository root, and the four document skills are source-available under Anthropic's terms of service, not Apache 2.0",
+      "The README states these skills are for demonstration and educational purposes only, and that the implementations and behaviours you actually get from Claude may differ from what is shown here",
+      "19 skills but no unifying lifecycle or command structure — it is a showcase and teaching set rather than a process you switch on",
+      "1,256 open issues against a repo of this size suggests some skills lag the pace of Claude's own changes"
+    ],
+    "zh": [
+      "并非真正开源——仓库根目录没有 LICENSE 文件，四个文档技能受 Anthropic 服务条款约束属 source-available，不是 Apache 2.0",
+      "README 明确写这些技能仅供演示和教育用途，Claude 里你实际拿到的实现与行为可能与这里展示的不同",
+      "19 个技能但没有统一的流程或命令结构——它是展示与教学集，不是一个能开关启用的流程",
+      "这个体量的仓库有 1256 个开放 issue，说明部分技能可能没跟上 Claude 自身的变化节奏"
+    ],
+    "ja": [
+      "真にOSSではない——リポジトリのルートにLICENSEファイルが無いこと、そして4つの文書スキルはAnthropicの利用規約に基づくsource-availableでApache 2.0ではない",
+      "READMEはこれらのスキルは演示・教育目的のみと明記し、Claudeから実際に得られる実装と挙動はここで示されたものとは異なる可能性があると警告する",
+      "19のスキルはあるが統一的なライフサイクルやコマンド構造が無く、オンオフで切り替える「プロセス」ではなく展示・教材集",
+      "この規模のリポジトリに1256のオープンイシューがあり、一部のスキルがClaude自身の変化に追いついていない可能性を示す"
+    ],
+    "es": [
+      "No es realmente open source — no hay archivo LICENSE en la raíz del repositorio, y las cuatro skills de documentos son source-available bajo los términos de servicio de Anthropic, no Apache 2.0",
+      "El README afirma que estas skills son solo para demostración y fines educativos, y que las implementaciones y comportamientos que realmente recibes de Claude pueden diferir de lo mostrado aquí",
+      "19 skills pero sin ciclo de vida ni estructura de comandos unificadora — es un escaparate y un conjunto docente, no un proceso que puedes activar",
+      "1.256 issues abiertos para un repositorio de este tamaño sugieren que algunas skills van por detrás del ritmo de cambio de Claude"
+    ],
+    "fr": [
+      "Pas vraiment open source — il n'y a pas de fichier LICENSE à la racine du dépôt, et les quatre compétences documentaires sont source-available sous les conditions de service d'Anthropic, pas Apache 2.0",
+      "Le README indique que ces compétences servent uniquement à la démonstration et à l'enseignement, et que les implémentations et comportements que vous obtenez réellement de Claude peuvent différer de ce qui est montré ici",
+      "19 compétences mais sans cycle de vie ni structure de commandes unificatrice — c'est une vitrine et un ensemble d'enseignement, pas un processus à commuter",
+      "1 256 issues ouvertes pour un dépôt de cette taille suggèrent que certaines compétences traînent derrière le rythme de changement de Claude"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free. No account is required to browse or use the skills in the repository. Note that this is a mixed-licence collection: most skills are Apache 2.0, while docx, pdf, pptx and xlsx are source-available under Anthropic's terms of service — free to read and learn, but not licensed for arbitrary commercial modification.",
+      "zh": "免费。浏览或使用仓库中的技能无需账号。注意这是混合许可证集合：多数技能是 Apache 2.0，而 docx、pdf、pptx、xlsx 受 Anthropic 服务条款约束属 source-available——可以免费读和学，但没有授权你随意商用改造。",
+      "ja": "無料。リポジトリのスキルを閲覧・使用するにはアカウント不要。ただしこれは混合ライセンスのコレクションで、大半のスキルはApache 2.0だが、docx・pdf・pptx・xlsxはAnthropicの利用規約に基づくsource-available——無料で読んで学ぶことはできますが、自由な商用改変のライセンスは付与されていません。",
+      "es": "Gratis. No se necesita cuenta para explorar o usar las skills del repositorio. Ten en cuenta que es una colección de licencia mixta: la mayoría de las skills son Apache 2.0, mientras que docx, pdf, pptx y xlsx son source-available bajo los términos de servicio de Anthropic — gratuitas para leer y aprender, pero no licenciadas para modificación comercial arbitraria.",
+      "fr": "Gratuit. Aucun compte n'est requis pour parcourir ou utiliser les compétences du dépôt. Attention, il s'agit d'une collection à licence mixte : la plupart sont Apache 2.0, tandis que docx, pdf, pptx et xlsx sont source-available sous les conditions de service d'Anthropic — gratuites à lire et à étudier, mais pas licenciées pour une modification commerciale libre."
+    }
+  },
+  "verdict": {
+    "en": "Treat this as the spec and the teaching set, not as a toolkit you install and forget. That is what it is for: it is Anthropic's own skills, including the four document skills that do the real work inside Claude, so reading them is the fastest way to learn the format you'll be writing your own skills against. Our main reservation is the licence, and we are explicit about it — this is not an open source repository. There is no root LICENSE, and the document skills carry Anthropic's terms with extra restrictions on top. If you intend to vendor any of those four into a commercial product, read the terms before you do, not after. We still rate it as a first-stop reference, and we cap that recommendation on the licensing point. Pick it to study the format, to see how a serious document-generation skill is actually built, and to borrow patterns; do not pick it to copy code wholesale.",
+    "zh": "把它当规范和教材，而不是装完就忘的工具箱——它的定位本来就是这个。它是 Anthropic 自己的技能，包括在 Claude 里干实事的那四个文档技能，所以读它们是你学习这个格式最快的方式，而这个格式正是你将来写自己技能要遵守的。我们最主要的保留意见在许可证上，而且是明确写出来的：这不是一个开源仓库。根目录没有 LICENSE，文档技能带 Anthropic 的条款并附加额外限制。如果你打算把这四个里的任何一个搬进商业产品，请在动手之前读条款，不是之后。我们仍然把它评为首选参考，但推荐强度在许可证这一点上打折扣。用来学格式、看严肃的文档生成技能是怎么建的、借模式；不要用来整段复制代码。",
+    "ja": "これを参考実装と教材として扱い、インストールして忘れるツールキットとは考えないほうがいい——本来の位置づけがそうだからです。Anthropic自身のスキルであり、Claude内で実際に仕事をする4つの文書スキルを含みますので、それを読むことは、自分がこれから書くスキルが従う形式を学ぶ最短距離になります。我々の最大の保留はライセンス面で、これは明確に申し上げます：これはOSSリポジトリではありません。ルートにLICENSEファイルが無く、文書スキルにはAnthropicの条項と追加制約が付いています。4つのうちいずれかを商用製品に組み込むつもりなら、読むべきタイミングは動いた後ではなく動かす前です。それでも第一候補の参考資料と評価します。ただし推奨度はライセンス面で差し引いています。形式を学ぶ、真面目な文書生成スキルが実際どう組み上げられているか見る、パターンを借りる、ために選べば正解です。コードを丸ごとコピーするために選ぶべきではありません。",
+    "es": "Trátalo como la especificación y el conjunto docente, no como un kit que instalas y olvidas. Para eso sirve: son las skills propias de Anthropic, incluyendo las cuatro de documentos que hacen el trabajo real dentro de Claude, así que leerlas es la vía más rápida para aprender el formato contra el que escribirás las tuyas. Nuestra principal reserva es la licencia, y la dejamos explícita — este no es un repositorio open source. No hay LICENSE en la raíz y las skills de documentos llevan los términos de Anthropic con restricciones adicionales encima. Si piensas incorporar alguna de esas cuatro en un producto comercial, lee los términos antes de hacerlo, no después. Seguimos valorándolo como referencia de primera parada, y reducimos esa recomendación en el punto de la licencia. Elige esta skill para estudiar el formato, ver cómo se construye de verdad una skill seria de generación de documentos y robar patrones; no la elijas para copiar código a granel.",
+    "fr": "Traitez-le comme la spécification et l'ensemble d'enseignement, pas comme une boîte à outils qu'on installe et oublie. C'est exactement sa fonction : ce sont les compétences d'Anthropic elles-mêmes, y compris les quatre compétences documentaires qui font le vrai travail dans Claude, alors les lire est le chemin le plus court pour apprendre le format auquel vous allez écrire les vôtres. Notre réserve principale porte sur la licence, et nous la formulons explicitement — ce n'est pas un dépôt open source. Il n'y a pas de LICENSE à la racine et les compétences documentaires portent les conditions d'Anthropic avec des restrictions supplémentaires. Si vous prévoyez d'intégrer l'une de ces quatre dans un produit commercial, lisez les conditions avant, pas après. Nous continuons à le classer comme référence de premier recours, et nous plafonnons cette recommandation sur le point de la licence. Choisissez-le pour étudier le format, voir comment est réellement construite une compétence sérieuse de génération de documents, et emprunter des patterns ; ne choisissez-le pas pour copier du code en bloc."
+  },
+  "useCases": {
+    "en": [
+      "Learning the Agent Skills format from the reference implementation before writing your own skills",
+      "Studying how a production document-generation skill is structured across docx, pdf, pptx and xlsx",
+      "Finding a starting point for brand guidelines, canvas or algorithmic art, internal comms or doc co-authoring skills",
+      "Registering the repository as a Claude Code plugin marketplace and installing the `document-skills` or `example-skills` bundle",
+      "Reading `spec/` and using `template/` as the basis for an internal skill you write yourself"
+    ],
+    "zh": [
+      "在写自己的技能前，从参考实现学 Agent Skills 格式",
+      "研究生产级文档生成技能在 docx / pdf / pptx / xlsx 上是怎么组织的",
+      "为品牌规范、画布设计、算法艺术、内部沟通、文档共写等技能找起点",
+      "把仓库注册为 Claude Code 插件市场，安装 `document-skills` 或 `example-skills` 包",
+      "读 `spec/` 规范，用 `template/` 作为自己写内部技能的基础"
+    ],
+    "ja": [
+      "自分のスキルを書く前に、参考実装からAgent Skills形式を学ぶ",
+      "docx・pdf・pptx・xlsx上で本番の文書生成スキルがどう構成されているか研究する",
+      "ブランドガイドライン・キャンバスデザイン・アルゴリズムアート・社内コミュニケーション・文書共著などのスキルの出発点を探す",
+      "リポジトリをClaude Codeのプラグインマーケットとして登録し、`document-skills` か `example-skills` をインストールする",
+      "`spec/` の仕様を読み、`template/` を自ら書く社内スキルの土台にする"
+    ],
+    "es": [
+      "Aprender el formato Agent Skills de la implementación de referencia antes de escribir tus propias skills",
+      "Estudiar cómo se estructura una skill de generación de documentos de producción a lo largo de docx, pdf, pptx y xlsx",
+      "Buscar un punto de partida para skills de directrices de marca, diseño en canvas o arte algorítmico, comunicaciones internas o coautoría de documentos",
+      "Registrar el repositorio como marketplace de plugins de Claude Code e instalar el paquete `document-skills` o `example-skills`",
+      "Leer `spec/` y usar `template/` como base para una skill interna que escribas tú mismo"
+    ],
+    "fr": [
+      "Apprendre l'Agent Skills format depuis l'implémentation de référence avant d'écrire vos propres compétences",
+      "Étudier comment une compétence de génération de documents de production se structure à travers docx, pdf, pptx et xlsx",
+      "Trouver un point de départ pour des compétences de directrices de marque, design de canvas ou art algorithmique, communication interne ou co-écriture de documents",
+      "Enregistrer le dépôt comme marketplace de plugins Claude Code et installer le paquet `document-skills` ou `example-skills`",
+      "Lire `spec/` et utiliser `template/` comme base pour une compétence interne que vous écrivez vous-même"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-09-21",
+    "verdictDate": "2026-09-21",
+    "pricingVerified": "2026-09-21"
+  }
+}

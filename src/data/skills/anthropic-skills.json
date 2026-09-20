@@ -1,0 +1,92 @@
+{
+  "slug": "anthropic-skills",
+  "name": "Anthropic Skills",
+  "nameZh": "Anthropic 官方技能集",
+  "description": "Anthropic 官方仓库：19 个 Claude 技能示例，覆盖创意设计、技术开发、企业沟通与文档处理。含官方 Agent Skills 规范与模板。其中 docx/pdf/pptx/xlsx 四个文档技能驱动 Claude 的文档能力，属 source-available（受 Anthropic 服务条款约束），其余多为 Apache 2.0。",
+  "descriptionEn": "Anthropic's official repository of 19 Claude skill examples, spanning creative & design, development & technical, enterprise & communication, and document skills. Includes the official Agent Skills specification and template. The docx, pdf, pptx and xlsx document skills power Claude's document capabilities and are source-available (governed by Anthropic's terms of service); the rest are mostly Apache 2.0.",
+  "descriptionJa": "Anthropic公式リポジトリ。19のClaudeスキル例が、クリエイティブ・デザイン／開発・技術／エンタープライズ・コミュニケーション／ドキュメントの4カテゴリをカバー。公式Agent Skills仕様とテンプレートも同梱。docx・pdf・pptx・xlsxの4つの文書スキルはClaudeの文書機能を支えており、source-available（Anthropicの利用規約が適用）で、その他は主にApache 2.0です。",
+  "descriptionEs": "El repositorio oficial de Anthropic con 19 ejemplos de skills para Claude, que abarcan creatividad y diseño, desarrollo y técnica, empresa y comunicación, y documentos. Incluye la especificación oficial de Agent Skills y una plantilla. Las skills de documentos docx, pdf, pptx y xlsx impulsan las capacidades de documentos de Claude y son source-available (regidas por los términos de servicio de Anthropic); el resto son en su mayoría Apache 2.0.",
+  "descriptionFr": "Le dépôt officiel d'Anthropic avec 19 exemples de compétences pour Claude, couvrant création et design, développement et technique, entreprise et communication, et documents. Inclut la spécification officielle Agent Skills et un modèle. Les compétences de documents docx, pdf, pptx et xlsx alimentent les capacités documentaires de Claude et sont source-available (soumises aux conditions de service d'Anthropic) ; le reste est en majorité Apache 2.0.",
+  "developer": "Anthropic",
+  "developerZh": "Anthropic",
+  "repo": "anthropics/skills",
+  "agents": [
+    "claude",
+    "claude-code",
+    "generic"
+  ],
+  "category": "Platform",
+  "tags": [
+    "Free"
+  ],
+  "installCommand": "/plugin marketplace add anthropics/skills",
+  "logo": "/logos/skills/anthropic-skills.png",
+  "stars": 177281,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "这个仓库有什么？",
+        "en": "What's in this repository?",
+        "ja": "このリポジトリには何がありますか？",
+        "es": "¿Qué hay en este repositorio?",
+        "fr": "Que contient ce dépôt ?"
+      },
+      "answer": {
+        "zh": "19 个技能，分四类：创意与设计（algorithmic-art、canvas-design、brand-guidelines、theme-factory、slack-gif-creator）、开发与技术（frontend-design、mcp-builder、webapp-testing、web-artifacts-builder、claude-api、skill-creator）、企业与沟通（internal-comms、doc-coauthoring、discernment-nudge、academy-guide）、文档技能（docx、pdf、pptx、xlsx）。此外 `spec/` 是 Agent Skills 规范，`template/` 是技能模板。每个技能是独立文件夹，靠 `SKILL.md` 里的说明与元数据驱动 Claude。",
+        "en": "19 skills in four groups: creative & design (algorithmic-art, canvas-design, brand-guidelines, theme-factory, slack-gif-creator), development & technical (frontend-design, mcp-builder, webapp-testing, web-artifacts-builder, claude-api, skill-creator), enterprise & communication (internal-comms, doc-coauthoring, discernment-nudge, academy-guide), and document skills (docx, pdf, pptx, xlsx). Beyond those, `spec/` holds the Agent Skills specification and `template/` is the skill template. Each skill is a self-contained folder driven by the instructions and metadata in its `SKILL.md`.",
+        "ja": "4カテゴリの19のスキル：クリエイティブ・デザイン（algorithmic-art、canvas-design、brand-guidelines、theme-factory、slack-gif-creator）、開発・技術（frontend-design、mcp-builder、webapp-testing、web-artifacts-builder、claude-api、skill-creator）、エンタープライズ・コミュニケーション（internal-comms、doc-coauthoring、discernment-nudge、academy-guide）、文書スキル（docx、pdf、pptx、xlsx）。加えて `spec/` がAgent Skills仕様、`template/` がスキルテンプレートです。各スキルは独立したフォルダで、その中の `SKILL.md` の指示とメタデータがClaudeを駆動します。",
+        "es": "19 skills en cuatro grupos: creatividad y diseño (algorithmic-art, canvas-design, brand-guidelines, theme-factory, slack-gif-creator), desarrollo y técnica (frontend-design, mcp-builder, webapp-testing, web-artifacts-builder, claude-api, skill-creator), empresa y comunicación (internal-comms, doc-coauthoring, discernment-nudge, academy-guide) y skills de documentos (docx, pdf, pptx, xlsx). Además, `spec/` contiene la especificación de Agent Skills y `template/` es la plantilla. Cada skill es una carpeta autónoma impulsada por las instrucciones y metadatos de su `SKILL.md`.",
+        "fr": "19 compétences en quatre groupes : création et design (algorithmic-art, canvas-design, brand-guidelines, theme-factory, slack-gif-creator), développement et technique (frontend-design, mcp-builder, webapp-testing, web-artifacts-builder, claude-api, skill-creator), entreprise et communication (internal-comms, doc-coauthoring, discernment-nudge, academy-guide), et compétences documentaires (docx, pdf, pptx, xlsx). Par ailleurs, `spec/` contient la spécification Agent Skills et `template/` est le modèle. Chaque compétence est un dossier autonome piloté par les instructions et métadonnées de son `SKILL.md`."
+      }
+    },
+    {
+      "question": {
+        "zh": "许可证是什么？能不能算开源？",
+        "en": "What's the licence? Is it really open source?",
+        "ja": "ライセンスは？本当のOSSか？",
+        "es": "¿Qué licencia tiene? ¿Es realmente open source?",
+        "fr": "Quelle licence ? Est-ce vraiment open source ?"
+      },
+      "answer": {
+        "zh": "混合许可证，这也是我们没给它打「Open Source」标签的原因。仓库根目录**没有 LICENSE 文件**（GitHub 的 license 字段返回空）。逐技能看：README 明确说大多数技能是 Apache 2.0，我们抽查 `skill-creator` 确认其 `LICENSE.txt` 是 Apache License 2.0。但 docx、pdf、pptx、xlsx 四个文档技能是例外——它们带的是 Anthropic 自有的版权条款，README 原话是 \"source-available, not open source\"，受 Anthropic Consumer/Commercial Terms of Service 约束，并附加额外限制。所以严格说这是 15 个开源 + 4 个 source-available 的组合，不是纯开源仓库。",
+        "en": "A mixed licence — which is exactly why we did not tag it \"Open Source\". There is **no LICENSE file at the repository root** (GitHub's licence field returns null). Per skill: the README states most skills are Apache 2.0, and we checked `skill-creator`'s `LICENSE.txt` directly to confirm it is Apache License 2.0. But docx, pdf, pptx and xlsx are the exception — they carry Anthropic's own copyright terms. The README's own wording is \"source-available, not open source\", governed by Anthropic's Consumer or Commercial Terms of Service, with additional restrictions on top. So this is strictly 15 open-source skills plus 4 source-available ones, not a purely open source repository.",
+        "ja": "混合ライセンスです。これが「Open Source」タグを付与しなかった理由でもあります。リポジトリのルートに**LICENSEファイルが無い**（GitHubのlicenseフィールドはnullを返す）。スキル単位で見ると、READMEは多くのスキルがApache 2.0と明記しており、`skill-creator` の `LICENSE.txt` を実査したところApache License 2.0を確認しました。ただしdocx・pdf・pptx・xlsxの4つの文書スキルは例外で、Anthropic独自の著作権条項が付いています。READMEの原文は \"source-available, not open source\" であり、AnthropicのConsumer/Commercial Terms of Serviceが適用され、追加制約もあります。したがって厳密には15のOSS＋4のsource-availableの組み合わせで、純粋なOSSリポジトリではありません。",
+        "es": "Una licencia mixta — exactamente por eso no le pusimos la etiqueta «Open Source». **No hay archivo LICENSE en la raíz del repositorio** (el campo de licencia de GitHub devuelve null). Por skill: el README afirma que la mayoría son Apache 2.0, y comprobamos el `LICENSE.txt` de `skill-creator` para confirmar que es Apache License 2.0. Pero docx, pdf, pptx y xlsx son la excepción — llevan los términos de copyright propios de Anthropic. La redacción literal del README es \"source-available, not open source\", regidas por los Consumer o Commercial Terms of Service de Anthropic, con restricciones adicionales encima. Así que, estrictamente, son 15 skills de código abierto más 4 source-available, no un repositorio puramente open source.",
+        "fr": "Une licence mixte — c'est précisément la raison pour laquelle nous ne l'avons pas étiquetée « Open Source ». Il **n'y a pas de fichier LICENSE à la racine du dépôt** (le champ licence de GitHub renvoie null). Compétence par compétence : le README indique que la plupart sont Apache 2.0, et nous avons vérifié le `LICENSE.txt` de `skill-creator` pour confirmer qu'il s'agit bien d'Apache License 2.0. Mais docx, pdf, pptx et xlsx font exception — elles portent les termes de copyright propres à Anthropic. La formulation du README est « source-available, not open source », soumises aux Consumer ou Commercial Terms of Service d'Anthropic, avec des restrictions supplémentaires. Strictement, ce sont donc 15 compétences open source plus 4 source-available, pas un dépôt purement open source."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装使用？",
+        "en": "How do I install and use it?",
+        "ja": "インストールと使い方？",
+        "es": "¿Cómo lo instalo y uso?",
+        "fr": "Comment l'installer et l'utiliser ?"
+      },
+      "answer": {
+        "zh": "Claude Code 里把它注册为插件市场：`/plugin marketplace add anthropics/skills`，然后浏览安装 `anthropic-agent-skills` 下的 `document-skills` 或 `example-skills` 包，也可直接 `/plugin install document-skills@anthropic-agent-skills`。装完直接在提示里点名即可，比如 \"用 PDF 技能从 path/to/file.pdf 提取表单字段\"。Claude.ai 付费版已经内置这些技能；通过 Claude API 也能用 Anthropic 的预建技能或上传自定义技能。",
+        "en": "In Claude Code, register the repository as a plugin marketplace: `/plugin marketplace add anthropics/skills`, then browse and install the `document-skills` or `example-skills` package under `anthropic-agent-skills`, or install directly with `/plugin install document-skills@anthropic-agent-skills`. After installing, just name the skill in your prompt — for example \"Use the PDF skill to extract the form fields from path/to/some-file.pdf\". Paid Claude.ai plans already have these skills built in, and the Claude API also supports Anthropic's pre-built skills or custom uploads.",
+        "ja": "Claude Codeでリポジトリをプラグインマーケットとして登録します：`/plugin marketplace add anthropics/skills`、そのあと `anthropic-agent-skills` の下の `document-skills` か `example-skills` をインストール（`/plugin install document-skills@anthropic-agent-skills` でも可）。インストール後はプロンプトでスキル名を指定するだけです。例：「PDFスキルで path/to/file.pdf からフォームフィールドを抽出して」。Claude.aiの有料プランにはこれらのスキルが標準搭載済みで、Claude APIからもAnthropicの事前構築スキルまたはカスタムスキルが使えます。",
+        "es": "En Claude Code, registra el repositorio como un marketplace de plugins: `/plugin marketplace add anthropics/skills`, y luego instala el paquete `document-skills` o `example-skills` bajo `anthropic-agent-skills`, o directamente con `/plugin install document-skills@anthropic-agent-skills`. Una vez instalado, simplemente nombra la skill en tu prompt — por ejemplo «usa la skill de PDF para extraer los campos del formulario de path/to/some-file.pdf». Los planes de pago de Claude.ai ya incluyen estas skills, y la API de Claude también soporta las skills preconstruidas de Anthropic o subidas personalizadas.",
+        "fr": "Dans Claude Code, enregistrez le dépôt comme marketplace de plugins : `/plugin marketplace add anthropics/skills`, puis installez le paquet `document-skills` ou `example-skills` sous `anthropic-agent-skills`, ou directement avec `/plugin install document-skills@anthropic-agent-skills`. Une fois installé, citez simplement la compétence dans votre prompt — par exemple « utilise la compétence PDF pour extraire les champs du formulaire de path/to/some-file.pdf ». Les formules payantes de Claude.ai incluent déjà ces compétences, l'API Claude prend aussi en charge les compétences préconstruites d'Anthropic ou des uploads personnalisés."
+      }
+    },
+    {
+      "question": {
+        "zh": "适合直接生产用吗？",
+        "en": "Is it ready to use in production?",
+        "ja": "本番でそのまま使えますか？",
+        "es": "¿Está listo para producción?",
+        "fr": "Est-ce prêt pour la production ?"
+      },
+      "answer": {
+        "zh": "取决于你用哪几个。四个文档技能（docx/pdf/pptx/xlsx）是 Claude 文档能力的真实生产实现，质量可靠但有授权限制——受 Anthropic 服务条款约束，不能当 Apache 2.0 的开源代码随便改来商用。README 也明确写这些技能仅用于演示和教育用途，Claude 里你实际拿到的实现与行为可能与示例不同，关键任务前务必自己在环境里测过。其余技能定位是「灵感与模式参考」，适合学做法，未必适合直接搬进你的工作流。",
+        "en": "It depends which ones you use. The four document skills (docx, pdf, pptx, xlsx) are the real production implementations behind Claude's document capabilities — reliable in quality, but licence-restricted: they fall under Anthropic's terms of service, so you can't treat them like Apache 2.0 code and freely modify them for commercial use. The README also states these skills are for demonstration and educational purposes only, and that the implementations and behaviours you actually get from Claude may differ from what is shown; always test thoroughly in your own environment before relying on them for critical tasks. The remaining skills are positioned as inspiration and pattern references — good for learning approaches, not necessarily ready to drop straight into your workflow.",
+        "ja": "使うスキルによります。4つの文書スキル（docx/pdf/pptx/xlsx）はClaudeの文書機能を支える実際の本番実装で品質は信頼できますが、ライセンスに制限があります。Anthropicの利用規約が適用されるため、Apache 2.0のOSSコードのように自由に変更して商用利用することはできません。READMEもこれらのスキルは演示・教育目的のみと明記しており、Claudeから実際に得られる実装と挙動は示例と異なる可能性があります。重要タスクでは必ず自分の環境で十分テストしてください。その他のスキルは「インスピレーションとパターンの参考」が位置づけで、やり方を学ぶには向いていますが、そのままワークフローに組み込むには慎重さが要ります。",
+        "es": "Depende de cuáles uses. Las cuatro skills de documentos (docx, pdf, pptx, xlsx) son las implementaciones reales y de producción detrás de las capacidades de documentos de Claude — fiables en calidad, pero con restricciones de licencia: se rigen por los términos de servicio de Anthropic, así que no puedes tratarlas como código Apache 2.0 y modificarlas libremente para uso comercial. El README también indica que estas skills son solo para demostración y fines educativos, y que las implementaciones y comportamientos que realmente recibas de Claude pueden diferir de los mostrados; prueba siempre a fondo en tu propio entorno antes de depender de ellas en tareas críticas. Las demás skills se posicionan como inspiración y referencia de patrones — útiles para aprender enfoques, no necesariamente listas para meter directamente en tu flujo de trabajo.",
+        "fr": "Cela dépend de celles que vous utilisez. Les quatre compétences documentaires (docx, pdf, pptx, xlsx) sont les implémentations réelles et de production derrière les capacités documentaires de Claude — fiables en qualité, mais soumises à des restrictions de licence : elles relèvent des conditions de service d'Anthropic, si bien qu'on ne peut pas les traiter comme du code Apache 2.0 à modifier librement pour un usage commercial. Le README précise aussi que ces compétences servent uniquement à la démonstration et à l'enseignement, et que les implémentations et comportements que vous obtenez réellement de Claude peuvent différer de ce qui est montré ; testez toujours soigneusement dans votre propre environnement avant de vous en fier pour des tâches critiques. Les autres compétences sont positionnées comme source d'inspiration et de référence de patterns — utiles pour apprendre des approches, pas nécessairement prêtes à intégrer telles quelles dans votre flux de travail."
+      }
+    }
+  ]
+}

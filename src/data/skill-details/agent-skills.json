@@ -1,0 +1,119 @@
+{
+  "pros": {
+    "en": [
+      "The only skill collection structured around the whole engineering lifecycle — Define, Plan, Build, Verify, Review, Ship — instead of a grab-bag of tips",
+      "9 slash commands plus 25 auto-activating skills mean the discipline is enforced by the harness, not left to whoever is typing",
+      "Skills trigger contextually: designing an API pulls in `api-and-interface-design`, building UI pulls in `frontend-ui-engineering`",
+      "Huge community signal — 97k stars, 10k forks — which is unusual for a skills repo and suggests wide real-world use",
+      "Free and fully open source (MIT) with no account or paid tier; commands, hooks, skills and reference checklists are all readable"
+    ],
+    "zh": [
+      "唯一一套围绕整个研发生命周期组织的技能集——Define / Plan / Build / Verify / Review / Ship——而不是零散技巧的拼盘",
+      "9 个斜杠命令 + 25 个自动触发的技能，纪律由 harness 强制执行，不依赖当时打字的人有没有自觉",
+      "技能按上下文触发：设计 API 自动带出 `api-and-interface-design`，做 UI 自动带出 `frontend-ui-engineering`",
+      "社区信号极强——97k 星、10k fork——对技能类仓库来说很罕见，说明有广泛真实使用",
+      "完全免费开源（MIT），无账号无付费档，命令、钩子、技能、参考清单全部可读"
+    ],
+    "ja": [
+      "エンジニアリングライフサイクル全体（Define / Plan / Build / Verify / Review / Ship）に沿って構成された唯一のスキル集——雑多なヒントの寄せ集めではない",
+      "9つのスラッシュコマンドと25の自動起動スキルにより、規律はharnessが強制し、タイピングしている人の自覚に依存しない",
+      "コンテキストに応じてスキルが起動：API設計で `api-and-interface-design`、UI構築で `frontend-ui-engineering` が自動で出る",
+      "コミュニティシグナルが強力で97kスター・10kフォーク——スキル系リポジトリとしては珍しく、幅広い実使用を示す",
+      "完全無料・OSS（MIT）でアカウントも有料プランも不要。コマンド・フック・スキル・参考チェックリストはすべて閲覧可能"
+    ],
+    "es": [
+      "La única colección estructurada alrededor del ciclo de vida completo de ingeniería — Define, Plan, Build, Verify, Review y Ship — en lugar de un montón de consejos sueltos",
+      "9 comandos con barra más 25 skills de activación automática significan que la disciplina la impone el harness, no depende de que quien escriba la tenga",
+      "Las skills se activan según el contexto: diseñar una API trae `api-and-interface-design`, construir UI trae `frontend-ui-engineering`",
+      "Señal de comunidad enorme — 97 mil estrellas, 10 mil forks — lo cual es inusual para un repositorio de skills y sugiere un uso real extendido",
+      "Gratis y totalmente open source (MIT), sin cuenta ni plan de pago; comandos, hooks, skills y listas de referencia son todos consultables"
+    ],
+    "fr": [
+      "La seule collection structurée autour de tout le cycle de vie de l'ingénierie — Define, Plan, Build, Verify, Review, Ship — plutôt qu'un assortiment de conseils épars",
+      "9 commandes plus 25 compétences à activation automatique : la discipline est imposée par l'harness, elle ne dépend pas de la rigueur de celui qui tape",
+      "Les compétences se déclenchent selon le contexte : concevoir une API charge `api-and-interface-design`, construire une UI charge `frontend-ui-engineering`",
+      "Signal communautaire énorme — 97 k étoiles, 10 k fourches — inhabituel pour un dépôt de compétences, ce qui indique une utilisation réelle étendue",
+      "Gratuit et entièrement open source (MIT), sans compte ni niveau payant ; commandes, hooks, compétences et listes de référence sont toutes consultables"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Installing a single skill copies only `skills/<name>/`, not the repo-level `references/` directory — the skill still works but the paths to supplementary checklists break (tracked in issue #361)",
+      "25 skills is a lot of instructions in context at once; heavy use can crowd out the room a task actually needs",
+      "The collection is opinionated about how engineering should run. If your team's process diverges sharply, you'll be fighting the skills rather than using them"
+    ],
+    "zh": [
+      "只装单个技能时只复制 `skills/<name>/`，不含仓库级的 `references/` 目录——技能本身能用，但补充清单路径失效（issue #361 跟踪中）",
+      "25 个技能意味着大量指令同时进上下文；重度使用会挤占任务真正需要的空间",
+      "这套技能集对「工程应该怎么跑」有很强的主张。如果你团队的流程差异很大，你会是在跟技能较劲而不是在用技能"
+    ],
+    "ja": [
+      "単一スキルだけインストールすると `skills/<name>/` しかコピーされず、リポジトリレベルの `references/` ディレクトリは含まれない——スキル自体は動きますが補足チェックリストへのパスが壊れます（issue #361 で追跡中）",
+      "25のスキルは大量の指示が同時にコンテキストに入ることを意味し、多用するとタスクが本当に必要とする空間を圧迫する",
+      "このスキル集には「エンジニアリングはこうあるべき」いう強い主張がある。チームのフローが大幅に異なる場合、スキルを活用するのではなくそれと戦うことになる"
+    ],
+    "es": [
+      "Instalar una sola skill copia solo `skills/<name>/`, no el directorio `references/` a nivel de repositorio — la skill funciona pero las rutas a las listas de verificación suplementarias fallan (seguido en la issue #361)",
+      "25 skills son muchas instrucciones en contexto a la vez; un uso intenso puede acaparar el espacio que la tarea realmente necesita",
+      "La colección tiene una postura definida sobre cómo debe funcionar la ingeniería. Si el proceso de tu equipo se aparta mucho, terminarás luchando contra las skills en lugar de usarlas"
+    ],
+    "fr": [
+      "Installer une seule compétence ne copie que `skills/<name>/`, pas le dossier `references/` du dépôt — la compétence fonctionne mais les chemins vers les listes de contrôle supplémentaires cassent (suivi dans l'issue #361)",
+      "25 compétences, c'est beaucoup d'instructions en contexte d'un coup ; un usage intensif peut prendre la place dont la tâche a vraiment besoin",
+      "La collection est très engagée sur la façon dont l'ingénierie devrait fonctionner. Si le processus de votre équipe s'en éloigne fortement, vous vous battrez contre les compétences plutôt que de les utiliser"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (MIT). No paid tier, no account required — 25 skills, 9 commands, hooks and reference checklists all public in the repository.",
+      "zh": "免费开源（MIT）。没有付费档位、无需账号，25 个技能、9 个命令、钩子和参考清单全部公开在仓库里。",
+      "ja": "無料・OSS（MIT）。有料プランもアカウントも不要。25のスキル・9のコマンド・フック・参考チェックリストはすべてリポジトリで公開されています。",
+      "es": "Gratis y open source (MIT). Sin plan de pago ni cuenta — 25 skills, 9 comandos, hooks y listas de referencia son públicos en el repositorio.",
+      "fr": "Gratuit et open source (MIT). Aucun niveau payant, aucun compte requis — 25 compétences, 9 commandes, hooks et listes de référence sont publics dans le dépôt."
+    }
+  },
+  "verdict": {
+    "en": "This is the most opinionated skills collection we have listed, and that is its main value rather than a defect. The Define → Plan → Build → Verify → Review → Ship spine means an agent gets a complete engineering procedure instead of isolated tricks, and the slash commands turn the procedure into something you invoke deliberately rather than hope it happens. The 97k stars say a lot of people bought into that bet. Use it when you want a consistent quality baseline across contributors and you do not have an established process to protect — that is the best fit. Skip it if your team already has a codified workflow and the skills would only get in the way, or if you mainly need point solutions rather than a process. For teams standardising agent-driven development, this is the closest thing to a reference implementation there is.",
+    "zh": "这是我们收录的里最有主张的一套技能集，而这一点正是它的主要价值，不是缺陷。Define → Plan → Build → Verify → Review → Ship 这条骨架意味着 Agent 拿到的是完整工程流程，而不是孤立技巧；斜杠命令则把流程变成你主动调用的东西，而不是寄希望于它自然发生。97k 星说明很多人认同这个赌注。适用场景：你想要跨贡献者一致的质量基线、并且没有既有的流程需要保护——这是最佳匹配。如果团队已有成文的流程、技能只会添乱，或者你主要需要单点方案而不是流程，就跳过它。对想把 Agent 驱动开发标准化的团队，这是最接近参考实现的东西。",
+    "ja": "これは我々が掲載する中で最も強い主張を持つスキル集で、その点が主な価値であり欠点ではありません。Define → Plan → Build → Verify → Review → Ship という骨格があるため、Agentは孤立した技ではなく完全なエンジニアリング工程を得られ、スラッシュコマンドはそれを自然に起きることを願うものではなく意図的に呼べるものにします。97kスターは多くの人々がこの賭けに賛同したことを示します。使い所は、コントリビューター間で一貫した品質基線が欲しいのに、守るべき既存プロセスがない場合——これが最適です。チームに定型的なワークフローが既にある場合や、スキルが足かせにしかならない場合、あるいはプロセスより単点ソリューションが主目的の場合はスキップ推奨です。Agent駆動開発を標準化したいチームには、これほど参考実装に近いものは他にありません。",
+    "es": "Es la colección más opuesta que hemos listado, y eso es su principal valor y no un defecto. La columna vertebral Define → Plan → Build → Verify → Review → Ship significa que un agente recibe un procedimiento de ingeniería completo en lugar de trucos aislados, y los comandos con barra convierten ese procedimiento en algo que invocas deliberadamente en lugar de esperar que ocurra. Las 97 mil estrellas dicen que mucha gente aceptó esa apuesta. Úsalo cuando quieras una línea base de calidad consistente entre colaboradores y no tengas un proceso establecido que proteger — ese es el mejor caso. Déjalo si tu equipo ya tiene un flujo de trabajo codificado y las skills solo estorbarían, o si lo que necesitas son soluciones puntuales más que un proceso. Para equipos que estandarizan el desarrollo impulsado por agentes, es lo más cercano a una implementación de referencia.",
+    "fr": "C'est l'ensemble le plus affirmatif que nous avons référencé, et c'est précisément sa valeur principale plutôt qu'un défaut. L'épine dorsale Define → Plan → Build → Verify → Review → Ship signifie qu'un agent reçoit une procédure d'ingénierie complète plutôt qu'une série de ficelles isolées, et les commandes transforment cette procédure en quelque chose que vous déclenchez délibérément plutôt qu'en un espoir. Les 97 k étoiles disent que beaucoup ont accepté ce pari. Utilisez-le quand vous voulez une ligne de qualité cohérente entre contributeurs et que vous n'avez pas de processus établi à préserver — c'est le meilleur cas. Passez votre tour si votre équipe a déjà un flux de travail codifié et que les compétences ne feraient qu'embêter, ou si vous avez surtout besoin de solutions ponctuelles plutôt qu'un processus. Pour les équipes qui standardisent le développement piloté par agents, c'est la chose la plus proche d'une implémentation de référence."
+  },
+  "useCases": {
+    "en": [
+      "Standardising how a team drives development through Claude Code, Cursor or Codex agents",
+      "Enforcing spec-first and test-driven habits on newcomers who would otherwise skip the setup",
+      "Getting a five-axis quality review and a web performance audit before merging",
+      "Building CI/CD, security hardening, observability or documentation-with-ADRs workflows that agents follow consistently"
+    ],
+    "zh": [
+      "统一团队通过 Claude Code / Cursor / Codex Agent 做开发的方式",
+      "强制新成员养成先写 spec、测试驱动的习惯，避免跳过前置步骤",
+      "在合并前拿到五轴质量审查和 Web 性能审计",
+      "搭建让 Agent 稳定遵循的 CI/CD、安全加固、可观测性、文档与 ADR 工作流"
+    ],
+    "ja": [
+      "チームがClaude Code / Cursor / Codex Agentで開発を駆動するやり方を標準化",
+      "新メンバーに対しspec優先・テスト駆動の習慣を強制し、前置き手順を飛ばすのを防ぐ",
+      "マージ前に五軸の品質レビューとWeb性能監査を取得",
+      "Agentが一貫して従うCI/CD・セキュリティ強化・可観測性・ドキュメントとADRのワークフローを構築"
+    ],
+    "es": [
+      "Estandarizar cómo un equipo impulsa el desarrollo a través de agentes Claude Code, Cursor o Codex",
+      "Imponer hábitos de spec primero y pruebas dirigidas a los nuevos miembros, que de lo contrario saltarían la preparación",
+      "Obtener una revisión de calidad de cinco ejes y una auditoría de rendimiento web antes de fusionar",
+      "Construir flujos de CI/CD, endurecimiento de seguridad, observabilidad o documentación con ADRs que los agentes sigan de forma consistente"
+    ],
+    "fr": [
+      "Standardiser la façon dont une équipe pilote le développement via des agents Claude Code, Cursor ou Codex",
+      "Imposer des habitudes spec-first et test-driven aux nouveaux venus, qui autrement sauteraient la mise en place",
+      "Obtenir un examen de qualité à cinq axes et un audit de performance web avant de fusionner",
+      "Construire des flux CI/CD, durcissement sécurité, observabilité ou documentation avec ADR que les agents suivent de façon cohérente"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-09-21",
+    "verdictDate": "2026-09-21",
+    "pricingVerified": "2026-09-21"
+  }
+}

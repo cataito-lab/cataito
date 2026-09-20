@@ -1,0 +1,93 @@
+{
+  "slug": "agent-skills",
+  "name": "Agent Skills (Addy Osmani)",
+  "nameZh": "Agent Skills（Addy Osmani）",
+  "description": "Addy Osmani 出品的生产级 AI 编码 Agent 技能集：25 个技能覆盖从需求定义到上线的完整研发生命周期，配套 9 个斜杠命令（/spec → /plan → /build → /test → /review → /ship）。把资深工程师的工作流、质量门禁与最佳实践固化成 Agent 可稳定复用的规范。",
+  "descriptionEn": "Production-grade engineering skills for AI coding agents, by Addy Osmani. 25 skills covering the full development lifecycle, paired with 9 slash commands (/spec → /plan → /build → /test → /review → /ship) that activate the right skills automatically. Encodes the workflows, quality gates and best practices senior engineers use, so agents follow them consistently across every phase of development.",
+  "descriptionJa": "Addy Osmani による、AIコーディングAgent向けの本番品質エンジニアリングスキル集。25のスキルが開発ライフサイクル全体をカバーし、9つのスラッシュコマンド（/spec → /plan → /build → /test → /review → /ship）が正しいスキルを自動起動します。シニアエンジニアが使うワークフロー・品質ゲート・ベストプラクティスを固定化し、開発各フェーズで一貫して従えるようにします。",
+  "descriptionEs": "Skills de ingeniería de grado producción para agentes de código IA, por Addy Osmani. 25 skills que cubren todo el ciclo de vida del desarrollo, acompañadas de 9 comandos con barra (del /spec al /ship) que activan automáticamente las skills correctas. Codifican los flujos de trabajo, puertas de calidad y mejores prácticas que usan los ingenieros sénior, para que los agentes las sigan de forma consistente en cada fase del desarrollo.",
+  "descriptionFr": "Compétences d'ingénierie de qualité production pour agents de code IA, par Addy Osmani. 25 compétences couvrant tout le cycle de vie du développement, associées à 9 commandes (de /spec à /ship) qui activent automatiquement les bonnes compétences. Elles fixent les workflows, les portes de qualité et les bonnes pratiques utilisés par les ingénieurs seniors, pour que les agents les suivent de façon cohérente à chaque phase du développement.",
+  "developer": "Addy Osmani",
+  "developerZh": "Addy Osmani",
+  "repo": "addyosmani/agent-skills",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx skills add addyosmani/agent-skills",
+  "logo": "/logos/skills/agent-skills.png",
+  "stars": 97521,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "这套技能集包含什么？",
+        "en": "What does this skill collection contain?",
+        "ja": "このスキル集には何が含まれていますか？",
+        "es": "¿Qué incluye esta colección de skills?",
+        "fr": "Que contient cette collection de compétences ?"
+      },
+      "answer": {
+        "zh": "25 个技能 + 9 个斜杠命令。命令按研发阶段划分：`/spec` 定义要做什么、`/plan` 拆成小任务、`/build` 增量实现、`/test` 用测试证明它能跑、`/constraints` 定质量标准、`/review` 合并前审查、`/webperf` 性能审计、`/code-simplify` 简化代码、`/ship` 上线。技能会在你做相应工作时自动触发——设计 API 触发 `api-and-interface-design`，做 UI 触发 `frontend-ui-engineering`。技能按 Define / Plan / Build / Verify / Review / Ship 六个阶段组织，覆盖 TDD、安全加固、可观测性、CI/CD、Git 工作流、文档与 ADR 等。",
+        "en": "25 skills plus 9 slash commands. The commands map to development phases: `/spec` for what to build, `/plan` for breaking it into small tasks, `/build` for incremental implementation, `/test` to prove it works, `/constraints` to set the quality bar, `/review` before merge, `/webperf` for performance audits, `/code-simplify` to reduce complexity, and `/ship` to release. Skills also activate automatically based on what you're doing — designing an API triggers `api-and-interface-design`, building UI triggers `frontend-ui-engineering`. They're organised into six stages — Define, Plan, Build, Verify, Review, Ship — and cover TDD, security hardening, observability, CI/CD, Git workflows, documentation and ADRs.",
+        "ja": "25のスキルと9つのスラッシュコマンド。コマンドは開発段階に対応します：`/spec` で何を作るか定義、`/plan` で小さなタスクに分解、`/build` で増分実装、`/test` で動作を証明、`/constraints` で品質基準を決定、`/review` でマージ前レビュー、`/webperf` で性能監査、`/code-simplify` で簡素化、`/ship` でリリース。スキルは作業内容に応じて自動起動します——API設計で `api-and-interface-design`、UI構築で `frontend-ui-engineering` がトリガーされます。Define / Plan / Build / Verify / Review / Ship の6段階で構成され、TDD・セキュリティ強化・可観測性・CI/CD・Gitワークフロー・ドキュメントとADRを網羅します。",
+        "es": "25 skills más 9 comandos con barra. Los comandos se mapean a fases del desarrollo: `/spec` para definir qué construir, `/plan` para partirlo en tareas pequeñas, `/build` para implementación incremental, `/test` para probar que funciona, `/constraints` para fijar la vara de calidad, `/review` antes de fusionar, `/webperf` para auditorías de rendimiento, `/code-simplify` para reducir complejidad y `/ship` para lanzar. Las skills también se activan automáticamente según lo que haces — diseñar una API activa `api-and-interface-design`, construir UI activa `frontend-ui-engineering`. Se organizan en seis etapas — Define, Plan, Build, Verify, Review y Ship — y cubren TDD, endurecimiento de seguridad, observabilidad, CI/CD, flujos Git, documentación y ADRs.",
+        "fr": "25 compétences plus 9 commandes. Les commandes correspondent aux phases de développement : `/spec` pour définir ce qu'on construit, `/plan` pour découper en petites tâches, `/build` pour une implémentation incrémentale, `/test` pour prouver que ça marche, `/constraints` pour fixer le niveau de qualité, `/review` avant la fusion, `/webperf` pour les audits de performance, `/code-simplify` pour réduire la complexité et `/ship` pour publier. Les compétences s'activent aussi automatiquement selon votre activité — concevoir une API déclenche `api-and-interface-design`, construire une UI déclenche `frontend-ui-engineering`. Elles sont organisées en six étapes — Define, Plan, Build, Verify, Review, Ship — et couvrent la TDD, le durcissement sécurité, l'observabilité, le CI/CD, les flux Git, la documentation et les ADR."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装？",
+        "en": "How do I install it?",
+        "ja": "インストール方法は？",
+        "es": "¿Cómo lo instalo?",
+        "fr": "Comment l'installer ?"
+      },
+      "answer": {
+        "zh": "最省事是通用 CLI 一行装完全部 25 个技能：`npx skills add addyosmani/agent-skills`，加 `--list` 可以先浏览再装。只装单个技能用 `npx skills add addyosmani/agent-skills --skill test-driven-development`。偏爱原生集成走 Claude Code 插件市场：`/plugin marketplace add addyosmani/agent-skills` 然后 `/plugin install agent-skills@addy-agent-skills`。仓库里也有 `.codex-plugin` 和 `.gemini` 目录，说明对 Codex 与 Gemini 有对应集成。注意一个已知缺陷：只装单个技能时只复制 `skills/<name>/`，不含仓库级的 `references/` 目录，技能本身能用但补充清单路径失效（issue #361 跟踪中）。",
+        "en": "Easiest is the universal CLI for all 25 skills in one line: `npx skills add addyosmani/agent-skills`, or add `--list` to browse before installing. For a single skill use `npx skills add addyosmani/agent-skills --skill test-driven-development`. Prefer a native integration and use the Claude Code plugin marketplace: `/plugin marketplace add addyosmani/agent-skills`, then `/plugin install agent-skills@addy-agent-skills`. The repository also ships `.codex-plugin` and `.gemini` directories, indicating matching integrations for Codex and Gemini. One known gap: installing a single skill copies only `skills/<name>/`, not the repo-level `references/` directory, so the skill still works but the paths to supplementary checklists break (tracked in issue #361).",
+        "ja": "最も手軽なのは汎用CLIで25のスキルを一行で入れる方法：`npx skills add addyosmani/agent-skills`、`--list` を付けるとインストール前に確認できます。単一スキルのみなら `npx skills add addyosmani/agent-skills --skill test-driven-development`。ネイティブ統合が好みならClaude Codeのプラグインマーケット：`/plugin marketplace add addyosmani/agent-skills` のあと `/plugin install agent-skills@addy-agent-skills`。リポジトリには `.codex-plugin` と `.gemini` ディレクトリも同梱されており、CodexとGemini向けの統合に対応しています。既知の欠陥が1つ：単一スキルだけインストールすると `skills/<name>/` しかコピーされず、リポジトリレベルの `references/` ディレクトリは含まれないため、スキル自体は動きますが補足チェックリストへのパスが壊れます（issue #361 で追跡中）。",
+        "es": "Lo más sencillo es el CLI universal para las 25 skills en una sola línea: `npx skills add addyosmani/agent-skills`, o añade `--list` para explorar antes de instalar. Para una sola skill usa `npx skills add addyosmani/agent-skills --skill test-driven-development`. Si prefieres una integración nativa, usa el marketplace de plugins de Claude Code: `/plugin marketplace add addyosmani/agent-skills` y luego `/plugin install agent-skills@addy-agent-skills`. El repositorio también incluye los directorios `.codex-plugin` y `.gemini`, lo que indica integraciones equivalentes para Codex y Gemini. Un vacío conocido: instalar una sola skill copia solo `skills/<name>/`, no el directorio `references/` a nivel de repositorio, así que la skill funciona pero las rutas a las listas de verificación suplementarias fallan (seguido en la issue #361).",
+        "fr": "Le plus simple est le CLI universel pour les 25 compétences en une ligne : `npx skills add addyosmani/agent-skills`, ou ajoutez `--list` pour explorer avant d'installer. Pour une seule compétence, `npx skills add addyosmani/agent-skills --skill test-driven-development`. De préférence une intégration native, utilisez le marketplace de plugins Claude Code : `/plugin marketplace add addyosmani/agent-skills` puis `/plugin install agent-skills@addy-agent-skills`. Le dépôt fournit aussi les dossiers `.codex-plugin` et `.gemini`, indiquant des intégrations équivalentes pour Codex et Gemini. Un point connu : installer une seule compétence ne copie que `skills/<name>/`, pas le dossier `references/` du dépôt, donc l'outil fonctionne mais les chemins vers les listes de contrôle supplémentaires cassent (suivi dans l'issue #361)."
+      }
+    },
+    {
+      "question": {
+        "zh": "这套技能是免费的吗？",
+        "en": "Is it free?",
+        "ja": "無料ですか？",
+        "es": "¿Es gratis?",
+        "fr": "Est-ce gratuit ?"
+      },
+      "answer": {
+        "zh": "完全免费，MIT 许可。没有任何付费档位或账号要求，仓库里的技能、命令、钩子和清单全部公开可读。",
+        "en": "Entirely free, MIT licensed. No paid tier and no account required — every skill, command, hook and checklist in the repository is public and readable.",
+        "ja": "完全無料で、MITライセンス。有料プランもアカウントも不要で、リポジトリ内のスキル・コマンド・フック・チェックリストはすべて公開されています。",
+        "es": "Totalmente gratis, con licencia MIT. Sin plan de pago ni cuenta requerida — todas las skills, comandos, hooks y listas del repositorio son públicas y legibles.",
+        "fr": "Entièrement gratuit, sous licence MIT. Aucun niveau payant et aucun compte requis — chaque compétence, commande, hook et liste de contrôle du dépôt est public et consultable."
+      }
+    },
+    {
+      "question": {
+        "zh": "和直接用 Claude Code 自带的功能有什么区别？",
+        "en": "How does it differ from what Claude Code already ships?",
+        "ja": "Claude Code 標準機能と何が違いますか？",
+        "es": "¿Cómo se diferencia de lo que Claude Code ya incluye?",
+        "fr": "Comment ça diffère de ce que Claude Code fournit déjà ?"
+      },
+      "answer": {
+        "zh": "区别在纪律，不在能力。Claude Code 给你工具，这套技能集给你一套固定的工程流程：先写 spec 再写代码、每个任务必须测试驱动、合并前必须过五轴审查、性能优化前必须先测量。它是把这些约束固化成 Agent 会自动遵循的规范，目的是让团队里不同人写出来的代码质量基线一致。另外它是 harness-agnostic 的——通过 skills CLI 能装进 70+ 个 Agent，不只是 Claude Code。",
+        "en": "The difference is discipline, not capability. Claude Code gives you tools; this collection gives you a fixed engineering process — write the spec before the code, every task must be test-driven, every merge must pass a five-axis review, measure before you optimise performance. It encodes those constraints as specs agents follow automatically, so the quality baseline stays consistent across different people on a team. It's also harness-agnostic — the skills CLI installs it into 70+ agents, not just Claude Code.",
+        "ja": "違いは能力ではなく規律にあります。Claude Code はツールを与え、このスキル集は固定されたエンジニアリングプロセスを与えます：コードを書く前にspecを書く、全タスクをテスト駆動で、マージ前に五軸レビューを必須化、性能最適化前に必ず測定。これらの制約をAgentが自動で従う規範として固定化し、チーム内で不同の人物が書いたコードの品質基線を揃えます。またHarness非依存で、skills CLI経由で70以上のAgentに入れるため、Claude Codeだけではありません。",
+        "es": "La diferencia es disciplina, no capacidad. Claude Code te da herramientas; esta colección te da un proceso de ingeniería fijo — escribe la spec antes que el código, cada tarea debe ser de prueba dirigida, cada fusión debe pasar una revisión de cinco ejes, mide antes de optimizar el rendimiento. Codifica esas restricciones como especificaciones que los agentes siguen automáticamente, para que la línea base de calidad se mantenga consistente entre distintas personas del equipo. Además es independiente de framework: el CLI de skills la instala en más de 70 agentes, no solo Claude Code.",
+        "fr": "La différence est une question de discipline, pas de capacité. Claude Code vous donne des outils ; cette collection vous donne un processus d'ingénierie fixe — écrire la spec avant le code, chaque tâche en test-driven, chaque fusion doit passer un examen à cinq axes, mesurer avant d'optimiser. Elle fixe ces contraintes en spécifications que les agents suivent automatiquement, pour garder une ligne de qualité cohérente entre différentes personnes d'une équipe. Elle est aussi indépendante du framework — le CLI de skills l'installe dans plus de 70 agents, pas seulement Claude Code."
+      }
+    }
+  ]
+}

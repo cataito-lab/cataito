@@ -1,7 +1,7 @@
 # OPERATIONS — 部署与运维手册
 
 > Cataito（cataito.com）运维要点。故障排查细节见 `docs/ranking/RUNBOOK.md`，决策背景见根目录 `DECISIONS.md`。
-> 最后更新：2026-09-20
+> 最后更新：2026-09-21
 
 ## 部署架构
 
