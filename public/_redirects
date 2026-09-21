@@ -115,3 +115,23 @@
 /ja/category/developer /ja/category/api-platform 301
 /es/category/developer /es/category/api-platform 301
 /fr/category/developer /fr/category/api-platform 301
+
+# 2026-08-11 下架的 8 个低星（<1000★）Skills：数据已删，静态导出下必然 404。
+# 重定向到 Skills 列表页，避免 GSC 长期挂着历史抓取记录的 404。
+# 只覆盖 en/zh —— ja/es/fr 在 TEMP_NOINDEX_LOCALES，不进 sitemap，Google 不会抓。
+/en/skills/ai-image-generation       /en/skills 301
+/en/skills/ai-video-generation       /en/skills 301
+/en/skills/browseract                /en/skills 301
+/en/skills/claude-scientific         /en/skills 301
+/en/skills/hyperdirector             /en/skills 301
+/en/skills/last30days                /en/skills 301
+/en/skills/remotion-best-practices   /en/skills 301
+/en/skills/video-production          /en/skills 301
+/zh/skills/ai-image-generation       /en/skills 301
+/zh/skills/ai-video-generation       /en/skills 301
+/zh/skills/browseract                /en/skills 301
+/zh/skills/claude-scientific         /en/skills 301
+/zh/skills/hyperdirector             /en/skills 301
+/zh/skills/last30days                /en/skills 301
+/zh/skills/remotion-best-practices   /en/skills 301
+/zh/skills/video-production          /en/skills 301
