@@ -1,0 +1,29 @@
+{
+  "slug": "laya",
+  "name": "Laya",
+  "nameZh": "Laya",
+  "description": "非自回归的「系统 1」决策引擎：类型化问题（choice/score/noul）单次前向传播即出决策并带校准置信度，约 33ms 一问、支持 100+ 语言，完全免费开源，上线数日 GitHub 即破 8k 星",
+  "descriptionEn": "Non-autoregressive 'System 1' decision engine: typed questions (choice/score/noul) answered in a single forward pass with calibrated confidence — ~33 ms per question, 100+ languages, free and open source, 8k+ GitHub stars within days of launch",
+  "descriptionJa": "非自己回帰の「システム1」意思決定エンジン。型付き質問（choice/score/noul）を1回の前向き伝播で較正済み置信度とともに回答。1問約33ms、100以上の言語に対応し、完全無料のオープンソース。公開から数日でGitHubスター8,000超",
+  "descriptionEs": "Motor de decisiones «Sistema 1» no autorregresivo: preguntas tipadas (choice/score/noul) respondidas en una sola pasada hacia adelante con confianza calibrada — ~33 ms por pregunta, más de 100 idiomas, gratis y de código abierto, 8k+ estrellas en GitHub días después del lanzamiento",
+  "descriptionFr": "Moteur de décision « Système 1 » non autorégressif : des questions typées (choice/score/noul) répondues en une seule passe vers l'avant avec une confiance calibrée — ~33 ms par question, plus de 100 langues, gratuit et open source, 8k+ étoiles GitHub quelques jours après le lancement",
+  "url": "https://laya.convaiinnovations.com",
+  "logo": "/logos/tools/laya.png",
+  "category": "Open Source",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "ConvAI Innovations",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

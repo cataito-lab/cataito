@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Non-autoregressive 'System 1' decisions: classification, ordinal scoring and binary risk questions answered in a single forward pass — no token-by-token generation, nothing to parse, nothing to hallucinate",
+      "Three typed question primitives: choice (top label plus per-option probabilities), score (expected level on an ordinal rubric) and noul (calibrated 0–1 probability) you can branch on directly in code",
+      "Three checkpoints and a Router that picks between them per request with sub-millisecond language detection — English, 100+ languages, or the typed-decisions specialist",
+      "Calibrated confidence trained with RLCD, so thresholds and abstention are meaningful rather than a raw softmax",
+      "Around 33 ms per question and 7.2 ms/question batched on a T4, with 100+ questions/second throughput for high-QPS pipelines",
+      "pip install laya, Apache-2.0, weights on Hugging Face — ~300–420M parameter encoders that run on a single GPU or CPU"
+    ],
+    "zh": [
+      "非自回归的「系统 1」决策：分类、有序打分与二元风险问题单次前向传播即出结果——不逐 token 生成，无需解析输出、也不会产生幻觉",
+      "三种类型化问题原语：choice（最优标签+各选项概率）、score（有序量规上的期望等级）、noul（0–1 校准概率），可直接在代码里分支",
+      "三个 checkpoint 加一个 Router 按请求自动调度，语言检测耗时亚毫秒级——英文、100+ 语言、类型化决策专精版各司其职",
+      "用 RLCD 训练出校准置信度，阈值切分与「弃权」是有意义的信号，而不是原始 softmax",
+      "T4 实测单问约 33ms、批量合每问 7.2ms，100+ 问/秒吞吐足以支撑高 QPS 流水线",
+      "`pip install laya`，Apache-2.0，权重公开在 Hugging Face——3 到 4 亿参数的编码器，单卡甚至 CPU 即可运行"
+    ],
+    "ja": [
+      "非自己回帰の「システム1」意思決定：分類・順序スコアリング・二値リスク質問に1回の前向き伝播で回答——トークン生成がなく、出力解析もハルシネーションも不要",
+      "3つの型付き質問プリミティブ：choice（最適ラベルと各候補の確率）、score（順序ルーブリック上の期待レベル）、noul（0–1の較正確率）。コードで直接分岐可能",
+      "3つのチェックポイントと、リクエストごとに自動選択するRouter。言語検出はミリ秒未満——英語用、100以上言語用、型付き決定特化を使い分け",
+      "RLCDで較正された置信度を学習。しきい値カットや「棄権」が生きのsoftmaxではなく意味のある信号になる",
+      "T4実測で1問約33ms、バッチ時は1問7.2ms。毎問100問超のスループットで高QPSパイプラインに耐える",
+      "`pip install laya`、Apache-2.0、重みはHugging Faceで公開。3〜4.2億パラメータのエンコーダで、単一GPUやCPUでも動く"
+    ],
+    "es": [
+      "Decisiones «Sistema 1» no autorregresivas: clasificación, puntuación ordinal y preguntas de riesgo binario resueltas en una sola pasada hacia adelante — sin generación token a token, nada que parsear, nada que alucinar",
+      "Tres primitivas tipadas: choice (etiqueta ganadora con probabilidades por opción), score (nivel esperado en una rúbrica ordinal) y noul (probabilidad calibrada 0–1) sobre las que puedes ramificar directamente en código",
+      "Tres checkpoints y un Router que elige entre ellos por petición con detección de idioma en menos de un milisegundo — inglés, 100+ idiomas o el especialista en decisiones tipadas",
+      "Confianza calibrada entrenada con RLCD: los umbrales y la abstención son señales útiles, no un softmax en bruto",
+      "Unos 33 ms por pregunta y 7,2 ms/pregunta en lote medidos en una T4, con rendimiento de más de 100 preguntas por segundo para pipelines de alta carga",
+      "`pip install laya`, Apache-2.0, pesos públicos en Hugging Face — codificadores de ~300–420M parámetros que corren en una sola GPU o en CPU"
+    ],
+    "fr": [
+      "Décisions « Système 1 » non autorégressives : classification, notation ordinale et questions de risque binaire traitées en une seule passe vers l'avant — pas de génération token par token, rien à analyser, rien à halluciner",
+      "Trois primitives typées : choice (meilleure étiquette avec probabilités par option), score (niveau attendu sur une échelle ordinale) et noul (probabilité calibrée 0–1), exploitables directement dans votre code",
+      "Trois checkpoints et un Router qui choisit par requête avec une détection de langue en moins d'une milliseconde — anglais, 100+ langues, ou le spécialiste des décisions typées",
+      "Confiance calibrée entraînée par RLCD : les seuils et l'abstention deviennent des signaux utiles, pas un softmax brut",
+      "Environ 33 ms par question et 7,2 ms/question en batch mesurés sur une T4, de quoi tenir des pipelines à fort débit (100+ questions/seconde)",
+      "`pip install laya`, Apache-2.0, poids publics sur Hugging Face — des encodeurs de ~300–420M paramètres qui tournent sur un seul GPU, voire sur CPU"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Completely free and open source (Apache-2.0, `pip install laya`) — inference runs on your own hardware, so the only cost is downloading the weights from Hugging Face once",
+      "zh": "完全免费开源（Apache-2.0，`pip install laya`）——推理跑在你自己的机器上，唯一开销是一次性从 Hugging Face 下载模型权重",
+      "ja": "完全無料のオープンソース（Apache-2.0、`pip install laya`）。推論は自分のマシンで動くため、費用はHugging Faceからの重みの初回ダウンロードのみ",
+      "es": "Totalmente gratis y de código abierto (Apache-2.0, `pip install laya`): la inferencia corre en tu propio hardware, así que el único coste es descargar una vez los pesos desde Hugging Face",
+      "fr": "Totalement gratuit et open source (Apache-2.0, `pip install laya`) — l'inférence tourne sur votre propre matériel, le seul coût étant le téléchargement unique des poids depuis Hugging Face"
+    },
+    "paid": {
+      "en": "No paid plans exist — nothing to buy, no subscription and no per-token billing; budget only for the hardware (a modest GPU helps, but small enough to run on CPU)",
+      "zh": "不存在付费档——无可购买项、无订阅、无按 token 计费；只需为硬件预算（有块入门 GPU 更舒服，但小到能在 CPU 上跑）",
+      "ja": "有料プランは存在しない——購入物もサブスクも従量課金もなし。予算はハードウェアのみ（エントリー級GPUがあると快適だが、CPUでも動作する小型）",
+      "es": "No existen planes de pago — nada que comprar, sin suscripción ni facturación por token; presupuesta solo el hardware (una GPU modesta ayuda, pero es lo bastante pequeño para CPU)",
+      "fr": "Aucun plan payant n'existe — rien à acheter, pas d'abonnement ni de facturation au token ; seul le matériel est à budgéter (un GPU modeste aide, mais c'est assez petit pour tourner sur CPU)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Routing each agent request to the cheapest model that can handle it, in real time",
+      "Prompt guardrails, jailbreak and phishing detection where a second of LLM latency is too expensive",
+      "Content moderation and spam filtering at high QPS across 100+ languages",
+      "Ticket triage: department, urgency and churn-risk signals computed on every inbound message"
+    ],
+    "zh": [
+      "把每条 Agent 请求实时路由到「够用里最便宜」的那个模型",
+      "提示词护栏、越狱与钓鱼检测——这些场景里 LLM 的一秒延迟都太贵",
+      "100+ 语言、高 QPS 的内容审核与垃圾信息过滤",
+      "工单分诊：对每条来件实时计算所属部门、紧急度与流失风险信号"
+    ],
+    "ja": [
+      "エージェントの各リクエストを、対応可能な最安モデルへリアルタイムにルーティング",
+      "LLMの1秒遅延が高すぎるプロンプトガードレール、脱獄・フィッシング検知",
+      "100以上の言語・高QPSでのコンテンツモデレーションとスパムフィルタリング",
+      "チケットのトリアージ：受信ごとに部署・緊急度・離脱リスクのシグナルを算出"
+    ],
+    "es": [
+      "Enrutar cada petición del agente en tiempo real al modelo más barato capaz de resolverla",
+      "Guardiales de prompt, detección de jailbreak y phishing donde un segundo de latencia LLM cuesta caro",
+      "Moderación de contenido y filtrado de spam a alto QPS en más de 100 idiomas",
+      "Triaje de tickets: departamento, urgencia y riesgo de abandono calculados sobre cada mensaje entrante"
+    ],
+    "fr": [
+      "Aiguiller en temps réel chaque requête de l'agent vers le modèle le moins cher capable de la traiter",
+      "Garde-fous de prompt, détection de jailbreak et de phishing là où une seconde de latence LLM coûte trop cher",
+      "Modération de contenu et filtrage de spam à haut débit dans 100+ langues",
+      "Triage de tickets : département, urgence et risque de churn calculés sur chaque message entrant"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Latency is a different class from LLM-as-judge: ~33 ms per call, batched to 7.2 ms — dozens of times cheaper at high QPS",
+      "Calibrated confidence and an abstention signal make threshold-based routing and guardrails actually trustworthy",
+      "Genuinely multilingual: 51-language per-language accuracy reported, rare for a model this small",
+      "Apache-2.0 with public weights, small enough to self-host anywhere, and honest published limitations"
+    ],
+    "zh": [
+      "延迟与「LLM 当裁判」根本不是一个量级：单调用约 33ms、批量 7.2ms，高 QPS 下成本直接低几十倍",
+      "校准置信度加弃权信号，让按阈值切分的路由与护栏真正可信、可运营",
+      "名副其实的多语言：公开了 51 种语言的逐语言精度，对这么小的模型很罕见",
+      "Apache-2.0 权重公开、小到随处可自托管，README 还坦率列出自身局限"
+    ],
+    "ja": [
+      "遅延が「LLMを審判に使う」とは別次元：1呼出約33ms、バッチで7.2ms。高QPSではコストが数十分の一",
+      "較正された置信度と棄権シグナルにより、しきい値ベースのルーティングやガードレールが実運用に耐える",
+      "本物の多言語対応：51言語の言語別精度を公開。このサイズでは珍しい",
+      "Apache-2.0で重みも公開、小さくどこでもセルフホスト可能、READMEで限界も率直に開示"
+    ],
+    "es": [
+      "La latencia juega en otra liga frente a usar un LLM como juez: ~33 ms por llamada, 7,2 ms en lote — decenas de veces más barato a alto QPS",
+      "La confianza calibrada y la señal de abstención hacen que el enrutado por umbrales y los guardiales sean de fiar en producción",
+      "Realmente multilingüe: publica precisión por idioma en 51 lenguas, raro en un modelo tan pequeño",
+      "Apache-2.0 con pesos públicos, lo bastante pequeño para autoalojarlo en cualquier sitio, y limitaciones honestamente documentadas"
+    ],
+    "fr": [
+      "La latence n'a rien de comparable avec un LLM jugé : ~33 ms par appel, 7,2 ms en batch — des dizaines de fois moins cher à haut débit",
+      "La confiance calibrée et le signal d'abstention rendent exploitable en production le routage par seuils et les garde-fous",
+      "Réellement multilingue : précision publiée par langue sur 51 idiomes, rare pour un modèle si petit",
+      "Apache-2.0 avec poids publics, assez petit pour s'auto-héberger partout, et des limites honnêtement documentées"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Short context by design: 512–1,024 tokens shared between the option list and the input — no long-document work",
+      "Struggles with many options: on Banking77's 77 labels it scores 0.425 vs the Jev baseline's 0.870 at default settings",
+      "Days old with a Beta PyPI status — APIs, checkpoints and numbers can still shift fast; benchmarks are author-reported",
+      "Answers typed questions only: no reasoning, no explanations, no free text — anything open-ended still needs a generative model"
+    ],
+    "zh": [
+      "上下文天生短：512–1024 token 还要和选项列表分摊——长文档任务请直接绕路",
+      "选项一多就吃力：默认设置下 Banking77 的 77 类只拿 0.425，对标 Jev 基线的 0.870",
+      "项目仅数天历史、PyPI 标注 Beta——API、checkpoint 与跑分都可能快速变动，基准数据目前为作者自报",
+      "只会回答「类型化问题」：不推理、不解释、不出自由文本——开放性任务仍需生成模型"
+    ],
+    "ja": [
+      "コンテキストは構造的に短い：512–1024トークンを選択肢リストと入力文で分け合うため、長文文書タスクには不向き",
+      "候補が多いと苦戦：デフォルト設定のBanking77（77クラス）では0.425にとどまり、Jevベースラインの0.870に大きく及ばない",
+      "公開から数日でPyPIはBeta表記——API・チェックポイント・数値ともに変動しやすく、ベンチマークは現時点で作者側申告",
+      "答えるのは「型付き質問」のみ：推論・説明・自由テキストは不可。オープンエンドなタスクは引き続き生成モデルが必要"
+    ],
+    "es": [
+      "Contexto corto por diseño: 512–1.024 tokens que se reparten entre la lista de opciones y la entrada — nada de documentos largos",
+      "Sufre con muchas opciones: en las 77 etiquetas de Banking77 marca 0,425 frente al 0,870 de la referencia Jev con valores por defecto",
+      "Con días de vida y estado Beta en PyPI — API, checkpoints y cifras pueden cambiar rápido; los benchmarks son autorreportados",
+      "Solo responde preguntas tipadas: sin razonamiento, sin explicaciones, sin texto libre — lo abierto sigue necesitando un modelo generativo"
+    ],
+    "fr": [
+      "Contexte court par conception : 512–1 024 tokens partagés entre la liste d'options et l'entrée — place aux documents longs ailleurs",
+      "Faiblit avec beaucoup d'options : sur les 77 étiquettes de Banking77, 0,425 contre 0,870 pour la référence Jev par défaut",
+      "Quelques jours à peine d'existence, statut Beta sur PyPI — API, checkpoints et chiffres peuvent encore bouger vite ; benchmarks auto-déclarés",
+      "Ne répond qu'aux questions typées : pas de raisonnement, pas d'explication, pas de texte libre — l'ouvert reste l'affaire d'un modèle génératif"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026-09: Laya launched on GitHub (2026-09-18) and hit the Hacker News front page two days later (1,300+ points), passing 8,000 stars within its first week; PyPI 0.3.4 ships the Router, the three typed decision primitives and the multilingual checkpoint, with a public benchmark report against Jev 1.13.0.",
+    "zh": "2026-09：Laya 于 2026-09-18 开源上线，两天后登上 Hacker News 首页（1300+ 分），首周 GitHub 星数破 8000；PyPI 0.3.4 已带 Router、三种类型化决策原语与多语言 checkpoint，并公开了对标 Jev 1.13.0 的完整基准报告。",
+    "ja": "2026-09：Layaは2026-09-18にGitHubで公開され、2日後にHacker Newsトップ（1300超ポイント）に到達、初週でスター8,000を突破。PyPI 0.3.4にはRouter、3つの型付き決定プリミティブ、多言語チェックポイントが同梱され、Jev 1.13.0との公開ベンチレポートも提供。",
+    "es": "2026-09: Laya se lanzó en GitHub (18-09-2026) y dos días después llegó a portada de Hacker News (1300+ puntos), superando 8.000 estrellas la primera semana; PyPI 0.3.4 incluye el Router, las tres primitivas tipadas y el checkpoint multilingüe, con un informe público de benchmarks frente a Jev 1.13.0.",
+    "fr": "2026-09 : Laya est sorti sur GitHub (18/09/2026) et a rejoint la une de Hacker News deux jours plus tard (1300+ points), dépassant 8 000 étoiles la première semaine ; PyPI 0.3.4 embarque le Router, les trois primitives typées et le checkpoint multilingue, avec un rapport de benchmarks public face à Jev 1.13.0."
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "The fastest way to make small AI decisions — if your input fits in a short context",
+      "zh": "让 AI 做「小决策」的最快路径——前提是输入装得进短上下文",
+      "ja": "AIに「小さな判断」をさせる最速の道——入力が短いコンテキストに収まるなら",
+      "es": "La forma más rápida de tomar pequeñas decisiones con IA — si tu entrada cabe en un contexto corto",
+      "fr": "La façon la plus rapide de prendre de petites décisions IA — pourvu que votre entrée tienne dans un contexte court"
+    },
+    "body": {
+      "en": "Laya bets that most operational AI decisions don't need generation at all. Instead of prompting a large model to classify, route or score, a ~400M-parameter non-autoregressive encoder answers typed questions in a single forward pass — around 33 ms, with calibrated confidence, in 100+ languages, at a cost that self-hosting makes nearly zero. For agent routing, guardrails, moderation and ticket triage at real QPS, that profile is close to unbeatable, and the Router-plus-presets design collapses a weekend of plumbing into a few lines. The limits are architectural and honest: 512–1,024 tokens shared between options and input rules out long documents; many-label tasks fall off hard (Banking77 at 0.425 versus Jev's 0.870); and typed questions mean no reasoning, no explanations, no free text. Add a project that is days old with author-reported benchmarks, and this stays a specialist tool rather than a default. If your problem is 'decide fast, thousands of times an hour, over short text', Laya is worth prototyping today; if it's 'understand this document' or 'explain why', keep reaching for generative models.",
+      "zh": "Laya 赌的是：绝大多数运营类 AI 决策根本不需要「生成」。与其 prompt 一个大模型去分类、路由或打分，不如让一个约 4 亿参数的非自回归编码器单次前向传播直接答类型化问题——约 33ms、置信度校准、100+ 语言、自托管后成本趋近于零。对真实 QPS 下的 Agent 路由、护栏、审核与工单分诊，这套画像几乎无可匹敌，Router 加内置预设还把一整天的管线搭建压缩成几行代码。但它的限制是架构级的、且作者坦率承认：512–1024 token 还要与选项列表分摊，长文档直接出局；标签一多精度崩塌（Banking77 上 0.425 对 Jev 的 0.870）；类型化问题意味着不推理、不解释、不出自由文本。再加上一个只有几天历史、基准全为作者自报的项目——它注定是专项工具而非默认选项。如果你的问题是「对短文本、每小时几千次、快速拍板」，Laya 值得今天就上手验证；如果是「读懂这份文档」或「解释为什么」，请继续找生成模型。",
+      "ja": "Layaの賭けは明快だ——運用系のAI判断の大半には「生成」など不要だというのだ。大きなモデルにプロンプトを投げ分類・ルーティング・採点させる代わりに、約4億パラメータの非自己回帰エンコーダが型付き質問へ1回の前向き伝播で答える。約33ms、置信度は較正済み、100以上の言語、セルフホストならコストはほぼゼロ。実務級のQPSで動くエージェントのルーティング、ガードレール、モデレーション、チケットトリアージなら、この出で立ちはほぼ無敵だし、Routerとプリセットで半日分の配管作業が数行に消える。一方で制約はアーキテクチャ由来で、しかも正直に開示されている：512–1024トークンを選択肢と入力で分け合うため長文書は不可、ラベルが増えると精度が急落（Banking77で0.425、Jevは0.870）、型付き質問ゆえ推論も説明も自由記述もできない。公開数日・ベンチマークは作者申告という点も重なって、これは既定の選択肢ではなく専門工具だ。課題が「短いテキストを、毎時数千回、速く判断する」なら今日から検証する価値がある。「この文書を読み解く」「理由を説明する」なら、引き続き生成モデルの出番だ。",
+      "es": "La apuesta de Laya: la mayoría de las decisiones operativas de IA no necesitan generación en absoluto. En lugar de pedirle a un modelo grande que clasifique, enrute o puntúe, un codificador no autorregresivo de ~400M parámetros responde preguntas tipadas en una sola pasada — unos 33 ms, con confianza calibrada, en más de 100 idiomas y a un coste que el autoalojamiento deja cerca de cero. Para enrutar agentes, guardiales, moderación y triaje de tickets a QPS reales, ese perfil es casi imbatible, y el diseño Router + presets convierte una jornada de fontanería en cuatro líneas. Los límites son arquitectónicos y honestos: 512–1.024 tokens compartidos entre opciones y entrada descartan documentos largos; con muchas etiquetas la precisión se desploma (0,425 en Banking77 frente al 0,870 de Jev); y las preguntas tipadas significan sin razonamiento, sin explicaciones, sin texto libre. Súmale un proyecto con días de vida y benchmarks autorreportados, y tienes una herramienta especializada, no un valor por defecto. Si tu problema es «decidir rápido, miles de veces por hora, sobre texto corto», Laya merece un prototipo hoy; si es «entender este documento» o «explicar por qué», sigue con los modelos generativos.",
+      "fr": "Le pari de Laya : la plupart des décisions opérationnelles n'ont pas besoin de génération. Plutôt que de demander à un grand modèle de classer, aiguiller ou noter, un encodeur non autorégressif d'environ 400M de paramètres répond aux questions typées en une seule passe — environ 33 ms, confiance calibrée, 100+ langues, et un coût que l'auto-hébergement rapproche de zéro. Pour le routage d'agents, les garde-fous, la modération et le triage de tickets à vrai débit, ce profil est presque imbattable, et le Router avec ses presets réduit une journée de plomberie à quelques lignes. Les limites sont architecturales et assumées : 512–1 024 tokens partagés entre options et entrée excluent les longs documents ; les jeux à étiquettes nombreuses s'effondrent (0,425 sur Banking77 contre 0,870 pour Jev) ; et questions typées signifient pas de raisonnement, pas d'explication, pas de texte libre. Ajoutez un projet vieux de quelques jours et des benchmarks auto-déclarés : Laya reste un outil spécialisé, pas un choix par défaut. Si votre problème est « décider vite, des milliers de fois par heure, sur du texte court », prototypez-le dès aujourd'hui ; s'il s'agit de « comprendre ce document » ou « expliquer pourquoi », restez-en aux modèles génératifs."
+    },
+    "bestFor": {
+      "en": [
+        "High-QPS agent routing, guardrails, moderation and triage where every millisecond and every cent per call counts",
+        "Multilingual decision pipelines that can't afford per-token LLM pricing in 100+ languages",
+        "CPU/single-GPU deployments where a 400M-parameter model fits and a 70B doesn't"
+      ],
+      "zh": [
+        "高 QPS 的 Agent 路由、护栏、审核与工单分诊——每次调用的毫秒与美分都要抠的场景",
+        "100+ 语言决策流水线，按 token 计费的 LLM 供不起",
+        "只有 CPU 或单卡的部署环境，装得下 4 亿参数、装不下 700 亿"
+      ],
+      "ja": [
+        "高QPSのエージェントルーティング、ガードレール、モデレーション、トリアージ——1msと1セントが効く現場",
+        "トークン課金のLLMでは回せない100以上の言語を持つ判断パイプライン",
+        "CPUや単一GPUの環境に4億パラメータは収まるが700億は収まらないデプロイ"
+      ],
+      "es": [
+        "Enrutado de agentes, guardiales, moderación y triaje a alto QPS donde cuentan cada milisegundo y cada céntimo por llamada",
+        "Pipelines de decisión multilingües que no pueden pagar un LLM por token en 100+ idiomas",
+        "Despliegues en CPU o GPU única donde caben 400M de parámetros pero 70B no"
+      ],
+      "fr": [
+        "Routage d'agents, garde-fous, modération et triage à haut débit où chaque milliseconde et chaque centime comptent",
+        "Pipelines décisionnels multilingues que le tarif au token d'un LLM rendrait impossibles",
+        "Déploiements CPU ou mono-GPU où 400M de paramètres passent et 70B non"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need reasoning, explanations or free-text output alongside the decision (→ a generative LLM via OpenAI or Claude)",
+        "Inputs are long documents or dozens of options (→ fine-tune your own classifier via Hugging Face, which owns this ground anyway)"
+      ],
+      "zh": [
+        "决策之外还需要推理、解释或自由文本输出（→ OpenAI、Claude 等生成式 LLM）",
+        "输入是长文档或几十个选项（→ 用 Hugging Face 微调自己的分类器，长列表本来就归它管）"
+      ],
+      "ja": [
+        "判断に加えて推論・説明・自由記述出力が要る（→ OpenAIやClaudeなどの生成型LLM）",
+        "入力が長文書、あるいは選択肢が数十個に及ぶ（→ Hugging Faceで自前の分類器をファインチューニング。もともとこの土俵はそちらの領分）"
+      ],
+      "es": [
+        "Necesitas razonamiento, explicaciones o salida en texto libre junto a la decisión (→ un LLM generativo vía OpenAI o Claude)",
+        "Las entradas son documentos largos o docenas de opciones (→ entrena tu propio clasificador con Hugging Face, terreno que ya controla él)"
+      ],
+      "fr": [
+        "Il vous faut raisonnement, explications ou sortie en texte libre en plus de la décision (→ un LLM génératif via OpenAI ou Claude)",
+        "Vos entrées sont de longs documents ou des dizaines d'options (→ affinez votre propre classifieur avec Hugging Face, qui tient déjà ce terrain)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-09-22",
+    "verdictDate": "2026-09-22",
+    "pricingVerified": "2026-09-22"
+  }
+}

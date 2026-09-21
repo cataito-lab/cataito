@@ -195,7 +195,8 @@
     "llamaindex",
     "qm",
     "polar",
-    "deepseek-harness"
+    "deepseek-harness",
+    "laya"
   ],
   "skills": [
     "awesome-selfhosted",
