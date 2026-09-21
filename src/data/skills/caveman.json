@@ -27,7 +27,7 @@
   ],
   "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
   "logo": "/logos/skills/caveman.png",
-  "stars": 106967,
+  "stars": 107052,
   "featured": false,
   "faqs": [
     {
