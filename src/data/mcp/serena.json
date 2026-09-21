@@ -23,7 +23,7 @@
   ],
   "installCommand": "uvx --from git+https://github.com/oraios/serena serena start-mcp-server",
   "logo": "/logos/mcp/serena.png",
-  "stars": 29655,
+  "stars": 29679,
   "featured": false,
   "faqs": [
     {

@@ -19,7 +19,7 @@
   ],
   "installCommand": "git clone https://github.com/Evianis/travel-photo-abstraction ~/.codex/skills/travel-photo-abstraction",
   "logo": "/logos/skills/travel-photo-abstraction.png",
-  "stars": 767,
+  "stars": 771,
   "featured": false,
   "faqs": [
     {

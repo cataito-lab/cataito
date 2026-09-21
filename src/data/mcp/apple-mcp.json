@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y apple-mcp",
   "logo": "/logos/mcp/apple-mcp.png",
-  "stars": 3131,
+  "stars": 3130,
   "featured": false,
   "faqs": [
     {
