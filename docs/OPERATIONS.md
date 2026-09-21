@@ -38,9 +38,9 @@
 - **快照断档不可回补**：`snapshots/` 日快照是周榜/月榜的增量基准，GitHub API 查不到历史星数。失败自动开 issue，发现断档当天立即手动补跑
 - **排行榜变更四步走**：递增 `ALGO_VERSION` → `docs/ranking/ALGO-CHANGELOG.md` 追加 → `--dry` 对比前 20 → `algo:` 前缀单独 commit
 - **收录规模上限 350 条**（2026-09-06 定）：CF Pages 单次部署上限 20,000 文件（实测 10,636 @ 195 条），扩容前先拆子站或瘦身
-- **多语言 noindex**：ja/es/fr 全站 noindex（`src/i18n/routing.ts` 的 `TEMP_NOINDEX_LOCALES` 单一来源，同步驱动 robots / hreflang / sitemap），本地化完成后移除即全链路恢复
+- **多语言 noindex 安全阀**（2026-09-21 已解除，集合置空）：2026-03 spam update 期间 ja/es/fr 因描述未本地化全站 noindex；现 195 工具 + 41 Skills + 55 MCP 五语言描述已补齐，恢复 index。机制保留在 `src/i18n/routing.ts` 的 `TEMP_NOINDEX_LOCALES`（同步驱动 robots / hreflang / sitemap 三处过滤），未来新语种本地化未达标时加回即可
 - **新增子站**：只改两处——`src/lib/sites.ts` 追加条目（`id` / `url` / `icon`）+ `messages/*.json` 的 `sites` 段补 `name` / `desc` 五语言词条（`id` 必须与词条键一致）。Header 桌面下拉、移动端菜单、Footer 生态列三处由 `SITES.map()` 驱动，组件零改动；改完 `tsc --noEmit` + `next build` 验证 JSON 与静态导出
-- **下架内容必须同步配 301 兜底**：删除任何条目（tools/skills/mcp/blog）后，同一提交里在 `public/_redirects` 追加其 URL → 列表页的 301。`output: 'export'` 下被删的路由必然 404，不配 301 就会让 GSC 长期挂着历史抓取记录的 404 警告（2026-08-11 下架 8 个低星 Skills 时漏做，08-19 才补）。只覆盖 en/zh —— ja/es/fr 在 `TEMP_NOINDEX_LOCALES` 不进 sitemap，Google 不会抓
+- **下架内容必须同步配 301 兜底**：删除任何条目（tools/skills/mcp/blog）后，同一提交里在 `public/_redirects` 追加其 URL → 列表页的 301。`output: 'export'` 下被删的路由必然 404，不配 301 就会让 GSC 长期挂着历史抓取记录的 404 警告（2026-08-11 下架 8 个低星 Skills 时漏做，08-19 才补）。五语种全覆盖——2026-09-21 ja/es/fr 解除 noindex 后已补齐其 301，此前"noindex 语种不进 sitemap 可豁免"的口径作废
 - **AI 爬虫封锁只走 robots.txt，绝不用 CF「训练=阻止」**（2026-09-15 起生效）：Cloudflare AI 自动程序策略按"最严格规则"处理多用途爬虫，Googlebot / Bingbot / Applebot 兼具 Search+Training 行为，**"训练=阻止"会连 Googlebot 一起网络层封锁**（Google 无法绕过）→ 全站无法被搜索收录。正确做法：CF 三项设为"搜索=允许、代理=阻止、训练=允许"，纯训练爬虫（GPTBot/ClaudeBot/CCBot/Google-Extended 等）在 `src/app/robots.ts` 逐条 disallow。AI 搜索爬虫（OAI-SearchBot/PerplexityBot 等）保留以获取引用流量
 - **内容审计**：`npm run audit:all`（信息过期/Verdict 腐化/Pricing 漂移，warn-only）；DRIFT 对 JS 渲染定价页是已知误报，人工核对即可
 
