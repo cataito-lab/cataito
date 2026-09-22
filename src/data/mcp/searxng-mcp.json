@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y mcp-searxng",
   "logo": "/logos/mcp/searxng-mcp.png",
-  "stars": 1250,
+  "stars": 1251,
   "featured": false,
   "faqs": [
     {
