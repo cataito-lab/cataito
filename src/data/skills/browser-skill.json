@@ -25,7 +25,7 @@
   ],
   "installCommand": "curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh",
   "logo": "/logos/skills/browser-skill.png",
-  "stars": 6423,
+  "stars": 6616,
   "featured": false,
   "faqs": [
     {
