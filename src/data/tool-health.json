@@ -1,2347 +1,2347 @@
 {
-  "updatedAt": "2026-09-22T15:11:55.655Z",
+  "updatedAt": "2026-09-23T09:17:53.565Z",
   "summary": {
     "total": 292,
     "ok": 0,
     "dead": 0,
-    "unreachable": 291
+    "unreachable": 292
   },
   "tools": {
     "chatgpt": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "claude": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "gemini": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "grok": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "deepseek": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "qwen": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "wenxin": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "doubao": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "zhipu": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "kimi": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "yuanbao": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "midjourney": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "dalle": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "stable-diffusion": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "github-copilot": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "cursor": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "perplexity": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "notion-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "jasper": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "runway": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "elevenlabs": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "suno": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "hugging-face": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "langchain": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "v0": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "zapier-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "autogpt": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "copy-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "descript": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "replit-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "canva-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "leonardo-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "pika": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "deepl": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "tabnine": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "character-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "whisper": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "llama": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "hermes-agent": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "jimeng-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "kling-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "windsurf": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "sora": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "mistral": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "ollama": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "bolt-new": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "heygen": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "google-ai-studio": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "cohere": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "minimax": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "ideogram": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "phind": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "figma-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "iflytek-spark": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "tiangong-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "yi-lingyi": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "baichuan-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "sensechat": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "stepfun": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "360-zhinao": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "meta-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "phi-4": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "amazon-nova": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "xiaomi-mimo": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "adobe-firefly": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "flux-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "veo": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "luma-dream-machine": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "vidu": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "udio": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "claude-code": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "lovable": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "dify": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "coze": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "manus": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "groq": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "openrouter": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "codex": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "qoder": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "qodercn": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "openclaw": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "workbuddy": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "workbuddy-cn": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "seedance": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "coze-cn": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "miora": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "kimi-code": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "kimi-code-cn": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "trae": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "trae-cn": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "zcode": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "zcode-cn": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "marvis": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "nano-banana": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "sensenova": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "openwork": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "grok-build": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "hunyuan": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "pangu": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "nvidia-nemotron": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "ibm-granite": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "apple-foundation-models": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "devin": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "openhands": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "crewai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "browser-use": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "genspark": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "langgraph": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "microsoft-agent-framework": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "pydantic-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "mastra": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "flowise": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "factory-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "goose": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "lindy": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "gumloop": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "skyvern": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "make-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "agentforce": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "copilot-studio": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "cline": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "aider": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "warp": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "augment-code": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "pi": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "recraft": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "reve": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "playground-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "hailuo": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "pixverse": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "pixverse-cn": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "metaso": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "felo": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "kagi": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "fish-audio": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "minimax-audio": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "synthesia": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "d-id": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "tavus": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "together-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "fireworks-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "replicate": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "fal-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "cerebras": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "sambanova": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "novita": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "hyperbolic": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "cartesia": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "exa": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "stable-audio": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "framer": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "krea": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "uizard": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "visily": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "relume": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "banani": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "grammarly": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "quillbot": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "rytr": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "sudowrite": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "prowritingaid": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "kiro": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "jules": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "jetbrains-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "amp": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "microsoft-copilot": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "poe": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "notebooklm": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "consensus": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "murf-ai": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "krisp": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "opusclip": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "capcut": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "veed": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "photoroom": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "lm-studio": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "wordtune": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "n8n": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "gsap": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "voicebox": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "ui-ux-pro-max": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "reasonix": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "impeccable": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "remotion": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "hyperframes": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "firecrawl": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "codex-dream-skin": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "markitdown": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "aitoearn": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "wigolo": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "voxcpm": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "llamaindex": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "qm": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "polar": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "deepseek-harness": {
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "awesome-selfhosted": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "superpowers": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "grill-me": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "grill-with-docs": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "improve-codebase-architecture": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "agency-agents": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "banner-design": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "brand": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "design": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "design-system": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "slides": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "ui-styling": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "caveman": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "taste-skill": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "agent-reach": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "media-crawler": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "humanizer": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "nuwa-skill": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "find-skills": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "book-to-skill": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "tencentdb-agent-memory": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "huashu-design": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "pyvideotrans": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "humanizer-zh": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "ian-xiaohei-illustrations": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "horizon": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "gc-minimal-zine-poster": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "guizang-social-card": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "photo-abstract-editorial": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "gathered-scenes-zine-skill": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "generative-media-skills": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "qwen-mm-plugins": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "agent-skill-creator": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "auto-redbook-skills": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "global-stock-data": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "travel-photo-abstraction": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "photo-stamp-archive": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "lumina-card": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "mcp-official-servers": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "context7": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "chrome-devtools-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "playwright-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "github-mcp-server": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "composio": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "serena": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "task-master": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "blender-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "figma-context-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "unity-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "ida-pro-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "aws-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "desktop-commander": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "firecrawl-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "browser-tools": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "browser-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "xcodebuild-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "whatsapp-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "atlassian-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "magic-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "exa-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "notion-mcp-server": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "obsidian-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "antv-chart": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "excel-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "cloudflare-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "azure-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "grafana-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "apple-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "supabase-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "perplexity-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "tavily-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "office-word-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "office-ppt-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "slack-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "stripe-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "kubernetes-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "minimax-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "docker-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "elevenlabs-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "terraform-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "qdrant-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "duckduckgo-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "brave-search-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "searxng-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "gmail-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "mongodb-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "cloudbase-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "sentry-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "smithery": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "elasticsearch-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "neon-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "redis-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "edgeone-pages-mcp": {
       "kind": "mcp",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 31,
+      "unreachableStreak": 32,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "anthropic-skills": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 4,
+      "unreachableStreak": 5,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "agent-skills": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 4,
+      "unreachableStreak": 5,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "browser-skill": {
       "kind": "skill",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 4,
+      "unreachableStreak": 5,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     },
     "laya": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 3,
+      "unreachableStreak": 4,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-09-22"
+      "lastChecked": "2026-09-23"
     }
   }
 }
