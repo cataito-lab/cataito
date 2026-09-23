@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @brave/brave-search-mcp-server",
   "logo": "/logos/mcp/brave-search-mcp.png",
-  "stars": 1458,
+  "stars": 1460,
   "featured": false,
   "faqs": [
     {
