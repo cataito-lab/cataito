@@ -21,7 +21,7 @@
   ],
   "installCommand": "/plugin marketplace add anthropics/skills",
   "logo": "/logos/skills/anthropic-skills.png",
-  "stars": 177710,
+  "stars": 177820,
   "featured": false,
   "faqs": [
     {

@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @composio/mcp",
   "logo": "/logos/mcp/composio.png",
-  "stars": 30293,
+  "stars": 30299,
   "featured": false,
   "faqs": [
     {
