@@ -25,7 +25,7 @@
   ],
   "installCommand": "npx -y @21st-dev/magic-mcp",
   "logo": "/logos/mcp/magic-mcp.png",
-  "stars": 5923,
+  "stars": 5922,
   "featured": false,
   "faqs": [
     {

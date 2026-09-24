@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y @antv/mcp-server-chart",
   "logo": "/logos/mcp/antv-chart.png",
-  "stars": 4382,
+  "stars": 4383,
   "featured": false,
   "faqs": [
     {
