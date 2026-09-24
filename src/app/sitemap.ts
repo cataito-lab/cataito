@@ -3,7 +3,7 @@ import { tools, toolDetails, skills, skillDetails, mcp as mcpServers, mcpDetails
 import blogPosts from '@/data/blogPosts.json';
 import tutorials from '@/data/tutorials.json';
 import { routing, TEMP_NOINDEX_LOCALES } from '@/i18n/routing';
-import { allProjects, rankingUpdatedAt } from '@/lib/ranking-history';
+import { rankingUpdatedAt } from '@/lib/ranking-history';
 import { CATEGORY_SLUGS } from '@/lib/categories';
 
 // output: 'export' 要求路由显式声明为纯静态。
@@ -29,14 +29,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages（/tools /skills /mcp 为列表页，权重高于普通静态页）。
   // lastmod 用排行数据日期（refresh-stars 只在有数据变更时提交，列表页随数据而变）
   const lastDataChange = dataDate(rankingUpdatedAt());
-  const staticPages = ['', '/tools', '/skills', '/mcp', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/tutorials', '/ranking', '/report'].flatMap((path) =>
-    locales.map((locale) => ({
-      url: `${BASE_URL}/${locale}${path}`,
-      lastModified: lastDataChange,
-      changeFrequency: 'weekly' as const,
-      priority: path === '' ? 1.0 : path === '/tools' || path === '/skills' || path === '/mcp' ? 0.9 : 0.5,
-    }))
-  );
+  // 抓取预算减法（2026-09-24 GSC 分析）：政策/法务类页面只需 en/zh 进 sitemap，
+  // ja/es/fr 版保留可访问但不再向 Google 申报（近 90 天五语政策页零展示）
+  const multilingualPaths = ['', '/tools', '/skills', '/mcp', '/submit', '/blog', '/tutorials', '/ranking'];
+  const enZhOnlyPaths = ['/about', '/privacy', '/disclaimer', '/editorial-policy', '/report'];
+  const staticPages = [
+    ...multilingualPaths.flatMap((path) =>
+      locales.map((locale) => ({
+        url: `${BASE_URL}/${locale}${path}`,
+        lastModified: lastDataChange,
+        changeFrequency: 'weekly' as const,
+        priority: path === '' ? 1.0 : path === '/tools' || path === '/skills' || path === '/mcp' ? 0.9 : 0.5,
+      }))
+    ),
+    ...enZhOnlyPaths.flatMap((path) =>
+      ['en', 'zh'].map((locale) => ({
+        url: `${BASE_URL}/${locale}${path}`,
+        lastModified: lastDataChange,
+        changeFrequency: 'weekly' as const,
+        priority: 0.5,
+      }))
+    ),
+  ];
 
   // Category pages
   const categoryPages = CATEGORY_SLUGS.flatMap((cat) =>
@@ -99,13 +113,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  // P4.1 排行项目详情页（en-only 数据页，随排行数据每日可能刷新）
-  const projectPages = [...allProjects().keys()].map((fullName) => ({
-    url: `${BASE_URL}/project/${fullName}`,
-    lastModified: lastDataChange,
-    changeFrequency: 'daily' as const,
-    priority: 0.8,
-  }));
+  // P4.1 排行项目详情页不再进 sitemap（2026-09-24 抓取预算减法）：
+  // 228 页近 90 天 100% 零展示，模板化数据卡片与 github.com 正面竞争无胜算。
+  // 页面保留可访问（外链/榜单内链不 404），metadata 加 noindex, follow。
 
-  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...tutorialPages, ...skillPages, ...mcpPages, ...projectPages];
+  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...tutorialPages, ...skillPages, ...mcpPages];
 }

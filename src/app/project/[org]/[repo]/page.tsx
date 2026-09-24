@@ -111,6 +111,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    // 抓取预算减法（2026-09-24 GSC 分析）：228 个项目卡片页近 90 天 100% 零展示，
+    // noindex 但 follow——不浪费 Google 配额，同时保留对站内链的权重传递。
+    robots: { index: false, follow: true },
     alternates: generateAlternates(`/project/${info.fullName}`, 'en'),
   };
 }
