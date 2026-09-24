@@ -72,45 +72,77 @@ export function generateAlternates(path: string, currentLocale: string) {
 }
 
 /**
- * 工具详情页本地化 SEO 标题
- * 品牌前置 + 长尾关键词 + 年份，控制在 60 字符内避免 Google SERP 截断
+ * 智能截断：按 max 长度切断后回退到最后一个词边界，并剥掉残留的标点/悬空引号。
+ * 修复旧版 slice(0,100) 直接切断产生「natural language,.」式逗号句尾的 bug。
  */
-export function getToolSeoTitle(
-  locale: string,
-  name: string,
-  categoryLabel: string
-): string {
+function cleanSnippet(text: string, max: number): string {
+  let s = text.trim();
+  if (s.length > max) {
+    s = s.slice(0, max);
+    const lastSpace = s.lastIndexOf(' ');
+    if (lastSpace > max * 0.6) {
+      s = s.slice(0, lastSpace);
+    } else {
+      // CJK 无空格：若末尾 15 字符内有句读则回退到句读边界，避免「校准置。」式断词；
+      // 边界太靠前（不足 max 一半）则保留原截断，避免文案过短
+      const m = [...s.matchAll(/[、。，；：！？]/g)].pop();
+      if (m && m.index !== undefined && m.index > max - 15 && m.index > max * 0.5) s = s.slice(0, m.index);
+    }
+  }
+  // 剥掉末尾的中英标点、悬空引号/括号、连接符
+  s = s.replace(/[\s,.;:!?、。，；：！？…」』）)"'\-–—]+$/, '');
+  // 剥掉截断留下的连续悬空冠词/介词/助词（"repo in a"、"complètes à"、"の" 等）
+  s = s.replace(/(\s+(a|an|the|to|of|in|for|on|and|or|et|en|de|der|den|des|du|à|el|la|le|les|los|las|un|una|uno|y|e|con|para|por|与|和|的|の|に|が|を|へ|と))+$/i, '');
+  // 括号内被截断（"（choice/score/nou"）→ 整段丢弃未闭合括号后的内容
+  const open = s.lastIndexOf('（');
+  if (open !== -1 && (s.match(/）/g) || []).length < (s.match(/（/g) || []).length) s = s.slice(0, open);
+  s = s.replace(/[\s,.;:!?、。，；：！？…「『【("']+$/, '');
+  return s;
+}
+
+/**
+ * 工具详情页本地化 SEO 标题
+ * 「Review & Pricing」修饰词命中搜索意图（X review / X pricing），年份给新鲜度信号；
+ * 弃用旧版「Best {category} AI Tool」模板——堆词感强且触发「AI Agents AI」重复 bug。
+ * 控制在 ~60 字符内避免 SERP 截断。
+ */
+export function getToolSeoTitle(locale: string, name: string): string {
   const map: Record<string, string> = {
-    en: `${name} — Best ${categoryLabel} AI Tool in 2026 | Cataito`,
-    zh: `${name} — 2026年最佳${categoryLabel} AI 工具 | Cataito`,
-    ja: `${name} — 2026年ベスト${categoryLabel} AIツール | Cataito`,
-    es: `${name} — Mejor herramienta IA de ${categoryLabel} 2026 | Cataito`,
-    fr: `${name} — Meilleur outil IA ${categoryLabel} 2026 | Cataito`,
+    en: `${name} Review & Pricing (2026) | Cataito`,
+    zh: `${name} 评测与价格（2026）| Cataito`,
+    ja: `${name} レビューと料金（2026）| Cataito`,
+    es: `${name}: reseña y precios (2026) | Cataito`,
+    fr: `${name} : avis et tarifs (2026) | Cataito`,
   };
   return map[locale] || map.en;
 }
 
 /**
- * 工具详情页本地化 Meta Description（150-160 字符目标，含 CTA + 价格信号）
- * Bing 建议 150-160 字符，之前截到 65 太短。现在截到 90-100 字符 + CTA 补全。
+ * 工具详情页本地化 Meta Description（目标 ≤160 字符）
+ * 结构：名称 + 真实描述（词边界截断）+ 转化钩子（价格/优缺点/编辑结论/核实年份）。
+ * 弃用旧版「X is a {category} AI tool」——语法 bug（a AI）+ 模板噪音稀释关键词。
  */
 export function getToolMetaDescription(
   locale: string,
   name: string,
-  categoryLabel: string,
   rawDescription: string,
   tags?: string[]
 ): string {
-  const freeTag = tags?.includes('Free') ? ' Free' : '';
-  // 保留 90-100 字符（中英日韩西法各自截断），去掉末尾标点
-  const truncated = rawDescription.slice(0, 100).replace(/[.。!！?？…]+$/, '');
-
+  const free = tags?.includes('Free');
+  // 自适应预算：SERP 显示约 158 半角单位（CJK 字符计 2 单位），长名称/长尾巴不再超限
+  const isCJK = locale === 'zh' || locale === 'ja';
+  const units = (s: string) => [...s].reduce((n, c) => n + (c.charCodeAt(0) > 0x2e7f ? 2 : 1), 0);
+  const tailUnits: Record<string, number> = { en: 68, zh: 62, ja: 66, es: 80, fr: 86 };
+  const freeUnits = free ? (isCJK ? 16 : 36) : 0;
+  const allowed = 158 - units(name) - (tailUnits[locale] ?? 68) - freeUnits;
+  const budget = Math.max(28, isCJK ? Math.floor(allowed / 2) : allowed);
+  const clean = cleanSnippet(rawDescription, budget);
   const map: Record<string, string> = {
-    en: `${name} is a${freeTag} ${categoryLabel} AI tool. ${truncated}. Compare features, pricing, pros/cons — find your ideal AI tool.`,
-    zh: `${name} 是一款${freeTag ? '免费' : ''}${categoryLabel} AI 工具。${truncated}。对比功能、价格、优缺点，找到最合适的 AI 工具。`,
-    ja: `${name}は${freeTag ? '無料の' : ''}${categoryLabel} AIツールです。${truncated}。機能・料金・メリット・デメリットを比較。`,
-    es: `${name} es una herramienta${freeTag ? ' gratuita' : ''} de IA de ${categoryLabel}. ${truncated}. Compare funciones, precios y opiniones.`,
-    fr: `${name} est un outil${freeTag ? ' gratuit' : ''} IA ${categoryLabel}. ${truncated}. Comparez fonctionnalités, tarifs et avis.`,
+    en: `${name}: ${clean}. Pricing, features, pros/cons & our verdict${free ? ' (free to start)' : ''} — verified 2026.`,
+    zh: `${name}：${clean}。功能、价格、优缺点与编辑结论${free ? '，可免费上手' : ''}，2026 年核实。`,
+    ja: `${name}：${clean}。機能・料金・長所短所と編集部評価${free ? '（無料で開始可）' : ''}を2026年に確認。`,
+    es: `${name}: ${clean}. Precios, funciones, ventajas y nuestro veredicto${free ? ' (gratis para empezar)' : ''}, verificado en 2026.`,
+    fr: `${name} : ${clean}. Tarifs, fonctionnalités, avantages et notre verdict${free ? ' (gratuit pour débuter)' : ''}, vérifiés en 2026.`,
   };
   return map[locale] || map.en;
 }
@@ -124,9 +156,11 @@ export function getMcpMetaDescription(
   name: string,
   rawDescription: string
 ): string {
-  const truncated = rawDescription.slice(0, 110).replace(/[.。!！?？…]+$/, '');
+  const truncated = cleanSnippet(rawDescription, 100);
+  // 数据句首常自带「X official MCP server」，模板再拼一次会重复（如 firecrawl-mcp）
+  const dup = /official MCP server/i.test(rawDescription);
   const map: Record<string, string> = {
-    en: `${name} — an official MCP server. ${truncated}. Connect your AI agents to ${name} capabilities. Compare features and setup guides.`,
+    en: dup ? `${truncated}. Connect your AI agents and compare features & setup guides.` : `${name} — an official MCP server. ${truncated}. Connect your AI agents to ${name} capabilities. Compare features and setup guides.`,
     zh: `${name} 官方 MCP 服务器。${truncated}。让 AI 智能体连接 ${name} 能力，查看功能对比与设置指南。`,
     ja: `${name} 公式 MCP サーバー。${truncated}。AI エージェントを ${name} に接続し、機能比較とセットアップガイドを確認。`,
     es: `${name} servidor MCP oficial. ${truncated}. Conecta tus agentes de IA a ${name}. Compara funciones y guías de configuración.`,
@@ -144,7 +178,7 @@ export function getSkillMetaDescription(
   name: string,
   rawDescription: string
 ): string {
-  const truncated = rawDescription.slice(0, 90).replace(/[.。!！?？…]+$/, '');
+  const truncated = cleanSnippet(rawDescription, 80);
   const map: Record<string, string> = {
     en: `${name} — a developer skill for AI agents. ${truncated}. Install from Cataito and extend your agent capabilities with proven workflows.`,
     zh: `${name} 是一款 AI 智能体开发技能。${truncated}。从 Cataito 目录安装，一键扩展智能体能力，覆盖编程、文档处理、数据检索等成熟工作流场景。`,

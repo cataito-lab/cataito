@@ -46,12 +46,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   })();
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
 
-  // 本地化分类标签（用于长尾关键词标题）
-  const tCategories = await getTranslations({ locale, namespace: 'categories' });
-  const categoryLabel = tCategories(tool.category);
-  const title = getToolSeoTitle(locale, displayName, categoryLabel);
-  // 优化版 Meta Description（含 CTA + 免费标签信号，比裸用 description 更吸引点击）
-  const metaDescription = getToolMetaDescription(locale, displayName, categoryLabel, description, tool.tags);
+  const title = getToolSeoTitle(locale, displayName);
+  // 优化版 Meta Description（词边界截断 + 价格/结论/核实年份钩子）
+  const metaDescription = getToolMetaDescription(locale, displayName, description, tool.tags);
 
   return {
     title,
