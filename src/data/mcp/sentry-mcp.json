@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @sentry/mcp-server",
   "logo": "/logos/mcp/sentry-mcp.png",
-  "stars": 859,
+  "stars": 860,
   "featured": false,
   "faqs": [
     {
