@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @perplexity-ai/mcp-server",
   "logo": "/logos/mcp/perplexity-mcp.png",
-  "stars": 2542,
+  "stars": 2543,
   "featured": false,
   "faqs": [
     {
