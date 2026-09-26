@@ -22,7 +22,7 @@
   ],
   "installCommand": "npx skills add addyosmani/agent-skills",
   "logo": "/logos/skills/agent-skills.png",
-  "stars": 99152,
+  "stars": 99278,
   "featured": false,
   "faqs": [
     {
