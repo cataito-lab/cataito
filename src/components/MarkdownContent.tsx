@@ -278,7 +278,7 @@ function renderMarkdown(lines: string[], keySeed: number): ReactNode[] {
       elements.push(
         <h2
           key={idx++}
-          className="text-2xl font-bold tracking-tight text-[var(--foreground)] mt-14 mb-5 pt-5 border-t border-[var(--muted-border)] first:border-t-0 first:pt-0 first:mt-0"
+          className="text-2xl font-bold tracking-tight text-[var(--foreground)] mt-14 mb-5 first:mt-0"
         >
           {renderInline(line.replace('## ', ''), `h2${idx}`)}
         </h2>
