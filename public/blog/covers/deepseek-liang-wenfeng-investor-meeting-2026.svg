@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1326"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4CD7F6"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="180" r="320" fill="url(#glow)"/>
+
+  <!-- Right visual zone: product logo(s) -->
+  <image x="710" y="170" width="240" height="240" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MSA1NCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0idXJsKCNsb2dvX3N2Z19fYSkiIGQ9Ik02OS4zOSA0LjQ3MmMtLjczOC0uMzY3LTEuMDcuMzQ5LTEuNDc1LjY5OGE0IDQgMCAwIDAtLjQwNi40MjJjLTEuMDE0IDEuMzA0LTIuMzYgMS45MjgtNC4wMDIgMS44NzMtMi41MjYtLjE4NC00LjYyOC42OC02LjMyNSAyLjU3LS4yOTUtMi4yNzYtMS41MTItMy44MzctMy42MzMtNC42NjNhNi4zNCA2LjM0IDAgMCAxLTIuNzg0LTEuOTY1IDcuNiA3LjYgMCAwIDEtLjg4NS0yLjMzMWMtLjE2Ni0uNDc4LS4zMTQtLjk3My0uODY3LTEuMDY1LS41MzUtLjA5Mi0uODExLjQyMi0xLjAzMi44NDQtLjg4NiAxLjcyNi0xLjI5MSAzLjU4LTEuMjM2IDUuNTQ1YTEyIDEyIDAgMCAwIDEuNDAxIDUuODAyIDExLjYzIDExLjYzIDAgMCAwIDMuOTY1IDQuNDI0Yy40MjQuMjAyLjU1My41MzMuMzY5Ljk3My0uMjQuODQ1LS41MTYgMS42NzEtLjc1NiAyLjQ5Ny0uMTY2LjU3LS40MjQuNjYxLS45NzcuNDQxYTE1LjkgMTUuOSAwIDAgMS01LjA3Mi0zLjU0MyA4MyA4MyAwIDAgMC03LjU3OS03LjQ1NWMtLjY2My0uNDk1LTEuMzA5LS45NzItMi4wMS0xLjQxMy0yLjkzMi0yLjg4My4zODgtNS4yNTEgMS4xMjUtNS41MjYuNzU2LS4yOTQuMjc3LTEuMzA0LTIuMjY4LTEuMjg2YTIxLjIgMjEuMiAwIDAgMC03LjgzNyAyLjA1NyA4LjQgOC40IDAgMCAxLTEuMzY1LjQwNCAyNi40IDI2LjQgMCAwIDAtOC40MDktLjI5NGMtNS41NjkuNTY5LTkuOTQgMy4xOTQtMTMuMTExIDcuODk1Qy4zODUgMTYuOTM5LS44MzIgMjMuMDUyLjU1MSAyOS42OTljMS4xNjIgNi45MjEgNC40MjYgMTIuNTk1IDkuNzkyIDE3LjAzNyA1LjM4NSA0Ljc3NCAxMS42MzYgNi45NCAxOC43OTEgNi40NDUgNS41NSAwIDEwLjQtMS44NzMgMTQuNTY4LTUuNmExMy4xIDEzLjEgMCAwIDAgNS4yIDEuMTkzYzEuNjc5LjEyOSAzLjMyIDAgNC45Ni0uMzg1IDIuMTU4LS40NiAyLjAxLTIuNTM0IDEuMjE4LTIuOS02LjI4OC0yLjk3NS00LjkwNS0xLjc4Mi02LjE1OS0yLjc5MiAzLjE5LTMuOTEgOC4wMjItNy45NjggOS45MDItMjEuMTE0cS4xMTEtMS4yNjYgMC0yLjUzM2MwLS41MzMuMTExLS43MTYuNjgzLS43OWExMS42IDExLjYgMCAwIDAgNC41LTEuNDg3YzQuMDc1LTIuMjk1IDUuNzE2LTYuMDc3IDYuMTAzLTEwLjU5My4wNTUtLjY0MyAwLTEuMzU5LS43Mi0xLjcwOHptLTM1LjUxNyA0MC43NGMtNi4wODUtNC45MzgtOS4wMzUtNi41NzItMTAuMjktNi40OTktMS4yNTMuMDc0LS45NCAxLjQxNC0uNjgyIDIuMjk1LjI0LjgwOC42MDkgMS41NDIgMS4wODggMi4yMjIuMjU4LjI5NC4zNS42MjQuMjc3IDEuMDFhMS4xNCAxLjE0IDAgMCAxLS42MjcuODI2Yy0xLjk1NSAxLjI0OC01LjM2Ni0uNDIzLTUuNTE0LS41MTQtNC4xMy0yLjQyNC03LjM0LTUuNzQ3LTkuNjQ0LTkuOTdDNi4xNzYgMzAuMzc4IDQuOTIgMjUuODggNC43IDIxLjA3YzAtMS4xNTYuMjc2LTEuNTc4IDEuNDU2LTEuNzhhMTMuMyAxMy4zIDAgMCAxIDQuNDI2LS4xMjljNi4yNTEuOTU1IDExLjU2MiAzLjcyNyAxNS45MzMgOC4zNzJhNTUgNTUgMCAwIDEgNi40MTcgOC43MDMgNDEuNSA0MS41IDAgMCAwIDcuMjEgOC43OTRxMS4yNDUgMS4xMDIgMi42IDIuMDM4Yy0yLjI4Ni4yNzUtNi4xNzcuMzMtOC44Ny0xLjg1NHptMi45NS0xOS4zODdjLS4wMTctLjYwNi4yOTYtLjkxOC45MDQtLjkzN2EuOC44IDAgMCAxIC4yOTYgMGMuMTI5LjA1NS4yNC4xMjkuMzUuMjIuMjc3LjMxMy4zMzIuNjQzLjE2NiAxLjAxLS4xNDguMzg2LS40MjQuNTctLjgzLjU4OC0uNTkgMC0uODY3LS4yOTQtLjg4NS0uODgxem05LjA3NCA0LjgxYTQuOCA0LjggMCAwIDEtMS43MTUuNDc3IDMuNDggMy40OCAwIDAgMS0yLjM0Mi0uNzUyYy0uODQ5LS41MzMtMS4zODMtMS4zMDQtMS42MDUtMi4yOTZhNS43IDUuNyAwIDAgMSAwLTEuNzYyYy4yNzctLjkuMDM3LTEuNjM0LS43LTIuMjAzYTIuOSAyLjkgMCAwIDAtMi4wMS0uNTg4IDEuOCAxLjggMCAwIDEtLjczOC0uMjM4Yy0uNDk4LS4yMzktLjYwOC0uNjA2LS4zMzItMS4wODQuMTY2LS4yMzguMzUtLjQ0LjU1My0uNjQyIDEuMTI1LS41NSAyLjI1LS41NSAzLjM1NiAwYTEwLjIgMTAuMiAwIDAgMSAyLjk1IDIuMzY4IDIxIDIxIDAgMCAxIDEuOTkzIDIuNzU0Yy41MzQuNzkuOTc3IDEuNjUyIDEuMjkgMi41Ny4yMDMuNjA3LS4wMTggMS4xMDItLjcgMS4zOTYiPjwvcGF0aD48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImxvZ29fc3ZnX19hIiB4MT0iMzUuMDYzIiB4Mj0iMzUuMDYzIiB5Mj0iNTMuMjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNUQ3OEZFIj48L3N0b3A+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM0U1RkZFIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+Cg=="/>
+
+  <!-- Left content -->
+  <text x="80" y="148" font-family="sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">DeepSeek's Liang</text>
+  <text x="80" y="200" font-family="sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">Wenfeng, Unfiltered</text>
+  <text x="80" y="264" font-family="sans-serif" font-size="18" fill="#9E9EA4">Inside the leaked 4-hour investor meeting</text>
+
+  <rect x="80" y="310" width="420" height="4" rx="2" fill="url(#accent)"/>
+  <text x="80" y="360" font-family="sans-serif" font-size="16" fill="#9E9EA4">DeepSeek · Interview</text>
+  <text x="80" y="390" font-family="sans-serif" font-size="16" fill="#9E9EA4">Leaked · AGI · Open Source</text>
+
+  <text x="80" y="558" font-family="sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">CATAITO</text>
+  <text x="80" y="584" font-family="sans-serif" font-size="14" fill="#9E9EA4">cataito.com — news</text>
+</svg>

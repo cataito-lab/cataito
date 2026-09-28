@@ -34,7 +34,7 @@
       "Agent",
       "Opus-4.8"
     ],
-    "coverImage": "/blog/covers/deepseek-v4-flash-vision-exp-multimodal-api-launch.png",
+    "coverImage": "/blog/covers/deepseek-v4-flash-vision-exp-multimodal-api-launch.svg",
     "readTime": 5
   },
   {
@@ -71,7 +71,7 @@
       "GPT-5",
       "Claude 4.5"
     ],
-    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop",
+    "coverImage": "/blog/covers/chatgpt-vs-claude-vs-gemini-2026.svg",
     "readTime": 8,
     "seo": {
       "description": {
@@ -115,7 +115,7 @@
       "AI Tools",
       "2026"
     ],
-    "coverImage": "https://images.unsplash.com/photo-1684369176170-463e54252f59?w=1200&h=630&fit=crop",
+    "coverImage": "/blog/covers/best-free-ai-tools-2026.svg",
     "readTime": 6
   },
   {
@@ -152,7 +152,7 @@
       "DeepSeek-V4",
       "Industry Updates"
     ],
-    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=630&fit=crop",
+    "coverImage": "/blog/covers/ai-trends-july-2026.svg",
     "readTime": 5
   },
   {
@@ -188,7 +188,7 @@
       "Chinese AI",
       "Long Context"
     ],
-    "coverImage": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=1200&h=630&fit=crop",
+    "coverImage": "/blog/covers/kimi-ai-from-long-text-to-agent.svg",
     "readTime": 6
   },
   {
@@ -241,7 +241,7 @@
         "fr": "La réunion d'investisseurs fuitée de DeepSeek révèle la feuille de route AGI, la valorisation de 51 milliards de yuans et les plans d'IPO de Liang Wenfeng."
       }
     },
-    "coverImage": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1200&h=630&fit=crop",
+    "coverImage": "/blog/covers/deepseek-liang-wenfeng-investor-meeting-2026.svg",
     "readTime": 9
   },
   {
@@ -278,7 +278,7 @@
       "MoE",
       "Chinese AI"
     ],
-    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=630&fit=crop",
+    "coverImage": "/blog/covers/kimi-k3-open-weights-day-2026.svg",
     "readTime": 7,
     "seo": {
       "description": {
@@ -324,7 +324,7 @@
       "Coding Agent",
       "API"
     ],
-    "coverImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&h=630&fit=crop",
+    "coverImage": "/blog/covers/deepseek-v4-flash-codex-2026.svg",
     "readTime": 6
   },
   {
@@ -362,7 +362,7 @@
       "Tool Integration",
       "2026"
     ],
-    "coverImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop",
+    "coverImage": "/blog/covers/best-mcp-servers-ai-agents-2026.svg",
     "readTime": 7,
     "seo": {
       "description": {
@@ -401,7 +401,7 @@
       "Agents",
       "DNS"
     ],
-    "coverImage": "/blog/covers/openai-second-sandbox-escape-dns-blind-spot.png",
+    "coverImage": "/blog/covers/openai-second-sandbox-escape-dns-blind-spot.svg",
     "readTime": 9,
     "seo": {
       "title": {
@@ -454,7 +454,7 @@
       "DevDay",
       "Product Strategy"
     ],
-    "coverImage": "/blog/covers/openai-o-always-on-ai-employee-leak.png",
+    "coverImage": "/blog/covers/openai-o-always-on-ai-employee-leak.svg",
     "readTime": 8,
     "seo": {
       "title": {

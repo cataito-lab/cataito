@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1326"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4CD7F6"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="180" r="320" fill="url(#glow)"/>
+
+  <!-- Right visual zone: product logo(s) -->
+  <image x="710" y="170" width="240" height="240" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNTYgMTU0IiBhcmlhLWhpZGRlbj0idHJ1ZSI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNTkuNzMzIDU2LjE5MnYtMTQuNTdjMC0xLjIyNy40Ni0yLjE0OCAxLjUzMy0yLjc2bDI5LjI5My0xNi44N2MzLjk4OC0yLjMgOC43NDItMy4zNzQgMTMuNjQ5LTMuMzc0IDE4LjQwNCAwIDMwLjA2IDE0LjI2MyAzMC4wNiAyOS40NDYgMCAxLjA3MyAwIDIuMy0uMTU0IDMuNTI3bC0zMC4zNjYtMTcuNzlxLTIuNzYtMS42MTEtNS41MjEgMHptNjguNCA1Ni43NDVWNzguMTIyYzAtMi4xNDctLjkyMS0zLjY4MS0yLjc2MS00Ljc1NEw4Ni44NzggNTAuOTc3bDEyLjU3Ni03LjIwOWMxLjA3My0uNjEzIDEuOTk0LS42MTMgMy4wNjcgMGwyOS4yOTMgMTYuODdjOC40MzYgNC45MDggMTQuMTA5IDE1LjMzNyAxNC4xMDkgMjUuNDU4IDAgMTEuNjU1LTYuOSAyMi4zOTEtMTcuNzkgMjYuODM5ek01MC42ODQgODIuMjY0bC0xMi41NzYtNy4zNjFjLTEuMDczLS42MTMtMS41MzMtMS41MzQtMS41MzMtMi43NnYtMzMuNzRjMC0xNi40MSAxMi41NzYtMjguODMzIDI5LjYtMjguODMzIDYuNDQxIDAgMTIuNDIxIDIuMTQ3IDE3LjQ4NCA1Ljk4MUw1My40NDYgMzMuMDM1Yy0xLjg0IDEuMDczLTIuNzYgMi42MDctMi43NiA0Ljc1NXY0NC40NzV6bTI3LjA3IDE1LjY0M0w1OS43MzEgODcuNzg1di0yMS40N2wxOC4wMjEtMTAuMTIyIDE4LjAyIDEwLjEyMnYyMS40N3ptMTEuNTc4IDQ2LjYyM2MtNi40NDIgMC0xMi40MjItMi4xNDgtMTcuNDg0LTUuOTgxbDMwLjIxMi0xNy40ODVjMS44NC0xLjA3MyAyLjc2MS0yLjYwNiAyLjc2MS00Ljc1NFY3MS44MzRsMTIuNzMgNy4zNjFjMS4wNzMuNjEzIDEuNTMzIDEuNTM0IDEuNTMzIDIuNzYxdjMzLjc0YzAgMTYuNDA5LTEyLjczIDI4LjgzMy0yOS43NTIgMjguODMzem0tMzYuMzQ4LTM0LjJMMjMuNjkxIDkzLjQ2Yy04LjQzNi00LjkwOC0xNC4xMS0xNS4zMzYtMTQuMTEtMjUuNDU4IDAtMTEuODA5IDcuMDU2LTIyLjM5MSAxNy45NDQtMjYuODM5Vjc2LjEzYzAgMi4xNDguOTIgMy42ODEgMi43NiA0Ljc1NGwzOC4zNDIgMjIuMjM3LTEyLjU3NiA3LjIwOWMtMS4wNzMuNjEzLTEuOTk0LjYxMy0zLjA2NyAwbS0xLjY4NiAyNS4xNTJjLTE3LjMzIDAtMzAuMDYtMTMuMDM3LTMwLjA2LTI5LjE0IDAtMS4yMjcuMTU0LTIuNDU0LjMwNy0zLjY4MWwzMC4yMTIgMTcuNDg0cTIuNzYxIDEuNjEgNS41MjEgMGwzOC40OTQtMjIuMjM3djE0LjU3YzAgMS4yMjctLjQ2IDIuMTQ3LTEuNTMzIDIuNzZsLTI5LjI5MyAxNi44N2MtMy45ODggMi4zLTguNzQyIDMuMzc0LTEzLjY1IDMuMzc0em0zOC4wMzQgMTguMjQ5YzE4LjU1NyAwIDM0LjA0Ni0xMy4xODkgMzcuNTc1LTMwLjY3MyAxNy4xNzYtNC40NDggMjguMjE5LTIwLjU1MSAyOC4yMTktMzYuOTYgMC0xMC43MzYtNC42MDEtMjEuMTY0LTEyLjg4My0yOC42OC43NjctMy4yMiAxLjIyOC02LjQ0MSAxLjIyOC05LjY2IDAtMjEuOTMxLTE3Ljc5MS0zOC4zNDItMzguMzQyLTM4LjM0Mi00LjE0IDAtOC4xMjguNjEyLTEyLjExNiAxLjk5M0M4Ni4xMTEgNC42NjEgNzYuNjAzLjM2NyA2Ni4xNzQuMzY3IDQ3LjYxNy4zNjcgMzIuMTI4IDEzLjU1NiAyOC42IDMxLjA0IDExLjQyMyAzNS40ODguMzgxIDUxLjU5LjM4MSA2OGMwIDEwLjczNyA0LjYgMjEuMTY1IDEyLjg4MiAyOC42OC0uNzY3IDMuMjItMS4yMjcgNi40NDEtMS4yMjcgOS42NjEgMCAyMS45MyAxNy43OSAzOC4zNDEgMzguMzQyIDM4LjM0MSA0LjE0IDAgOC4xMjctLjYxMiAxMi4xMTUtMS45OTMgNi45IDYuNzQ4IDE2LjQxIDExLjA0MiAyNi44NCAxMS4wNDIiPjwvcGF0aD48L3N2Zz4K"/>
+
+  <!-- Left content -->
+  <text x="80" y="148" font-family="sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">OpenAI's Second</text>
+  <text x="80" y="200" font-family="sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">Sandbox Escape</text>
+  <text x="80" y="264" font-family="sans-serif" font-size="18" fill="#9E9EA4">What the DNS blind spot means for AI safety</text>
+
+  <rect x="80" y="310" width="420" height="4" rx="2" fill="url(#accent)"/>
+  <text x="80" y="360" font-family="sans-serif" font-size="16" fill="#9E9EA4">AI Safety · Governance</text>
+  <text x="80" y="390" font-family="sans-serif" font-size="16" fill="#9E9EA4">Sandbox · DNS · Frontier Models</text>
+
+  <text x="80" y="558" font-family="sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">CATAITO</text>
+  <text x="80" y="584" font-family="sans-serif" font-size="14" fill="#9E9EA4">cataito.com — news</text>
+</svg>
