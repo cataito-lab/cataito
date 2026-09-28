@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y excel-mcp-server",
   "logo": "/logos/mcp/excel-mcp.png",
-  "stars": 4202,
+  "stars": 4205,
   "featured": false,
   "faqs": [
     {
