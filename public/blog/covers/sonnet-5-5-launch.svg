@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1326"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4CD7F6"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="180" r="320" fill="url(#glow)"/>
+
+  <!-- Right visual zone: product logo -->
+  <image x="710" y="170" width="240" height="240" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE3LjMwNDEgMy41NDFoLTMuNjcxOGw2LjY5NiAxNi45MThIMjRabS0xMC42MDgyIDBMMCAyMC40NTloMy43NDQybDEuMzY5My0zLjU1MjdoNy4wMDUybDEuMzY5MyAzLjU1MjhoMy43NDQyTDEwLjUzNjMgMy41NDA5Wm0tLjM3MTIgMTAuMjIzMiAyLjI5MTQtNS45NDU2IDIuMjkxNCA1Ljk0NTZaIi8+PC9zdmc+"/>
+
+  <!-- Left content -->
+  <text x="80" y="148" font-family="sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">Claude Sonnet 5.5</text>
+  <text x="80" y="200" font-family="sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">Launches</text>
+  <text x="80" y="264" font-family="sans-serif" font-size="18" fill="#9E9EA4">70.6% on Terminal-Bench, same price as Sonnet 5</text>
+
+  <rect x="80" y="310" width="420" height="4" rx="2" fill="url(#accent)"/>
+  <text x="80" y="360" font-family="sans-serif" font-size="16" fill="#9E9EA4">Anthropic · Claude · Sep 28, 2026</text>
+  <text x="80" y="390" font-family="sans-serif" font-size="16" fill="#9E9EA4">$2 input / $10 output · 138.7 t/s</text>
+
+  <text x="80" y="558" font-family="sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">CATAITO</text>
+  <text x="80" y="584" font-family="sans-serif" font-size="14" fill="#9E9EA4">cataito.com — news</text>
+</svg>
