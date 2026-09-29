@@ -23,7 +23,7 @@
   ],
   "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
   "logo": "/logos/skills/improve-codebase-architecture.png",
-  "stars": 271326,
+  "stars": 271574,
   "featured": false,
   "faqs": [
     {
