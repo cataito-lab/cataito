@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @smithery/cli",
   "logo": "/logos/mcp/smithery.png",
-  "stars": 837,
+  "stars": 838,
   "featured": false,
   "faqs": [
     {
