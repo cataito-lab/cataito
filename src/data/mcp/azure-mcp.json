@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @azure/mcp@latest server start",
   "logo": "/logos/mcp/azure-mcp.png",
-  "stars": 3722,
+  "stars": 3723,
   "featured": false,
   "faqs": [
     {
