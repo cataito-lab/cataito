@@ -175,11 +175,11 @@
       "fr": "Le framework de données le plus complet pour applications LLM — 160+ connecteurs, RAG et orchestration d'agents."
     },
     "body": {
-      "en": "LlamaIndex is the de-facto standard for connecting real-world data to LLMs. Its 160+ connectors, flexible RAG pipeline, and increasingly capable agent orchestration make it the go-to choice for production LLM applications. The learning curve is real, but the ecosystem is mature.",
-      "zh": "LlamaIndex 是将真实世界数据连接到 LLM 的事实标准。160+ 连接器、灵活的 RAG 流水线和日益强大的智能体编排使其成为生产型 LLM 应用的首选。学习曲线存在，但生态成熟。",
-      "ja": "LlamaIndexは、実世界のデータをLLMに接続する事実上の標準です。160以上のコネクタ、柔軟なRAGパイプライン、ますます高性能なエージェントオーケストレーションにより、本番LLMアプリケーションの第一選択となっています。学習曲線はありますが、エコシステムは成熟しています。",
-      "es": "LlamaIndex es el estándar de facto para conectar datos del mundo real a LLMs. Sus 160+ conectores, pipeline RAG flexible y orquestación de agentes cada vez más capaz lo convierten en la opción preferida para aplicaciones LLM de producción. La curva de aprendizaje es real, pero el ecosistema es maduro.",
-      "fr": "LlamaIndex est le standard de facto pour connecter des données réelles aux LLMs. Ses 160+ connecteurs, son pipeline RAG flexible et son orchestration d'agents de plus en plus performante en font le choix privilégié pour les applications LLM de production. La courbe d'apprentissage est réelle, mais l'écosystème est mature."
+      "en": "LlamaIndex is the de-facto standard for connecting real-world data to LLMs: 160-plus connectors is unmatched coverage, and the same framework scales from a one-afternoon RAG prototype to agent orchestration with tool use and multi-step planning, with LlamaCloud available when you'd rather not run retrieval infrastructure yourself. The breadth has a price — advanced features carry a steep learning curve and the docs can overwhelm — but for production data pipelines over messy sources, nothing else matches its reach.",
+      "zh": "LlamaIndex 是把真实世界数据接入 LLM 的事实标准：160+ 连接器的覆盖面无出其右，同一个框架既能撑起一个下午搭好的 RAG 原型，也能扩展到带工具调用与多步规划的智能体编排，不想自己维护检索基础设施时还有 LlamaCloud 托管可用。广度有代价——高级特性学习曲线陡峭、文档庞杂到容易淹没——但在杂乱数据源上做生产级数据管道这件事上，没有第二个能匹敌它的覆盖力。",
+      "ja": "LlamaIndex は実世界のデータを LLM につなぐ事実上の標準です。160 以上のコネクタは他の追随を許さず、同じフレームワークがその日のうちの RAG プロトタイプから、ツール利用と多段計画を伴うエージェントオーケストレーションまで伸び、検索インフラを自前で持ちたくないときは LlamaCloud もあります。広さには代償があり——高度な機能の学習曲線は急で、ドキュメントは膨大で圧倒されがち——ですが、雑多なソースを扱う本番データパイプラインには、そのカバレッジに匹敵するものはありません。",
+      "es": "LlamaIndex es el estándar de facto para conectar datos del mundo real a los LLM: sus más de 160 conectores son una cobertura sin rival, y el mismo marco escala de un prototipo RAG de una tarde a orquestación de agentes con uso de herramientas y planificación multipaso, con LlamaCloud disponible si prefieres no mantener tu propia infraestructura de recuperación. La amplitud tiene un precio: las funciones avanzadas tienen una curva empinada y la documentación abruma, pero para tuberías de datos de producción sobre fuentes desordenadas, nada iguala su alcance.",
+      "fr": "LlamaIndex est le standard de facto pour connecter des données du monde réel aux LLM : ses 160+ connecteurs offrent une couverture sans équivalent, et le même framework passe d'un prototype RAG d'un après-midi à l'orchestration d'agents avec outils et planification multi-étapes, LlamaCloud étant là si vous préférez ne pas gérer votre propre infrastructure de retrieval. L'ampleur a un coût — courbe d'apprentissage raide sur les fonctions avancées, documentation qui submerge — mais pour des pipelines de données de production sur des sources hétéroclites, rien n'égale sa portée."
     },
     "bestFor": {
       "en": [
@@ -218,7 +218,7 @@
   },
   "meta": {
     "lastVerified": "2026-08-12",
-    "verdictDate": "2026-08-12",
+    "verdictDate": "2026-10-02",
     "pricingVerified": "2026-08-12",
     "pricingUrl": "https://www.llamaindex.ai"
   },

@@ -319,7 +319,27 @@
     "review_title": "Revisión Continua",
     "review_text": "La inclusión no es permanente. Reverificamos periódicamente el estado activo y los precios de forma automática, y reauditamos las inclusiones existentes en cuanto a reputación y seguridad con el tiempo. Cuando una herramienta cruza una línea roja, la eliminamos sin importar cuánto tiempo lleve incluida.",
     "report_title": "Reportar un Problema",
-    "report_text": "¿Encontraste una herramienta incluida que infringe estos estándares? Avísanos e investigaremos. Contáctanos en:"
+    "report_text": "¿Encontraste una herramienta incluida que infringe estos estándares? Avísanos e investigaremos. Contáctanos en:",
+    "last_updated": "Última actualización: 2 de octubre de 2026",
+    "scale_title": "Nuestra escala de valoración",
+    "scale_text": "Cada ficha de Cataito lleva una insignia de veredicto. Las valoraciones se recalibran en cada reauditoría y la cima de la escala es deliberadamente escasa: entre cientos de fichas, solo una ha merecido nunca la insignia máxima.",
+    "scale_items": [
+      "Cambio de Juego (Game-Changing) — marca un nuevo listón en su categoría; reservada para herramientas que redefinieron cómo se hace el trabajo. Ganada una sola vez en todo el catálogo.",
+      "Altamente Recomendado (Highly Recommended) — lo mejor de su clase; lo recomendamos sin reservas dentro de su categoría.",
+      "Recomendado (Recommended) — una opción sólida y fiable que hace bien su trabajo sin preocupaciones significativas.",
+      "Vale la Pena Probar (Worth Trying) — genuinamente útil, con advertencias que conviene conocer antes de comprometerse (etapa temprana, espacio concurrido o riesgo de adopción).",
+      "Para Necesidades Específicas (For Specific Needs) — potente en un nicho o flujo concreto, no una elección de propósito general; la llamada correcta solo cuando esa necesidad es tuya.",
+      "Considerar Alternativas (Consider Alternatives) — incluida por completitud, pero las preocupaciones significativas aconsejan mirar primero otras opciones."
+    ],
+    "method_title": "Cómo evaluamos",
+    "method_text": "Las insignias no son corazonadas. Cada valoración es el resultado del mismo ciclo de revisión:",
+    "method_items": [
+      "Lo que la herramienta hace de verdad: leemos más allá de la página de marketing y verificamos las afirmaciones contra el producto — documentación, registros de cambios y uso práctico cuando es viable.",
+      "Precios en los que se puede confiar: la estructura de planes se coteja con la página oficial de precios del proveedor y se reverifica cada vez que tocamos la ficha.",
+      "Señales del terreno: la actividad de GitHub, las plataformas de reseñas establecidas y las quejas documentadas de usuarios alimentan los pros y contras que ves en cada página.",
+      "Regla de no rumores: cualquier rechazo o tope de valoración exige al menos dos fuentes recientes e independientes — véase Nuestro estándar de evidencia.",
+      "Cadencia fija: estrellas, rankings e instantáneas se actualizan automáticamente; una auditoría automática semanal comprueba vitalidad, obsolescencia y deriva de precios; cada actualización manual reverifica funciones y precios."
+    ]
   },
   "category": {
     "heading": "Mejores herramientas de IA de {category}",

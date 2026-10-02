@@ -138,11 +138,11 @@
       "fr": "La norme pour la vidéo programmatique avec React"
     },
     "body": {
-      "en": "55K+ stars, mature ecosystem, and real MP4 output. If you need to generate videos programmatically, Remotion is the go-to solution.",
-      "zh": "55K+ 星标，成熟生态，真实 MP4 输出。如果需要编程式生成视频，Remotion 是首选方案。",
-      "ja": "55K+ スター、成熟したエコシステム、実際のMP4出力。プログラムで動画を生成する必要があるなら、Remotionが最適なソリューションです。",
-      "es": "55K+ estrellas, ecosistema maduro y salida MP4 real. Si necesitas generar videos programáticamente, Remotion es la solución ideal.",
-      "fr": "55K+ étoiles, écosystème mature et sortie MP4 réelle. Si vous devez générer des vidéos par programmation, Remotion est la solution de référence."
+      "en": "Remotion turned 'video' into just another React render target, and that is exactly why it wins: you compose scenes from components, reuse your existing React knowledge, and get real MP4 files — not screen recordings — via server-side or Cloud rendering at scale. The trade-offs are honest ones: you must think in React to be productive, complex scenes burn render time, and the Cloud API's free tier is tight. For programmatic video, nothing else is close.",
+      "zh": "Remotion 把「视频」变成了 React 的又一个渲染目标，这正是它赢的原因：用组件拼装场景、复用你已有的 React 功底，产出的是真正的 MP4 文件——不是录屏——并能通过服务端渲染或 Cloud API 规模化产出。代价也很实在：你必须用 React 的方式思考，复杂场景渲染吃资源，Cloud API 免费额度偏紧。在编程式生成视频这个赛道上，没有第二个接近的选项。",
+      "ja": "Remotion は「動画」を React のもう一つのレンダリング対象に変えた、それが勝っている理由です。コンポーネントでシーンを組み立て、既存の React の知識をそのまま活かし、録画ではなく本当の MP4 ファイルを、サーバーサイドレンダリングや Cloud API で規模に応じて生成できます。代償も正直です。React 的な発想が必須で、複雑なシーンはレンダリングが重く、Cloud API の無料枠は狭め。プログラムで動画を作るなら、他に近い選択肢はありません。",
+      "es": "Remotion convirtió el vídeo en otro objetivo de renderizado de React, y ahí está exactamente su victoria: compones escenas con componentes, reutilizas tus conocimientos de React y obtienes archivos MP4 reales —no grabaciones de pantalla— con renderizado en servidor o en la nube a escala. Las contrapartidas son honestas: hay que pensar en React, las escenas complejas consumen tiempo de renderizado y el nivel gratuito de la Cloud API es justito. Para vídeo programático, nada se le acerca.",
+      "fr": "Remotion a transformé la vidéo en une simple cible de rendu React, et c'est exactement là où il gagne : vous composez des scènes en composants, réutilisez vos acquis React et obtenez de vrais fichiers MP4 — pas des captures d'écran — via le rendu serveur ou Cloud à grande échelle. Les contreparties sont honnêtes : il faut penser en React, les scènes complexes consomment du temps de rendu et le palier gratuit de l'API Cloud est serré. Pour la vidéo programmatique, rien d'autre ne s'en approche."
     },
     "bestFor": {
       "en": [
@@ -208,7 +208,7 @@
   },
   "meta": {
     "lastVerified": "2026-08-03",
-    "verdictDate": "2026-08-03",
+    "verdictDate": "2026-10-02",
     "pricingVerified": "2026-08-03",
     "pricingUrl": "https://www.remotion.dev/docs/license/pricing"
   },

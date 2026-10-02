@@ -165,11 +165,11 @@
       "fr": "Une plateforme de monétisation open source prometteuse — API propre, développeur d'abord, mais adoption encore en construction."
     },
     "body": {
-      "en": "Polar aims to solve the open-source monetization problem with a clean, developer-friendly platform. Its Apache 2.0 license, public API, and Product Hunt traction are promising. Adoption is the key challenge.",
-      "zh": "Polar 旨在用干净、开发者友好的平台解决开源变现问题。Apache 2.0 协议、公共 API 和 Product Hunt 热度令人期待。采用是关键挑战。",
-      "ja": "Polarは、クリーンで開発者向けのプラットフォームでオープンソース収益化の問題を解決しようとしています。Apache 2.0ライセンス、公開API、Product Huntでの勢いは有望です。採用が最大の課題です。",
-      "es": "Polar busca resolver el problema de la monetización open source con una plataforma limpia y amigable para desarrolladores. Su licencia Apache 2.0, API pública y tracción en Product Hunt son prometedoras. La adopción es el desafío clave.",
-      "fr": "Polar vise à résoudre le problème de la monétisation open source avec une plateforme propre et conviviale pour développeurs. Sa licence Apache 2.0, son API publique et sa traction Product Hunt sont prometteuses. L'adoption est le défi clé."
+      "en": "Polar takes on the least glamorous problem in open source — getting paid — with real answers: subscriptions, donations and commercial licensing behind one clean API, all Apache 2.0 in the open. The developer experience is genuinely good, and the GitHub-Sponsors-style workflow will feel familiar. The honest caveat is adoption, not engineering: monetization is a crowded corner (GitHub Sponsors, Open Collective), payment fees still apply, and your supporters have to follow you to a new platform.",
+      "zh": "Polar 承接的是开源世界里最不性感的问题——收钱——而且给出了正经答案：订阅、捐赠与商业授权收进一个干净的 API，整体 Apache 2.0 完全开源。开发者体验确实好，GitHub Sponsors 式的流程也不令人陌生。真正的短板不在工程而在采用：变现这个角落本就拥挤（GitHub Sponsors、Open Collective 等），支付手续费照收，你的支持者还得愿意跟着你搬到一个新平台。",
+      "ja": "Polar が引き受けるのはオープンソースで最も地味な問題——お金を受け取ること——で、しかもまともな答えを用意しています。サブスクリプション、寄付、商用ライセンスを 1 つのクリーンな API にまとめ、全体を Apache 2.0 で完全公開。開発者体験は確かに良く、GitHub Sponsors 風のワークフローにも違和感がありません。本当のネックは技術ではなく採用です。収益化の一角はすでに混雑して（GitHub Sponsors、Open Collective など）、決済手数料はかかり、支援者に新プラットフォームへの移動をお願いすることになります。",
+      "es": "Polar asume el problema menos glamuroso del código abierto —cobrar— con respuestas de verdad: suscripciones, donaciones y licencias comerciales tras una API limpia, todo Apache 2.0 y a la vista. La experiencia de desarrollador es francamente buena y el flujo estilo GitHub Sponsors resulta familiar. La pega honesta es la adopción, no la ingeniería: la monetización es una esquina concurrida (GitHub Sponsors, Open Collective), las comisiones de pago siguen ahí y tus seguidores tienen que mudarse contigo a una plataforma nueva.",
+      "fr": "Polar s'attaque au problème le moins glamour de l'open source — être payé — avec de vraies réponses : abonnements, dons et licences commerciales derrière une API propre, le tout sous Apache 2.0, en toute transparence. L'expérience développeur est franchement bonne et le flux façon GitHub Sponsors paraît familier. Le bémol honnête, c'est l'adoption, pas l'ingénierie : la monétisation est un coin déjà bondé (GitHub Sponsors, Open Collective), les frais de paiement s'appliquent et vos soutiens doivent vous suivre vers une plateforme nouvelle."
     },
     "bestFor": {
       "en": [
@@ -208,7 +208,7 @@
   },
   "meta": {
     "lastVerified": "2026-08-12",
-    "verdictDate": "2026-08-12",
+    "verdictDate": "2026-10-02",
     "pricingVerified": "2026-08-12",
     "pricingUrl": "https://polar.sh"
   },

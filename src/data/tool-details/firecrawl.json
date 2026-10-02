@@ -138,11 +138,11 @@
       "fr": "L'API de contexte web leader pour les agents IA"
     },
     "body": {
-      "en": "161K+ stars, huge community, and a hosted service that just works. If your AI agent needs to search and scrape the web, Firecrawl is the gold standard.",
-      "zh": "161K+ 星标，庞大社区，开箱即用的托管服务。如果你的 AI 智能体需要搜索和抓取网页，Firecrawl 是黄金标准。",
-      "ja": "161K+ スター、巨大なコミュニティ、すぐに使えるホステッドサービス。AIエージェントがウェブを検索・スクレイピングする必要があるなら、Firecrawlがゴールドスタンダードです。",
-      "es": "161K+ estrellas, comunidad masiva y un servicio alojado que funciona. Si tu agente de IA necesita buscar y extraer la web, Firecrawl es el estándar de oro.",
-      "fr": "161K+ étoiles, communauté massive et un service hébergé qui fonctionne. Si votre agent IA a besoin de chercher et de scraper le web, Firecrawl est la référence."
+      "en": "When your agent needs the live web, Firecrawl is the call to make: one API that searches, scrapes and returns clean Markdown or structured data your model can actually use, at a scale of millions of pages. The open-source core is self-hostable if you outgrow the hosted plan, though at high volume the API bill climbs and running it yourself means real infrastructure. The AGPL license deserves a look before commercial embedding. For web context in AI pipelines, this is the reference point.",
+      "zh": "当你的智能体需要实时网页时，就该调 Firecrawl：一个 API 完成搜索、抓取，直接吐出干净的 Markdown 或结构化数据——而不是一锅 HTML 粥——并能扩展到百万级页面。超出托管套餐规模时可以自托管开源内核，但高用量下 API 账单会爬升，自己跑则意味着真正的运维投入；商用集成前也值得掂量 AGPL 许可。在 AI 流水线的网页上下文这个环节，它就是基准。",
+      "ja": "エージェントがライブなウェブを必要とするなら、呼ぶべきは Firecrawl です。検索とスクレイピングを 1 つの API で賄い、HTML の塊ではなくモデルがそのまま使えるクリーンな Markdown や構造化データを返し、数百万ページ規模まで伸びます。ホスト型プランを超えたらオープンソースのコアをセルフホストできますが、大量利用では API 費用が膨らみ、自前運用はそれなりのインフラを意味します。商用組み込みの前には AGPL ライセンスの確認を。AI パイプラインのウェブ文脈における基準点です。",
+      "es": "Cuando tu agente necesita la web viva, la llamada a hacer es Firecrawl: una API que busca, extrae y devuelve Markdown limpio o datos estructurados que el modelo puede usar de verdad, escalando a millones de páginas. Si superas el plan alojado, el núcleo open source es autoalojable, aunque a gran volumen la factura de la API sube y montarlo tú mismo implica infraestructura de verdad. Conviene revisar la licencia AGPL antes de integrarlo en productos comerciales. Para contexto web en tuberías de IA, es el punto de referencia.",
+      "fr": "Quand votre agent a besoin du web en direct, Firecrawl est l'appel à passer : une API qui cherche, extrait et rend du Markdown propre ou des données structurées que le modèle peut réellement exploiter, à l'échelle de millions de pages. Si vous dépassez l'offre hébergée, le cœur open source est auto-hébergeable, mais à haut volume la facture API grimpe et l'auto-hébergement suppose une vraie infrastructure. Pensez à la licence AGPL avant toute intégration commerciale. Pour le contexte web dans les pipelines IA, c'est la référence."
     },
     "bestFor": {
       "en": [
@@ -208,7 +208,7 @@
   },
   "meta": {
     "lastVerified": "2026-08-04",
-    "verdictDate": "2026-08-04",
+    "verdictDate": "2026-10-02",
     "pricingVerified": "2026-08-04",
     "pricingUrl": "https://www.firecrawl.dev/pricing"
   },

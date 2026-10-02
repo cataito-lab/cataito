@@ -319,7 +319,27 @@
     "review_title": "Révision Continue",
     "review_text": "Le référencement n'est pas permanent. Nous re-vérifions périodiquement le statut actif et les tarifs de manière automatique, et nous réauditons les référencements existants en matière de réputation et de sécurité au fil du temps. Lorsqu'un outil franchit une ligne rouge, nous le retirons quelle que soit la durée de son référencement.",
     "report_title": "Signaler un Problème",
-    "report_text": "Vous avez trouvé un outil référencé qui enfreint ces critères ? Dites-le nous et nous enquêterons. Contactez-nous à :"
+    "report_text": "Vous avez trouvé un outil référencé qui enfreint ces critères ? Dites-le nous et nous enquêterons. Contactez-nous à :",
+    "last_updated": "Dernière mise à jour : 2 octobre 2026",
+    "scale_title": "Notre échelle de notation",
+    "scale_text": "Chaque fiche de Cataito porte un badge de verdict. Les notations sont recalibrées à chaque réaudit et le sommet de l’échelle est volontairement rare : parmi des centaines de fiches, une seule a jamais décroché le badge maximal.",
+    "scale_items": [
+      "Révolutionnaire (Game-Changing) — fixe un nouveau standard dans sa catégorie ; réservé aux outils qui ont redéfini la façon de travailler. Décroché une seule fois dans tout le catalogue.",
+      "Fortement Recommandé (Highly Recommended) — le meilleur de sa catégorie ; nous le recommandons sans réserve dans son domaine.",
+      "Recommandé (Recommended) — un choix solide et fiable qui fait bien son travail, sans préoccupation majeure.",
+      "À Essayer (Worth Trying) — réellement utile, avec des réserves à connaître avant de s’engager (stade précoce, secteur encombré ou risque d’adoption).",
+      "Pour des Besoins Spécifiques (For Specific Needs) — fort sur une niche ou un flux précis, pas un choix universel ; la bonne décision uniquement si ce besoin est le vôtre.",
+      "Envisager des Alternatives (Consider Alternatives) — répertorié par souci d’exhaustivité, mais des préoccupations significatives imposent de regarder ailleurs d’abord."
+    ],
+    "method_title": "Comment nous évaluons",
+    "method_text": "Les badges ne sont pas des intuitions. Chaque notation est le fruit du même cycle de revue :",
+    "method_items": [
+      "Ce que l’outil fait réellement : nous lisons au-delà de la page marketing et vérifions les affirmations contre le produit lui-même — documentation, journaux de versions et usage concret quand c’est possible.",
+      "Des prix dignes de confiance : la structure des offres est confrontée à la page de tarifs officielle du fournisseur et reverifiée chaque fois que nous touchons la fiche.",
+      "Signaux du terrain : l’activité GitHub, les plateformes d’avis établies et les plaintes documentées d’utilisateurs alimentent les avantages et inconvénients de chaque page.",
+      "Règle anti-rumeur : tout rejet ou plafonnement de notation exige au moins deux sources récentes et indépendantes — voir Notre standard de preuve ci-dessous.",
+      "Cadence permanente : étoiles, classements et instantanés s’actualisent automatiquement ; un audit hebdomadaire automatique vérifie la vivacité, l’obsolescence et la dérive des prix ; chaque mise à jour manuelle reverifie fonctions et tarifs."
+    ]
   },
   "category": {
     "heading": "Meilleurs outils IA de {category}",

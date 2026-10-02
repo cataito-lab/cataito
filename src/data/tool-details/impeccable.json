@@ -124,11 +124,11 @@
       "fr": "La compétence de design essentielle pour les agents de codage IA"
     },
     "body": {
-      "en": "54K+ stars, works with every major AI coding tool, and actively maintained. If you use AI to build UIs, this is essential.",
-      "zh": "54K+ 星标，兼容所有主流 AI 编码工具，积极维护。如果你用 AI 构建 UI，这是必备的。",
-      "ja": "54K+ スター、主要なAIコーディングツールすべてと連携、活発にメンテナンス。UIを構築するためにAIを使用するなら、これは必須です。",
-      "es": "54K+ estrellas, funciona con todas las principales herramientas de codificación de IA, y mantenida activamente. Si usas IA para construir UIs, esto es esencial.",
-      "fr": "54K+ étoiles, fonctionne avec tous les principaux outils de codage IA, et maintenue activement. Si vous utilisez l'IA pour construire des UIs, c'est essentiel."
+      "en": "AI agents can now build interfaces, but 'generated' still shows — generic spacing, weak hierarchy, telltale styling. Impeccable attacks exactly that gap: /polish strips the AI tells, /distill finds the hierarchy, /clarify makes the task obvious, and it plugs into nine-plus coding agents rather than locking you into one. It is frontend-only and one more syntax to learn, but it is free, open source, and the fastest way to make AI-built UI look deliberate.",
+      "zh": "AI 智能体现在能搭界面了，但「生成感」一眼可见——间距平庸、层级含糊、样式露怯。Impeccable 正是冲着这个缺口来的：/polish 去除 AI 痕迹，/distill 梳理层级，/clarify 让任务一目了然，而且接入九款以上编码智能体、不锁死在某一家。它只管前端，还得多学一套命令语法，但它免费开源，是让 AI 搭出的 UI 显得「有意图」的最快办法。",
+      "ja": "AIエージェントがUIを組める時代でも、「生成感」は一目で分かります——均一な余白、弱い階層、露骨なAI仕込みのスタイル。Impeccable はまさにその隙間を狙います。/polish でAI特有の痕跡を取り除き、/distill で階層を立て、/clarify でタスクを明確に。しかも9つ以上のコーディングエージェントに接続でき、一社に縛られません。フロントエンド専用でコマンド構文の学習も要りますが、無料オープンソースで、AIが組んだUIを「意図のある見た目」に仕上げる最速の手段です。",
+      "es": "Los agentes de IA ya construyen interfaces, pero lo «generado» se nota: espaciado genérico, jerarquía débil, estilos delatorios. Impeccable ataca justo ese hueco: /polish elimina las marcas de la IA, /distill encuentra la jerarquía, /clarify deja la tarea clara, y se conecta con más de nueve agentes de código en vez de encerrarte en uno. Solo cubre frontend y añade una sintaxis más que aprender, pero es gratis, de código abierto, y la forma más rápida de que una UI hecha con IA parezca deliberada.",
+      "fr": "Les agents IA savent désormais construire des interfaces, mais le « généré » se voit : espacements génériques, hiérarchie faible, styles révélateurs. Impeccable s'attaque exactement à ce manque : /polish efface les marques de l'IA, /distill retrouve la hiérarchie, /clarify rend la tâche évidente, et il se branche sur plus de neuf agents de code au lieu de vous enfermer dans l'un d'eux. Réservé au frontend et une syntaxe de plus à apprendre, mais gratuit, open source, et le moyen le plus rapide de donner à une UI générée par IA des allures d'intention."
     },
     "bestFor": {
       "en": [
@@ -199,7 +199,7 @@
   },
   "meta": {
     "lastVerified": "2026-08-03",
-    "verdictDate": "2026-08-03",
+    "verdictDate": "2026-10-02",
     "pricingVerified": "2026-08-03",
     "pricingUrl": "https://impeccable.style/pricing/"
   },

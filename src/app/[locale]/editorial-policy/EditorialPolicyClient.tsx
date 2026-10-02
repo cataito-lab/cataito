@@ -5,7 +5,16 @@ import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useState } from 'react';
-import { ArrowLeft, ShieldX, AlertTriangle, FileCheck2, RefreshCw, Flag } from 'lucide-react';
+import { ArrowLeft, ShieldX, AlertTriangle, FileCheck2, RefreshCw, Flag, Award, ListChecks } from 'lucide-react';
+
+const BADGE_KEYS = [
+  'verdictGame-Changing',
+  'verdictHighlyRecommended',
+  'verdictRecommended',
+  'verdictWorthTrying',
+  'verdictForSpecificNeeds',
+  'verdictConsiderAlternatives',
+] as const;
 
 export default function EditorialPolicyClient() {
   const locale = useLocale();
@@ -15,6 +24,9 @@ export default function EditorialPolicyClient() {
 
   const rejectItems = t.raw('reject_items') as string[];
   const watchItems = t.raw('watch_items') as string[];
+  const scaleItems = t.raw('scale_items') as string[];
+  const methodItems = t.raw('method_items') as string[];
+  const badgeLabels = BADGE_KEYS.map((key) => (tCommon as any)(key) as string);
 
   return (
     <>
@@ -27,13 +39,53 @@ export default function EditorialPolicyClient() {
 
         <article className="prose prose-gray max-w-none">
           <h1 className="text-3xl font-bold text-[var(--foreground)] mb-2">{t('title')}</h1>
-          <p className="text-sm text-[var(--muted)] mb-8">{tCommon('lastUpdated')}: July 28, 2026</p>
+          <p className="text-sm text-[var(--muted)] mb-8">{t('last_updated')}</p>
 
           <div className="space-y-8 text-[var(--muted)] leading-relaxed">
             {/* Intro */}
             <section>
               <h2 className="text-xl font-semibold text-[var(--foreground)] mb-3">{t('intro_title')}</h2>
               <p>{t('intro_text')}</p>
+            </section>
+
+            {/* Rating scale */}
+            <section>
+              <h2 className="flex items-center gap-2 text-xl font-semibold text-[var(--foreground)] mb-3">
+                <Award className="w-5 h-5 text-[var(--primary)]" />
+                {t('scale_title')}
+              </h2>
+              <p>{t('scale_text')}</p>
+              <ul className="list-disc pl-6 space-y-2 mt-3">
+                {scaleItems.map((item, index) => {
+                  const badge = badgeLabels.find((label) => item.startsWith(label));
+                  return (
+                    <li key={index}>
+                      {badge ? (
+                        <>
+                          <strong className="text-[var(--foreground)]">{badge}</strong>
+                          {item.slice(badge.length)}
+                        </>
+                      ) : (
+                        item
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+
+            {/* How we evaluate */}
+            <section>
+              <h2 className="flex items-center gap-2 text-xl font-semibold text-[var(--foreground)] mb-3">
+                <ListChecks className="w-5 h-5 text-[var(--primary)]" />
+                {t('method_title')}
+              </h2>
+              <p>{t('method_text')}</p>
+              <ul className="list-disc pl-6 space-y-2 mt-3">
+                {methodItems.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
             </section>
 
             {/* Reject — zero tolerance */}

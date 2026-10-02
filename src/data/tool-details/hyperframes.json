@@ -131,11 +131,11 @@
       "fr": "Le moteur HTML vers vidéo natif pour agents"
     },
     "body": {
-      "en": "39K+ stars and growing fast. Built by HeyGen, MCP support, and GSAP animations make it a powerful tool for AI agents to generate videos.",
-      "zh": "39K+ 星标，快速增长。由 HeyGen 开发，支持 MCP 和 GSAP 动画，是 AI 智能体生成视频的强大工具。",
-      "ja": "39K+ スターで急速に成長中。HeyGen開発、MCP対応、GSAPアニメーションにより、AIエージェントが動画を生成するための強力なツールです。",
-      "es": "39K+ estrellas y creciendo rápido. Desarrollado por HeyGen, con soporte MCP y animaciones GSAP, es una herramienta poderosa para que los agentes de IA generen videos.",
-      "fr": "39K+ étoiles et en croissance rapide. Développé par HeyGen, avec support MCP et animations GSAP, c'est un outil puissant pour que les agents IA génèrent des vidéos."
+      "en": "Hyperframes bets that video is just HTML with a timeline, and for agents that bet pays off: hand it markup with GSAP animation and Puppeteer renders real frames — all controllable through MCP, so an AI agent can produce finished video without a human in the loop. Being HeyGen-born and 39K-starred buys credibility, but it is a young ecosystem with no official cloud API yet, and you will want real HTML/CSS fluency to art-direct the output.",
+      "zh": "Hyperframes 押注「视频不过是带时间轴的 HTML」，对智能体而言这一注押对了：交给它配好 GSAP 动画的标记，Puppeteer 渲染出真实帧——全程可经 MCP 控制，AI 智能体无需人工介入就能产出成片。HeyGen 出品、39K 星带来信用背书，但它终究是年轻生态、官方云 API 还未落地，想给画面做艺术指导也得有真正的 HTML/CSS 功底。",
+      "ja": "Hyperframes は「動画とはタイムライン付きの HTML にすぎない」という賭けで、エージェントにとってその賭けが当たっています。GSAP アニメーションを仕込んだマークアップを渡せば Puppeteer が実際のフレームを描き出し、その全体を MCP 経由で制御できるため、AIエージェントが人を介さず完成した動画を作れます。HeyGen 発・39K スターが信頼を買いますが、まだ若いエコシステムで公式クラウド API は未整備、画面のアートディレクションには本物の HTML/CSS の堪能さが要ります。",
+      "es": "Hyperframes apuesta a que el vídeo no es más que HTML con línea de tiempo, y para los agentes la apuesta sale bien: le entregas marcado con animación GSAP y Puppeteer renderiza fotogramas reales —todo controlable vía MCP—, de modo que un agente puede producir vídeo terminado sin humano en el bucle. Nacer de HeyGen y sus 39K estrellas dan credibilidad, pero es un ecosistema joven sin API en la nube oficial todavía, y querrás fluidez real de HTML/CSS para dirigir el resultado.",
+      "fr": "Hyperframes parie que la vidéo n'est que du HTML avec une timeline, et pour les agents, le pari est gagné : vous lui donnez du balisage avec animations GSAP et Puppeteer rend de vraies images — le tout pilotable via MCP — si bien qu'un agent IA peut produire une vidéo finie sans humain dans la boucle. Issu de HeyGen avec 39K étoiles, il inspire confiance, mais l'écosystème est jeune, sans API cloud officielle pour l'instant, et il faudra une vraie aisance HTML/CSS pour diriger le rendu."
     },
     "bestFor": {
       "en": [
@@ -201,7 +201,7 @@
   },
   "meta": {
     "lastVerified": "2026-08-03",
-    "verdictDate": "2026-08-03",
+    "verdictDate": "2026-10-02",
     "pricingVerified": "2026-08-03",
     "pricingUrl": "https://github.com/pricing/"
   },

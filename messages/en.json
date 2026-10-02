@@ -319,7 +319,27 @@
     "review_title": "Ongoing Review",
     "review_text": "Listing is not permanent. We periodically re-check live status and pricing automatically, and we re-audit existing listings for reputation and safety over time. When a tool crosses a red line, we remove it regardless of how long it has been listed.",
     "report_title": "Report a Concern",
-    "report_text": "Found a listed tool that violates these standards? Tell us and we will investigate. Contact us at:"
+    "report_text": "Found a listed tool that violates these standards? Tell us and we will investigate. Contact us at:",
+    "last_updated": "Last updated: October 2, 2026",
+    "scale_title": "Our Rating Scale",
+    "scale_text": "Every listing on Cataito carries one verdict badge. Ratings are re-calibrated at every re-audit, and the top of the scale is deliberately rare — across hundreds of listings, only one has ever earned the top badge.",
+    "scale_items": [
+      "Game-Changing — sets a new bar for its category; reserved for tools that redefined how the work gets done. Earned once in our entire catalog.",
+      "Highly Recommended — best-in-class for what it does; we recommend it without reservation within its category.",
+      "Recommended — a solid, dependable choice that does its job well with no significant concerns.",
+      "Worth Trying — genuinely useful, with caveats you should know before committing (early stage, crowded space, or adoption risk).",
+      "For Specific Needs — strong for a particular niche or workflow, not a general-purpose pick; the right call only when that need is yours.",
+      "Consider Alternatives — listed for completeness, but significant concerns mean you should look elsewhere first."
+    ],
+    "method_title": "How We Evaluate",
+    "method_text": "Badges are not gut feelings. Every rating is the output of the same review loop:",
+    "method_items": [
+      "What the tool actually does: we read past the marketing page and verify claims against the product itself — documentation, changelogs, and hands-on use where feasible.",
+      "Pricing you can trust: plan structures are checked against the vendor’s official pricing page and re-verified every time we touch the listing.",
+      "Signals from the field: GitHub activity, established review platforms and documented user complaints all feed the pros & cons you see on each page.",
+      "No-rumor rule: any rejection or rating cap requires at least two independent, recent sources — see Our Evidence Standard below.",
+      "Standing cadence: star counts, rankings and snapshots refresh automatically; an automated weekly audit checks liveness, staleness and pricing drift; every manual update re-verifies features and pricing."
+    ]
   },
   "skills": {
     "metaTitle": "AI Agent Skills & MCP Servers",

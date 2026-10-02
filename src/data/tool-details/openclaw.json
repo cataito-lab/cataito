@@ -212,11 +212,11 @@
   "verdict": {
     "badge": "For Specific Needs",
     "headline": {
-      "en": "Open-source AI agent framework for building autonomous task-completion systems.",
-      "zh": "用于构建自主任务完成系统的开源AI智能体框架。",
-      "ja": "自律的なタスク完了システムを構築するためのオープンソースAIエージェントフレームワーク。",
-      "es": "Framework de agentes IA de código abierto para construir sistemas autónomos de completado de tareas.",
-      "fr": "Framework d'agents IA open-source pour construire des systèmes autonomes d'exécution de tâches."
+      "en": "The self-hosted AI agent that lives in your messengers",
+      "zh": "住在你的聊天软件里的自托管 AI 智能体",
+      "ja": "あなたのメッセンジャーで暮らすセルフホスト AI エージェント",
+      "es": "El agente de IA autoalojado que vive en tus mensajerías",
+      "fr": "L'agent IA auto-hébergé qui vit dans vos messageries"
     },
     "body": {
       "en": "OpenClaw provides an open-source foundation for building AI agents that can plan and execute multi-step tasks. It's aimed at developers who want to create custom autonomous systems without depending on proprietary agent platforms.\n\nThe project is still maturing, and the community is smaller than established alternatives like LangChain or AutoGPT. Best for developers who value open-source control and are comfortable contributing to an evolving project.",
@@ -277,7 +277,7 @@
   },
   "meta": {
     "lastVerified": "2026-07-27",
-    "verdictDate": "2026-07-27",
+    "verdictDate": "2026-10-02",
     "pricingVerified": "2026-07-27"
   },
   "pricingInfo": {
