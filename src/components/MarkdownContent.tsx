@@ -314,26 +314,42 @@ function renderMarkdown(lines: string[], keySeed: number): ReactNode[] {
       );
       continue;
     }
-    // 有序列表（支持缩进；每组从 1 重新编号）—— 步骤徽章样式
+    // 有序列表（支持缩进；条目之间的空行不断组，徽章用源文编号）—— 步骤徽章样式
     else if (line.trim().match(/^\d+\.\s/)) {
       const items = [line];
       i++;
-      while (i < lines.length && lines[i].trim().match(/^\d+\.\s/)) {
-        items.push(lines[i]);
-        i++;
+      while (i < lines.length) {
+        if (lines[i].trim().match(/^\d+\.\s/)) {
+          items.push(lines[i]);
+          i++;
+        } else if (lines[i].trim() === '') {
+          // 空行：向后看，若下一个非空行仍是编号条目则属于同一列表，吞掉空行继续收集
+          let j = i + 1;
+          while (j < lines.length && lines[j].trim() === '') j++;
+          if (j < lines.length && lines[j].trim().match(/^\d+\.\s/)) {
+            i = j;
+          } else {
+            break;
+          }
+        } else {
+          break;
+        }
       }
       elements.push(
         <ol key={idx++} className="mb-6 space-y-3">
-          {items.map((it, ii) => (
-            <li key={ii} className="flex items-start gap-3">
-              <span className="shrink-0 w-7 h-7 rounded-full bg-[var(--muted-bg)] border border-[var(--muted-border)] text-[var(--primary)] text-sm font-semibold flex items-center justify-center">
-                {ii + 1}
-              </span>
-              <span className="text-[var(--muted)] pt-0.5 leading-relaxed">
-                {renderInline(it.trim().replace(/^\d+\.\s/, ''), `ol${idx}-${ii}`)}
-              </span>
-            </li>
-          ))}
+          {items.map((it, ii) => {
+            const srcNum = parseInt((it.trim().match(/^(\d+)\./) || [])[1] || '', 10);
+            return (
+              <li key={ii} className="flex items-start gap-3">
+                <span className="shrink-0 w-7 h-7 rounded-full bg-[var(--muted-bg)] border border-[var(--muted-border)] text-[var(--primary)] text-sm font-semibold flex items-center justify-center">
+                  {Number.isNaN(srcNum) ? ii + 1 : srcNum}
+                </span>
+                <span className="text-[var(--muted)] pt-0.5 leading-relaxed">
+                  {renderInline(it.trim().replace(/^\d+\.\s/, ''), `ol${idx}-${ii}`)}
+                </span>
+              </li>
+            );
+          })}
         </ol>
       );
       continue;
