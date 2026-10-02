@@ -32,7 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = (post.title as Record<string, string>)[locale] || post.title.en;
   const excerpt = (post.excerpt as Record<string, string>)[locale] || post.excerpt.en;
-  const localeCover = `/blog/covers/${slug}.png` || `/blog/covers/${slug}-${locale}.svg`;
+  // 封面统一用数据文件里的 SVG（public/blog/covers/ 只有 .svg；此前硬编码 .png 404 导致详情页与 OG 全部落到兜底占位图）
+  const localeCover = post.coverImage;
 
   // 自定义 SEO（优先），回退到默认标题 + excerpt
   const seo = post.seo as { title?: Record<string, string>; description?: Record<string, string> } | undefined;
@@ -78,7 +79,8 @@ export default async function BlogDetailPage({ params }: Props) {
     url: `${BASE_URL}/${locale}/blog/${slug}`,
   });
 
-  const localeCover = `/blog/covers/${slug}.png` || `/blog/covers/${slug}-${locale}.svg`;
+  // 与 generateMetadata 保持一致：详情页封面用数据文件里的 SVG
+  const localeCover = post.coverImage;
 
   return <BlogDetailClient post={post} locale={locale} articleJsonLd={articleJsonLd} coverImage={localeCover} />;
 }
