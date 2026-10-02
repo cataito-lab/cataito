@@ -4,7 +4,19 @@
     "latestDesc": "Outils IA récemment ajoutés à l'écosystème Cataito",
     "featuredTitle": "Sélection de la rédaction",
     "featuredDesc": "Une sélection dans toutes les catégories d'IA",
-    "viewAll": "Voir tout"
+    "viewAll": "Voir tout",
+    "aboutEyebrow": "À propos de Cataito",
+    "aboutTitle": "Un annuaire IA indépendant, organisé à la main",
+    "aboutPara1": "Cataito est un annuaire indépendant et organisé à la main d'outils d'IA, de skills d'agents et de serveurs MCP. Chaque fiche est examinée par un éditeur avant publication : nous regardons au-delà de la page marketing — ce que l'outil fait réellement, comment il gère les prix et la vie privée, et ce que les utilisateurs en disent vraiment.",
+    "aboutPara2": "Les fiches sont soumises à des règles explicites : la fraude à la facturation, les logiciels malveillants, l'usurpation d'identité et les produits abandonnés sont des lignes rouges automatiques, et rien n'est rejeté sur la seule foi d'une rumeur — il faut au moins deux sources récentes et indépendantes. Les fiches restent sous revue permanente : étoiles, classements et tarifs sont revérifiés régulièrement, et tout outil qui franchit une ligne est retiré, quelle que soit l'ancienneté de sa fiche.",
+    "aboutFact1Label": "fiches vérifiées à la main : outils d'IA, skills d'agents et serveurs MCP",
+    "aboutFact2Value": "7",
+    "aboutFact2Label": "lignes rouges — fraude à la facturation, malwares, arnaques et plus encore : refus automatique",
+    "aboutFact3Value": "2+",
+    "aboutFact3Label": "sources récentes et indépendantes requises avant tout rejet ou retrait d'un outil",
+    "aboutFact4Value": "Continu",
+    "aboutFact4Label": "réaudits — étoiles, classements, tarifs et réputation revérifiés régulièrement",
+    "aboutPolicyLink": "Lire l'intégralité de nos standards éditoriaux et de référencement"
   },
   "featuredAgents": {
     "title": "Agents IA en vedette",

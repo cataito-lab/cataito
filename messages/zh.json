@@ -4,7 +4,19 @@
     "latestDesc": "最新加入 Cataito 生态的 AI 工具",
     "featuredTitle": "精选工具",
     "featuredDesc": "跨越全部 AI 分类的编辑精选",
-    "viewAll": "浏览全部"
+    "viewAll": "浏览全部",
+    "aboutEyebrow": "关于 Cataito",
+    "aboutTitle": "独立运营、人工精选的 AI 生态目录",
+    "aboutPara1": "Cataito 是一个独立运营、人工精选的 AI 生态目录，收录 AI 工具、Agent 技能与 MCP 服务器。每一条目上线前都经过编辑人工审核——我们越过营销页面，去看工具实际能做什么、定价与隐私如何处理、真实用户如何评价。",
+    "aboutPara2": "收录执行明确的红线：计费欺诈、恶意软件、假冒仿冒与已停运的产品一律拒收；且绝不凭传言下判断——拒绝收录至少需要两个独立的近期信息来源相互印证。已收录条目持续复审，星数、排行与定价按固定节奏自动刷新，任何越线工具无论收录多久都会被移除。",
+    "aboutFact1Label": "人工审核收录的条目：AI 工具、Agent 技能与 MCP 服务器",
+    "aboutFact2Value": "7",
+    "aboutFact2Label": "条收录红线——计费欺诈、恶意软件、诈骗工具等一律拒收",
+    "aboutFact3Value": "2+",
+    "aboutFact3Label": "个独立近期信息来源，是任何拒绝或移除判定前的硬性要求",
+    "aboutFact4Value": "持续",
+    "aboutFact4Label": "复审机制——星数、排行、定价与口碑按固定节奏重新核查",
+    "aboutPolicyLink": "阅读完整的编辑与收录标准"
   },
   "featuredAgents": {
     "title": "精选 AI 智能体",

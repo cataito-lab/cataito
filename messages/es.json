@@ -4,7 +4,19 @@
     "latestDesc": "Herramientas de IA añadidas recientemente al ecosistema Cataito",
     "featuredTitle": "Selección del editor",
     "featuredDesc": "Una selección de todas las categorías de IA",
-    "viewAll": "Ver todo"
+    "viewAll": "Ver todo",
+    "aboutEyebrow": "Acerca de Cataito",
+    "aboutTitle": "Un directorio de IA independiente y curado a mano",
+    "aboutPara1": "Cataito es un directorio independiente y curado a mano de herramientas de IA, skills de Agentes y servidores MCP. Cada entrada pasa por la revisión de un editor antes de publicarse: miramos más allá de la página de marketing para ver qué hace realmente la herramienta, cómo gestiona el precio y la privacidad, y qué dicen los usuarios reales.",
+    "aboutPara2": "Las fichas se rigen por estándares explícitos: el fraude en la facturación, el malware, la suplantación y los productos abandonados son líneas rojas automáticas, y nada se rechaza por rumores: hacen falta al menos dos fuentes recientes e independientes. Las entradas permanecen bajo revisión continua, con estrellas, rankings y precios verificados periódicamente, y cualquier herramienta que cruce una línea se elimina, lleve el tiempo que lleve publicada.",
+    "aboutFact1Label": "fichas revisadas a mano: herramientas de IA, skills de Agentes y servidores MCP",
+    "aboutFact2Value": "7",
+    "aboutFact2Label": "líneas rojas — fraude en la facturación, malware, estafas y más implican rechazo automático",
+    "aboutFact3Value": "2+",
+    "aboutFact3Label": "fuentes recientes e independientes requeridas antes de rechazar o eliminar una herramienta",
+    "aboutFact4Value": "Continuo",
+    "aboutFact4Label": "reauditorías — estrellas, rankings, precios y reputación se verifican periódicamente",
+    "aboutPolicyLink": "Lea nuestros estándares editoriales y de listado completos"
   },
   "featuredAgents": {
     "title": "Agentes de IA destacados",

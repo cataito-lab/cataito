@@ -12,6 +12,7 @@ import BlogHighlights from '@/components/BlogHighlights';
 import TutorialHighlights from '@/components/TutorialHighlights';
 import Newsletter from '@/components/Newsletter';
 import SubmitCTA from '@/components/SubmitCTA';
+import EditorialIntro from '@/components/EditorialIntro';
 import Footer from '@/components/Footer';
 import LogoTile from '@/components/LogoTile';
 import { tools } from '@/data/aggregated';
@@ -147,6 +148,7 @@ export default function HomePageClient() {
   }, [allTools]);
 
   const curatedTools = allTools.filter((tool) => tool.homeFeatured).slice(0, 8);
+  const totalEntries = allTools.length + skills.length + mcp.length;
 
   const getDisplayName = (tool: Tool) =>
     locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
@@ -160,6 +162,9 @@ export default function HomePageClient() {
       />
       <main className="flex-1">
         <HeroSection searchQuery={searchQuery} onSearchChange={setSearchQuery} />
+
+        {/* Editorial Intro — 本站定位与收录标准（实质性文字，置于卡片板块之前） */}
+        <EditorialIntro totalEntries={totalEntries} />
 
         {/* Latest Additions — 跨版块（工具/Skills/MCP） */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">

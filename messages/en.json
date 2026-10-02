@@ -4,7 +4,19 @@
     "latestDesc": "Recently added AI tools to the Cataito ecosystem",
     "featuredTitle": "Editor's Picks",
     "featuredDesc": "A curated selection spanning every AI category",
-    "viewAll": "Browse All"
+    "viewAll": "Browse All",
+    "aboutEyebrow": "About Cataito",
+    "aboutTitle": "An independent, hand-curated AI directory",
+    "aboutPara1": "Cataito is an independent, hand-curated directory of AI tools, Agent skills, and MCP servers. Every entry is reviewed by an editor before it goes live — we look past the marketing page at what the tool actually does, how it handles pricing and privacy, and what real users report.",
+    "aboutPara2": "Listings are held to explicit standards: billing fraud, malware, impersonation, and abandoned products are automatic red lines, and nothing is rejected on rumor alone — it takes at least two independent, recent sources. Entries stay under ongoing review, with stars, rankings and pricing re-checked on a regular cadence, and any tool that crosses a line is removed no matter how long it has been listed.",
+    "aboutFact1Label": "hand-reviewed listings across AI tools, Agent skills & MCP servers",
+    "aboutFact2Value": "7",
+    "aboutFact2Label": "red lines — billing fraud, malware, scams and more mean automatic refusal",
+    "aboutFact3Value": "2+",
+    "aboutFact3Label": "independent, recent sources required before any tool is rejected or removed",
+    "aboutFact4Value": "Ongoing",
+    "aboutFact4Label": "re-audits — stars, rankings, pricing and reputation re-checked on a regular cadence",
+    "aboutPolicyLink": "Read our full Editorial & Listing Standards"
   },
   "featuredAgents": {
     "title": "Featured AI Agents",
