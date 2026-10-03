@@ -23,7 +23,7 @@
   ],
   "installCommand": "Add the Skill file to your AI coding assistant's context. Compatible with Claude Code, Codex, and OpenClaw.",
   "logo": "/logos/skills/global-stock-data.png",
-  "stars": 1665,
+  "stars": 1667,
   "featured": false,
   "faqs": [
     {
