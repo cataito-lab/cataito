@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "One command generates a full CLI for any software: /cli-anything <app> runs a 7-phase pipeline — analysis, design, implementation, test planning, test writing, documentation, release",
+      "Agent-native by design: every generated command ships with --json output, and an SKILL.md file is auto-generated for agent skill discovery",
+      "Drives real software, not toy replacements: community CLIs for GIMP, Blender, LibreOffice, OBS, Zotero and more install through the CLI-Hub registry (pip install cli-anything-hub)",
+      "Dual interaction modes: a stateful REPL for exploration plus subcommand scripting for automation",
+      "Broad agent-platform support: Claude Code, Cursor, Codex, OpenCode, GitHub Copilot CLI and others can drive the generated CLIs",
+      "Heavy test discipline: roughly 2,464 unit and E2E tests reported at 100% pass"
+    ],
+    "zh": [
+      "一条命令为任意软件生成完整 CLI：/cli-anything <应用> 跑完七阶段管线——分析、设计、实现、测试规划、编写测试、文档、发布",
+      "智能体原生设计：每条生成的命令自带 --json 输出，并自动生成 SKILL.md 供智能体发现技能",
+      "操控真实软件而非玩具替代品：GIMP、Blender、LibreOffice、OBS、Zotero 等的社区 CLI 通过 CLI-Hub 注册表安装（pip install cli-anything-hub）",
+      "双交互模式：探索用有状态 REPL，自动化用子命令脚本",
+      "广泛的智能体平台支持：Claude Code、Cursor、Codex、OpenCode、GitHub Copilot CLI 等都能驱动生成的 CLI",
+      "重度测试纪律：约 2,464 项单元与 E2E 测试，报告 100% 通过"
+    ],
+    "ja": [
+      "1コマンドであらゆるソフトの完全なCLIを生成：/cli-anything <アプリ> が分析・設計・実装・テスト計画・テスト作成・ドキュメント・リリースの7フェーズを実行",
+      "エージェントネイティブ設計：生成される全コマンドに --json 出力を同梱し、スキル発見用の SKILL.md を自動生成",
+      "おもちゃの代替ではなく実ソフトを操作：GIMP・Blender・LibreOffice・OBS・Zotero などのコミュニティCLIを CLI-Hub レジストリからインストール（pip install cli-anything-hub）",
+      "二つの操作モード：探索用のステートフル REPL と、自動化用のサブコマンドスクリプティング",
+      "幅広いエージェントプラットフォーム対応：Claude Code、Cursor、Codex、OpenCode、GitHub Copilot CLI などが生成CLIを駆動可能",
+      "徹底したテスト規律：約2,464件のユニット/E2Eテストが100%合格と報告"
+    ],
+    "es": [
+      "Un comando genera una CLI completa para cualquier software: /cli-anything <app> ejecuta un pipeline de 7 fases —análisis, diseño, implementación, planificación de pruebas, escritura de pruebas, documentación, lanzamiento—",
+      "Nativo para agentes por diseño: cada comando generado incluye salida --json y un archivo SKILL.md autogenerado para el descubrimiento de habilidades",
+      "Controla software real, no sustitutos de juguete: las CLI comunitarias de GIMP, Blender, LibreOffice, OBS, Zotero y más se instalan desde el registro CLI-Hub (pip install cli-anything-hub)",
+      "Doble modo de interacción: un REPL con estado para explorar y scripting por subcomandos para automatizar",
+      "Amplio soporte de plataformas de agentes: Claude Code, Cursor, Codex, OpenCode, GitHub Copilot CLI y otras pueden manejar las CLI generadas",
+      "Disciplina de pruebas intensiva: alrededor de 2.464 pruebas unitarias y E2E reportadas con 100% de aprobación"
+    ],
+    "fr": [
+      "Une commande génère une CLI complète pour n'importe quel logiciel : /cli-anything <app> exécute un pipeline en 7 phases —analyse, conception, implémentation, planification des tests, écriture des tests, documentation, publication—",
+      "Natif pour agents par conception : chaque commande générée embarque une sortie --json, et un fichier SKILL.md est autogénéré pour la découverte de compétences",
+      "Pilote de vrais logiciels, pas des substituts de jouet : les CLI communautaires de GIMP, Blender, LibreOffice, OBS, Zotero et plus s'installent via le registre CLI-Hub (pip install cli-anything-hub)",
+      "Double mode d'interaction : un REPL avec état pour l'exploration et du scripting par sous-commandes pour l'automatisation",
+      "Large support de plateformes d'agents : Claude Code, Cursor, Codex, OpenCode, GitHub Copilot CLI et d'autres peuvent piloter les CLI générées",
+      "Discipline de tests poussée : environ 2 464 tests unitaires et E2E rapportés à 100 % de réussite"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source under Apache-2.0. The generator and CLI-Hub cost nothing; your real cost is the LLM API usage of whichever agent drives the generated CLIs",
+      "zh": "Apache-2.0 免费开源。生成器与 CLI-Hub 本身分文不取；真正的成本是驱动生成 CLI 的智能体所消耗的大模型 API 费用",
+      "ja": "Apache-2.0 の無料オープンソース。ジェネレーターと CLI-Hub は無料。実際のコストは、生成CLIを駆動するエージェントのLLM API使用料です",
+      "es": "Gratis y de código abierto bajo Apache-2.0. El generador y CLI-Hub no cuestan nada; tu coste real es el uso de API del LLM del agente que maneje las CLI generadas",
+      "fr": "Gratuit et open source sous Apache-2.0. Le générateur et CLI-Hub ne coûtent rien ; votre coût réel est l'usage API du LLM de l'agent qui pilote les CLI générées"
+    },
+    "paid": {
+      "en": "No paid plans. The project is community-maintained and there is nothing to buy",
+      "zh": "没有付费档。项目由社区维护，没有任何可购买的内容",
+      "ja": "有料プランなし。プロジェクトはコミュニティ管理で、購入するものはありません",
+      "es": "Sin planes de pago. El proyecto lo mantiene la comunidad y no hay nada que comprar",
+      "fr": "Aucun plan payant. Le projet est maintenu par la communauté et il n'y a rien à acheter"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Let coding agents (Claude Code, Cursor) operate desktop and creative software — Blender scenes, GIMP edits, LibreOffice documents — through structured commands",
+      "Automate document, media and research workflows (OBS, Zotero) that previously needed fragile GUI automation or RPA",
+      "Expose internal or company software to agents safely, where you control the source and can generate a CLI for it",
+      "Give agents JSON-structured access to applications that have no official API or MCP server"
+    ],
+    "zh": [
+      "让编码智能体（Claude Code、Cursor）通过结构化命令操作桌面与创意软件——Blender 场景、GIMP 修图、LibreOffice 文档",
+      "自动化此前依赖脆弱 GUI 自动化或 RPA 的文档、媒体与研究工作流（OBS、Zotero）",
+      "在掌握源码的前提下，为公司内部软件安全地生成智能体可用的 CLI",
+      "给没有官方 API 或 MCP 服务器的应用，提供 JSON 结构化的智能体访问通道"
+    ],
+    "ja": [
+      "コーディングエージェント（Claude Code、Cursor）に、構造化コマンド経由でデスクトップ・クリエイティブソフト（Blenderシーン、GIMP編集、LibreOffice文書）を操作させる",
+      "以前は脆弱なGUI自動化やRPAが必要だったドキュメント・メディア・研究ワークフロー（OBS、Zotero）を自動化する",
+      "ソースを管理している社内ソフトに、安全にエージェント用CLIを生成して公開する",
+      "公式APIやMCPサーバーがないアプリに、JSON構造化されたエージェントアクセスを与える"
+    ],
+    "es": [
+      "Permitir que agentes de código (Claude Code, Cursor) operen software de escritorio y creativo —escenas de Blender, ediciones en GIMP, documentos de LibreOffice— mediante comandos estructurados",
+      "Automatizar flujos de documentos, medios e investigación (OBS, Zotero) que antes requerían automatización de GUI frágil o RPA",
+      "Exponer software interno o corporativo a los agentes de forma segura, cuando controlas el código fuente y puedes generar una CLI",
+      "Dar a los agentes acceso estructurado por JSON a aplicaciones sin API oficial ni servidor MCP"
+    ],
+    "fr": [
+      "Permettre aux agents de code (Claude Code, Cursor) de piloter des logiciels de bureau et créatifs —scènes Blender, retouches GIMP, documents LibreOffice— via des commandes structurées",
+      "Automatiser des flux documentaires, médias et de recherche (OBS, Zotero) qui exigeaient auparavant une automatisation d'interface fragile ou du RPA",
+      "Exposer en toute sécurité des logiciels internes ou d'entreprise aux agents, quand vous contrôlez le code source et pouvez générer une CLI",
+      "Donner aux agents un accès structuré en JSON à des applications sans API officielle ni serveur MCP"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Opens a genuinely new category: software becomes agent-native at the CLI layer, instead of brittle screenshot-and-click automation",
+      "Apache-2.0, ~2,464 passing tests, and active development from HKUDS — the university lab behind LightRAG",
+      "Real community traction: 51.5k GitHub stars and a working CLI-Hub registry with CLIs for major desktop apps",
+      "Agent-native details done right: --json on every command, SKILL.md generation, support for ten-plus agent platforms"
+    ],
+    "zh": [
+      "开创了一个真正的新品类：软件在 CLI 层完成智能体原生化，绕开了脆弱的截图点击式自动化",
+      "Apache-2.0 协议、约 2,464 项测试、LightRAG 背后大学实验室 HKUDS 的活跃开发",
+      "真实的社区热度：GitHub 51.5k 星，CLI-Hub 注册表里已有主流桌面应用的社区 CLI",
+      "智能体原生细节到位：每条命令带 --json、自动生成 SKILL.md、支持十多个智能体平台"
+    ],
+    "ja": [
+      "本当に新しいカテゴリを切り拓いた：脆弱なスクリーンショット＆クリック自動化ではなく、CLIレイヤーでソフトをエージェントネイティブ化",
+      "Apache-2.0、約2,464件の合格テスト、LightRAG を生んだ大学ラボ HKUDS による活発な開発",
+      "確かなコミュニティの熱：GitHub 51.5kスターと、主要デスクトップアプリのコミュニティCLIが揃った CLI-Hub",
+      "エージェントネイティブの細部が適切：全コマンドに --json、SKILL.md 自動生成、10以上のプラットフォーム対応"
+    ],
+    "es": [
+      "Abre una categoría genuinamente nueva: el software se vuelve nativo para agentes en la capa de CLI, en lugar de automatización frágil de captura y clic",
+      "Apache-2.0, ~2.464 pruebas aprobadas y desarrollo activo de HKUDS, el laboratorio universitario detrás de LightRAG",
+      "Tracción comunitaria real: 51,5 mil estrellas en GitHub y un registro CLI-Hub funcional con CLIs de aplicaciones de escritorio importantes",
+      "Detalles nativos para agentes bien resueltos: --json en cada comando, generación de SKILL.md, soporte para más de diez plataformas"
+    ],
+    "fr": [
+      "Ouvre une catégorie vraiment nouvelle : le logiciel devient natif pour agents à la couche CLI, au lieu d'une automatisation fragile par capture et clic",
+      "Apache-2.0, ~2 464 tests réussis et un développement actif par HKUDS, le laboratoire universitaire derrière LightRAG",
+      "Une traction communautaire réelle : 51,5 k étoiles GitHub et un registre CLI-Hub fonctionnel avec des CLI pour les grandes applications de bureau",
+      "Des détails natifs agents bien traités : --json sur chaque commande, génération de SKILL.md, support de plus de dix plateformes"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Generated CLIs are only as good as the agent driving them — the README itself states that frontier-level models are required",
+      "Wrapping a target app needs access to its source or scriptable internals; closed software without either cannot be covered",
+      "Maintainers acknowledge that index-based parameter referencing is fragile when multiple generated CLIs are used together (GitHub issue, March 2026)",
+      "A young project: most coverage so far is trend-driven, and deep independent reviews are still thin"
+    ],
+    "zh": [
+      "生成的 CLI 好不好用取决于驱动它的智能体——README 自己写明需要前沿级模型",
+      "封装目标应用需要其源码或可脚本化的内部接口；两者都没有的闭源软件无法覆盖",
+      "维护者承认多个生成 CLI 并用时，基于索引的参数引用是脆弱的（2026 年 3 月 GitHub issue）",
+      "项目还年轻：目前的报道多为趋势转发，独立的深度评测仍然很少"
+    ],
+    "ja": [
+      "生成CLIの出来は駆動するエージェント次第——README 自身がフロンティア級モデルが必要と明記",
+      "対象ソフトのソースかスクリプト可能な内部インターフェースへのアクセスが必要。どちらもないクローズドソフトは対象外",
+      "複数の生成CLIを併用する際、インデックス参照のパラメータ指定が壊れやすいと開発者自身が認めている（2026年3月のGitHub issue）",
+      "若いプロジェクト：これまでの報道の多くはトレンド転載で、独立した深いレビューはまだ少ない"
+    ],
+    "es": [
+      "Las CLI generadas son tan buenas como el agente que las maneja —el propio README indica que se requieren modelos de frontera—",
+      "Envolver una aplicación objetivo requiere acceso a su código fuente o internos scriptables; el software cerrado sin ninguna de las dos no puede cubrirse",
+      "Los mantenedores reconocen que la referencia de parámetros por índice es frágil cuando se usan varias CLI generadas juntas (issue de GitHub, marzo de 2026)",
+      "Un proyecto joven: la mayor parte de la cobertura hasta ahora es de tendencias, y las reseñas independientes profundas siguen siendo escasas"
+    ],
+    "fr": [
+      "Les CLI générées valent ce que vaut l'agent qui les pilote —le README indique lui-même que des modèles de frontière sont requis—",
+      "Emballer une application cible exige l'accès à son code source ou à des internes scriptables ; les logiciels fermés sans l'un ni l'autre ne peuvent pas être couverts",
+      "Les mainteneurs reconnaissent que la référencement des paramètres par index est fragile quand plusieurs CLI générées sont utilisées ensemble (issue GitHub, mars 2026)",
+      "Un projet jeune : l'essentiel de la couverture à ce jour est une reprise de tendances, et les revues indépendantes approfondies restent rares"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: CLI-Hub registry expands with community CLIs for GIMP, Blender, LibreOffice, OBS, Zotero and more; agent-platform support grows past ten platforms including Claude Code, Cursor, Codex and GitHub Copilot CLI; the repository passed 50,000 GitHub stars in September",
+    "zh": "2026 年：CLI-Hub 注册表扩展至 GIMP、Blender、LibreOffice、OBS、Zotero 等社区 CLI；智能体平台支持超过十个，含 Claude Code、Cursor、Codex 与 GitHub Copilot CLI；仓库 9 月突破 5 万 GitHub 星",
+    "ja": "2026年：CLI-Hub レジストリが GIMP・Blender・LibreOffice・OBS・Zotero などのコミュニティCLIに拡大。エージェントプラットフォーム対応は Claude Code、Cursor、Codex、GitHub Copilot CLI など10以上に増加。9月にリポジトリは GitHub スター5万を突破",
+    "es": "2026: el registro CLI-Hub se amplía con CLI comunitarias de GIMP, Blender, LibreOffice, OBS, Zotero y más; el soporte de plataformas de agentes supera diez, incluidos Claude Code, Cursor, Codex y GitHub Copilot CLI; el repositorio superó las 50.000 estrellas en septiembre",
+    "fr": "2026 : le registre CLI-Hub s'élargit avec des CLI communautaires pour GIMP, Blender, LibreOffice, OBS, Zotero et plus ; le support des plateformes d'agents dépasse la dizaine, dont Claude Code, Cursor, Codex et GitHub Copilot CLI ; le dépôt a dépassé 50 000 étoiles GitHub en septembre"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "The missing link between AI agents and real software",
+      "zh": "智能体与真实软件之间缺失的那一环",
+      "ja": "AIエージェントと実ソフトの間の欠けていたリンク",
+      "es": "El eslabón que faltaba entre los agentes de IA y el software real",
+      "fr": "Le maillon manquant entre les agents IA et les vrais logiciels"
+    },
+    "body": {
+      "en": "CLI-Anything starts from a real observation: agents are good at typing commands, but most software has no command line. Instead of screenshot-and-click GUI automation, it generates a structured CLI for the actual application — with JSON output, tests and documentation — so an agent can drive GIMP, Blender or LibreOffice the way it drives any dev tool. The execution is credible: Apache-2.0, roughly 2,464 passing tests, a working CLI-Hub registry, and HKUDS, the lab behind LightRAG, as the maintainer. The caveats are real too: you need a frontier-level model driving it, you need source or scriptable access to the target app, and the project is young — most coverage so far is trend-driven, and maintainers themselves flag index-based parameter referencing as fragile across multiple CLIs. For agent builders, it is currently the most direct way to make real software agent-native.",
+      "zh": "CLI-Anything 的出发点是一个真实存在的缺口：智能体擅长敲命令，但大多数软件没有命令行。它不去做截图点击式的 GUI 自动化，而是为实际应用生成结构化的 CLI——带 JSON 输出、测试和文档——让智能体驱动 GIMP、Blender 或 LibreOffice 就像驱动一个开发工具。执行力是可信的：Apache-2.0、约 2,464 项通过的测试、一个能用的 CLI-Hub 注册表，以及 LightRAG 背后的实验室 HKUDS 作为维护方。但短板同样真实：你需要一个前沿级模型来驱动它，需要对目标应用有源码或可脚本化的访问，而且项目还年轻——目前的报道多为趋势转发，维护者自己也指出多个 CLI 并用时基于索引的参数引用是脆弱的。对智能体开发者来说，这是当前让真实软件智能体原生化最直接的路径。",
+      "ja": "CLI-Anything は実在する隙間から始まっています。エージェントはコマンド入力が得意だが、ほとんどのソフトにはコマンドラインがない。スクリーンショット＆クリックのGUI自動化の代わりに、実際のアプリケーション用の構造化CLI——JSON出力・テスト・ドキュメント付き——を生成し、エージェントがGIMPやBlenderやLibreOfficeを開発ツールのように駆動できます。実行は信頼できます。Apache-2.0、約2,464件の合格テスト、実働する CLI-Hub、LightRAG を生んだラボ HKUDS がメンテナ。ただし注意点も現実です。駆動にはフロンティア級モデルが必要で、対象アプリにはソースかスクリプト可能なアクセスが要り、プロジェクトは若く——これまでの報道の多くはトレンド転載で、開発者自身が複数CLI横断のインデックス参照の脆弱性を認めています。エージェント開発者にとって、実ソフトをエージェントネイティブにする現在最も直接的な道です。",
+      "es": "CLI-Anything parte de una observación real: los agentes son buenos escribiendo comandos, pero la mayoría del software no tiene línea de comandos. En lugar de automatización de GUI por captura y clic, genera una CLI estructurada para la aplicación real —con salida JSON, pruebas y documentación— para que un agente maneje GIMP, Blender o LibreOffice como manejaría cualquier herramienta de desarrollo. La ejecución es creíble: Apache-2.0, ~2.464 pruebas aprobadas, un registro CLI-Hub funcional, y HKUDS —el laboratorio detrás de LightRAG— como mantenedor. Las advertencias también son reales: necesitas un modelo de frontera que lo maneje, necesitas acceso al código o internos scriptables de la aplicación objetivo, y el proyecto es joven —la mayor parte de la cobertura hasta ahora es de tendencias, y los propios mantenedores señalan que la referencia de parámetros por índice es frágil entre varias CLI—. Para quienes construyen agentes, es hoy la vía más directa para hacer nativo para agentes un software real.",
+      "fr": "CLI-Anything part d'une observation réelle : les agents savent taper des commandes, mais la plupart des logiciels n'ont pas de ligne de commande. Au lieu de l'automatisation d'interface par capture et clic, il génère une CLI structurée pour l'application réelle —avec sortie JSON, tests et documentation— pour qu'un agent pilote GIMP, Blender ou LibreOffice comme il piloterait n'importe quel outil de développement. L'exécution est crédible : Apache-2.0, environ 2 464 tests réussis, un registre CLI-Hub fonctionnel, et HKUDS —le laboratoire derrière LightRAG— comme mainteneur. Les réserves sont réelles aussi : il faut un modèle de frontière pour le piloter, un accès au code ou aux internes scriptables de l'application cible, et le projet est jeune —l'essentiel de la couverture à ce jour est une reprise de tendances, et les mainteneurs signalent eux-mêmes que la référence de paramètres par index est fragile entre plusieurs CLI—. Pour les bâtisseurs d'agents, c'est aujourd'hui la voie la plus directe pour rendre un vrai logiciel natif pour agents."
+    },
+    "bestFor": {
+      "en": [
+        "Agent builders who want Claude Code, Cursor or Codex to operate real desktop software like Blender, GIMP or LibreOffice",
+        "Teams automating document, media or research workflows that previously required fragile GUI automation or RPA",
+        "Developers with source access to internal software who want to expose it to agents through structured commands"
+      ],
+      "zh": [
+        "想让 Claude Code、Cursor 或 Codex 操作 Blender、GIMP、LibreOffice 等真实桌面软件的智能体开发者",
+        "需要自动化此前依赖脆弱 GUI 自动化或 RPA 的文档、媒体与研究工作流的团队",
+        "掌握内部软件源码、想通过结构化命令安全地把它暴露给智能体的开发者"
+      ],
+      "ja": [
+        "Claude Code、Cursor、Codex に Blender・GIMP・LibreOffice などの実デスクトップソフトを操作させたいエージェント開発者",
+        "以前は脆弱なGUI自動化やRPAが必要だったドキュメント・メディア・研究ワークフローの自動化チーム",
+        "社内ソフトのソースにアクセスでき、構造化コマンド経由で安全にエージェントへ公開したい開発者"
+      ],
+      "es": [
+        "Quienes construyen agentes y quieren que Claude Code, Cursor o Codex operen software de escritorio real como Blender, GIMP o LibreOffice",
+        "Equipos que automatizan flujos de documentos, medios o investigación que antes requerían automatización de GUI frágil o RPA",
+        "Desarrolladores con acceso al código de software interno que quieren exponerlo a agentes mediante comandos estructurados"
+      ],
+      "fr": [
+        "Les bâtisseurs d'agents qui veulent que Claude Code, Cursor ou Codex pilote de vrais logiciels de bureau comme Blender, GIMP ou LibreOffice",
+        "Les équipes qui automatisent des flux documentaires, médias ou de recherche exigeant auparavant une automatisation d'interface fragile ou du RPA",
+        "Les développeurs ayant accès au code de logiciels internes et souhaitant les exposer aux agents via des commandes structurées"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "The target app already has an official MCP server — a direct MCP connection may be simpler than a generated CLI",
+        "Your agent only needs web services — most SaaS products have official APIs that need no wrapping"
+      ],
+      "zh": [
+        "目标应用已有官方 MCP 服务器——直连 MCP 可能比生成的 CLI 更直接",
+        "你的智能体只需要网页服务——多数 SaaS 产品有官方 API，无需封装"
+      ],
+      "ja": [
+        "対象アプリに公式MCPサーバーがある場合——生成CLIより直接のMCP接続が簡単なことがあります",
+        "エージェントが必要なのがWebサービスだけの場合——多くのSaaSには公式APIがあり、ラップは不要です"
+      ],
+      "es": [
+        "La aplicación objetivo ya tiene un servidor MCP oficial —una conexión MCP directa puede ser más simple que una CLI generada—",
+        "Tu agente solo necesita servicios web —la mayoría de los SaaS tiene APIs oficiales que no requieren envoltura—"
+      ],
+      "fr": [
+        "L'application cible a déjà un serveur MCP officiel —une connexion MCP directe peut être plus simple qu'une CLI générée—",
+        "Votre agent n'a besoin que de services web —la plupart des SaaS ont des API officielles qui ne nécessitent pas d'encapsulation—"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-10-04",
+    "verdictDate": "2026-10-04",
+    "pricingVerified": "2026-10-04"
+  }
+}

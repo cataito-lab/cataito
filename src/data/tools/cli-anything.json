@@ -1,0 +1,29 @@
+{
+  "slug": "cli-anything",
+  "name": "CLI-Anything",
+  "nameZh": "CLI-Anything",
+  "description": "把任意软件变成智能体可用的命令行：一条命令自动生成带 JSON 输出与 SKILL.md 的完整 CLI，让 Claude Code、Cursor 等智能体直接操控 GIMP、Blender、LibreOffice 等真实软件。Apache-2.0 开源，附 CLI-Hub 社区注册表，GitHub 51.5k 星",
+  "descriptionEn": "Turns any software into agent-usable command lines: one command generates a full CLI with JSON output and SKILL.md so agents like Claude Code and Cursor can drive real software — GIMP, Blender, LibreOffice and more. Apache-2.0 open source, with the CLI-Hub community registry; 51.5k GitHub stars",
+  "descriptionJa": "あらゆるソフトをエージェント対応のCLIに変えるツール。1コマンドでJSON出力とSKILL.mdを備えた完全なCLIを生成し、Claude CodeやCursorなどのエージェントがGIMP・Blender・LibreOfficeなどの実ソフトを直接操作できます。Apache-2.0オープンソースで、CLI-Hubコミュニティレジストリを同梱。GitHub 51.5kスター",
+  "descriptionEs": "Convierte cualquier software en líneas de comando para agentes: un comando genera una CLI completa con salida JSON y SKILL.md para que agentes como Claude Code y Cursor controlen software real —GIMP, Blender, LibreOffice y más—. Código abierto Apache-2.0, con el registro comunitario CLI-Hub; 51,5 mil estrellas en GitHub",
+  "descriptionFr": "Transforme n'importe quel logiciel en lignes de commande utilisables par des agents : une commande génère une CLI complète avec sortie JSON et SKILL.md pour que des agents comme Claude Code ou Cursor pilotent de vrais logiciels — GIMP, Blender, LibreOffice et plus. Open source Apache-2.0, avec le registre communautaire CLI-Hub ; 51,5 k étoiles GitHub",
+  "url": "https://github.com/HKUDS/CLI-Anything",
+  "logo": "/logos/tools/cli-anything.png",
+  "category": "Agent",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "HKUDS",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

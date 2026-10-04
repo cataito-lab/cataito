@@ -196,7 +196,8 @@
     "qm",
     "polar",
     "deepseek-harness",
-    "laya"
+    "laya",
+    "cli-anything"
   ],
   "skills": [
     "awesome-selfhosted",
