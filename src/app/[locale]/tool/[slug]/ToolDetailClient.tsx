@@ -46,6 +46,7 @@ interface ToolDetailClientProps {
 }
 
 interface TldrData {
+  stars: number | null;
   displayName: string;
   category: string;
   developer: string;

@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx skills add alchaincyf/nuwa-skill",
   "logo": "/logos/skills/nuwa-skill.png",
-  "stars": 33566,
+  "stars": 33551,
   "featured": false,
   "faqs": [
     {

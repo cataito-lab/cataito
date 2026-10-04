@@ -29,6 +29,7 @@ export const PLATFORM_META: { key: keyof ToolPlatforms; labelKey: string }[] = [
 
 export interface Tool {
   slug: string;
+  stars?: number;
   name: string;
   nameZh?: string;
   description: string;
@@ -87,7 +88,13 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
           </h3>
           <span className="text-xs text-[var(--muted)]">{tCategories(tool.category as any)}</span>
         </div>
-      </Link>
+          {typeof tool.stars === 'number' && tool.stars > 0 && (
+            <span className="shrink-0 inline-flex items-center gap-1 text-xs text-[var(--muted)]" title={tool.stars.toLocaleString()}>
+              <Star className="w-3 h-3 text-amber-400" />
+              {tool.stars >= 1000 ? `${(tool.stars / 1000).toFixed(1).replace(/.0$/, '')}k` : tool.stars}
+            </span>
+          )}
+        </Link>
 
       {/* Description */}
       <Link href={`/tool/${tool.slug}`}>

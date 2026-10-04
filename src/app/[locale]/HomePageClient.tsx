@@ -85,6 +85,7 @@ export default function HomePageClient() {
       entries.push({
         type: 'tool',
         slug: tool.slug,
+        stars: typeof tool.stars === 'number' ? tool.stars : undefined,
         name: tool.name,
         nameZh: tool.nameZh,
         description: tool.description,

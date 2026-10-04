@@ -25,5 +25,6 @@
     "linux": true,
     "browser_extension": false,
     "api": false
-  }
+  },
+  "stars": 51500
 }

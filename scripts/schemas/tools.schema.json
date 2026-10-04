@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Tools Schema",
-  "description": "Validation schema for src/data/tools.json \u2014 AI tool directory entries",
+  "description": "Validation schema for src/data/tools.json — AI tool directory entries",
   "type": "array",
   "items": {
     "type": "object",
@@ -105,7 +105,7 @@
       },
       "platforms": {
         "type": "object",
-        "description": "Supported Platforms \u2014 true | false | 'unknown'\uff08\u672a\u8bc1\u5b9e\uff0c\u524d\u7aef\u4e0d\u663e\u793a\uff09",
+        "description": "Supported Platforms — true | false | 'unknown'（未证实，前端不显示）",
         "required": [
           "web",
           "windows",
@@ -147,6 +147,11 @@
       "logoDark": {
         "type": "string",
         "minLength": 1
+      },
+      "stars": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "GitHub stargazers_count（仅开源工具，refresh-stars 回写）"
       }
     }
   },

@@ -32,11 +32,14 @@ const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 
 // 2.1 数据拆分后：读写走 load-data 装配器（每条一文件 + canonical-order.json）
 const require = createRequire(import.meta.url);
-const { loadMcp, loadSkills, saveCollection, saveOrder } = require('./lib/load-data.cjs');
+const { loadMcp, loadSkills, loadTools, saveCollection, saveOrder } = require('./lib/load-data.cjs');
 
 const DATASETS = [
   { label: 'MCP', dir: 'mcp', orderKey: 'mcp', load: loadMcp },
   { label: 'Skills', dir: 'skills', orderKey: 'skills', load: loadSkills },
+  // Tools（v7.42）：仅刷新 url 为 GitHub 仓库的开源工具；不按星数重排（目录顺序是编辑锚，见 canonical-order），
+  // 也不回写 canonical-order；非 GitHub 源（官网为主）的工具自然跳过。
+  { label: 'Tools', dir: 'tools', orderKey: 'tools', load: loadTools, resort: false, repoFromUrl: true },
 ];
 
 /** 拉取单个 repo 的星数；失败返回 null（调用方保留旧值） */
@@ -68,15 +71,24 @@ async function fetchStars(repo) {
 }
 
 // ---- 主流程 ----
-const datasets = DATASETS.map(({ label, dir, orderKey, load }) => ({
+// Tools 的 repo 从 url 推导（仅 github.com/owner/repo 形式）；MCP/Skills 用条目自带 repo 字段
+function repoOf(entry, dataset) {
+  if (!dataset.repoFromUrl) return entry.repo;
+  const m = String(entry.url || '').match(/^https?:\/\/github\.com\/([\w.-]+\/[\w.-]+?)(?:\.git)?\/?$/);
+  return m ? m[1] : null;
+}
+
+const datasets = DATASETS.map(({ label, dir, orderKey, load, resort, repoFromUrl }) => ({
   label,
   dir,
   orderKey,
+  resort: resort !== false,
+  repoOf,
   entries: load(),
 }));
 
 // 按 repo 去重（skills 中多个技能可共享同一仓库），一个 repo 只请求一次
-const repos = [...new Set(datasets.flatMap((d) => d.entries.map((e) => e.repo)))];
+const repos = [...new Set(datasets.flatMap((d) => d.entries.map((e) => d.repoOf(e, d))).filter(Boolean))];
 console.log(`共 ${datasets.reduce((n, d) => n + d.entries.length, 0)} 个条目，去重后 ${repos.length} 个仓库${TOKEN ? '（已带 token）' : '（匿名，限流 60 次/时）'}${DRY ? ' [dry-run]' : ''}`);
 
 const starsByRepo = new Map();
@@ -98,30 +110,45 @@ if (starsByRepo.size === 0) {
 }
 
 let changedTotal = 0;
-for (const { label, dir, orderKey, entries } of datasets) {
+for (const dataset of datasets) {
+  const { label, dir, orderKey, resort, repoOf, entries } = dataset;
   let changed = 0;
   for (const entry of entries) {
-    const fresh = starsByRepo.get(entry.repo);
+    const repo = repoOf(entry, dataset);
+    const fresh = repo ? starsByRepo.get(repo) : undefined;
     if (typeof fresh === 'number' && fresh !== entry.stars) {
-      console.log(`  ${label} · ${entry.slug}: ${entry.stars} → ${fresh}`);
+      console.log(`  ${label} · ${entry.slug}: ${entry.stars ?? '—'} → ${fresh}`);
       entry.stars = fresh;
       changed++;
     }
   }
   // 按星数由高到低重排（并列按 slug 升序保证确定性），使数据源物理顺序与卡片展示一致；
   // 新收录条目下次刷新时自动归位，无需逐个配置。
-  const orderBefore = entries.map((e) => e.slug).join('|');
-  entries.sort((a, b) => (b.stars - a.stars) || a.slug.localeCompare(b.slug));
-  const reordered = entries.map((e) => e.slug).join('|') !== orderBefore;
-  if ((changed > 0 || reordered) && !DRY) {
-    const slugs = saveCollection(dir, entries);
-    saveOrder(orderKey, slugs);
+  // Tools 目录例外：展示顺序是编辑锚（canonical-order），不按星数重排、不回写顺序文件。
+  if (resort) {
+    const orderBefore = entries.map((e) => e.slug).join('|');
+    entries.sort((a, b) => (b.stars - a.stars) || a.slug.localeCompare(b.slug));
+    const reordered = entries.map((e) => e.slug).join('|') !== orderBefore;
+    if ((changed > 0 || reordered) && !DRY) {
+      const slugs = saveCollection(dir, entries);
+      saveOrder(orderKey, slugs);
+    }
+    const notes = [];
+    if (changed > 0) notes.push(`${changed} 个条目星数有变化`);
+    if (reordered) notes.push('顺序按星数重排');
+    console.log(`${label}: ${notes.length ? notes.join('，') : '无变化'}${DRY ? '（dry-run 未写入）' : (changed > 0 || reordered) ? '，已写回' : ''}`);
+    changedTotal += changed;
+  } else {
+    let wrote = false;
+    if (changed > 0 && !DRY) {
+      const slugs = saveCollection(dir, entries);
+      wrote = true;
+      console.log(`${label}: ${changed} 个条目星数有变化，已写回（顺序保持编辑锚不变）`);
+      changedTotal += changed;
+    } else {
+      console.log(`${label}: 无变化${DRY ? '（dry-run 未写入）' : ''}`);
+    }
   }
-  const notes = [];
-  if (changed > 0) notes.push(`${changed} 个条目星数有变化`);
-  if (reordered) notes.push('顺序按星数重排');
-  console.log(`${label}: ${notes.length ? notes.join('，') : '无变化'}${DRY ? '（dry-run 未写入）' : (changed > 0 || reordered) ? '，已写回' : ''}`);
-  changedTotal += changed;
 }
 
 console.log(`\n✔ 完成：${starsByRepo.size}/${repos.length} 个仓库拉取成功，${changedTotal} 个条目更新${failed > 0 ? `，${failed} 个仓库失败（保留旧值）` : ''}`);
