@@ -1,8 +1,9 @@
 name: Refresh Stars
 
-# MCP / Skills 星数统一刷新：卡片与详情页共用 mcp.json / skills.json 的 stars 字段（单一数据源），
+# MCP / Skills / Tools 星数统一刷新：卡片与详情页共用数据文件的 stars 字段（单一数据源），
 # 由本工作流定时刷新并自动提交推送；运营控制台的「手动刷新并推送」按钮通过 workflow_dispatch 触发同一流程。
 # 脚本遍历数据文件全部条目，后续新收录自动纳入，无需改本工作流。
+# Tools（v7.42 起）：仅刷新 url 为 GitHub 仓库的开源工具，目录顺序保持编辑锚不重排。
 on:
   schedule:
     # 主跑：每日 UTC 20:47（北京凌晨 4:47）
@@ -27,22 +28,23 @@ jobs:
           node-version: 22
 
       # 零依赖脚本（Node 内置 fetch），无需 npm install
-      - name: 刷新 MCP / Skills 星数
+      - name: 刷新 MCP / Skills / Tools 星数
         run: node scripts/refresh-stars.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 有变化才提交推送（匿名品牌身份），推送后自动触发 CI 与 Vercel 部署
+      # 有变化才提交推送（匿名品牌身份），推送后自动触发 CI 与 Cloudflare Pages 部署
       # 注意：数据已拆成每条一文件（c2be080），mcp.json/skills.json 已不存在——
       #       改成 diff 检查目录树，否则永远"无变化"，星数更新静默丢弃。
+      #       v7.42 起 Tools 目录纳入刷新，diff/add 必须包含 src/data/tools/。
       - name: 提交并推送
         run: |
-          if git diff --quiet -- src/data/mcp/ src/data/skills/ src/data/canonical-order.json; then
+          if git diff --quiet -- src/data/mcp/ src/data/skills/ src/data/tools/ src/data/canonical-order.json; then
             echo "星数无变化，跳过提交"
             exit 0
           fi
           git config user.name "CATAI"
           git config user.email "309386950+cataito-lab@users.noreply.github.com"
-          git add src/data/mcp/ src/data/skills/ src/data/canonical-order.json
-          git commit -m "chore(data): 自动刷新 MCP / Skills 星数"
+          git add src/data/mcp/ src/data/skills/ src/data/tools/ src/data/canonical-order.json
+          git commit -m "chore(data): 自动刷新 MCP / Skills / Tools 星数"
           git push
