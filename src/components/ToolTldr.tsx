@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Star } from 'lucide-react';
 
 /**
  * P3.4 可引用 TL;DR 块：详情页顶部的纯事实清单。
@@ -19,7 +18,6 @@ interface TldrData {
   pricingUrl: string | null;
   verdict: string | null;
   verified: string | null;
-  stars: number | null;
 }
 
 export default function ToolTldr({ tldr }: { tldr: TldrData }) {
@@ -57,12 +55,6 @@ export default function ToolTldr({ tldr }: { tldr: TldrData }) {
             >
               {t('tldrCheckPricing')}
             </a>
-          </li>
-        )}
-        {tldr.stars != null && (
-          <li className="inline-flex items-center gap-1.5">
-            <Star className="w-3.5 h-3.5 text-amber-400" />
-            {tldr.stars.toLocaleString()} {t('toolStars')}
           </li>
         )}
         {tldr.verified && (

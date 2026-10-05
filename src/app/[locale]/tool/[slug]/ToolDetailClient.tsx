@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import ToolTldr from '@/components/ToolTldr';
 import { Tool, PLATFORM_META, getLocalizedDescription } from '@/components/ToolCard';
-import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone, ChevronDown } from 'lucide-react';
+import { ExternalLink, GitFork, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone, ChevronDown } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
 import AdUnit from '@/components/AdUnit';
@@ -46,7 +46,6 @@ interface ToolDetailClientProps {
 }
 
 interface TldrData {
-  stars: number | null;
   displayName: string;
   category: string;
   developer: string;
@@ -75,6 +74,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
   const [copiedIndex, setCopiedIndex] = useState<string | null>(null);
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
+  const toolRepo = /^https?:\/\/github\.com\/[\w.-]+\/[\w.-]+/.exec(tool.url || '')?.[0] ?? null;
   const details: any = detailsProp;
 
   // Supported Platforms：停服工具（Discontinued）不展示该模块；仅展示确认支持（true），false/"unknown" 不渲染
@@ -220,6 +220,26 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                     <Globe className="w-4 h-4" />
                     <span className="text-sm">{tCategories(tool.category as any)}</span>
                   </div>
+
+                  {/* GitHub Repo & Stars（开源工具，对齐 MCP/Skills 详情页惯例） */}
+                  {(toolRepo || typeof tool.stars === 'number') && (
+                    <div className="flex items-center gap-4 text-sm text-[var(--muted)] mb-4">
+                      {toolRepo && (
+                        <span className="flex items-center gap-1.5">
+                          <GitFork className="w-4 h-4" />
+                          <a href={toolRepo} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--primary)] transition">
+                            {toolRepo.replace(/^https?:\/\/github\.com\//, '')}
+                          </a>
+                        </span>
+                      )}
+                      {typeof tool.stars === 'number' && (
+                        <span className="flex items-center gap-1.5">
+                          <Star className="w-4 h-4" />
+                          {tool.stars.toLocaleString()} {t('toolStars')}
+                        </span>
+                      )}
+                    </div>
+                  )}
 
                   {tool.developer && (
                     <div className="flex items-center gap-2 text-[var(--muted)] mb-4">

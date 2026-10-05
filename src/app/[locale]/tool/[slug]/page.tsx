@@ -178,7 +178,6 @@ export default async function ToolDetailPage({ params }: Props) {
       ? d.verdict.headline[locale] ?? d.verdict.headline.en ?? null
       : null,
     verified: detailMeta.lastVerified ?? null,
-    stars: typeof tool.stars === 'number' ? tool.stars : null,
   };
 
   // P4.3 内容保鲜：每日存活探测结果驱动的横幅（dead 显示，suspect 不显示）

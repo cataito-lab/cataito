@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Star } from 'lucide-react';
+import { Star, GitFork } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import LogoTile from './LogoTile';
 
@@ -69,6 +69,7 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
   const tCategories = useTranslations('categories');
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
+  const toolRepo = /^https?:\/\/github\.com\/[\w.-]+\/[\w.-]+/.exec(tool.url || '')?.[0] ?? null;
 
   return (
     <article className="group relative bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300 p-5 flex flex-col">
@@ -111,6 +112,24 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
           </span>
         ))}
       </div>
+
+      {/* Repo + Stars（开源工具，对齐 MCP/Skills 卡片惯例） */}
+      {(toolRepo || typeof tool.stars === 'number') && (
+        <div className="flex items-center gap-3 text-xs text-[var(--muted)]">
+          {toolRepo && (
+            <span className="flex items-center gap-1 truncate">
+              <GitFork className="w-3 h-3 shrink-0" />
+              {toolRepo.replace(/^https?:\/\/github\.com\//, '')}
+            </span>
+          )}
+          {typeof tool.stars === 'number' && (
+            <span className="flex items-center gap-1">
+              <Star className="w-3 h-3" />
+              {tool.stars.toLocaleString()}
+            </span>
+          )}
+        </div>
+      )}
 
       {/* Visit Link — 已移除：网格卡片本身可点击跳转详情页，外部访问按钮冗余 */}
           </article>
