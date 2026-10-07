@@ -33,7 +33,7 @@
   ],
   "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
   "logo": "/logos/skills/agency-agents.png",
-  "stars": 157474,
+  "stars": 157816,
   "featured": false,
   "faqs": [
     {
