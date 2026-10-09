@@ -232,7 +232,6 @@
     "guizang-social-card",
     "gc-minimal-zine-poster",
     "photo-abstract-editorial",
-    "generative-media-skills",
     "gathered-scenes-zine-skill",
     "qwen-mm-plugins",
     "agent-skill-creator",
@@ -240,6 +239,7 @@
     "global-stock-data",
     "travel-photo-abstraction",
     "photo-stamp-archive",
+    "generative-media-skills",
     "lumina-card"
   ],
   "mcp": [
