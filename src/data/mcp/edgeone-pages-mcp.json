@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y edgeone-pages-mcp",
   "logo": "/logos/mcp/edgeone-pages-mcp.png",
-  "stars": 437,
+  "stars": 438,
   "featured": false,
   "faqs": [
     {
