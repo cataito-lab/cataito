@@ -23,7 +23,7 @@
   ],
   "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
   "logo": "/logos/skills/grill-me.png",
-  "stars": 286989,
+  "stars": 288055,
   "featured": false,
   "faqs": [
     {
