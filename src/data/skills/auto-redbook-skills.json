@@ -23,7 +23,7 @@
   ],
   "installCommand": "git clone https://github.com/comeonzhj/Auto-Redbook-Skills.git && cd Auto-Redbook-Skills",
   "logo": "/logos/skills/auto-redbook-skills.png",
-  "stars": 2358,
+  "stars": 2359,
   "featured": false,
   "faqs": [
     {
