@@ -50,7 +50,7 @@
   },
   "hero": {
     "title": "Find the right AI for <hl>every</hl> task.",
-    "subtitle": "Compare thousands of AI models, tools and agents. Discover the best AI solution for your work.",
+    "subtitle": "Explore AI tools, agent skills and MCP servers. Compare options by category, pricing and use case.",
     "searchPlaceholder": "What do you want to create?",
     "searchButton": "Search",
     "popular": "Popular:",
@@ -392,7 +392,7 @@
   },
   "allTools": {
     "metaTitle": "All AI Tools Directory — {count} Free & Paid AI Tools Reviewed | Cataito",
-    "metaDescription": "Browse 180+ curated AI tools. Compare ChatGPT, DeepSeek, Kling AI, Grok and more by features, pricing and real user reviews.",
+    "metaDescription": "Explore Cataito's curated AI tools directory. Compare features, pricing and use cases for ChatGPT, DeepSeek, Kling AI, Grok and more.",
     "title": "All AI Tools",
     "subtitle": "Browse the complete directory — filter by category or search"
   },

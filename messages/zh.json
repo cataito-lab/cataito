@@ -50,7 +50,7 @@
   },
   "hero": {
     "title": "为<hl>每一项</hl>任务找到合适的 AI",
-    "subtitle": "比较成千上万的 AI 模型、工具与智能体，为你的工作找到最佳 AI 方案。",
+    "subtitle": "浏览 AI 工具、智能体技能与 MCP 服务，按分类、价格和使用场景比较适合的选项。",
     "searchPlaceholder": "你想创造什么？",
     "searchButton": "搜索",
     "popular": "热门：",
@@ -392,7 +392,7 @@
   },
   "allTools": {
     "metaTitle": "全部 AI 工具目录 — {count} 款免费与付费 AI 工具评测 | Cataito",
-    "metaDescription": "180+ 精选 AI 工具。对比 ChatGPT、DeepSeek、Kling AI、Grok 的功能、价格与真实评测。",
+    "metaDescription": "浏览 Cataito 精选 AI 工具目录，比较 ChatGPT、DeepSeek、Kling AI、Grok 等产品的功能、价格与适用场景。",
     "title": "全部 AI 工具",
     "subtitle": "浏览完整目录 —— 按分类筛选或搜索"
   },

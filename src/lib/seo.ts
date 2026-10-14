@@ -234,27 +234,27 @@ export function getHomeSeo(locale: string): {
     en: {
       title: 'Cataito - Best AI Tools, Models & Agents Directory | Free Reviews',
       description:
-        'Discover 180+ free and paid AI tools. Compare features, pricing and reviews — from ChatGPT, DeepSeek, Kling AI to Grok. Your AI toolkit starts here.',
+        "Explore Cataito's curated AI tools, agent skills and MCP servers. Compare features, pricing and use cases for ChatGPT, DeepSeek, Kling AI, Grok and more.",
     },
     zh: {
       title: 'Cataito — AI 工具/模型/智能体精选目录 | 免费评测',
       description:
-        '180+ 免费与付费 AI 工具精选目录。对比 ChatGPT、DeepSeek、Kling AI、Grok 的功能、价格与评测，找到最适合你的 AI 工具、模型和智能体。',
+        '浏览 Cataito 精选 AI 工具、智能体技能与 MCP 服务，比较 ChatGPT、DeepSeek、Kling AI、Grok 等产品的功能、价格与适用场景。',
     },
     ja: {
       title: 'Cataito — AIツール・モデル・エージェント総合ディレクトリ',
       description:
-        '180以上の無料・有料AIツールを網羅。ChatGPT、DeepSeek、Kling AI、Grokなど、機能・料金・レビューを比較。',
+        'Cataitoの厳選AIツール、エージェントスキル、MCPサーバーを紹介。ChatGPT、DeepSeek、Kling AI、Grokなどの機能・料金・用途を比較できます。',
     },
     es: {
       title: 'Cataito - Mejor Directorio de Herramientas, Modelos y Agentes de IA',
       description:
-        'Descubre más de 180 herramientas de IA. Compara funciones y precios de ChatGPT, DeepSeek, Kling AI, Grok y más.',
+        'Explora herramientas de IA, skills para agentes y servidores MCP seleccionados por Cataito. Compara funciones, precios y usos de ChatGPT, DeepSeek, Kling AI, Grok y más.',
     },
     fr: {
       title: "Cataito - Meilleur Répertoire d'Outils, Modèles et Agents IA",
       description:
-        "Découvrez 180+ outils IA gratuits et payants. Comparez fonctionnalités et tarifs de ChatGPT, DeepSeek, Kling AI et Grok.",
+        "Découvrez les outils IA, les skills d'agents et les serveurs MCP sélectionnés par Cataito. Comparez les fonctionnalités, tarifs et usages de ChatGPT, DeepSeek, Kling AI, Grok et plus.",
     },
   };
   const keywords =

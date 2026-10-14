@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: LayoutMetadataProps): Promise
   return {
     metadataBase: new URL('https://cataito.com'),
     title: "Cataito - Best AI Tools, Models & Agents Directory | Free Reviews",
-    description: "Discover 180+ free and paid AI tools. Compare features, pricing and reviews — from ChatGPT, DeepSeek, Kling AI to Grok. Your AI toolkit starts here.",
+    description: "Explore Cataito's curated AI tools, agent skills and MCP servers. Compare features, pricing and use cases for ChatGPT, DeepSeek, Kling AI, Grok and more.",
     keywords: "AI portal, AI tools directory, AI models, AI agents, ChatGPT, DeepSeek, Kling AI, Grok, Gemini, Claude, AI reviews, free AI tools, artificial intelligence",
     authors: [{ name: "Cataito" }],
     // AdSense 站点所有权元标记（配合根目录 public/ads.txt，双通道验证）

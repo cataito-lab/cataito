@@ -50,7 +50,7 @@
   },
   "hero": {
     "title": "<hl>あらゆる</hl>タスクに最適な AI を見つけよう",
-    "subtitle": "何千もの AI モデル・ツール・エージェントを比較し、あなたの仕事に最適な AI を見つけましょう。",
+    "subtitle": "AIツール、エージェントスキル、MCPサーバーを閲覧し、カテゴリ・料金・用途で比較できます。",
     "searchPlaceholder": "何を作りたいですか？",
     "searchButton": "検索",
     "popular": "人気：",
@@ -392,7 +392,7 @@
   },
   "allTools": {
     "metaTitle": "AIツール総合ディレクトリ — {count} 個の無料・有料AIツールレビュー | Cataito",
-    "metaDescription": "180以上の厳選AIツール。ChatGPT、DeepSeek、Kling AI、Grokの機能・料金・ユーザーレビューを比較。",
+    "metaDescription": "Cataitoの厳選AIツール一覧。ChatGPT、DeepSeek、Kling AI、Grokなどの機能・料金・用途を比較できます。",
     "title": "すべての AI ツール",
     "subtitle": "完全なディレクトリを閲覧 —— カテゴリで絞り込みや検索"
   },
