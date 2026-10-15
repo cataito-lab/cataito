@@ -159,11 +159,11 @@
     }
   },
   "latestUpdate": {
-    "en": "2026: Manus pioneers autonomous AI agents",
-    "zh": "2026年：Manus 开创自主 AI 智能体",
-    "ja": "2026年：Manus が自律 AI エージェントを先駆",
-    "es": "2026: Manus pionero en agentes autónomos",
-    "fr": "2026 : Manus pionnier des agents IA autonomes"
+    "en": "Ownership changed twice in a year: Meta announced its acquisition of Manus parent Butterfly Effect on 2025-12-29, the deal never cleared regulators, and an official note to users on 2026-08-11 said Manus would return to independent operation. Reuters and TechCrunch reported on 2026-10-08 that Butterfly Effect had raised more than $500M, its first round since the Meta split. The product remains a general-purpose autonomous agent.",
+    "zh": "归属在一年内反复：2025-12-29 Meta 宣布收购 Manus 母公司 Butterfly Effect；交易未获监管通过，官方在 2026-08-11 的用户说明中称 Manus 即将恢复独立运营。2026-10-08 Reuters 与 TechCrunch 报道 Butterfly Effect 完成逾 5 亿美元融资，为与 Meta 分道后的首轮。产品形态仍是通用自主智能体。",
+    "ja": "所有形態が1年で二度動いた。2025-12-29 に Meta が親会社 Butterfly Effect の買収を発表したが承認に至らず、公式のユーザー向け告知（2026-08-11）で Manus は独立運営に戻る見込みとされた。Reuters と TechCrunch は 2026-10-08、Meta 分離後初となる5億ドル超の調達を伝えた。製品は引き続き汎用自律エージェント。",
+    "es": "La propiedad cambió dos veces en un año: Meta anunció la compra de Butterfly Effect, matriz de Manus, el 2025-12-29; la operación no obtuvo luz verde regulatoria y una nota oficial a usuarios del 2026-08-11 indicaba que Manus volvería a operar de forma independiente. Reuters y TechCrunch informaron el 2026-10-08 de una ronda de más de 500 M$, la primera desde la separación de Meta. El producto sigue siendo un agente autónomo de propósito general.",
+    "fr": "La gouvernance a bougé deux fois en un an : Meta a annoncé le 2025-12-29 le rachat de Butterfly Effect, maison mère de Manus ; le dossier n'a pas obtenu le feu vert des régulateurs et un message officiel aux utilisateurs du 2026-08-11 indiquait le retour à une exploitation indépendante. Reuters et TechCrunch ont rapporté le 2026-10-08 une levée de plus de 500 M$, la première depuis la séparation avec Meta. Le produit reste un agent autonome généraliste."
   },
   "verdict": {
     "badge": "Recommended",
@@ -242,7 +242,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://manus.im/pricing"

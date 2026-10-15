@@ -154,11 +154,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: after reaching stable 1.0, Pydantic AI anchors the Pydantic end-to-end AI stack alongside Logfire observability and Evals, with durable execution and MCP support maturing rapidly",
-    "zh": "2026 年：达到 1.0 稳定版后，Pydantic AI 与 Logfire 可观测性、Evals 共同构成 Pydantic 端到端 AI 技术栈，持久执行与 MCP 支持快速成熟",
-    "ja": "2026年：安定版1.0到達後、Pydantic AIはLogfire可観測性やEvalsとともにPydanticのエンドツーエンドAIスタックの中核となり、永続実行とMCPサポートが急速に成熟",
-    "es": "2026: tras alcanzar la 1.0 estable, Pydantic AI ancla el stack de IA integral de Pydantic junto a la observabilidad Logfire y Evals, con ejecución durable y soporte MCP madurando rápidamente",
-    "fr": "2026 : après la 1.0 stable, Pydantic AI ancre le stack IA de bout en bout de Pydantic aux côtés de l'observabilité Logfire et des Evals, avec une exécution durable et un support MCP en pleine maturation"
+    "en": "Pydantic AI v2 landed on 2026-06-23, shipped with breaking changes and an upgrade guide, collapsing previously scattered extension points into a single capability primitive; v2.56.0 is current as of 2026-10-13 and releases keep coming fast (about 20.6k stars). It anchors the Pydantic end-to-end AI stack alongside Logfire observability and Evals.",
+    "zh": "2026-06-23 官方发布 Pydantic AI v2，明确标注含破坏性变更并给出升级指南，把原先分散的扩展点收敛为统一的 capability 组合方式；截至 2026-10-13 最新为 v2.56.0，仓库仍高频发版（约 2.06 万星标）。它与 Logfire 可观测性、Evals 一起构成 Pydantic 的端到端 AI 技术栈。",
+    "ja": "2026-06-23 に Pydantic AI v2 が公開された。破壊的変更とアップグレードガイドが明示され、これまで分散していた拡張点を capability という単一の概念に集約する構成になっている。2026-10-13 時点の最新は v2.56.0 でリリース頻度は高く（スター約2.06万）。Logfire の可観測性や Evals と合わせ、Pydantic のエンドツーエンドAIスタックを構成する。",
+    "es": "Pydantic AI v2 llegó el 2026-06-23 con cambios destructivos declarados y guía de migración, unificando en una sola primitiva de capability los puntos de extensión antes dispersos; v2.56.0 es la versión vigente al 2026-10-13 y el ritmo de publicación sigue alto (unas 20,6k estrellas). Ancla el stack de IA integral de Pydantic junto a Logfire y Evals.",
+    "fr": "Pydantic AI v2 est sorti le 2026-06-23 avec des changements cassants assumés et un guide de migration, regroupant d'anciens points d'extension épars dans une seule primitive de capability ; la v2.56.0 est à jour au 2026-10-13 et les publications restent rapides (environ 20,6k étoiles). Il ancre le stack IA de bout en bout de Pydantic aux côtés de Logfire et des Evals."
   },
   "verdict": {
     "badge": "Recommended",
@@ -227,7 +227,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

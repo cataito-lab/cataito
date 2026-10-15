@@ -154,11 +154,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Copilot now runs GPT-5.2 with automatic Smart routing, gained the Mico persona, Real Talk mode, Groups, and Copilot Mode in Edge with Deep Research — while Memory and Copilot Vision matured into genuinely daily-driver features.",
-    "zh": "2026 年：Copilot 已运行 GPT-5.2 并自动 Smart 路由，新增 Mico 形象、Real Talk 模式、Groups 群聊，以及 Edge 的 Copilot Mode 与 Deep Research——Memory 与 Copilot Vision 也成熟为真正的日常主力功能。",
-    "ja": "2026年：CopilotはGPT-5.2を自動Smartルーティングで搭載し、Micoペルソナ、Real Talkモード、Groups、EdgeのCopilotモード＋Deep Researchを追加——MemoryとCopilot Visionも日常使いに耐える機能に成熟。",
-    "es": "2026: Copilot ahora ejecuta GPT-5.2 con enrutamiento Smart automático, sumó la persona Mico, el modo Real Talk, Groups y el Modo Copilot en Edge con Deep Research — mientras Memory y Copilot Vision maduraron hasta ser funciones de uso diario.",
-    "fr": "2026 : Copilot tourne désormais sur GPT-5.2 avec routage Smart automatique, a gagné la persona Mico, le mode Real Talk, Groups et le Mode Copilot dans Edge avec Deep Research — tandis que Memory et Copilot Vision ont mûri en fonctions du quotidien."
+    "en": "GPT-5.6 reached Microsoft 365 Copilot on 2026-07-09, announced as the preferred model for that surface by both Microsoft and OpenAI; on the GitHub Copilot side, GPT-5.2 and GPT-5.2-Codex were deprecated on 2026-06-05. The default model behind the free consumer Copilot at copilot.microsoft.com could not be confirmed by two independent sources, so this page leaves its free-tier wording unchanged for now.",
+    "zh": "2026-07-09 起 GPT-5.6 进入 Microsoft 365 Copilot，微软与 OpenAI 同时官宣其为该场景的『首选模型』；GitHub Copilot 一侧，GPT-5.2 与 GPT-5.2-Codex 已于 2026-06-05 弃用。消费者端 copilot.microsoft.com 免费档当前的默认型号未获得两个独立来源确认，本页对免费档的描述暂维持原状。",
+    "ja": "2026-07-09 から GPT-5.6 が Microsoft 365 Copilot に投入され、Microsoft と OpenAI がそろって「優先モデル」として告知。GitHub Copilot 側では GPT-5.2 と GPT-5.2-Codex が 2026-06-05 に非推奨化。消費者向け copilot.microsoft.com の無料枠で使われる既定モデルは独立した2つの情報源で確認できなかったため、当ページの無料枠の記述は当面そのまま。",
+    "es": "GPT-5.6 llegó a Microsoft 365 Copilot el 2026-07-09, anunciado por Microsoft y OpenAI como modelo preferente para ese entorno; en GitHub Copilot, GPT-5.2 y GPT-5.2-Codex se retiraron el 2026-06-05. El modelo por defecto del nivel gratuito en copilot.microsoft.com no pudo confirmarse con dos fuentes independientes, así que la redacción sobre el nivel gratuito se mantiene por ahora.",
+    "fr": "GPT-5.6 est arrivé dans Microsoft 365 Copilot le 2026-07-09, annoncé comme modèle préféré par Microsoft et OpenAI ; côté GitHub Copilot, GPT-5.2 et GPT-5.2-Codex ont été retirés le 2026-06-05. Le modèle par défaut de l'offre gratuite sur copilot.microsoft.com n'a pas pu être confirmé par deux sources indépendantes, aussi la formulation sur le niveau gratuit reste-t-elle inchangée pour l'instant."
   },
   "verdict": {
     "badge": "Recommended",
@@ -227,7 +227,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-29",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-29",
     "pricingVerified": "2026-07-29",
     "pricingUrl": "https://copilot.microsoft.com"

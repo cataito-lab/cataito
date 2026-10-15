@@ -154,11 +154,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Flowise's Agentflow builder matures with human-in-the-loop steps and deeper multi-agent orchestration, cementing its place as the leading open-source visual agent platform (~40k GitHub stars)",
-    "zh": "2026 年：Flowise 的 Agentflow 编排器日趋成熟，加入人工审核环节与更深的多智能体编排，稳固其头部开源可视化智能体平台地位（GitHub 约 4 万星标）",
-    "ja": "2026年：FlowiseのAgentflowビルダーが成熟し、人間のレビューステップとより深いマルチエージェントオーケストレーションを追加。主要オープンソースビジュアルエージェントプラットフォームの地位を固める（GitHub約4万スター）",
-    "es": "2026: el constructor Agentflow de Flowise madura con pasos de revisión humana y orquestación multiagente más profunda, consolidándose como la plataforma visual open source líder (~40k estrellas GitHub)",
-    "fr": "2026 : le builder Agentflow de Flowise mûrit avec des étapes de validation humaine et une orchestration multi-agents plus poussée, confortant sa place de première plateforme visuelle open source (~40k étoiles GitHub)"
+    "en": "No updates since 3.1.4 on 2026-07-29; the GitHub repository was archived read-only by the maintainers on 2026-08-13 at roughly 55.5k stars, and the npm and Docker packages were deprecated. Security advisories for the repo kept being published after the archive (most recently 2026-08-28 to 09-10), and no official fixes will arrive.",
+    "zh": "2026-07-29 发布 3.1.4 后未再更新；GitHub 仓库于 2026-08-13 被官方归档为只读（归档时约 5.55 万星标），npm 与 Docker 包标记废弃。归档之后 GitHub 安全公告页仍在披露该仓库的高危问题（最近一批为 2026-08-28 至 09-10），官方不会再提供修复。",
+    "ja": "2026-07-29 の 3.1.4 以降アップデートなし。GitHub リポジトリは 2026-08-13 にメンテナにより読み取り専用でアーカイブされ（スター数約5.55万）、npm と Docker パッケージは非推奨化。アーカイブ後もセキュリティ助言の公開が続いており（直近は 2026-08-28〜09-10）、公式修正は望めない。",
+    "es": "Sin actualizaciones desde la 3.1.4 del 2026-07-29; el repositorio de GitHub quedó archivado en solo lectura por los mantenedores el 2026-08-13, con unas 55,5k estrellas, y los paquetes de npm y Docker se marcaron como obsoletos. Tras el archivo se siguieron publicando avisos de seguridad (los últimos entre el 2026-08-28 y el 09-10) que ya no recibirán correcciones oficiales.",
+    "fr": "Plus de mise à jour depuis la 3.1.4 du 2026-07-29 ; le dépôt GitHub a été archivé en lecture seule par les mainteneurs le 2026-08-13, à environ 55,5k étoiles, et les paquets npm et Docker sont dépréciés. Des avis de sécurité ont continué à être publiés après l'archivage (les plus récents entre le 2026-08-28 et le 09-10), sans correctif officiel à attendre."
   },
   "verdict": {
     "badge": "Recommended",
@@ -170,11 +170,11 @@
       "fr": "La voie open source pour créer des agents sans coder"
     },
     "body": {
-      "en": "Flowise occupies a sweet spot: more capable than closed no-code bot builders, more approachable than code-first frameworks. The drag-and-drop canvas genuinely works for RAG chatbots and moderately complex agent flows, and the option to self-host — with roughly 40k GitHub stars behind it — means you are never locked in. Just know its limits: past a certain complexity, visual graphs become their own kind of spaghetti, and serious engineering teams will eventually want LangGraph or Mastra underneath.",
-      "zh": "Flowise 占据了一个绝佳位置：比封闭的无代码机器人搭建器更强大，比代码优先框架更易上手。拖拽画布对 RAG 聊天机器人和中等复杂度的智能体流程真正可用，而可自托管的选项——背后有约 4 万 GitHub 星标——意味着你永远不会被锁死。但要清楚它的边界：复杂度超过某个临界点后，可视化图谱会变成另一种意面代码，认真做工程的团队最终还是会想在底层用 LangGraph 或 Mastra。",
-      "ja": "Flowiseは絶妙な位置にいる。クローズドなノーコードボットビルダーより高機能で、コードファーストのフレームワークより取っつきやすい。ドラッグ＆ドロップのキャンバスはRAGチャットボットや中程度の複雑さのエージェントフローに本当に使え、セルフホストの選択肢（GitHub約4万スターの実績付き）はロックインされない安心をくれる。ただし限界も知っておくべきだ。ある複雑度を超えるとビジュアルグラフは別種のスパゲッティと化し、本格的なエンジニアリングチームは最終的にLangGraphやMastraを求めることになる。",
-      "es": "Flowise ocupa un punto dulce: más capaz que los constructores de bots no-code cerrados, más accesible que los frameworks code-first. El lienzo de arrastrar y soltar funciona de verdad para chatbots RAG y flujos de agentes de complejidad media, y la opción de autoalojarlo —con unas 40k estrellas en GitHub— significa que nunca estás atrapado. Solo conoce sus límites: pasada cierta complejidad, los grafos visuales se vuelven su propio espagueti, y los equipos serios de ingeniería acabarán queriendo LangGraph o Mastra debajo.",
-      "fr": "Flowise occupe une position idéale : plus capable que les constructeurs de bots no-code fermés, plus abordable que les frameworks code-first. Le canevas glisser-déposer fonctionne vraiment pour les chatbots RAG et les flux d'agents moyennement complexes, et l'option d'auto-hébergement — forte d'environ 40k étoiles GitHub — garantit de ne jamais être enfermé. Connaissez toutefois ses limites : au-delà d'une certaine complexité, les graphes visuels deviennent leur propre spaghetti, et les équipes d'ingénierie sérieuses finiront par vouloir LangGraph ou Mastra en dessous."
+      "en": "Flowise still sits in a clear spot: more capable than closed no-code builders, more approachable than code-first frameworks, and its drag-and-drop canvas genuinely works for RAG chatbots and moderately complex agent flows. What changed is that maintenance has stopped — the last release, 3.1.4, shipped on 2026-07-29, the repository was archived read-only on 2026-08-13, the npm and Docker packages were deprecated, and advisories published after the archive will not be fixed. Existing deployments need an audit of those advisories and extra hardening; if you are starting now, look at a maintained alternative. Past a certain complexity, visual graphs were always going to become their own kind of spaghetti.",
+      "zh": "Flowise 占据的位置依然清楚：比封闭的无代码搭建器更强大，比代码优先框架更易上手，拖拽画布对 RAG 聊天机器人和中等复杂度的智能体流程确实可用。变化在于它已经停止维护——最后的版本 3.1.4 发布于 2026-07-29，仓库在 2026-08-13 被官方归档为只读，npm 与 Docker 包标记废弃，归档后披露的安全公告不会再有官方修复。已经在用的部署需要先自行核对这些公告并考虑加固；还没开始的，同类需求建议看仍在维护的方案。复杂度超过某个临界点后，可视化图谱本来就会变成另一种意面代码。",
+      "ja": "Flowiseの居場所は依然はっきりしている。閉じたノーコードビルダーより高機能で、コードファーストのフレームワークより取っつきやすく、ドラッグ＆ドロップのキャンバスはRAGチャットボットや中程度の複雑さのエージェントフローに本当に使える。変わったのは開発が終わったことだ。最終バージョン3.1.4は2026-07-29、リポジトリは2026-08-13に読み取り専用でアーカイブされ、npmとDockerは非推奨化、アーカイブ後のセキュリティ助言に公式修正は期待できない。既存の運用は助言の点検と対策が先決で、これから始めるなら維持されている代替候補をあたったほうがいい。複雑度がある線を超えると、ビジュアルグラフはもともと別種のスパゲッティになりやすい。",
+      "es": "Flowise sigue ocupando un lugar claro: más capaz que los constructores no-code cerrados, más accesible que los frameworks code-first, y su lienzo de arrastrar y soltar funciona de verdad para chatbots RAG y flujos de agentes de complejidad media. Lo que cambió es que el mantenimiento cesó: la última versión, 3.1.4, salió el 2026-07-29, el repositorio se archivó en solo lectura el 2026-08-13, los paquetes de npm y Docker quedaron obsoletos, y los avisos de seguridad publicados después del archivo no se corregirán. Si ya lo usas, toca auditar esos avisos y reforzar; si empiezas ahora, mira alternativas que sigan en mantenimiento. Pasada cierta complejidad, los grafos visuales siempre acababan siendo su propio espagueti.",
+      "fr": "Flowise occupe toujours une place claire : plus capable que les constructeurs no-code fermés, plus abordable que les frameworks code-first, et son canevas glisser-déposer fonctionne vraiment pour les chatbots RAG et les flux d'agents moyennement complexes. Ce qui a changé, c'est l'arrêt de la maintenance : la dernière version, 3.1.4, date du 2026-07-29, le dépôt a été archivé en lecture seule le 2026-08-13, les paquets npm et Docker sont dépréciés, et les avis publiés après l'archivage ne seront pas corrigés. En production existante, auditez ces avis et durcissez ; pour un nouveau départ, regardez une alternative maintenue. Au-delà d'une certaine complexité, les graphes visuels finissaient de toute façon par devenir leur propre spaghetti."
     },
     "bestFor": {
       "en": [
@@ -227,8 +227,8 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
-    "verdictDate": "2026-07-27",
+    "lastVerified": "2026-10-15",
+    "verdictDate": "2026-10-15",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://flowiseai.com/auth/login"
   },

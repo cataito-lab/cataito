@@ -154,11 +154,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Factory's droid CLI holds the #1 spot on Terminal-Bench at 63.1%, and the platform expands from terminal and IDE into Slack, Linear and browser entry points with BYOM support",
-    "zh": "2026 年：Factory 的 droid CLI 以 63.1% 稳居 Terminal-Bench 榜首，平台从终端与 IDE 扩展到 Slack、Linear 与浏览器入口，并支持自带模型（BYOM）",
-    "ja": "2026年：Factoryのdroid CLIは63.1%でTerminal-Bench首位を維持。プラットフォームはターミナルとIDEからSlack、Linear、ブラウザへ拡大し、BYOMにも対応",
-    "es": "2026: la CLI droid de Factory mantiene el n.º 1 en Terminal-Bench con 63,1%, y la plataforma se expande del terminal e IDE hacia Slack, Linear y el navegador con soporte BYOM",
-    "fr": "2026 : la CLI droid de Factory conserve la 1re place de Terminal-Bench à 63,1 %, et la plateforme s'étend du terminal et de l'IDE vers Slack, Linear et le navigateur avec support BYOM"
+    "en": "The Terminal-Bench crown moved on: the public leaderboard currently puts Claude Code (Opus 5.5) first at 64.8%, while droid's 63.1% is a 2025-era entry, and scores across leaderboard versions are not directly comparable. The platform itself is still active, extending from terminal and IDE into Slack, Linear and browser entry points with BYOM support.",
+    "zh": "Terminal-Bench 榜首已经换人：官方榜单目前由 Claude Code（Opus 5.5）以 64.8% 领跑，droid 的 63.1% 属 2025 年口径，且各榜单版本分数不可直接比较。平台侧仍活跃，入口从终端与 IDE 扩展到 Slack、Linear 与浏览器，并支持自带模型（BYOM）。",
+    "ja": "Terminal-Bench の首位は入れ替わった。公開中のリーダーボードでは Claude Code（Opus 5.5）が64.8%で首位、droid の63.1%は2025年時点の記録で、榜のバージョン間のスコアは単純比較できない。プラットフォーム側は引き続き活発で、端末とIDEからSlack、Linear、ブラウザへ入口を広げ、BYOMにも対応。",
+    "es": "El liderato de Terminal-Bench cambió: el ranking público coloca ahora primero a Claude Code (Opus 5.5) con 64,8%, mientras el 63,1% de droid data de 2025, y las puntuaciones entre versiones del benchmark no son comparables. La plataforma sigue activa, con entradas que van del terminal y el IDE a Slack, Linear y el navegador, con soporte BYOM.",
+    "fr": "La première place de Terminal-Bench a changé : le classement public donne actuellement Claude Code (Opus 5.5) leader à 64,8 %, tandis que les 63,1 % de droid datent de 2025, et les scores entre versions du benchmark ne sont pas directement comparables. La plateforme reste active, du terminal et de l'IDE vers Slack, Linear et le navigateur, avec support BYOM."
   },
   "verdict": {
     "badge": "Worth Trying",
@@ -170,11 +170,11 @@
       "fr": "Le pari entreprise des agents de codage totalement autonomes"
     },
     "body": {
-      "en": "While Cursor and Claude Code refine the pair-programming loop, Factory is betting on delegation: hand a Droid a ticket and get back a tested pull request. The Terminal-Bench crown (63.1%) shows the agents are genuinely capable, and the BYOK free tier makes trying it low-risk. The catch is economics and trust — team pricing escalates fast, and letting agents ship code autonomously still demands mature review practices. Ambitious teams should pilot it; individuals may find better value in Claude Code.",
-      "zh": "当 Cursor 和 Claude Code 还在打磨结对编程闭环时，Factory 押注的是委派：把工单交给 Droid，收回一个测试过的 Pull Request。Terminal-Bench 榜首（63.1%）证明其智能体确有实力，BYOK 免费档也让试用几乎零风险。问题在于经济账与信任——团队定价攀升很快，而让智能体自主交付代码仍需要成熟的审查流程。有野心的团队值得试点；个人开发者可能在 Claude Code 上找到更高性价比。",
-      "ja": "CursorやClaude Codeがペアプログラミングのループを磨く一方、Factoryは委任に賭けている。Droidにチケットを渡せば、テスト済みのプルリクエストが返ってくる。Terminal-Bench首位（63.1%）はエージェントの実力を証明し、BYOK無料枠のおかげで試すリスクも低い。課題は経済性と信頼だ。チーム向け価格は急上昇し、エージェントに自律的なコード出荷を任せるには成熟したレビュー体制が要る。野心的なチームは試験導入すべきだが、個人はClaude Codeの方が割に合うかもしれない。",
-      "es": "Mientras Cursor y Claude Code refinan el bucle de pair programming, Factory apuesta por la delegación: entrega un ticket a un Droid y recibe un pull request probado. La corona de Terminal-Bench (63,1%) demuestra que los agentes son realmente capaces, y el nivel gratuito BYOK hace que probarlo sea de bajo riesgo. El problema es la economía y la confianza: los precios de equipo escalan rápido, y dejar que los agentes publiquen código autónomamente aún exige prácticas de revisión maduras. Los equipos ambiciosos deberían pilotarlo; los individuos quizá encuentren mejor valor en Claude Code.",
-      "fr": "Pendant que Cursor et Claude Code peaufinent la boucle de pair programming, Factory parie sur la délégation : confiez un ticket à un Droid et récupérez une pull request testée. La couronne de Terminal-Bench (63,1 %) prouve que les agents sont réellement capables, et l'offre gratuite BYOK rend l'essai peu risqué. Le hic : l'économie et la confiance — les tarifs équipe grimpent vite, et laisser des agents livrer du code de façon autonome exige encore des pratiques de revue matures. Les équipes ambitieuses devraient le tester ; les particuliers trouveront peut-être un meilleur rapport qualité-prix avec Claude Code."
+      "en": "While Cursor and Claude Code refine the pair-programming loop, Factory is betting on delegation: hand a Droid a ticket and get back a tested pull request. droid took the Terminal-Bench crown in 2025 at 63.1%, which said something real about these agents; that leaderboard is now headed by Claude Code (Opus 5.5). The BYOK free tier keeps trying it low-risk. The catch is economics and trust — team pricing escalates fast, and letting agents ship code autonomously still demands mature review practices. Ambitious teams should pilot it; individuals may find better value in Claude Code.",
+      "zh": "当 Cursor 和 Claude Code 还在打磨结对编程闭环时，Factory 押注的是委派：把工单交给 Droid，收回一个测试过的 Pull Request。droid 曾在 2025 年的 Terminal-Bench 登顶（63.1%），那确实说明了智能体的实力；该榜目前由 Claude Code（Opus 5.5）领跑。BYOK 免费档让试用几乎零风险。问题在于经济账与信任——团队定价攀升很快，而让智能体自主交付代码仍需要成熟的审查流程。有野心的团队值得试点；个人开发者可能在 Claude Code 上找到更高性价比。",
+      "ja": "CursorやClaude Codeがペアプログラミングのループを磨く一方、Factoryは委任に賭けている。Droidにチケットを渡せば、テスト済みのプルリクエストが返ってくる。droidは2025年のTerminal-Benchで首位（63.1%）に立ち、エージェントの実力を示したが、現在の榜を走る首位はClaude Code（Opus 5.5）。BYOKの無料枠のおかげで試すリスクは低い。課題は経済性と信頼だ。チーム向け価格は急上昇し、エージェントに自律的なコード出荷を任せるには成熟したレビュー体制が要る。野心的なチームは試験導入すべきだが、個人はClaude Codeの方が割に合うかもしれない。",
+      "es": "Mientras Cursor y Claude Code refinan el bucle de pair programming, Factory apuesta por la delegación: entrega un ticket a un Droid y recibe un pull request probado. droid se llevó la corona de Terminal-Bench en 2025 con 63,1 %, lo que decía algo real sobre sus agentes; ese ranking lo encabeza ahora Claude Code (Opus 5.5). El nivel gratuito BYOK hace que probarlo siga siendo de bajo riesgo. El problema es la economía y la confianza: los precios de equipo escalan rápido, y dejar que los agentes publiquen código autónomamente aún exige prácticas de revisión maduras. Los equipos ambiciosos deberían pilotarlo; los individuos quizá encuentren mejor valor en Claude Code.",
+      "fr": "Pendant que Cursor et Claude Code peaufinent la boucle de pair programming, Factory parie sur la délégation : confiez un ticket à un Droid et récupérez une pull request testée. droid a pris la couronne de Terminal-Bench en 2025 à 63,1 %, ce qui disait quelque chose de réel sur ses agents ; ce classement est désormais mené par Claude Code (Opus 5.5). L'offre gratuite BYOK rend l'essai peu risqué. Le hic : l'économie et la confiance — les tarifs équipe grimpent vite, et laisser des agents livrer du code de façon autonome exige encore des pratiques de revue matures. Les équipes ambitieuses devraient le tester ; les particuliers trouveront peut-être un meilleur rapport qualité-prix avec Claude Code."
     },
     "bestFor": {
       "en": [
@@ -227,8 +227,8 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
-    "verdictDate": "2026-07-27",
+    "lastVerified": "2026-10-15",
+    "verdictDate": "2026-10-15",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://factory.ai/pricing"
   },
