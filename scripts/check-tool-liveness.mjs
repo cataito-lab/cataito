@@ -37,14 +37,17 @@ const COLLECTIONS = [
   },
 ];
 
-// 统一用 undici Agent 并调大响应头上限（Google 等站点 Set-Cookie 超 16KB 会触发 HEADERS_OVERFLOW）
-// 本地设置 HTTPS_PROXY 时走 ProxyAgent；CI 海外节点直连
-let dispatcher;
+// 统一调大响应头上限（Google 等站点 Set-Cookie 超 16KB 会触发 HEADERS_OVERFLOW）；
+// 本地设置 HTTPS_PROXY 时走 ProxyAgent，CI 海外节点直连。
+// 代理必须经 setGlobalDispatcher 注入：`dispatcher` 是 undici 自有 fetch 的选项，
+// 传给 Node 全局 fetch 会抛 UND_ERR_INVALID_ARG。
 const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
 try {
-  const { Agent, ProxyAgent } = await import('undici');
+  const undici = await import('undici');
   const opts = { maxHeaderSize: 128 * 1024 };
-  dispatcher = proxy ? new ProxyAgent({ uri: proxy, ...opts }) : new Agent(opts);
+  undici.setGlobalDispatcher(
+    proxy ? new undici.ProxyAgent({ uri: proxy, ...opts }) : new undici.Agent(opts),
+  );
   if (proxy) console.log(`使用代理: ${proxy}`);
 } catch {
   console.log('未找到 undici，使用原生 fetch 直连探测');
@@ -59,7 +62,6 @@ async function probe(url, timeout = 20000) {
     const res = await fetch(url, {
       signal: ctrl.signal,
       redirect: 'follow',
-      dispatcher,
       headers: { 'user-agent': UA, accept: 'text/html,*/*' },
     });
     return { status: res.status, finalUrl: res.url };

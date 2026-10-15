@@ -22,13 +22,15 @@ const COLLECTIONS = [
   { load: loadMcpDetails, label: 'MCP' },
 ];
 
-// 与 check-tool-liveness.mjs 一致：undici Agent + 大响应头 + 可选代理
-let dispatcher;
+// 与 check-tool-liveness.mjs 一致：大响应头 + 可选代理，经 setGlobalDispatcher 注入。
+// `dispatcher` 传给 Node 全局 fetch 会抛 UND_ERR_INVALID_ARG（曾让全部抓取失败）。
 const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
 try {
-  const { Agent, ProxyAgent } = await import('undici');
+  const undici = await import('undici');
   const opts = { maxHeaderSize: 128 * 1024 };
-  dispatcher = proxy ? new ProxyAgent({ uri: proxy, ...opts }) : new Agent(opts);
+  undici.setGlobalDispatcher(
+    proxy ? new undici.ProxyAgent({ uri: proxy, ...opts }) : new undici.Agent(opts),
+  );
   if (proxy) console.log(`使用代理: ${proxy}`);
 } catch {
   console.log('未找到 undici，使用原生 fetch 直连抓取');
@@ -43,7 +45,6 @@ async function fetchText(url, timeout = 25000) {
     const res = await fetch(url, {
       signal: ctrl.signal,
       redirect: 'follow',
-      dispatcher,
       headers: { 'user-agent': UA, accept: 'text/html,*/*' },
     });
     if (res.status < 200 || res.status >= 400) return { err: `HTTP ${res.status}` };

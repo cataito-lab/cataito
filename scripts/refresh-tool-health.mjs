@@ -36,14 +36,17 @@ const TIMEOUT = 20000;
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 
-let dispatcher;
+// `dispatcher` 只对 undici 自有 fetch 生效，传给 Node 全局 fetch 会抛 UND_ERR_INVALID_ARG，
+// 曾导致 293/293 条目被误判 unreachable。代理改由 setGlobalDispatcher 注入。
 try {
-  const { Agent, ProxyAgent } = await import('undici');
+  const undici = await import('undici');
   const opts = { maxHeaderSize: 128 * 1024 };
   const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
-  dispatcher = proxy ? new ProxyAgent({ uri: proxy, ...opts }) : new Agent(opts);
+  undici.setGlobalDispatcher(
+    proxy ? new undici.ProxyAgent({ uri: proxy, ...opts }) : new undici.Agent(opts),
+  );
 } catch {
-  /* 原生 fetch 直连 */
+  /* 无 undici 时全局 fetch 直连 */
 }
 
 const COLLECTIONS = [
@@ -59,7 +62,6 @@ async function probe(url) {
     const res = await fetch(url, {
       signal: ctrl.signal,
       redirect: 'follow',
-      dispatcher,
       headers: { 'user-agent': UA, accept: 'text/html,*/*' },
     });
     return { status: res.status, finalUrl: res.url };
