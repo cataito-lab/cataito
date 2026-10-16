@@ -1,44 +1,44 @@
 {
   "features": {
     "en": [
-      "xAI official coding agent",
+      "SpaceXSI official coding agent",
       "Grok 4.7 powered",
       "Parallel sub-agents",
       "Plan Mode integration",
       "Fullscreen terminal UI",
-      "256K context window"
+      "Headless runs and ACP access"
     ],
     "zh": [
-      "xAI 官方编程代理",
+      "SpaceXSI（原 xAI）官方编程代理",
       "Grok 4.7 驱动",
       "子代理并行",
       "Plan 模式集成",
       "全屏终端 UI",
-      "256K 上下文"
+      "无头脚本与 ACP 接入"
     ],
     "ja": [
-      "xAI 公式エージェント",
+      "SpaceXSI 公式エージェント",
       "Grok 4.7 駆動",
       "サブエージェント並列",
       "Plan モード",
       "フルスクリーン UI",
-      "256K コンテキスト"
+      "ヘッドレス実行と ACP 接続"
     ],
     "es": [
-      "Agente oficial xAI",
+      "Agente oficial de SpaceXSI",
       "Grok 4.7",
       "Subagentes paralelos",
       "Modo Plan",
       "UI pantalla completa",
-      "Contexto 256K"
+      "Uso sin interfaz y ACP"
     ],
     "fr": [
-      "Agent officiel xAI",
+      "Agent officiel de SpaceXSI",
       "Grok 4.7",
       "Sous-agents parallèles",
       "Mode Plan",
       "UI plein écran",
-      "Contexte 256K"
+      "Exécution headless et ACP"
     ]
   },
   "useCases": {
@@ -147,11 +147,11 @@
     }
   },
   "latestUpdate": {
-    "en": "2026: Grok Build launches in early beta, powered by Grok 4.5 with native sub-agent view",
-    "zh": "2026年：Grok Build 早期 beta 上线，Grok 4.5 驱动，原生子代理视图",
-    "ja": "2026年：Grok Build が早期ベータで登場、Grok 4.5 駆動、ネイティブサブエージェントビュー",
-    "es": "2026: Grok Build llega en beta temprana con Grok 4.5",
-    "fr": "2026 : Grok Build arrive en bêta précoce avec Grok 4.5"
+    "en": "September 21, 2026: the official Grok 4.7 announcement says the model was available in Grok Build the same day and calls it SpaceXSI's most capable model for coding and knowledge work; Grok 4.6 (August 12) focused on long-running agents. xAI was renamed SpaceXAI in July 2026 and its newsroom and developer docs have read SpaceXSI since October, while Grok Build keeps its product name and the x.ai/cli install entry and now documents headless script use plus Agent Client Protocol (ACP) access. The previous 256K context claim could not be confirmed: the official model page gives grok-4.7 a 500,000-token window, but no CLI-side limit is published.",
+    "zh": "2026 年 9 月 21 日：官方公告发布 Grok 4.7，写明当日即可在 Grok Build 中使用，称为 SpaceXSI 最强的编码与知识工作模型；此前 8 月 12 日的 Grok 4.6 主打长时间运行智能体。xAI 于 2026 年 7 月更名 SpaceXAI，10 月起官网新闻与开发者文档已改标 SpaceXSI；Grok Build 产品名与 x.ai/cli 安装入口未变，文档新增无头脚本运行与 ACP（Agent Client Protocol）接入。原写的 256K 上下文未能核实：官方模型页只给出 grok-4.7 的 50 万 token 上限，CLI 侧上限未公布。",
+    "ja": "2026年9月21日、Grok 4.7 の公式発表は同日に Grok Build で利用可能と明記し、SpaceXSI 最強のコーディング／知識作業モデルと位置付けている。8月12日の Grok 4.6 は長時間エージェント中心。xAI は 2026年7月に SpaceXAI へ改称し、10月からは公式ニュースと開発者ドキュメントの表記も SpaceXSI。Grok Build は製品名と x.ai/cli のインストール導線を維持し、ヘッドレス実行と ACP（Agent Client Protocol）接続をドキュメントに追加。従来記載の 256K コンテキストは未確認（公式モデルページは grok-4.7 の 50万トークン上限のみ明示、CLI 側の上限は非公表）。",
+    "es": "21 de septiembre de 2026: el anuncio oficial de Grok 4.7 indica que ese mismo día está disponible en Grok Build y lo presenta como el modelo más capaz de SpaceXSI para programación y trabajo de conocimiento; Grok 4.6 (12 de agosto) se centró en agentes de larga ejecución. xAI se renombró SpaceXAI en julio de 2026 y desde octubre su sala de noticias y su documentación leen SpaceXSI, mientras Grok Build conserva nombre y el instalador de x.ai/cli y añade el uso sin interfaz en scripts y la conexión por Agent Client Protocol (ACP). El anterior dato de contexto 256K no se pudo confirmar: la página oficial del modelo da a grok-4.7 una ventana de 500 000 tokens, pero no publica un límite del lado del CLI.",
+    "fr": "21 septembre 2026 : l'annonce officielle de Grok 4.7 précise que le modèle est disponible dès ce jour dans Grok Build et le présente comme le modèle le plus capable de SpaceXSI pour le code et le travail de connaissance ; Grok 4.6 (12 août) visait les agents longue durée. xAI a été renommé SpaceXAI en juillet 2026 et, depuis octobre, son newsroom et sa documentation affichent SpaceXSI ; Grok Build garde son nom et l'installeur x.ai/cli, et documente désormais l'exécution headless en script et l'accès via l'Agent Client Protocol (ACP). L'ancienne valeur de contexte 256K n'a pas pu être confirmée : la page officielle du modèle donne 500 000 tokens à grok-4.7, mais aucune limite côté CLI n'est publiée."
   },
   "verdict": {
     "badge": "Worth Trying",
@@ -230,7 +230,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

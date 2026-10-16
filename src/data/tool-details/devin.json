@@ -154,11 +154,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: SWE 1.7 model released; Windsurf completed its integration and was renamed Devin Desktop (June 2026); new usage-based pricing introduced a $20/mo Pro tier after Cognition acquired Windsurf for ~$250M",
-    "zh": "2026 年：发布 SWE 1.7 模型；Windsurf 完成整合并更名 Devin Desktop（2026 年 6 月）；Cognition 以约 2.5 亿美元收购 Windsurf 后推出按用量计费的新定价，新增 20 美元/月 Pro 档",
-    "ja": "2026年：SWE 1.7モデルをリリース。WindsurfはDevin Desktopに改称され統合完了（2026年6月）。CognitionがWindsurfを約2.5億ドルで買収後、月20ドルのProプランを含む使用量ベースの新価格を導入",
-    "es": "2026: lanzado el modelo SWE 1.7; Windsurf completó su integración y pasó a llamarse Devin Desktop (junio 2026); nueva tarificación por uso con plan Pro de 20 $/mes tras la compra de Windsurf por ~250 M$",
-    "fr": "2026 : sortie du modèle SWE 1.7 ; Windsurf a achevé son intégration et a été renommé Devin Desktop (juin 2026) ; nouvelle tarification à l’usage avec offre Pro à 20 $/mois après le rachat de Windsurf (~250 M$)"
+    "en": "Sep 2026: Cognition released SWE-2 (Sep 10, post-trained from Kimi K3), replacing SWE-1.7 from August as Devin's newest model; the lineup spans the Devin cloud agent and Devin Desktop (formerly Windsurf, renamed in June). The official pricing page now lists Free $0 / Pro $20/mo / Max $200/mo / Teams from $80/mo plus $40/mo per full seat, with extra usage billed at API rates.",
+    "zh": "2026年9月：Cognition 发布 SWE-2（9 月 10 日，基于 Kimi K3 后训练），取代 8 月的 SWE-1.7 成为 Devin 最新模型；产品矩阵含 Devin 云端智能体与 Devin Desktop（原 Windsurf，6 月更名）。官方定价页当前为 Free $0 / Pro $20/月 / Max $200/月 / Teams $80/月起（每个正式席位另加 $40/月），超额用量按 API 价格计费。",
+    "ja": "2026年9月：Cognition が SWE-2（9月10日、Kimi K3 を後訓練したモデル）を公開し、8月の SWE-1.7 に代わる Devin 最新モデルに。ラインナップは Devin クラウドエージェントと Devin Desktop（旧 Windsurf、6月に改称）。公式価格ページは現行 Free 0ドル／Pro 月20ドル／Max 月200ドル／Teams 月80ドル〜（正式シートは1席あたり月40ドル加算）、超過分は API 単価と明記。",
+    "es": "Sept 2026: Cognition lanzó SWE-2 (10 sept, post-entrenado desde Kimi K3), que reemplaza a SWE-1.7 de agosto como modelo más reciente de Devin; la línea incluye el agente en la nube Devin y Devin Desktop (ex Windsurf, renombrado en junio). La página oficial de precios lista hoy Free 0 $ / Pro 20 $/mes / Max 200 $/mes / Teams desde 80 $/mes más 40 $/mes por puesto completo, y el uso extra se factura a tarifas de API.",
+    "fr": "Sept 2026 : Cognition a publié SWE-2 (10 sept, post-entraîné depuis Kimi K3), qui remplace SWE-1.7 (août) comme modèle le plus récent de Devin ; la gamme couvre l'agent cloud Devin et Devin Desktop (ex-Windsurf, renommé en juin). La page tarifaire officielle affiche aujourd'hui Free 0 $ / Pro 20 $/mois / Max 200 $/mois / Teams dès 80 $/mois plus 40 $/mois par siège complet, l'usage supplémentaire étant facturé aux tarifs API."
   },
   "verdict": {
     "badge": "Recommended",
@@ -227,9 +227,10 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
-    "pricingVerified": "2026-07-27"
+    "pricingVerified": "2026-10-16",
+    "pricingUrl": "https://devin.ai/pricing"
   },
   "pricingInfo": {
     "model": "freemium",

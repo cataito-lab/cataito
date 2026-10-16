@@ -144,11 +144,11 @@
     }
   },
   "latestUpdate": {
-    "en": "2026: Acquired by Cognition (~$250M) and renamed Devin Desktop in June 2026; now ships as the desktop IDE of the Devin subscription with unlimited Tab completion and the in-house SWE 1.7 model",
-    "zh": "2026 年：被 Cognition 以约 2.5 亿美元收购，2026 年 6 月更名 Devin Desktop；现作为 Devin 订阅的桌面 IDE 交付，含无限 Tab 补全与自研 SWE 1.7 模型",
-    "ja": "2026年：Cognitionに約2.5億ドルで買収され、2026年6月にDevin Desktopへ改名。現在はDevinサブスクリプションのデスクトップIDEとして提供され、無制限のTab補完と自社製SWE 1.7モデルを搭載",
-    "es": "2026: adquirido por Cognition (~250 M$) y renombrado Devin Desktop en junio de 2026; ahora es el IDE de escritorio de la suscripción Devin con Tab ilimitado y el modelo propio SWE 1.7",
-    "fr": "2026 : racheté par Cognition (~250 M$) et renommé Devin Desktop en juin 2026 ; c'est désormais l'IDE de bureau de l'abonnement Devin avec complétion Tab illimitée et le modèle maison SWE 1.7"
+    "en": "Sep 2026: Devin Desktop (formerly Windsurf, renamed through an OTA update on Jun 2, 2026; Cognition signed to acquire Windsurf in July 2025 for an undisclosed amount reported at around $250M) gained SWE-2, Cognition's new coding model released Sep 10, 2026, post-trained from Kimi K3 and successor to August's SWE-1.7. The official pricing page lists unlimited Tab completions on the Free plan and includes Devin Desktop with the Pro subscription.",
+    "zh": "2026 年 9 月：Devin Desktop（原 Windsurf，2026 年 6 月 2 日随 OTA 更新更名；Cognition 于 2025 年 7 月签署收购 Windsurf，金额未官方公布、据报道约 2.5 亿美元）上线 Cognition 新编码模型 SWE-2——2026 年 9 月 10 日发布，基于 Kimi K3 后训练，取代 8 月的 SWE-1.7。官方定价页显示 Free 档含无限 Tab 补全，Devin Desktop 也随 Pro 订阅提供。",
+    "ja": "2026年9月：Devin Desktop（旧 Windsurf、2026年6月2日のOTAアップデートで改称。Cognition は 2025年7月に Windsurf 買収で合意したが金額は非公表、報道では約2億5000万ドル）に Cognition の新コーディングモデル SWE-2（2026年9月10日公開、Kimi K3 を後訓練、8月の SWE-1.7 を継承）が登場。公式価格ページは Free プランで Tab 補完無制限、Devin Desktop は Pro サブスクリプションにも含まれると記載。",
+    "es": "Sept 2026: Devin Desktop (antes Windsurf, renombrado el 2 jun 2026 mediante una actualización OTA; Cognition acordó comprar Windsurf en jul 2025 por una cifra no divulgada que la prensa cifra en unos 250 M$) recibió SWE-2, el nuevo modelo de programación de Cognition lanzado el 10 sept 2026, post-entrenado desde Kimi K3 y sucesor de SWE-1.7 de agosto. La página oficial de precios incluye Tab ilimitado en el plan Free y Devin Desktop dentro de la suscripción Pro.",
+    "fr": "Sept 2026 : Devin Desktop (ex-Windsurf, renommé le 2 juin 2026 via une mise à jour OTA ; Cognition a conclu le rachat de Windsurf en juil. 2025 pour un montant non divulgué, estimé à environ 250 M$ par la presse) a reçu SWE-2, le nouveau modèle de code de Cognition publié le 10 sept. 2026, post-entraîné depuis Kimi K3 et successeur de SWE-1.7 (août). La page tarifaire officielle indique la complétion Tab illimitée dans l'offre Free et inclut Devin Desktop dans l'abonnement Pro."
   },
   "verdict": {
     "badge": "Recommended",
@@ -227,12 +227,13 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-30",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
-    "pricingVerified": "2026-07-27"
+    "pricingVerified": "2026-10-16",
+    "pricingUrl": "https://devin.ai/pricing"
   },
   "pricingInfo": {
-    "model": "free",
+    "model": "freemium",
     "fromPrice": "$20"
   }
 }

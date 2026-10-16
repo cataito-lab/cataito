@@ -147,11 +147,11 @@
     }
   },
   "latestUpdate": {
-    "en": "2026: Claude Code evolves coding agent capabilities",
-    "zh": "2026年：Claude Code 进化编程代理能力",
-    "ja": "2026年：Claude Code がコーディング能力進化",
-    "es": "2026: Claude Code evoluciona agente",
-    "fr": "2026 : Claude Code fait évoluer ses capacités"
+    "en": "2026: Claude Code keeps shipping weekly (v2.1.251-v2.1.269 in September); computer use, auto mode, remote control and scheduled tasks landed from March onward, and Claude Opus 5.5 (Sep 22) is its latest flagship model.",
+    "zh": "2026年：Claude Code 保持每周发版（9 月为 v2.1.251–v2.1.269 区间），3 月起陆续加入 computer use、auto mode、远程控制与定时任务；9 月 Claude Opus 5.5 发布后成为其最新可用旗舰模型。",
+    "ja": "2026年：Claude Code は毎週リリースを継続（9月は v2.1.251〜v2.1.269）。3月以降に computer use・auto mode・リモート制御・スケジュールタスクを追加し、9月公開の Claude Opus 5.5 が最新の旗艦モデルとして利用可能。",
+    "es": "2026: Claude Code publica versiones semanales (v2.1.251-v2.1.269 en septiembre); desde marzo sumó computer use, auto mode, control remoto y tareas programadas, y Claude Opus 5.5 (22 sept) es su modelo insignia más reciente.",
+    "fr": "2026 : Claude Code livre chaque semaine (v2.1.251-v2.1.269 en septembre) ; computer use, auto mode, contrôle distant et tâches planifiées sont arrivés depuis mars, et Claude Opus 5.5 (22 sept) est son dernier modèle phare."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -230,7 +230,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://claude.com/pricing"
