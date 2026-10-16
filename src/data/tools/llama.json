@@ -7,7 +7,7 @@
   "descriptionJa": "MetaのオープンソースLLMシリーズ。ローカルデプロイ可能、商用利用可",
   "descriptionEs": "Serie LLM de código abierto de Meta, desplegable localmente con uso comercial permitido",
   "descriptionFr": "Série LLM open-source de Meta, déployable localement avec utilisation commerciale autorisée",
-  "url": "https://llama.meta.com",
+  "url": "https://dev.meta.ai",
   "logo": "/logos/tools/llama.png",
   "category": "Foundation Models",
   "tags": [

@@ -43,39 +43,46 @@
   },
   "pricing": {
     "free": {
-      "en": "Basic features free",
-      "zh": "基础功能免费",
-      "ja": "基本機能は無料",
-      "es": "Funciones básicas gratuitas",
-      "fr": "Fonctions de base gratuites"
+      "zh": "免费版 $0/月：AI 用量受限，Agent 与 Chat 请求均为有限额度",
+      "en": "Free $0/mo: limited AI usage, limited agent and Chat requests",
+      "ja": "無料版 $0/月：AI 使用量が制限付き、Agent と Chat のリクエストも有限",
+      "es": "Free 0 $/mes: uso de IA limitado, solicitudes limitadas de Agent y Chat",
+      "fr": "Free 0 $/mois : usage IA limité, requêtes Agent et Chat en nombre limité"
     },
-    "pro": {
-      "en": "$20/month (unlimited completion)",
-      "zh": "$20/月（无限补全）",
-      "ja": "月額20ドル（補完無制限）",
-      "es": "20 $/mes (completado ilimitado)",
-      "fr": "20 $/mois (complétion illimitée)"
+    "plus": {
+      "zh": "Plus $8/月：共享用量池，仅可用 Grok 系列模型，含 Grok API 访问",
+      "en": "Plus $8/mo: shared usage pool, Grok models only, includes Grok API access",
+      "ja": "Plus $8/月：共有ユースプール、Grok モデルのみ利用可、Grok API アクセス付き",
+      "es": "Plus 8 $/mes: grupo de uso compartido, solo modelos Grok, incluye acceso a la API de Grok",
+      "fr": "Plus 8 $/mois : pool d'usage partagé, uniquement les modèles Grok, accès à l'API Grok inclus"
     },
-    "pro-plus": {
-      "en": "$60/month (Pro+, 3x Pro usage)",
-      "zh": "$60/月（Pro+、3 倍 Pro 用量）",
-      "ja": "月額60ドル（Pro+、Pro の3倍の利用量）",
-      "es": "60 $/mes (Pro+, 3x el uso de Pro)",
-      "fr": "60 $/mois (Pro+, 3x l'usage Pro)"
+    "premium": {
+      "zh": "Premium $30/月（最受欢迎）：用量为 Plus 的 4 倍，含云端智能体与自动化、代码托管、AI 代码审查；第三方模型按 API 原价另计",
+      "en": "Premium $30/mo (most popular): 4x Plus usage, cloud agents and automations, code hosting, AI code reviews; third-party models billed separately at API list price",
+      "ja": "Premium $30/月（人気）：Plus の4倍の用量、クラウドエージェント・自動化・コードホスティング・AI コードレビュー。サードパーティ モデルは API 実費が別途",
+      "es": "Premium 30 $/mes (el más elegido): 4x el uso de Plus, agentes en la nube y automatizaciones, alojamiento de código y revisiones con IA; los modelos de terceros se facturan aparte al precio de lista de la API",
+      "fr": "Premium 30 $/mois (le plus choisi) : 4× l'usage de Plus, agents cloud et automatisations, hébergement de code et revues de code par IA ; les modèles tiers sont facturés séparément au tarif API"
+    },
+    "super": {
+      "zh": "Super $100/月：用量为 Plus 的 15 倍，高峰期优先访问模型",
+      "en": "Super $100/mo: 15x Plus usage, priority model access at peak times",
+      "ja": "Super $100/月：Plus の15倍の用量、ピーク時はモデル優先アクセス",
+      "es": "Super 100 $/mes: 15x el uso de Plus, acceso prioritario a modelos en horas punta",
+      "fr": "Super 100 $/mois : 15× l'usage de Plus, accès prioritaire aux modèles aux heures de pointe"
     },
     "ultra": {
-      "en": "$200/month (Ultra, 20x Pro usage, priority access)",
-      "zh": "$200/月（Ultra、20 倍 Pro 用量、优先访问）",
-      "ja": "月額200ドル（Ultra、Pro の20倍の利用量、優先アクセス）",
-      "es": "200 $/mes (Ultra, 20x el uso de Pro, acceso prioritario)",
-      "fr": "200 $/mois (Ultra, 20x l'usage Pro, accès prioritaire)"
+      "zh": "Ultra $200/月：用量为 Plus 的 50 倍，最早访问全部产品与模型",
+      "en": "Ultra $200/mo: 50x Plus usage, earliest access to all products and models",
+      "ja": "Ultra $200/月：Plus の50倍の用量、全製品・全モデルを最も早く利用",
+      "es": "Ultra 200 $/mes: 50x el uso de Plus, el primer acceso a todos los productos y modelos",
+      "fr": "Ultra 200 $/mois : 50× l'usage de Plus, l'accès le plus précoce à tous les produits et modèles"
     },
-    "business": {
-      "en": "$40/user/month (business)",
-      "zh": "$40/人/月（企业版）",
-      "ja": "1ユーザー月額40ドル（ビジネス）",
-      "es": "40 $/usuario/mes (empresas)",
-      "fr": "40 $/utilisateur/mois (entreprise)"
+    "teams": {
+      "zh": "团队版 $30+/人/月：4–50 倍 Plus 的池化用量、团队市场、集中计费与管理、SSO；企业版另议",
+      "en": "Teams from $30/user/mo: pooled 4–50x Plus usage, team marketplace, centralized billing and admin, SSO; Enterprise quoted separately",
+      "ja": "チーム版 $30/人/月〜：Plus の4〜50倍のプール用量、チームマーケットプレイス、請求・管理の一元化、SSO。エンタープライズは個別見積",
+      "es": "Teams desde 30 $/usuario/mes: uso agrupado de 4 a 50x Plus, marketplace de equipo, facturación y administración centralizadas, SSO; Enterprise se cotiza aparte",
+      "fr": "Teams dès 30 $/utilisateur/mois : usage mutualisé de 4 à 50× Plus, marketplace d'équipe, facturation et administration centralisées, SSO ; Enterprise sur devis"
     }
   },
   "useCases": {
@@ -180,11 +187,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "Cursor's model page now lists Claude Opus 5.5, Sonnet 5.5, Haiku 5.5 and Claude Fable 5.1, Gemini 4 / 3.8 / 3.1, GPT-5.6, and Grok 4.5 / 4.6 / 4.7. The Claude Opus 4.6 this page previously named is no longer on that list.",
-    "zh": "官方模型页当前列有 Claude Opus 5.5、Sonnet 5.5、Haiku 5.5 与 Claude Fable 5.1，Gemini 4 / 3.8 / 3.1，GPT-5.6，以及 Grok 4.5 / 4.6 / 4.7。本页此前写的 Claude Opus 4.6 已不在该清单中。",
-    "ja": "公式モデルページには現在 Claude Opus 5.5、Sonnet 5.5、Haiku 5.5、Claude Fable 5.1、Gemini 4 / 3.8 / 3.1、GPT-5.6、Grok 4.5 / 4.6 / 4.7 が並ぶ。かつて記載した Claude Opus 4.6 は一覧から外れている。",
-    "es": "La página de modelos oficial enumera ahora Claude Opus 5.5, Sonnet 5.5, Haiku 5.5 y Claude Fable 5.1, Gemini 4 / 3.8 / 3.1, GPT-5.6 y Grok 4.5 / 4.6 / 4.7. El Claude Opus 4.6 que citábamos ya no figura en esa lista.",
-    "fr": "La page des modèles officielle liste désormais Claude Opus 5.5, Sonnet 5.5, Haiku 5.5 et Claude Fable 5.1, Gemini 4 / 3.8 / 3.1, GPT-5.6 et Grok 4.5 / 4.6 / 4.7. Le Claude Opus 4.6 que nous citions n'y figure plus."
+    "en": "Measured on cursor.com/pricing, 2026-10-16: individual tiers are now Free $0 / Plus $8 / Premium $30 / Super $100 / Ultra $200, Teams from $30/user/mo, and usage multiples are stated against Plus (4x / 15x / 50x). The Pro $20, Pro+ $60 and $40/seat figures previously recorded here are gone from the page, as is the Pro+ tier itself. The same pricing table lays Cursor alongside Grok and X entitlements (Grok Chat / Imagine / Grok Build / Grok Bot, Premium checkmark, X Money cashback), the footer lists 'SpaceXAI Subscription Terms', and xAI's Grok 4.7 announcement says the model was available in Cursor that same day. All that establishes is a merged presentation and billing: Cursor's ownership relationship with SpaceXAI is not stated officially, so the developer field is left unchanged.",
+    "zh": "2026-10-16 实测 cursor.com/pricing：个人档已改为 Free $0 / Plus $8 / Premium $30 / Super $100 / Ultra $200，团队版 $30+/人/月，用量倍数改以 Plus 为基准（4x / 15x / 50x）；本站旧写的 Pro $20、Pro+ $60、人均 $40 以及 3 倍/20 倍口径均已不在官方页面，Pro+ 档整体消失。同一张定价表把 Cursor 与 Grok、X 的权益并列（Grok Chat / Imagine / Grok Build / Grok Bot、Premium 认证标志、X Money 返现），页脚列有「SpaceXAI Subscription Terms」，xAI 的 Grok 4.7 公告也写明当日即可在 Cursor 使用。目前只能确认展示与订阅已合并，Cursor 与 SpaceXAI 之间的股权关系官方未说明，因此 developer 字段不改。",
+    "ja": "2026-10-16 に cursor.com/pricing を実測：個人プランは Free $0／Plus $8／Premium $30／Super $100／Ultra $200、チームは $30/人/月〜に変更され、使用量倍数は Plus 基準（4倍／15倍／50倍）で表記。当サイトが以前書いた Pro $20・Pro+ $60・1人 $40 や 3倍/20倍 は公式ページに存在せず、Pro+ プラン自体も消えた。同じ価格表は Cursor と Grok・X の特典（Grok Chat / Imagine / Grok Build / Grok Bot、Premium 認証バッジ、X Money キャッシュバック）を並列表示し、フッターに「SpaceXAI Subscription Terms」、xAI の Grok 4.7 発表は同日 Cursor で利用可能と明記。確認できたのは表示と請求の統合だけで、Cursor と SpaceXAI の資本関係は公式言及がないため developer 欄は変更しない。",
+    "es": "Medido en cursor.com/pricing el 2026-10-16: los planes individuales pasan a Free 0 $ / Plus 8 $ / Premium 30 $ / Super 100 $ / Ultra 200 $, Teams desde 30 $/usuario/mes, y los múltiplos de uso se expresan sobre Plus (4x / 15x / 50x). Las cifras Pro 20 $, Pro+ 60 $ y 40 $/puesto que figuraban aquí ya no están en la página, y el nivel Pro+ desaparece. La misma tabla presenta Cursor junto a las ventajas de Grok y de X (Grok Chat / Imagine / Grok Build / Grok Bot, insignia Premium, cashback de X Money), el pie incluye 'SpaceXAI Subscription Terms' y el anuncio de Grok 4.7 de xAI indica que el modelo estuvo disponible en Cursor ese mismo día. Solo queda confirmada la presentación y facturación conjuntas: la relación accionarial entre Cursor y SpaceXAI no la explica la fuente oficial, así que el campo developer no se modifica.",
+    "fr": "Mesuré sur cursor.com/pricing le 2026-10-16 : les offres individuelles deviennent Free 0 $ / Plus 8 $ / Premium 30 $ / Super 100 $ / Ultra 200 $, Teams dès 30 $/utilisateur/mois, et les multiples d'usage s'expriment par rapport à Plus (4× / 15× / 50×). Les valeurs Pro 20 $, Pro+ 60 $ et 40 $/siège notées ici ont disparu de la page, l'offre Pro+ elle aussi. Le même tarif place Cursor aux côtés des avantages Grok et X (Grok Chat / Imagine / Grok Build / Grok Bot, badge Premium, cashback X Money), le pied de page cite « SpaceXAI Subscription Terms » et l'annonce de Grok 4.7 par xAI indique que le modèle était disponible dans Cursor ce même jour. Seule la présentation et la facturation communes sont établies : la relation capitalistique de Cursor avec SpaceXAI n'est pas explicitée par la source officielle, le champ developer reste donc inchangé."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -263,14 +270,14 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
-    "pricingVerified": "2026-07-27",
+    "pricingVerified": "2026-10-16",
     "pricingUrl": "https://cursor.com/pricing"
   },
   "pricingInfo": {
     "model": "freemium",
-    "fromPrice": "$20",
+    "fromPrice": "$8",
     "url": "https://cursor.com/pricing"
   }
 }

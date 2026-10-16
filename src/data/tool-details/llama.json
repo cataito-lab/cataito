@@ -166,11 +166,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "Llama 4 Scout and Maverick shipped on 2025-04-05, but Behemoth was never publicly released: Meta's own April 2025 post only described it as still in training and as the teacher model behind Scout and Maverick, and trackers through July and October 2026 still list it as announced but unreleased. In April 2026 Meta pivoted to the closed flagship Muse Spark, iterated on 2026-07-09 as Muse Spark 1.1, with developer access now served by the Meta Model API at dev.meta.ai.",
-    "zh": "Llama 4 的 Scout 与 Maverick 于 2025-04-05 发布，Behemoth 至今未公开发布：官方 2025-04 博客只称其仍在训练中、充当 Scout 与 Maverick 的 teacher 模型，2026 年 7 月至 10 月的多方跟踪记录仍将其列为已宣布未发布。2026-04 Meta 转向闭源新旗舰 Muse Spark，2026-07-09 迭代 Muse Spark 1.1，开发者入口改由 dev.meta.ai 的 Meta Model API 承载。",
-    "ja": "Llama 4 の Scout と Maverick は 2025-04-05 に公開されたが、Behemoth は今も一般公開されていない。Meta 公式（2025-04）は訓練中・Scout/Maverick の teacher モデルとだけ説明し、2026年7月から10月までの追跡記録でも「発表済み未公開」のままだ。Meta は 2026-04 にクローズドの新旗艦 Muse Spark へ軸足を移し、2026-07-09 に Muse Spark 1.1 へ更新。開発者向けの入口は dev.meta.ai の Meta Model API。",
-    "es": "Llama 4 Scout y Maverick se publicaron el 2025-04-05, pero Behemoth nunca llegó al público: la entrada oficial de Meta de abril de 2025 solo lo describía en entrenamiento y como modelo maestro de Scout y Maverick, y los seguimientos de julio a octubre de 2026 lo siguen registrando como anunciado pero no liberado. En abril de 2026 Meta giró hacia su nuevo insignia cerrado, Muse Spark, actualizado el 2026-07-09 a Muse Spark 1.1, con acceso de desarrolladores ahora en la Meta Model API de dev.meta.ai.",
-    "fr": "Llama 4 Scout et Maverick sont sortis le 2025-04-05, mais Behemoth n'a jamais été publié : le billet officiel de Meta d'avril 2025 le décrivait seulement en cours d'entraînement, comme modèle enseignant de Scout et Maverick, et les suivis de juillet à octobre 2026 le listent toujours comme annoncé mais non publié. En avril 2026, Meta a pivoté vers son nouveau phare fermé Muse Spark, itéré le 2026-07-09 en Muse Spark 1.1, l'accès développeur passant par la Meta Model API sur dev.meta.ai."
+    "en": "Llama 4 Scout and Maverick shipped on 2025-04-05, but Behemoth was never publicly released: Meta's own April 2025 post only described it as still in training and as the teacher model behind Scout and Maverick, and trackers through July and October 2026 still list it as announced but unreleased. In April 2026 Meta pivoted to the closed flagship Muse Spark, iterated on 2026-07-09 as Muse Spark 1.1, with developer access now served by the Meta Model API at dev.meta.ai. Measured 2026-10-16: llama.meta.com redirects straight to dev.meta.ai and no standalone Llama brand page remains, so our entry link was updated to dev.meta.ai.",
+    "zh": "Llama 4 的 Scout 与 Maverick 于 2025-04-05 发布，Behemoth 至今未公开发布：官方 2025-04 博客只称其仍在训练中、充当 Scout 与 Maverick 的 teacher 模型，2026 年 7 月至 10 月的多方跟踪记录仍将其列为已宣布未发布。2026-04 Meta 转向闭源新旗舰 Muse Spark，2026-07-09 迭代 Muse Spark 1.1，开发者入口改由 dev.meta.ai 的 Meta Model API 承载。2026-10-16 实测：llama.meta.com 已直接跳转 dev.meta.ai，独立的 Llama 品牌页不复存在，本站入口链接随之改为 dev.meta.ai。",
+    "ja": "Llama 4 の Scout と Maverick は 2025-04-05 に公開されたが、Behemoth は今も一般公開されていない。Meta 公式（2025-04）は訓練中・Scout/Maverick の teacher モデルとだけ説明し、2026年7月から10月までの追跡記録でも「発表済み未公開」のままだ。Meta は 2026-04 にクローズドの新旗艦 Muse Spark へ軸足を移し、2026-07-09 に Muse Spark 1.1 へ更新。開発者向けの入口は dev.meta.ai の Meta Model API。2026-10-16 の実測では llama.meta.com は dev.meta.ai に直接リダイレクトされ、Llama 専用のブランドページは存在しないため、当サイトのリンクも dev.meta.ai に更新した。",
+    "es": "Llama 4 Scout y Maverick se publicaron el 2025-04-05, pero Behemoth nunca llegó al público: la entrada oficial de Meta de abril de 2025 solo lo describía en entrenamiento y como modelo maestro de Scout y Maverick, y los seguimientos de julio a octubre de 2026 lo siguen registrando como anunciado pero no liberado. En abril de 2026 Meta giró hacia su nuevo insignia cerrado, Muse Spark, actualizado el 2026-07-09 a Muse Spark 1.1, con acceso de desarrolladores ahora en la Meta Model API de dev.meta.ai. Medido el 2026-10-16: llama.meta.com redirige directo a dev.meta.ai y no queda ninguna página de marca propia de Llama, así que el enlace de entrada se actualizó a dev.meta.ai.",
+    "fr": "Llama 4 Scout et Maverick sont sortis le 2025-04-05, mais Behemoth n'a jamais été publié : le billet officiel de Meta d'avril 2025 le décrivait seulement en cours d'entraînement, comme modèle enseignant de Scout et Maverick, et les suivis de juillet à octobre 2026 le listent toujours comme annoncé mais non publié. En avril 2026, Meta a pivoté vers son nouveau phare fermé Muse Spark, itéré le 2026-07-09 en Muse Spark 1.1, l'accès développeur passant par la Meta Model API sur dev.meta.ai. Mesuré le 2026-10-16 : llama.meta.com redirige directement vers dev.meta.ai et aucune page de marque propre à Llama ne subsiste, aussi le lien d'entrée a été mis à jour vers dev.meta.ai."
   },
   "verdict": {
     "badge": "Recommended",
@@ -239,7 +239,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

@@ -166,14 +166,14 @@
     ]
   },
   "latestUpdate": {
-    "en": "July 2026: Tabnine added AI coding agents while keeping its privacy-first, zero-retention enterprise focus",
-    "zh": "2026年7月：Tabnine 新增 AI 编码智能体，同时保持隐私优先、零留存的企业定位",
-    "ja": "2026年7月：Tabnine は AI コーディングエージェントを追加しつつ、プライバシー優先・非保持のエンタープライズ路線を維持",
-    "es": "Julio de 2026: Tabnine añadió agentes de código con IA manteniendo su enfoque empresarial de privacidad y cero retención",
-    "fr": "Juillet 2026 : Tabnine a ajouté des agents de code IA tout en conservant son orientation entreprise axée confidentialité et zéro rétention"
+    "en": "July 30, 2026: Tricentis' newsroom announced it had acquired Tabnine; the price was not disclosed (Calcalist put it in the tens of millions of dollars). Measured here, www.tabnine.com now 302-redirects to tricentis.com/products carrying utm_source / utm_medium parameters, and that product page never mentions 'Tabnine' at all — the standalone brand page is gone. With entry point and ownership both moved, the listing is downgraded to Consider Alternatives under our ownership-change rule and the link now goes to the vendor's product list; whether the roadmap and privacy commitments continue after the deal has not been stated officially.",
+    "zh": "2026 年 7 月 30 日：Tricentis 官方新闻室宣布收购 Tabnine，金额未官方公布（Calcalist 报道称规模在数千万美元级）。本站实测 www.tabnine.com 已 302 跳转至 tricentis.com/products（带 utm_source / utm_medium 参数），该产品页通篇未出现「Tabnine」字样，独立品牌页不复存在。入口与归属同时变动，按收录规则「归属突变」条款降级为 Consider Alternatives，入口链接改为厂商产品列表页；收购后产品路线与隐私承诺是否延续，官方尚未说明。",
+    "ja": "2026年7月30日、Tricentis の公式ニュースルームが Tabnine の買収を発表した。金額は非公表（Calcalist の報道では数千万ドル規模）。当サイトの実測では www.tabnine.com が utm_source / utm_medium 付きで tricentis.com/products に 302 リダイレクトし、その製品ページには「Tabnine」の記載が一切なく、独立ブランドページは消えている。入口と帰属が同時に変わったため、収録ルール中の「帰属急変」条項により Consider Alternatives へ格下げし、リンクはメーカーの製品一覧へ変更。買収後の製品ロードマップとプライバシー方針の継続については公式説明がない。",
+    "es": "30 de julio de 2026: la sala de noticias de Tricentis anunció la compra de Tabnine; el importe no se hizo público (Calcalist lo situó en decenas de millones de dólares). Medido aquí, www.tabnine.com redirige por 302 a tricentis.com/products con parámetros utm_source / utm_medium, y esa página de productos no menciona «Tabnine» en ningún momento: la página de marca independiente ha desaparecido. Como cambian a la vez la entrada y la propiedad, la ficha baja a Consider Alternatives según nuestra regla de cambio de propiedad y el enlace apunta al listado de productos del fabricante; la continuidad de la hoja de ruta y de los compromisos de privacidad tras la compra no la concreta la fuente oficial.",
+    "fr": "30 juillet 2026 : le newsroom de Tricentis a annoncé le rachat de Tabnine ; le montant n'a pas été communiqué (Calcalist l'évoque dans les dizaines de millions de dollars). Mesuré ici, www.tabnine.com redirige en 302 vers tricentis.com/products avec paramètres utm_source / utm_medium, et cette page produits ne mentionne jamais « Tabnine » — la page de marque autonome a disparu. L'entrée et la propriété ayant toutes deux bougé, la fiche passe en Consider Alternatives selon notre règle de changement de propriété et le lien pointe vers la liste des produits du fabricant ; la suite réservée à la feuille de route et aux engagements de confidentialité n'est pas précisée par la source officielle."
   },
   "verdict": {
-    "badge": "For Specific Needs",
+    "badge": "Consider Alternatives",
     "headline": {
       "en": "Privacy-first AI code completion that can run entirely on your own infrastructure.",
       "zh": "隐私优先的AI代码补全，可完全在自有基础设施上运行。",
@@ -239,8 +239,8 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-30",
-    "verdictDate": "2026-07-27",
+    "lastVerified": "2026-10-16",
+    "verdictDate": "2026-10-16",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://www.tabnine.com/pricing/"
   },

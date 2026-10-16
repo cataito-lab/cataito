@@ -180,19 +180,17 @@ export default async function ToolDetailPage({ params }: Props) {
     verified: detailMeta.lastVerified ?? null,
   };
 
-  // P4.3 内容保鲜：每日存活探测结果驱动的横幅（dead 显示，suspect 不显示）
-  // 2026-09-14 unreachable 判定暂时停用（Aaron 指示）：GitHub Actions 海外节点探测
-  // 国内/墙外站点普遍失败，tool-health.json 当前 288/288 全 unreachable（streak ≥ 7）
-  // 但实际都是网络假阳性，导致每个工具详情页顶上一个黄横幅，E-E-A-T 严重扣分。
-  // DEAD 判定（连续两轮 404 / ENOTFOUND / 410）保留——真挂时仍能告警。
-  // 恢复条件：check-tool-liveness.mjs 换国内/双区域探测节点，unreachable 恢复可信后
-  // 把下方 `|| healthEntry?.status === 'unreachable'` 注释解开。
+  // P4.3 内容保鲜：每日存活探测结果驱动的横幅（dead / unreachable 显示，suspect 不显示）
+  // 2026-09-14 曾停用 unreachable：当时 tool-health.json 全条目判 unreachable（streak ≥ 7），
+  // 每个详情页顶上都挂黄横幅，E-E-A-T 严重扣分。真因不是「海外节点探测不到国内/墙外站点」——
+  // 是 check-tool-liveness.mjs 把 undici 的 dispatcher 传给了 Node 全局 fetch，抛
+  // UND_ERR_INVALID_ARG 使 293/293 全部误判。2026-10-16 改 setGlobalDispatcher 后
+  // 实测 ok 292 / unreachable 1，误判消失，故恢复显示。
   const healthEntry = (toolHealth as { tools?: Record<string, { status?: string }> }).tools?.[
     tool.slug
   ];
   const healthStatus =
-    healthEntry?.status === 'dead'
-    // || healthEntry?.status === 'unreachable'  // 停用中，见上方注释
+    healthEntry?.status === 'dead' || healthEntry?.status === 'unreachable'
       ? healthEntry.status
       : null;
 

@@ -177,11 +177,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026-08: 112K+ GitHub stars, 39 website demos, regular updates",
-    "zh": "2026年8月：112K+ GitHub 星标，39 个网站演示，定期更新",
-    "ja": "2026年8月：112K+ GitHubスター、39のウェブサイトデモ、定期的なアップデート",
-    "es": "Agosto 2026: 112K+ estrellas GitHub, 39 demos de sitios web, actualizaciones regulares",
-    "fr": "Ao?t 2026: 112K+ ?toiles GitHub, 39 d?mos de sites web, mises ? jour r?guli?res"
+    "en": "Measured 2026-10-16: the official repo nextlevelbuilder/ui-ux-pro-max-skill sits at 136,437 stars with its last push on 2026-10-15, past the '112K+' figure previously shown here. The old entry domain ui-ux-pro-max-skill.nextlevelbuilder.io redirects to the short domain www.uupm.cc, which is exactly the homepage declared by the official repository — so this reads as an official domain move rather than a copycat mirror. Our entry link now points at the GitHub repo so the star-sync script can keep the count current.",
+    "zh": "2026-10-16 实测：官方仓库 nextlevelbuilder/ui-ux-pro-max-skill 为 136,437 星、最近一次推送 2026-10-15，本站旧写的「112K+」已落后。原入口域名 ui-ux-pro-max-skill.nextlevelbuilder.io 会跳转到短域名 www.uupm.cc，而 uupm.cc 正是官方仓库自己声明的 homepage，因此判定为官方换域而非仿冒镜像。本站入口改为 GitHub 仓库地址，便于星数同步脚本识别、星标自动刷新。",
+    "ja": "2026-10-16 実測：公式リポジトリ nextlevelbuilder/ui-ux-pro-max-skill はスター136,437・最終プッシュ 2026-10-15 で、従来の記載「112K+」から増加。旧入口ドメイン ui-ux-pro-max-skill.nextlevelbuilder.io は短縮ドメイン www.uupm.cc へリダイレクトするが、uupm.cc は公式リポジトリ自身が homepage として宣言しているため、模倣サイトではなく公式のドメイン移転と判断。当サイトのリンクは星数同期スクリプトが認識できるよう GitHub リポジトリの URL に変更した。",
+    "es": "Medido el 2026-10-16: el repositorio oficial nextlevelbuilder/ui-ux-pro-max-skill marca 136 437 estrellas y su último push es del 2026-10-15, por encima de la cifra de «112K+» que figuraba aquí. El antiguo dominio de entrada, ui-ux-pro-max-skill.nextlevelbuilder.io, redirige al dominio corto www.uupm.cc, que es precisamente la homepage declarada por el repositorio oficial: es un cambio de dominio legítimo, no un espejo imitación. El enlace de entrada ahora apunta al repositorio de GitHub para que el script de sincronización de estrellas mantenga la cifra al día.",
+    "fr": "Mesuré le 2026-10-16 : le dépôt officiel nextlevelbuilder/ui-ux-pro-max-skill affiche 136 437 étoiles et son dernier push date du 2026-10-15, en hausse par rapport aux « 112K+ » indiqués ici. L'ancien domaine d'entrée, ui-ux-pro-max-skill.nextlevelbuilder.io, redirige vers le domaine court www.uupm.cc, qui est justement la homepage déclarée par le dépôt officiel : c'est un changement de domaine légitime, pas un miroir imitatif. Le lien d'entrée pointe désormais vers le dépôt GitHub pour que le script de synchronisation des étoiles tienne le compteur à jour."
   },
   "tutorial": {
     "en": {
@@ -400,7 +400,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-08-02",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-08-02",
     "pricingVerified": "2026-08-02",
     "pricingUrl": "https://ui-ux-pro-max-skill.nextlevelbuilder.io/"
