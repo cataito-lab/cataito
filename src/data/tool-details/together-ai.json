@@ -50,11 +50,11 @@
       "fr": "Un niveau gratuit de modèles sélectionnés (dont des endpoints de la famille Llama) permet de développer et tester sans carte bancaire ; les nouveaux comptes reçoivent aussi des crédits de départ."
     },
     "paid": {
-      "en": "Pay-as-you-go token pricing roughly from $0.03 to $4.50 per million tokens depending on model size; batch inference is 50% off; dedicated endpoints bill GPU time per minute; GPU clusters start at $1.49/hr per GPU with reserved discounts. (Verified against the official pricing page, 2026-07-28.)",
-      "zh": "按量 token 计价，依模型大小约 $0.03–$4.50/百万 token；批量推理五折；专属端点按分钟计 GPU 时长；GPU 集群每卡 $1.49/小时起，预留另有折扣。（对照官方定价页核实，2026-07-28。）",
-      "ja": "従量課金のトークン単価はモデルサイズにより約$0.03〜$4.50/100万トークン。バッチ推論は50%オフ。専用エンドポイントはGPU時間を分単位で課金。GPUクラスターは1GPUあたり$1.49/時から、リザーブ割引あり。（公式価格ページと照合、2026-07-28。）",
-      "es": "Precios por token de pago por uso desde aproximadamente $0.03 hasta $4.50 por millón de tokens según el tamaño del modelo; la inferencia por lotes tiene 50% de descuento; los endpoints dedicados facturan tiempo de GPU por minuto; los clústeres de GPU parten de $1.49/hora por GPU con descuentos por reserva. (Verificado con la página oficial de precios, 2026-07-28.)",
-      "fr": "Tarification au token à l'usage d'environ 0,03 $ à 4,50 $ par million de tokens selon la taille du modèle ; l'inférence par lots est à moitié prix ; les endpoints dédiés facturent le temps GPU à la minute ; les clusters GPU démarrent à 1,49 $/h par GPU avec remises sur réservation. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      "en": "Pay-as-you-go token pricing, with the official page listing per-model input/output rates per million tokens (cached input cheaper). Samples checked 2026-10-16: Kimi K3 $3.00/$15.00, DeepSeek V4 Pro $1.32/$3.96, MiniMax M3 $0.30/$1.20, GLM-5.3 from $1.40; batch inference is half price, and dedicated endpoints plus GPU clusters bill by time at rates shown on the official page.",
+      "zh": "按量 token 计价，官方定价页按模型逐档列出输入/输出单价（每百万 token，缓存输入更低）。2026-10-16 实测样例：Kimi K3 $3.00/$15.00、DeepSeek V4 Pro $1.32/$3.96、MiniMax M3 $0.30/$1.20、GLM-5.3 $1.40 起；批量推理半价，专属端点与 GPU 集群按时长计费，单价见官方页。",
+      "ja": "トークン従量課金で、公式ページはモデル別の入力/出力単価（100 万トークンあたり、キャッシュ入力はより安い）を掲載。2026-10-16 実測例：Kimi K3 $3.00/$15.00、DeepSeek V4 Pro $1.32/$3.96、MiniMax M3 $0.30/$1.20、GLM-5.3 は $1.40 から。バッチ推論は半額、専用エンドポイントと GPU クラスタは時間課金で単価は公式ページ参照。",
+      "es": "Pago por token, con la página oficial listando tarifas de entrada/salida por millón de tokens según el modelo (la entrada en caché es más barata). Muestras verificadas el 2026-10-16: Kimi K3 $3.00/$15.00, DeepSeek V4 Pro $1.32/$3.96, MiniMax M3 $0.30/$1.20, GLM-5.3 desde $1.40; la inferencia por lotes cuesta la mitad, y los endpoints dedicados y clústeres GPU se facturan por tiempo según la página oficial.",
+      "fr": "Facturation à l'usage par token, la page officielle affichant les tarifs entrée/sortie par million de tokens selon le modèle (l'entrée en cache est moins chère). Exemples vérifiés le 2026-10-16 : Kimi K3 $3.00/$15.00, DeepSeek V4 Pro $1.32/$3.96, MiniMax M3 $0.30/$1.20, GLM-5.3 à partir de $1.40 ; l'inférence par lot est à moitié prix, et les endpoints dédiés comme les clusters GPU se facturent à la durée selon la page officielle."
     }
   },
   "useCases": {
@@ -227,9 +227,9 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-28",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-28",
-    "pricingVerified": "2026-07-28",
+    "pricingVerified": "2026-10-16",
     "pricingUrl": "https://www.together.ai/pricing"
   },
   "pricingInfo": {
