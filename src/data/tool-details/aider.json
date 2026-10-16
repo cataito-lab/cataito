@@ -161,7 +161,7 @@
     "fr": "La dernière version d'Aider était la v0.86.0 (2025-08-09) et le dernier push du dépôt GitHub date du 2026-05-22, pour environ 49,6k étoiles. Au vu de son propre rythme de publication, le projet n'a pas été mis à jour depuis longtemps ; à considérer comme un risque de maintenance au moment de choisir."
   },
   "verdict": {
-    "badge": "Recommended",
+    "badge": "Consider Alternatives",
     "headline": {
       "en": "The vim of AI coding: spartan, precise, and completely free",
       "zh": "AI 编程界的 vim：朴素、精准、完全免费",
@@ -205,30 +205,35 @@
     },
     "considerAlternatives": {
       "en": [
+        "You need someone to keep shipping model and dependency fixes (last release v0.86.0 on 2025-08-09, last push 2026-05-22)",
         "You want long autonomous coding sessions (→ Claude Code, Cline)",
         "You prefer a graphical IDE experience (→ Cursor, Windsurf)"
       ],
       "zh": [
+        "需要有人持续跟进模型与依赖修复（末版 v0.86.0 停在 2025-08-09，仓库最后推送 2026-05-22）",
         "想要长时间自主编码会话（→ Claude Code、Cline）",
         "更喜欢图形化 IDE 体验（→ Cursor、Windsurf）"
       ],
       "ja": [
+        "モデルと依存の修正を継続的に出してくれる必要がある（最終リリース v0.86.0 は 2025-08-09、最終 push は 2026-05-22）",
         "長時間の自律コーディングセッションが欲しい（→ Claude Code、Cline）",
         "グラフィカルなIDE体験が好み（→ Cursor、Windsurf）"
       ],
       "es": [
+        "Necesitas que alguien siga publicando correcciones de modelos y dependencias (último lanzamiento v0.86.0 el 2025-08-09, último push el 2026-05-22)",
         "Quieres sesiones de codificación autónomas largas (→ Claude Code, Cline)",
         "Prefieres una experiencia de IDE gráfico (→ Cursor, Windsurf)"
       ],
       "fr": [
+        "Il faut que quelq'un continue à publier correctifs de modèles et de dépendances (dernière version v0.86.0 le 2025-08-09, dernier push le 2026-05-22)",
         "Vous voulez de longues sessions de codage autonomes (→ Claude Code, Cline)",
         "Vous préférez une expérience IDE graphique (→ Cursor, Windsurf)"
       ]
     }
   },
   "meta": {
-    "lastVerified": "2026-10-15",
-    "verdictDate": "2026-07-27",
+    "lastVerified": "2026-10-16",
+    "verdictDate": "2026-10-16",
     "pricingVerified": "2026-07-27"
   },
   "pricingInfo": {
