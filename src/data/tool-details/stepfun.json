@@ -154,11 +154,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Step series models continue to advance in multimodal capabilities and long-context processing",
-    "zh": "2026年：阶跃星辰 Step 系列在多模态和长上下文处理能力上持续突破",
-    "ja": "2026年：Step シリーズはマルチモーダル能力と長文処理で継続的に進歩",
-    "es": "2026: los modelos Step continúan avanzando en capacidades multimodales y procesamiento de contexto largo",
-    "fr": "2026 : les modèles Step continuent de progresser en capacités multimodales et en traitement de long contexte"
+    "en": "StepFun's official org now carries Step-5-Preview (2026-09-20, with BF16 and NVFP4 quantized builds, most recently touched 2026-10-14) and Step-3.7-Flash (2026-05-28); this page previously referred to the Step line only in general terms.",
+    "zh": "阶跃星辰官方 org 已放出 Step-5-Preview（2026-09-20，另有 BF16 与 NVFP4 量化版，最近一次更新 2026-10-14）与 Step-3.7-Flash（2026-05-28）；本页此前只笼统写 Step 系列，未落到具体代次。",
+    "ja": "阶跃星辰（StepFun）の公式アカウントには Step-5-Preview（2026-09-20、BF16 と NVFP4 量子化ビルドあり、最終更新 2026-10-14）と Step-3.7-Flash（2026-05-28）が並ぶ。これまで当ページは Step 系列としか書いていなかった。",
+    "es": "El org oficial de StepFun ya incluye Step-5-Preview (2026-09-20, con versiones cuantizadas BF16 y NVFP4, actualizado por última vez el 2026-10-14) y Step-3.7-Flash (2026-05-28); esta página antes hablaba de la línea Step solo en términos generales.",
+    "fr": "L'org officiel de StepFun propose désormais Step-5-Preview (2026-09-20, avec versions quantifiées BF16 et NVFP4, mise à jour la plus récente le 2026-10-14) et Step-3.7-Flash (2026-05-28) ; cette page ne parlait jusqu'ici de la gamme Step que de façon générale."
   },
   "verdict": {
     "badge": "For Specific Needs",
@@ -227,7 +227,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

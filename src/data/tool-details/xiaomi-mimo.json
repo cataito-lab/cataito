@@ -149,11 +149,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Xiaomi MiMo on-device and cloud models continue to evolve, powering XiaoAi assistant and IoT intelligence",
-    "zh": "2026年：小米 MiMo 端侧与云端模型持续演进，赋能小爱同学与 IoT 智能",
-    "ja": "2026年：Xiaomi MiMo の端末・クラウドモデルが進化し、XiaoAi アシスタントと IoT インテリジェンスを強化",
-    "es": "2026: los modelos MiMo en dispositivo y nube de Xiaomi continúan evolucionando, potenciando el asistente XiaoAi y la inteligencia IoT",
-    "fr": "2026 : les modèles MiMo sur appareil et cloud de Xiaomi continuent d'évoluer, renforçant l'assistant XiaoAi et l'intelligence IoT"
+    "en": "Xiaomi's official org has shipped the MiMo-V2.6 line: Pro and Flash tiers, with RL builds on 2026-09-21 and MOPD builds on 2026-09-27 on Hugging Face; this page previously named no generation.",
+    "zh": "小米官方 org 已发布 MiMo-V2.6 系列：Pro 与 Flash 两档，RL 版 2026-09-21、MOPD 版 2026-09-27 上到 Hugging Face；本页此前未写具体代次。",
+    "ja": "小米の公式アカウントから MiMo-V2.6 系列が出ている。Pro と Flash の2系統で、RL ビルドが 2026-09-21、MOPD ビルドが 2026-09-27 に Hugging Face へ投稿済み。当ページはこれまで世代名を書いていなかった。",
+    "es": "El org oficial de Xiaomi ya publicó la serie MiMo-V2.6: niveles Pro y Flash, con compilaciones RL del 2026-09-21 y MOPD del 2026-09-27 en Hugging Face; esta página no citaba ninguna generación.",
+    "fr": "L'org officiel de Xiaomi a publié la gamme MiMo-V2.6 : niveaux Pro et Flash, avec les builds RL du 2026-09-21 et MOPD du 2026-09-27 sur Hugging Face ; cette page ne citait aucune génération."
   },
   "verdict": {
     "badge": "For Specific Needs",
@@ -222,7 +222,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

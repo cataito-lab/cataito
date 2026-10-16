@@ -173,11 +173,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "The official API docs now list deepseek-v4-pro, deepseek-v4-flash and deepseek-flash (plus a v4-flash-vision variant); the V4 generation ships as a Pro / Flash tier split rather than a single version number.",
-    "zh": "官方 API 文档当前的模型为 deepseek-v4-pro、deepseek-v4-flash 与 deepseek-flash（另有 v4-flash-vision 变体），V4 世代沿用 Pro / Flash 的分档命名，而非单一版本号。",
-    "ja": "公式APIドキュメントの現在のモデルは deepseek-v4-pro、deepseek-v4-flash、deepseek-flash（v4-flash-vision 変体あり）。V4 世代は単一の番号ではなく Pro / Flash の階層構成で提供されている。",
-    "es": "La documentación oficial de la API enumera ahora deepseek-v4-pro, deepseek-v4-flash y deepseek-flash (más una variante v4-flash-vision); la generación V4 se ofrece como niveles Pro / Flash en lugar de un único número de versión.",
-    "fr": "La documentation officielle de l'API référence désormais deepseek-v4-pro, deepseek-v4-flash et deepseek-flash (plus une variante v4-flash-vision) ; la génération V4 se décline en niveaux Pro / Flash plutôt qu'en un seul numéro de version."
+    "en": "The official API docs list deepseek-v4-pro, deepseek-v4-flash and deepseek-flash (plus a v4-flash-vision variant), while the newest weights on the official Hugging Face org are DeepSeek-V4.1-Flash (2026-09-10). The V4 generation ships as Pro / Flash tiers rather than a single version number.",
+    "zh": "官方 API 文档当前列有 deepseek-v4-pro、deepseek-v4-flash 与 deepseek-flash（含 v4-flash-vision 变体）；Hugging Face 官方 org 上最新的权重是 DeepSeek-V4.1-Flash（2026-09-10）。V4 世代按 Pro / Flash 分档发布，而非单一版本号。",
+    "ja": "公式APIドキュメントには deepseek-v4-pro、deepseek-v4-flash、deepseek-flash（v4-flash-vision 変体あり）が並び、公式 Hugging Face で最新の重みは DeepSeek-V4.1-Flash（2026-09-10）。V4 世代は単一の番号ではなく Pro / Flash の階層でリリースされている。",
+    "es": "La documentación oficial de la API incluye deepseek-v4-pro, deepseek-v4-flash y deepseek-flash (más una variante v4-flash-vision), y los pesos más recientes del org oficial de Hugging Face son DeepSeek-V4.1-Flash (2026-09-10). La generación V4 se publica en niveles Pro / Flash, no como un único número de versión.",
+    "fr": "La documentation officielle de l'API liste deepseek-v4-pro, deepseek-v4-flash et deepseek-flash (plus une variante v4-flash-vision), tandis que les poids les plus récents de l'org Hugging Face officiel sont DeepSeek-V4.1-Flash (2026-09-10). La génération V4 se décline en niveaux Pro / Flash plutôt qu'en un seul numéro de version."
   },
   "verdict": {
     "badge": "Highly Recommended",

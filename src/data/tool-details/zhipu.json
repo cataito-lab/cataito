@@ -166,11 +166,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: GLM 5.2 released, pushing open-source intelligence-per-dollar with strong reasoning and coding",
-    "zh": "2026年：GLM 5.2 发布，以极高性价比推动开源模型，推理与编码能力强劲",
-    "ja": "2026年：GLM 5.2 を発表。強力な推論とコーディング能力で、オープンソースのコスト効率を追求",
-    "es": "2026: se lanza GLM 5.2, impulsando la inteligencia por dólar del código abierto con sólido razonamiento y codificación",
-    "fr": "2026 : lancement de GLM 5.2, repoussant le rapport intelligence/prix de l'open source avec un raisonnement et un codage solides"
+    "en": "Zhipu has published GLM-5.3 and GLM-5.3-Flash on its official Hugging Face org (2026-08-25); the GLM 5.2 this page previously named is a generation behind.",
+    "zh": "智谱已在 Hugging Face 官方 org 放出 GLM-5.3 与 GLM-5.3-Flash（2026-08-25）；本页此前写的 GLM 5.2 属上一代。",
+    "ja": "智譜は公式 Hugging Face アカウントで GLM-5.3 と GLM-5.3-Flash を公開済み（2026-08-25）。かつて書いた GLM 5.2 は1世代前になる。",
+    "es": "Zhipu ya publicó GLM-5.3 y GLM-5.3-Flash en su org oficial de Hugging Face (2026-08-25); el GLM 5.2 que citábamos se queda una generación atrás.",
+    "fr": "Zhipu a publié GLM-5.3 et GLM-5.3-Flash sur son org Hugging Face officiel (2026-08-25) ; le GLM 5.2 que nous citions accuse une génération de retard."
   },
   "verdict": {
     "badge": "Worth Trying",
@@ -239,7 +239,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },
