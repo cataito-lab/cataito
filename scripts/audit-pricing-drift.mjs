@@ -2,10 +2,15 @@
 // 用法：node scripts/audit-pricing-drift.mjs
 // 覆盖三类实体：工具 / Skills / MCP（均有 meta.pricingUrl 才参与）
 // 仅处理配置了 meta.pricingUrl 的条目（需按实体类型在 meta 中补种）
-// 分级：
-//   DRIFT → 本站声明的价格在官方页面找不到 —— 疑似调价，提示人工核对（不自动改数据）
-//   SKIP  → 抓取失败 / 页面无价格 token（JS 渲染页）—— 低置信度，不告警
-//   OK    → 声明价格全部命中
+// 分级（四态；HTTP 抓取只能判到「可判定」这一层，见下）：
+//   OK      → 声明价格全部命中
+//   REVIEW  → 正文已渲染出多个价格、本站声明的数字全篇找不到 —— **待复核，不是调价结论**
+//             （静态匹配对「$ 与数字被标签拆开」「年付折合每月」「区域货币」「档位改名」都会误判：
+//              2026-10-16 实测 descript 价格只在浏览器渲染后出现、github.com/pricing 的 $10/$39 被标签拆断）
+//   UNKNOWN → 能访问但价格不在可读正文里（前端渲染 / 数据在未执行的脚本 JSON 里 / 纯壳页）
+//             —— 不可判定，**禁止当作调价证据**，需浏览器逐条点开
+//   SKIP    → 本站无声明价格 / 抓取失败（HTTP 4xx-5xx、超时、反爬）
+// 结论：只有 OK 可信；REVIEW 与 UNKNOWN 都必须人工或浏览器复核后才能改数据。
 // warn-only：恒以退出码 0 结束
 import fs from 'node:fs';
 import path from 'node:path';
@@ -21,6 +26,10 @@ const COLLECTIONS = [
   { load: loadSkillDetails, label: 'Skills' },
   { load: loadMcpDetails, label: 'MCP' },
 ];
+
+// 正文里至少出现几个价格 token 才认为「这个页面把价格渲染出来了」，可据此判 DRIFT；
+// 低于该值说明价格是前端渲染的，HTTP 抓取的结论不可信 → UNKNOWN。
+const MIN_BODY_PRICES = 3;
 
 // 与 check-tool-liveness.mjs 一致：大响应头 + 可选代理，经 setGlobalDispatcher 注入。
 // `dispatcher` 传给 Node 全局 fetch 会抛 UND_ERR_INVALID_ARG（曾让全部抓取失败）。
@@ -65,6 +74,15 @@ const extractPrices = (text) => {
   return set;
 };
 
+// 剥成可见正文：脚本/样式/图标里的数字不算「页面渲染出了价格」
+const toBodyText = (html) =>
+  html
+    .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<svg[\s\S]*?<\/svg>|<noscript[\s\S]*?<\/noscript>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;|&#160;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ');
+
 async function pool(items, worker, size = 6) {
   const results = new Array(items.length);
   let i = 0;
@@ -102,7 +120,7 @@ for (const { load, label } of COLLECTIONS) {
       const en = typeof tier?.en === 'string' ? tier.en : '';
       for (const m of en.matchAll(PRICE_RE)) declared.add(normalize(m[1]));
     }
-    targets.push({ slug, url, declared });
+    targets.push({ slug, url, declared, verified: d.meta?.pricingVerified });
   }
 
   totalWithUrl += targets.length;
@@ -119,23 +137,47 @@ for (const { load, label } of COLLECTIONS) {
     if (!t.declared.size) return { ...t, verdict: 'SKIP', reason: '本站 pricing 无具体价格 token' };
     const r = await fetchText(t.url);
     if (r.err) return { ...t, verdict: 'SKIP', reason: `抓取失败 ${r.err}` };
-    const pagePrices = extractPrices(r.text);
-    if (!pagePrices.size) return { ...t, verdict: 'SKIP', reason: '页面无价格 token（疑似 JS 渲染）' };
-    const missing = [...t.declared].filter((p) => !pagePrices.has(p));
-    if (missing.length) return { ...t, verdict: 'DRIFT', missing };
-    return { ...t, verdict: 'OK' };
+    const allPrices = extractPrices(r.text);
+    const bodyPrices = extractPrices(toBodyText(r.text));
+    // 正文口径必须并入：官方页常把 `$` 与数字拆在相邻标签里（github.com/features/copilot/plans 的
+    // $10/$39、synthesia 的 $29 都是这样被原始 HTML 口径漏掉的假阳性）
+    for (const p of bodyPrices) allPrices.add(p);
+    const missing = [...t.declared].filter((p) => !allPrices.has(p));
+    if (!missing.length) return { ...t, verdict: 'OK', bodyCount: bodyPrices.size };
+    // 缺失但正文确实渲染了足量价格 → 才值得进人工/浏览器复核队列（仍不是结论）
+    if (bodyPrices.size >= MIN_BODY_PRICES) {
+      return { ...t, verdict: 'REVIEW', missing, bodyCount: bodyPrices.size, bodySample: [...bodyPrices].slice(0, 10).join(', ') };
+    }
+    return {
+      ...t,
+      verdict: 'UNKNOWN',
+      missing,
+      bodyCount: bodyPrices.size,
+      reason: bodyPrices.size ? '正文价格过少，缺失常为未渲染' : '正文无价格 token（前端渲染/壳页）',
+    };
   });
 
-  const groups = { DRIFT: [], SKIP: [], OK: [] };
+  const groups = { REVIEW: [], UNKNOWN: [], SKIP: [], OK: [] };
   for (const r of results) groups[r.verdict].push(r);
 
-  emit(`\n结果：OK ${groups.OK.length} · DRIFT ${groups.DRIFT.length} · SKIP ${groups.SKIP.length}`);
-  if (groups.DRIFT.length) {
-    emit(`\n💸 疑似调价（本站声明的价格在官方页面找不到，请人工核对后更新 pricing 并刷新 pricingVerified）:`);
-    for (const r of groups.DRIFT) emit(`  - ${r.slug}  缺失: ${r.missing.map((p) => '$' + p).join(', ')}  → ${r.url}`);
+  emit(
+    `\n结果：OK ${groups.OK.length} · REVIEW ${groups.REVIEW.length} · UNKNOWN ${groups.UNKNOWN.length} · SKIP ${groups.SKIP.length}`,
+  );
+  if (groups.REVIEW.length) {
+    emit(`\n🔎 待复核（正文已渲染 ${MIN_BODY_PRICES}+ 个价格但本站数字全篇找不到；**非调价结论**，须人工/浏览器确认）:`);
+    for (const r of groups.REVIEW)
+      emit(
+        `  - ${r.slug}  未命中: ${r.missing.map((p) => '$' + p).join(', ')}` +
+          `  本站核价日 ${r.verified || '无'}  页面正文价格: ${r.bodySample}  → ${r.url}`,
+      );
+  }
+  if (groups.UNKNOWN.length) {
+    emit(`\n❓ 不可判定（HTTP 抓取判不了，**不得当作调价证据**，需浏览器逐条点开）:`);
+    for (const r of groups.UNKNOWN)
+      emit(`  - ${r.slug}  ${r.reason}；未命中: ${r.missing.map((p) => '$' + p).join(', ')}  → ${r.url}`);
   }
   if (groups.SKIP.length) {
-    emit(`\n⏭ 跳过（低置信度，不告警）:`);
+    emit(`\n⏭ 跳过（无结论）:`);
     for (const r of groups.SKIP) emit(`  - ${r.slug}  ${r.reason}`);
   }
   if (groups.OK.length) {

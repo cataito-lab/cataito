@@ -173,11 +173,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "GitHub Copilot's supported-models page now lists the GPT-5 through GPT-6.1 line plus Claude Fable 5 / Fable 5.1; the Claude Opus 4.6 this page previously named has been superseded. Per the GitHub changelog, GPT-5.2 and GPT-5.2-Codex were deprecated on 2026-06-05.",
-    "zh": "GitHub Copilot 官方支持模型页目前列有 GPT-5 至 GPT-6.1 系列，以及 Claude Fable 5 / Fable 5.1；本页此前写的 Claude Opus 4.6 已被换代。另据 GitHub changelog，GPT-5.2 与 GPT-5.2-Codex 已于 2026-06-05 弃用。",
-    "ja": "GitHub Copilot の公式対応モデルページには現在 GPT-5 から GPT-6.1 系と Claude Fable 5 / Fable 5.1 が並ぶ。かつて記載した Claude Opus 4.6 は世代交代済み。GitHub changelog によれば GPT-5.2 と GPT-5.2-Codex は 2026-06-05 に非推奨化。",
-    "es": "La página de modelos compatibles de GitHub Copilot enumera ahora la línea GPT-5 a GPT-6.1 más Claude Fable 5 / Fable 5.1; el Claude Opus 4.6 que citábamos ha sido sustituido. Según el changelog de GitHub, GPT-5.2 y GPT-5.2-Codex se retiraron el 2026-06-05.",
-    "fr": "La page des modèles pris en charge par GitHub Copilot liste désormais la gamme GPT-5 à GPT-6.1 ainsi que Claude Fable 5 / Fable 5.1 ; le Claude Opus 4.6 que nous citions a été remplacé. D'après le changelog GitHub, GPT-5.2 et GPT-5.2-Codex ont été retirés le 2026-06-05."
+    "en": "GitHub Copilot's supported-models page now lists the GPT-5 through GPT-6.1 line plus Claude Fable 5 / Fable 5.1; the Claude Opus 4.6 this page previously named has been superseded. Per the GitHub changelog, GPT-5.2 and GPT-5.2-Codex were deprecated on 2026-06-05 e-checked 2026-10-16: our pricingUrl had pointed at github.com/pricing (GitHub's general plan page, which does not carry Copilot tiers) and now points at the official github.com/features/copilot/plans. On that page $10/month and $39/month appear in the rendered text and $19 (per user) ships with the page data — the three prices we list match GitHub, so no pricing change was needed.",
+    "zh": "GitHub Copilot 官方支持模型页目前列有 GPT-5 至 GPT-6.1 系列，以及 Claude Fable 5 / Fable 5.1；本页此前写的 Claude Opus 4.6 已被换代。另据 GitHub changelog，GPT-5.2 与 GPT-5.2-Codex 已于 2026-06-05 弃用 026-10-16 复核：本站 pricingUrl 原先指向 github.com/pricing（GitHub 通用定价页，不含 Copilot 档位），已改为官方的 github.com/features/copilot/plans。在该页实测 $10/月与 $39/月以正文形式出现，$19（每人）随页面数据渲染 —— 本站所写三档价格与官方一致，无需改动。",
+    "ja": "GitHub Copilot の公式対応モデルページには現在 GPT-5 から GPT-6.1 系と Claude Fable 5 / Fable 5.1 が並ぶ。かつて記載した Claude Opus 4.6 は世代交代済み。GitHub changelog によれば GPT-5.2 と GPT-5.2-Codex は 2026-06-05 に非推奨化 026-10-16 再確認：当サイトの pricingUrl は github.com/pricing（Copilot のプランを載せていない GitHub 汎用価格ページ）を指していたため、公式の github.com/features/copilot/plans に修正した。当該ページでは $10/月と $39/月が本文に描画され、$19（1人あたり）はページデータとともに配信されている。当サイトの3档価格は公式と一致しており、価格の修正は不要。",
+    "es": "La página de modelos compatibles de GitHub Copilot enumera ahora la línea GPT-5 a GPT-6.1 más Claude Fable 5 / Fable 5.1; el Claude Opus 4.6 que citábamos ha sido sustituido. Según el changelog de GitHub, GPT-5.2 y GPT-5.2-Codex se retiraron el 2026-06-05 evisado el 2026-10-16: nuestro pricingUrl apuntaba a github.com/pricing (la página general de GitHub, que no incluye los planes de Copilot) y ahora apunta a la oficial github.com/features/copilot/plans. En esa página $10/mes y $39/mes aparecen en el texto renderizado y $19 (por usuario) llega con los datos de la página: los tres precios que publicamos coinciden con GitHub, sin necesidad de cambios.",
+    "fr": "La page des modèles pris en charge par GitHub Copilot liste désormais la gamme GPT-5 à GPT-6.1 ainsi que Claude Fable 5 / Fable 5.1 ; le Claude Opus 4.6 que nous citions a été remplacé. D'après le changelog GitHub, GPT-5.2 et GPT-5.2-Codex ont été retirés le 2026-06-05 evérifié le 2026-10-16 : notre pricingUrl pointait vers github.com/pricing (la page générale de GitHub, sans les offres Copilot) et renvoie désormais à la page officielle github.com/features/copilot/plans. On y voit $10/mois et $39/mois dans le texte rendu, et $19 (par utilisateur) arrive avec les données de la page — nos trois tarifs correspondent à GitHub, aucune correction nécessaire."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -256,14 +256,14 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
-    "pricingVerified": "2026-07-27",
-    "pricingUrl": "https://github.com/pricing/"
+    "pricingVerified": "2026-10-16",
+    "pricingUrl": "https://github.com/features/copilot/plans"
   },
   "pricingInfo": {
     "model": "paid",
     "fromPrice": "$10",
-    "url": "https://github.com/pricing/"
+    "url": "https://github.com/features/copilot/plans"
   }
 }

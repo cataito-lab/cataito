@@ -50,11 +50,11 @@
       "fr": "Open source, auto-hébergement gratuit"
     },
     "api": {
-      "en": "OpenAI API $0.006/minute",
-      "zh": "OpenAI API $0.006/分钟",
-      "ja": "OpenAI API 1分あたり$0.006",
-      "es": "API de OpenAI $0,006/minuto",
-      "fr": "API OpenAI 0,006 $/minute"
+      "en": "OpenAI API priced per minute (official table, 2026-10-16): gpt-transcribe $0.0045/min, gpt-4o-transcribe $0.006/min, gpt-4o-mini-transcribe $0.003/min; the live tiers gpt-live-transcribe and gpt-realtime-whisper cost $0.017/min. whisper-1 is no longer listed in the official table",
+      "zh": "OpenAI API 按分钟计价（2026-10-16 官方定价表）：gpt-transcribe $0.0045/分钟、gpt-4o-transcribe $0.006/分钟、gpt-4o-mini-transcribe $0.003/分钟；实时档 gpt-live-transcribe 与 gpt-realtime-whisper $0.017/分钟。官方表当前未再列 whisper-1",
+      "ja": "OpenAI API は分単位課金（2026-10-16 の公式価格表）：gpt-transcribe $0.0045/分、gpt-4o-transcribe $0.006/分、gpt-4o-mini-transcribe $0.003/分。リアルタイム枠の gpt-live-transcribe と gpt-realtime-whisper は $0.017/分。公式表に whisper-1 は現在掲載されていない",
+      "es": "La API de OpenAI se factura por minuto (tabla oficial, 2026-10-16): gpt-transcribe 0,0045 $/min, gpt-4o-transcribe 0,006 $/min, gpt-4o-mini-transcribe 0,003 $/min; los niveles en directo gpt-live-transcribe y gpt-realtime-whisper cuestan 0,017 $/min. whisper-1 ya no figura en la tabla oficial",
+      "fr": "L'API OpenAI est facturée à la minute (barème officiel, 2026-10-16) : gpt-transcribe 0,0045 $/min, gpt-4o-transcribe 0,006 $/min, gpt-4o-mini-transcribe 0,003 $/min ; en direct, gpt-live-transcribe et gpt-realtime-whisper coûtent 0,017 $/min. whisper-1 n'apparaît plus dans le barème officiel"
     },
     "providers": {
       "en": "Third-party hosted from ~$0.22/hr",
@@ -166,11 +166,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "July 2026: Whisper large-v3 remains a leading open ASR model with 99-language support and wide provider hosting",
-    "zh": "2026年7月：Whisper large-v3 仍是领先的开源 ASR 模型，支持 99 种语言且被广泛托管",
-    "ja": "2026年7月：Whisper large-v3 は 99言語対応と幅広いプロバイダーによるホスティングで、依然として主要なオープン ASR モデル",
-    "es": "Julio de 2026: Whisper large-v3 sigue siendo un modelo ASR abierto líder, con soporte de 99 idiomas y amplio alojamiento por proveedores",
-    "fr": "Juillet 2026 : Whisper large-v3 reste un modèle ASR ouvert de référence, avec la prise en charge de 99 langues et un large hébergement par les fournisseurs"
+    "en": "Checked against OpenAI's official pricing table on 2026-10-16: transcription is now billed per minute — gpt-4o-transcribe $0.006/min, gpt-4o-mini-transcribe $0.003/min, gpt-transcribe $0.0045/min, with the live tiers gpt-live-transcribe and gpt-realtime-whisper at $0.017/min; whisper-1 itself is no longer listed. Our pricingUrl had been pointing at github.com/pricing by mistake and now points at the official API pricing page. The July 2026 read — large-v3 still a leading open-source ASR model, 99 languages, widely hosted — stands.",
+    "zh": "2026 年 10 月 16 日核 OpenAI 官方定价表：转写类改按分钟计价，gpt-4o-transcribe $0.006/分钟、gpt-4o-mini-transcribe $0.003/分钟、gpt-transcribe $0.0045/分钟，实时档 gpt-live-transcribe 与 gpt-realtime-whisper $0.017/分钟；表内已不再列 whisper-1。本站此前 pricingUrl 误指向 github.com/pricing，已改为官方 API 定价页。2026 年 7 月「large-v3 仍是领先的开源 ASR、支持 99 种语言且被广泛托管」的口径未变。",
+    "ja": "2026-10-16 に OpenAI の公式価格表を確認：文字起こしは分単位課金になり、gpt-4o-transcribe $0.006/分、gpt-4o-mini-transcribe $0.003/分、gpt-transcribe $0.0045/分、リアルタイム枠の gpt-live-transcribe と gpt-realtime-whisper は $0.017/分。whisper-1 自体は表から外れている。当サイトの pricingUrl は誤って github.com/pricing を指していたため、公式 API 価格ページに修正済み。2026年7月の「large-v3 は主要なオープンソース ASR の一つ、99言語対応で広くホストされている」は有効。",
+    "es": "Verificado el 2026-10-16 en la tabla oficial de precios de OpenAI: la transcripción se factura por minuto —gpt-4o-transcribe 0,006 $/min, gpt-4o-mini-transcribe 0,003 $/min, gpt-transcribe 0,0045 $/min, y en directo gpt-live-transcribe y gpt-realtime-whisper a 0,017 $/min—; whisper-1 ya no figura. Nuestro pricingUrl apuntaba por error a github.com/pricing y ahora apunta a la página oficial de precios de la API. La lectura de julio de 2026 —large-v3 sigue siendo un ASR open source de referencia, 99 idiomas, alojamiento extendido— se mantiene.",
+    "fr": "Vérifié le 2026-10-16 sur le barème officiel d'OpenAI : la transcription est facturée à la minute — gpt-4o-transcribe 0,006 $/min, gpt-4o-mini-transcribe 0,003 $/min, gpt-transcribe 0,0045 $/min, et en direct gpt-live-transcribe comme gpt-realtime-whisper à 0,017 $/min ; whisper-1 n'y figure plus. Notre pricingUrl pointait par erreur vers github.com/pricing et renvoie désormais à la page officielle des tarifs de l'API. La lecture de juillet 2026 — large-v3 reste un ASR open source de référence, 99 langues, largement hébergé — tient toujours."
   },
   "verdict": {
     "badge": "Recommended",
@@ -239,14 +239,14 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-30",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
-    "pricingVerified": "2026-07-27",
-    "pricingUrl": "https://github.com/pricing/"
+    "pricingVerified": "2026-10-16",
+    "pricingUrl": "https://developers.openai.com/api/docs/pricing"
   },
   "pricingInfo": {
     "model": "free",
     "fromPrice": "$0.01",
-    "url": "https://github.com/pricing/"
+    "url": "https://developers.openai.com/api/docs/pricing"
   }
 }
