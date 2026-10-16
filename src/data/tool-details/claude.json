@@ -1,7 +1,7 @@
 {
   "features": {
     "en": [
-      "Claude Opus 4.6 flagship (1M context)",
+      "Claude Opus 5.5 flagship",
       "Computer Use desktop automation",
       "Artifacts real-time code preview",
       "Projects knowledge management",
@@ -9,7 +9,7 @@
       "API integration and custom apps"
     ],
     "zh": [
-      "Claude Opus 4.6 旗舰模型（1M 上下文）",
+      "Claude Opus 5.5 旗舰模型",
       "Computer Use 桌面自动化",
       "Artifacts 实时代码预览",
       "Projects 项目级知识管理",
@@ -17,7 +17,7 @@
       "API 集成与自定义应用"
     ],
     "ja": [
-      "Claude Opus 4.6 フラッグシップ（1M コンテキスト）",
+      "Claude Opus 5.5 フラッグシップ",
       "Computer Use デスクトップ自動化",
       "Artifacts リアルタイムコードプレビュー",
       "Projects ナレッジ管理",
@@ -25,7 +25,7 @@
       "API 統合とカスタムアプリ"
     ],
     "es": [
-      "Buque insignia Claude Opus 4.6 (contexto de 1M)",
+      "Buque insignia Claude Opus 5.5",
       "Automatización de escritorio Computer Use",
       "Vista previa de código en tiempo real con Artifacts",
       "Gestión del conocimiento con Projects",
@@ -33,7 +33,7 @@
       "Integración de API y apps personalizadas"
     ],
     "fr": [
-      "Modèle phare Claude Opus 4.6 (contexte 1M)",
+      "Modèle phare Claude Opus 5.5",
       "Automatisation du bureau Computer Use",
       "Aperçu de code en temps réel Artifacts",
       "Gestion des connaissances Projects",
