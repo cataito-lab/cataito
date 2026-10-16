@@ -154,11 +154,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Stable Audio 2.5 powers the product with faster, higher-quality generation, while the openly released Stable Audio Open 3.0 — trained on fully licensed data — reinforces Stability AI's licensing-first pitch for commercial-safe music and sound effects.",
-    "zh": "2026 年：产品由 Stable Audio 2.5 驱动，生成更快、质量更高；同时公开发布的 Stable Audio Open 3.0 以完全授权数据训练，强化了 Stability AI「授权优先」的商用安心音乐与音效卖点。",
-    "ja": "2026年：製品はより高速で高品質な生成のStable Audio 2.5が駆動し、完全ライセンス済みデータで学習して公開されたStable Audio Open 3.0が、商用安全な音楽と効果音に向けたStability AIのライセンス優先の訴求を強化している。",
-    "es": "2026: Stable Audio 2.5 impulsa el producto con generación más rápida y de mayor calidad, mientras que Stable Audio Open 3.0, lanzado abiertamente y entrenado con datos totalmente licenciados, refuerza la propuesta de Stability AI centrada en licencias para música y efectos de sonido seguros comercialmente.",
-    "fr": "2026 : Stable Audio 2.5 propulse le produit avec une génération plus rapide et de meilleure qualité, tandis que Stable Audio Open 3.0, publié ouvertement et entraîné sur des données entièrement licenciées, renforce le discours licence d'abord de Stability AI pour une musique et des effets sonores sûrs commercialement."
+    "en": "Stability AI's official Hugging Face now carries the stable-audio-3 line (stable-audio-3-medium-base, small-music-base and friends, 2026-10-06, with an optimized build on 2026-10-10) plus the SAME-L / SAME-S variational autoencoders; the Stable Audio 2.5 and Open 3.0 this page previously named are a generation behind.",
+    "zh": "Stability AI 官方 Hugging Face 已放出 stable-audio-3 系列（stable-audio-3-medium-base、small-music-base 等，2026-10-06；优化版 2026-10-10），并配套 SAME-L / SAME-S 变分自编码器；本页此前写的 Stable Audio 2.5 与 Open 3.0 已落后一代。",
+    "ja": "Stability AI の公式 Hugging Face には stable-audio-3 系列（stable-audio-3-medium-base、small-music-base など 2026-10-06、最適化ビルド 10-10）と SAME-L / SAME-S 変分オートエンコーダが並ぶ。かつて書いた Stable Audio 2.5 と Open 3.0 は1世代遅れ。",
+    "es": "El Hugging Face oficial de Stability AI ya incluye la serie stable-audio-3 (stable-audio-3-medium-base, small-music-base y compañía, 2026-10-06; build optimizado el 2026-10-10) junto con los autoencoders variacionales SAME-L / SAME-S; el Stable Audio 2.5 y Open 3.0 que citábamos van una generación por detrás.",
+    "fr": "Le Hugging Face officiel de Stability AI propose désormais la gamme stable-audio-3 (stable-audio-3-medium-base, small-music-base etc., 2026-10-06 ; build optimisé le 2026-10-10) ainsi que les autoencodeurs variationnels SAME-L / SAME-S ; le Stable Audio 2.5 et Open 3.0 que nous citions accusent une génération de retard."
   },
   "verdict": {
     "badge": "Recommended",
@@ -227,7 +227,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-28",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-28",
     "pricingVerified": "2026-07-28",
     "pricingUrl": "https://stableaudio.com/pricing"

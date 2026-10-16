@@ -173,11 +173,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "July 2026: Eleven v3 delivers more expressive, emotion-aware speech across 70+ languages with multi-speaker control",
-    "zh": "2026年7月：Eleven v3 带来更具表现力、情感感知的语音，支持 70+ 语言与多说话人控制",
-    "ja": "2026年7月：Eleven v3 が70以上の言語で、より表現力豊かで感情を捉えた音声を提供し、複数話者の制御にも対応",
-    "es": "Julio de 2026: Eleven v3 ofrece un habla más expresiva y consciente de las emociones en más de 70 idiomas con control multivoz",
-    "fr": "Juillet 2026 : Eleven v3 offre une parole plus expressive et sensible aux émotions dans plus de 70 langues, avec un contrôle multi-locuteurs"
+    "en": "The official docs now put Eleven v4 and Eleven v4 Turbo at the front of the voice line, with v3, Multilingual v2 and Flash v2 still listed; transcription runs on Scribe v2 (including a Medical variant). The Eleven v3 this page previously named is no longer the newest generation.",
+    "zh": "官方文档当前的语音模型线为 Eleven v4 与 Eleven v4 Turbo，另有 v3、Multilingual v2、Flash v2 等旧档仍在列；转写侧为 Scribe v2（含 Medical 版）。本页此前写的 Eleven v3 已不是最新一代。",
+    "ja": "公式ドキュメントの声モデル列は現在 Eleven v4 と Eleven v4 Turbo が最前で、v3、Multilingual v2、Flash v2 なども引き続き掲載中。文字起こしは Scribe v2（Medical 版あり）。かつて書いた Eleven v3 は最新世代ではない。",
+    "es": "La documentación oficial coloca ahora Eleven v4 y Eleven v4 Turbo al frente de la línea de voz, con v3, Multilingual v2 y Flash v2 aún listadas; la transcripción usa Scribe v2 (incluida una variante Medical). El Eleven v3 que citábamos ya no es la generación más reciente.",
+    "fr": "La documentation officielle place désormais Eleven v4 et Eleven v4 Turbo en tête de la gamme vocale, v3, Multilingual v2 et Flash v2 restant référencées ; la transcription s'appuie sur Scribe v2 (variante Medical incluse). L'Eleven v3 que nous citions n'est plus la génération la plus récente."
   },
   "verdict": {
     "badge": "Recommended",
@@ -256,7 +256,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://elevenlabs.io/pricing"

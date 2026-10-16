@@ -154,11 +154,11 @@
     }
   },
   "latestUpdate": {
-    "en": "2026: Flux leads open-source image models",
-    "zh": "2026年：Flux 领先开源图像模型",
-    "ja": "2026年：Flux がオープンソース画像モデルをリード",
-    "es": "2026: Flux lidera modelos imagen open-source",
-    "fr": "2026 : Flux domine les modèles d'image open-source"
+    "en": "Black Forest Labs has shipped the FLUX.3 line on its official Hugging Face: flux-3-image-klein (with base, comfy and pup variants, 2026-10-15/16) and flux-3-action-droid (2026-10-14). This page previously described Flux only as a leading open image model, without naming a generation.",
+    "zh": "Black Forest Labs 官方 Hugging Face 已发布 FLUX.3 系列：flux-3-image-klein（含 base、comfy、pup 变体，2026-10-15 至 10-16）与 flux-3-action-droid（2026-10-14）；本页此前只笼统写 Flux 是领先开源图像模型，未落到具体代次。",
+    "ja": "Black Forest Labs は公式 Hugging Face で FLUX.3 系列を公開した。flux-3-image-klein（base、comfy、pup 変体、2026-10-15〜16）と flux-3-action-droid（2026-10-14）。当ページはこれまで世代名を書かず、Flux を先行するオープンソース画像モデルとだけ説明していた。",
+    "es": "Black Forest Labs ya publicó la serie FLUX.3 en su Hugging Face oficial: flux-3-image-klein (con variantes base, comfy y pup, 2026-10-15/16) y flux-3-action-droid (2026-10-14). Antes esta página solo describía Flux como un modelo abierto puntero, sin nombrar generación.",
+    "fr": "Black Forest Labs a publié la gamme FLUX.3 sur son Hugging Face officiel : flux-3-image-klein (variantes base, comfy et pup, 2026-10-15/16) et flux-3-action-droid (2026-10-14). Auparavant, cette page décrivait Flux comme un modèle ouvert de premier plan sans nommer de génération."
   },
   "verdict": {
     "badge": "Recommended",
@@ -237,7 +237,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://bfl.ai/pricing/"
