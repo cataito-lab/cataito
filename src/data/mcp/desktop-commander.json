@@ -25,7 +25,7 @@
   ],
   "installCommand": "npx -y @wonderwhy-er/desktop-commander",
   "logo": "/logos/mcp/desktop-commander.png",
-  "stars": 10064,
+  "stars": 10069,
   "featured": false,
   "faqs": [
     {
