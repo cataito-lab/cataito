@@ -1,7 +1,7 @@
 {
   "features": {
     "en": [
-      "GPT-5.6 advanced reasoning and multimodal AI",
+      "GPT-6 advanced reasoning and multimodal AI",
       "Real-time voice and video conversation",
       "Advanced data analysis & code interpreter",
       "DALL-E 3 image generation",
@@ -9,7 +9,7 @@
       "ChatGPT Search with deep research"
     ],
     "zh": [
-      "GPT-5.6 高级推理与多模态 AI",
+      "GPT-6 高级推理与多模态 AI",
       "实时语音和视频对话",
       "高级数据分析与代码解释器",
       "DALL-E 3 图像生成",
@@ -17,7 +17,7 @@
       "ChatGPT Search 深度研究搜索"
     ],
     "ja": [
-      "GPT-5.6 の高度な推論とマルチモーダル AI",
+      "GPT-6 の高度な推論とマルチモーダル AI",
       "リアルタイム音声・ビデオ会話",
       "高度なデータ分析とコードインタープリター",
       "DALL-E 3 画像生成",
@@ -25,7 +25,7 @@
       "ChatGPT Search による詳細リサーチ"
     ],
     "es": [
-      "Razonamiento avanzado y IA multimodal GPT-5.6",
+      "Razonamiento avanzado y IA multimodal GPT-6",
       "Conversación de voz y vídeo en tiempo real",
       "Análisis de datos avanzado e intérprete de código",
       "Generación de imágenes DALL-E 3",
@@ -33,7 +33,7 @@
       "ChatGPT Search con investigación profunda"
     ],
     "fr": [
-      "Raisonnement avancé et IA multimodale GPT-5.6",
+      "Raisonnement avancé et IA multimodale GPT-6",
       "Conversation vocale et vidéo en temps réel",
       "Analyse de données avancée et interpréteur de code",
       "Génération d'images DALL-E 3",
@@ -43,11 +43,11 @@
   },
   "pricing": {
     "free": {
-      "en": "GPT-5.6 Instant (basic access)",
-      "zh": "GPT-5.6 Instant（基础访问）",
-      "ja": "GPT-5.6 Instant（基本アクセス）",
-      "es": "GPT-5.6 Instant (acceso básico)",
-      "fr": "GPT-5.6 Instant (accès de base)"
+      "en": "GPT-6 Luna (basic access)",
+      "zh": "GPT-6 Luna（基础访问）",
+      "ja": "GPT-6 Luna（基本アクセス）",
+      "es": "GPT-6 Luna (acceso básico)",
+      "fr": "GPT-6 Luna (accès de base)"
     },
     "go": {
       "en": "$8/month (Go, higher limits)",
@@ -57,11 +57,11 @@
       "fr": "8 $/mois (Go, limites plus élevées)"
     },
     "plus": {
-      "en": "$20/month (GPT-5.6, advanced features)",
-      "zh": "$20/月（GPT-5.6、高级功能）",
-      "ja": "月額20ドル（GPT-5.6、高度な機能）",
-      "es": "20 $/mes (GPT-5.6, funciones avanzadas)",
-      "fr": "20 $/mois (GPT-5.6, fonctionnalités avancées)"
+      "en": "$20/month (GPT-6 Sol, advanced features)",
+      "zh": "$20/月（GPT-6 Sol、高级功能）",
+      "ja": "月額20ドル（GPT-6 Sol、高度な機能）",
+      "es": "20 $/mes (GPT-6 Sol, funciones avanzadas)",
+      "fr": "20 $/mois (GPT-6 Sol, fonctionnalités avancées)"
     },
     "pro": {
       "en": "$200/month (unlimited advanced models)",
@@ -187,11 +187,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: GPT-5.6 (Sol) and GPT-5.5 Instant rolled out, adding the new Go plan, faster reasoning and improved real-time video understanding",
-    "zh": "2026年：GPT-5.6（Sol）与 GPT-5.5 Instant 推出，新增 Go 套餐，推理更快、实时视频理解增强",
-    "ja": "2026年：GPT-5.6（Sol）と GPT-5.5 Instant を提供開始。新しい Go プランを追加し、推論が高速化、リアルタイム動画理解も向上",
-    "es": "2026: se lanzaron GPT-5.6 (Sol) y GPT-5.5 Instant, con el nuevo plan Go, razonamiento más rápido y mejor comprensión de vídeo en tiempo real",
-    "fr": "2026 : lancement de GPT-5.6 (Sol) et GPT-5.5 Instant, avec le nouveau forfait Go, un raisonnement plus rapide et une meilleure compréhension vidéo en temps réel"
+    "en": "OpenAI moved to the GPT-6 generation across September and October 2026: GPT-6 Astra arrived in early September, GPT-6.1 Sol was announced on 2026-09-29, and an official post dated 2026-10-07 brought GPT-6 Sol and Luna to all users, replacing GPT-5.6 Sol and Luna. Per that announcement and press coverage, Sol serves paid tiers while Luna serves Free and Go. The platform model list currently carries gpt-6-astra, gpt-6.1-sol and gpt-6-luna, with GPT-5.6 still listed.",
+    "zh": "2026 年 9-10 月进入 GPT-6 世代：9 月初 GPT-6 Astra 上线，9-29 官方发布 GPT-6.1 Sol，10-07 公告 GPT-6 Sol 与 Luna 面向所有用户开放、取代 GPT-5.6 Sol/Luna；据官方公告与媒体报道，Sol 服务付费档、Luna 服务免费与 Go 档。platform.openai.com 的模型清单目前列有 gpt-6-astra、gpt-6.1-sol、gpt-6-luna，GPT-5.6 仍在列。",
+    "ja": "2026年9〜10月にGPT-6世代へ移行。9月初めにGPT-6 Astra、9-29に公式発表でGPT-6.1 Sol、10-07の告知でGPT-6 SolとLunaが全ユーザーに開放され、GPT-5.6 Sol/Lunaを置き換えた。公式発表と報道によれば、Solは有料プラン、LunaはFree／Goプラン向け。platform.openai.com のモデル一覧には現在 gpt-6-astra、gpt-6.1-sol、gpt-6-luna が並び、GPT-5.6 も残っている。",
+    "es": "Entre septiembre y octubre de 2026 llegó la generación GPT-6: GPT-6 Astra a principios de septiembre, GPT-6.1 Sol anunciado el 2026-09-29 y, según un aviso oficial del 2026-10-07, GPT-6 Sol y Luna para todos los usuarios, sustituyendo a GPT-5.6 Sol y Luna. Según ese aviso y la prensa, Sol atiende los planes de pago y Luna los niveles Free y Go. La lista de modelos de la plataforma incluye ahora gpt-6-astra, gpt-6.1-sol y gpt-6-luna, con GPT-5.6 todavía disponible.",
+    "fr": "La génération GPT-6 s'est installée entre septembre et octobre 2026 : GPT-6 Astra début septembre, GPT-6.1 Sol annoncé le 2026-09-29, puis un message officiel daté du 2026-10-07 ouvrant GPT-6 Sol et Luna à tous les utilisateurs en remplacement de GPT-5.6 Sol et Luna. D'après ce message et la presse, Sol équipe les offres payantes et Luna les offres Free et Go. La liste des modèles de la plateforme affiche gpt-6-astra, gpt-6.1-sol et gpt-6-luna, GPT-5.6 restant référencé."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -270,7 +270,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://openai.com/chatgpt/pricing/"

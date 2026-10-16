@@ -2,7 +2,7 @@
   "features": {
     "en": [
       "xAI official coding agent",
-      "Grok 4.5 powered",
+      "Grok 4.7 powered",
       "Parallel sub-agents",
       "Plan Mode integration",
       "Fullscreen terminal UI",
@@ -10,7 +10,7 @@
     ],
     "zh": [
       "xAI 官方编程代理",
-      "Grok 4.5 驱动",
+      "Grok 4.7 驱动",
       "子代理并行",
       "Plan 模式集成",
       "全屏终端 UI",
@@ -18,7 +18,7 @@
     ],
     "ja": [
       "xAI 公式エージェント",
-      "Grok 4.5 駆動",
+      "Grok 4.7 駆動",
       "サブエージェント並列",
       "Plan モード",
       "フルスクリーン UI",
@@ -26,7 +26,7 @@
     ],
     "es": [
       "Agente oficial xAI",
-      "Grok 4.5",
+      "Grok 4.7",
       "Subagentes paralelos",
       "Modo Plan",
       "UI pantalla completa",
@@ -34,7 +34,7 @@
     ],
     "fr": [
       "Agent officiel xAI",
-      "Grok 4.5",
+      "Grok 4.7",
       "Sous-agents parallèles",
       "Mode Plan",
       "UI plein écran",
@@ -80,31 +80,31 @@
   },
   "pros": {
     "en": [
-      "Fast Grok 4.5 model",
+      "Fast Grok 4.7 model",
       "Sub-agents by default",
       "Included in SuperGrok",
       "Modern terminal UX"
     ],
     "zh": [
-      "Grok 4.5 速度快",
+      "Grok 4.7 速度快",
       "默认子代理并行",
       "SuperGrok 订阅内含",
       "现代终端体验"
     ],
     "ja": [
-      "Grok 4.5 高速",
+      "Grok 4.7 高速",
       "サブエージェント標準",
       "SuperGrok に含まれる",
       "モダンな UX"
     ],
     "es": [
-      "Grok 4.5 rápido",
+      "Grok 4.7 rápido",
       "Subagentes por defecto",
       "Incluido en SuperGrok",
       "UX moderna"
     ],
     "fr": [
-      "Grok 4.5 rapide",
+      "Grok 4.7 rapide",
       "Sous-agents par défaut",
       "Inclus dans SuperGrok",
       "UX moderne"

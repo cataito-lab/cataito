@@ -161,11 +161,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Meta launched Llama 4 family (Scout, Maverick, Behemoth) with native multimodality and up to 10M token context",
-    "zh": "2026年：Meta 发布 Llama 4 系列（Scout、Maverick、Behemoth），原生多模态，最高 10M token 上下文",
-    "ja": "2026年：Meta が Llama 4 ファミリー（Scout・Maverick・Behemoth）を発表、ネイティブマルチモーダル対応、最大10Mトークン",
-    "es": "2026: Meta lanzó la familia Llama 4 (Scout, Maverick, Behemoth) con multimodalidad nativa y contexto de hasta 10M tokens",
-    "fr": "2026 : Meta a lancé la famille Llama 4 (Scout, Maverick, Behemoth) avec multimodalité native et contexte jusqu'à 10M tokens"
+    "en": "Meta's consumer assistant no longer runs on Llama 4: Meta unveiled the closed-source flagship Muse Spark (codename Avocado) on 2026-04-08 and shipped Muse Spark 1.1 on 2026-07-09, with developer access through the Meta Model API at dev.meta.ai. Meta AI itself remains live on meta.ai and inside Facebook, WhatsApp and Instagram.",
+    "zh": "Meta 的消费端助手已不再以 Llama 4 为底座：2026-04-08 Meta 发布闭源旗舰 Muse Spark（代号 Avocado），2026-07-09 推出 Muse Spark 1.1；开发者侧入口为 dev.meta.ai 的 Meta Model API。meta.ai 以及 Facebook、WhatsApp、Instagram 内的 Meta AI 仍在运营。",
+    "ja": "Meta の一般向けアシスタントは Llama 4 ベースではなくなった。2026-04-08 にクローズドな旗艦 Muse Spark（開発名 Avocado）を公開し、2026-07-09 に Muse Spark 1.1 を投入。開発者向けは dev.meta.ai の Meta Model API。Meta AI 自体は meta.ai および Facebook、WhatsApp、Instagram で継続稼働。",
+    "es": "El asistente de consumo de Meta ya no corre sobre Llama 4: Meta presentó el 2026-04-08 su insignia cerrado Muse Spark (nombre en clave Avocado) y lanzó Muse Spark 1.1 el 2026-07-09, con acceso para desarrolladores vía la Meta Model API en dev.meta.ai. Meta AI sigue activo en meta.ai y dentro de Facebook, WhatsApp e Instagram.",
+    "fr": "L'assistant grand public de Meta ne tourne plus sur Llama 4 : Meta a dévoilé le 2026-04-08 son phare fermé Muse Spark (nom de code Avocado) puis Muse Spark 1.1 le 2026-07-09, l'accès développeur passant par la Meta Model API sur dev.meta.ai. Meta AI reste en service sur meta.ai et dans Facebook, WhatsApp et Instagram."
   },
   "verdict": {
     "badge": "Recommended",
@@ -244,7 +244,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

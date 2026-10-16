@@ -50,11 +50,11 @@
       "fr": "Conversation de base"
     },
     "pro": {
-      "en": "$20/month (Claude Opus 4.6, advanced)",
-      "zh": "$20/月（Claude Opus 4.6、高级功能）",
-      "ja": "月額20ドル（Claude Opus 4.6、高度な機能）",
-      "es": "20 $/mes (Claude Opus 4.6, avanzado)",
-      "fr": "20 $/mois (Claude Opus 4.6, avancé)"
+      "en": "$20/month (Claude Opus 5.5, advanced)",
+      "zh": "$20/月（Claude Opus 5.5、高级功能）",
+      "ja": "月額20ドル（Claude Opus 5.5、高度な機能）",
+      "es": "20 $/mes (Claude Opus 5.5, avanzado)",
+      "fr": "20 $/mois (Claude Opus 5.5, avancé)"
     },
     "max": {
       "en": "$100–200/month (Max, higher usage)",
@@ -180,11 +180,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Claude Opus 4.6 and Sonnet 5 released — 1M context, Computer Use 2.0, and state-of-the-art coding (Sonnet 5 launch pricing $2/$10 per MTok)",
-    "zh": "2026年：Claude Opus 4.6 与 Sonnet 5 发布——支持 1M 上下文、Computer Use 2.0 和顶级编码能力（Sonnet 5 首发价 $2/$10 每百万 tokens）",
-    "ja": "2026年：Claude Opus 4.6 と Sonnet 5 を発表——1M コンテキスト、Computer Use 2.0、最先端のコーディング能力（Sonnet 5 の初期価格は 100万トークンあたり $2/$10）",
-    "es": "2026: se lanzan Claude Opus 4.6 y Sonnet 5: contexto de 1M, Computer Use 2.0 y codificación de vanguardia (precio de lanzamiento de Sonnet 5: 2/10 $ por MTok)",
-    "fr": "2026 : lancement de Claude Opus 4.6 et Sonnet 5 — contexte 1M, Computer Use 2.0 et codage de pointe (tarif de lancement de Sonnet 5 : 2/10 $ par MTok)"
+    "en": "Anthropic released Claude Opus 5.5 on 2026-09-22, saying it matches Claude Fable 5.1 on most work while costing 40% less to run than Opus 5. The API model list now reads Fable 5.1, Opus 5.5, Sonnet 5.5 and Haiku 5.5, with Opus 4.5/4.6 and Haiku 4.5 kept as legacy entries.",
+    "zh": "2026-09-22 Anthropic 发布 Claude Opus 5.5，官方说明其在多数任务上达到 Claude Fable 5.1 的水平、运行成本比 Opus 5 低 40%。API 模型清单目前为 Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5，Opus 4.5/4.6 与 Haiku 4.5 作为旧版仍可查。",
+    "ja": "2026-09-22 に Anthropic が Claude Opus 5.5 を公開。公式説明では多数のタスクで Claude Fable 5.1 に匹敵し、Opus 5 より実行コストが40%低い。API のモデル一覧は現在 Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5 で、Opus 4.5/4.6 と Haiku 4.5 はレガシー扱いで残る。",
+    "es": "Anthropic publicó Claude Opus 5.5 el 2026-09-22 y afirma que iguala a Claude Fable 5.1 en la mayoría de tareas costando un 40% menos que Opus 5. La lista de modelos de la API es hoy Fable 5.1, Opus 5.5, Sonnet 5.5 y Haiku 5.5, con Opus 4.5/4.6 y Haiku 4.5 como entradas heredadas.",
+    "fr": "Anthropic a publié Claude Opus 5.5 le 2026-09-22, en indiquant qu'il égale Claude Fable 5.1 sur la plupart des tâches pour un coût d'exécution inférieur de 40 % à Opus 5. La liste des modèles de l'API affiche Fable 5.1, Opus 5.5, Sonnet 5.5 et Haiku 5.5, Opus 4.5/4.6 et Haiku 4.5 restant référencés en héritage."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -263,7 +263,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://claude.com/pricing"

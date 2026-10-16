@@ -2,7 +2,7 @@
   "features": {
     "en": [
       "DeepSeek-V4 open-source LLM",
-      "DeepSeek-R2 advanced reasoning",
+      "DeepSeek-V4 Pro advanced reasoning",
       "1T+ parameters",
       "MoE architecture efficient inference",
       "Code and math reasoning",
@@ -10,7 +10,7 @@
     ],
     "zh": [
       "DeepSeek-V4 开源大模型",
-      "DeepSeek-R2 高级推理",
+      "DeepSeek-V4 Pro 高级推理",
       "1T+ 参数规模",
       "MoE 架构高效推理",
       "代码生成与数学推理",
@@ -18,7 +18,7 @@
     ],
     "ja": [
       "DeepSeek-V4 オープンソース LLM",
-      "DeepSeek-R2 高度な推論",
+      "DeepSeek-V4 Pro 高度な推論",
       "1T+ のパラメータ規模",
       "MoE アーキテクチャによる効率的な推論",
       "コードと数学の推論",
@@ -26,7 +26,7 @@
     ],
     "es": [
       "LLM de código abierto DeepSeek-V4",
-      "Razonamiento avanzado DeepSeek-R2",
+      "Razonamiento avanzado DeepSeek-V4 Pro",
       "Más de 1T de parámetros",
       "Inferencia eficiente con arquitectura MoE",
       "Razonamiento de código y matemáticas",
@@ -34,7 +34,7 @@
     ],
     "fr": [
       "LLM open source DeepSeek-V4",
-      "Raisonnement avancé DeepSeek-R2",
+      "Raisonnement avancé DeepSeek-V4 Pro",
       "Plus de 1000 milliards de paramètres",
       "Inférence efficace en architecture MoE",
       "Raisonnement code et mathématiques",
@@ -173,11 +173,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: DeepSeek-V4 lineup (1T base, V4 Pro, and efficient V4 Flash) plus DeepSeek-R2 reasoning, with permanent price cuts",
-    "zh": "2026年：DeepSeek-V4 系列（1T 基础版、V4 Pro 及高效 V4 Flash）与 DeepSeek-R2 推理模型发布，并永久下调价格",
-    "ja": "2026年：DeepSeek-V4 シリーズ（1T ベース、V4 Pro、高効率な V4 Flash）と DeepSeek-R2 推論モデルを発表し、価格を恒久的に引き下げ",
-    "es": "2026: la gama DeepSeek-V4 (base 1T, V4 Pro y el eficiente V4 Flash) más el razonamiento DeepSeek-R2, con rebajas de precio permanentes",
-    "fr": "2026 : la gamme DeepSeek-V4 (base 1T, V4 Pro et l'efficace V4 Flash) plus le raisonnement DeepSeek-R2, avec des baisses de prix permanentes"
+    "en": "The official API docs now list deepseek-v4-pro, deepseek-v4-flash and deepseek-flash (plus a v4-flash-vision variant); the V4 generation ships as a Pro / Flash tier split rather than a single version number.",
+    "zh": "官方 API 文档当前的模型为 deepseek-v4-pro、deepseek-v4-flash 与 deepseek-flash（另有 v4-flash-vision 变体），V4 世代沿用 Pro / Flash 的分档命名，而非单一版本号。",
+    "ja": "公式APIドキュメントの現在のモデルは deepseek-v4-pro、deepseek-v4-flash、deepseek-flash（v4-flash-vision 変体あり）。V4 世代は単一の番号ではなく Pro / Flash の階層構成で提供されている。",
+    "es": "La documentación oficial de la API enumera ahora deepseek-v4-pro, deepseek-v4-flash y deepseek-flash (más una variante v4-flash-vision); la generación V4 se ofrece como niveles Pro / Flash en lugar de un único número de versión.",
+    "fr": "La documentation officielle de l'API référence désormais deepseek-v4-pro, deepseek-v4-flash et deepseek-flash (plus une variante v4-flash-vision) ; la génération V4 se décline en niveaux Pro / Flash plutôt qu'en un seul numéro de version."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -256,7 +256,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

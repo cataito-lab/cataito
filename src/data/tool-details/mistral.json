@@ -1,7 +1,7 @@
 {
   "features": {
     "en": [
-      "Mistral Large 2 flagship",
+      "Mistral Large 4 flagship",
       "Le Chat conversational AI",
       "Open-source models (Mistral 7B, Mixtral)",
       "Strong European languages",
@@ -9,7 +9,7 @@
       "API & on-premise deployment"
     ],
     "zh": [
-      "Mistral Large 2 旗舰",
+      "Mistral Large 4 旗舰",
       "Le Chat 对话 AI",
       "开源模型（Mistral 7B、Mixtral）",
       "欧洲语言出色",
@@ -17,7 +17,7 @@
       "API 与本地部署"
     ],
     "ja": [
-      "Mistral Large 2 フラッグシップ",
+      "Mistral Large 4 フラッグシップ",
       "Le Chat 対話型 AI",
       "オープンソースモデル",
       "欧州言語に強い",
@@ -25,7 +25,7 @@
       "API・オンプレミス"
     ],
     "es": [
-      "Mistral Large 2 insignia",
+      "Mistral Large 4 insignia",
       "Le Chat IA",
       "Modelos open-source",
       "Lenguas europeas",
@@ -33,7 +33,7 @@
       "API y on-premise"
     ],
     "fr": [
-      "Mistral Large 2",
+      "Mistral Large 4",
       "Le Chat IA",
       "Modèles open-source",
       "Langues européennes",
@@ -161,11 +161,11 @@
     }
   },
   "latestUpdate": {
-    "en": "2026: Mistral Large 2 leads open-weight AI",
-    "zh": "2026年：Mistral Large 2 引领开源 AI",
-    "ja": "2026年：Mistral Large 2 がオープンウェイトをリード",
-    "es": "2026: Mistral Large 2 lidera IA open-weight",
-    "fr": "2026 : Mistral Large 2 domine l'IA open-weight"
+    "en": "Mistral announced Mistral Large 4 on 2026-10-06, in public preview and natively multimodal; the earlier Mistral Large 3 (2025-12-02) shipped under Apache 2.0. The docs also schedule several older models for retirement from 2026-09-30. Le Chat remains the company's chat product.",
+    "zh": "2026-10-06 Mistral 官方发布 Mistral Large 4 并进入 Public Preview，为原生多模态模型；此前的 Mistral Large 3（2025-12-02）以 Apache 2.0 开源。官方文档另列出部分旧模型自 2026-09-30 起的下线计划。Le Chat 仍是其对话产品入口。",
+    "ja": "2026-10-06 に Mistral Large 4 が公開され、Public Preview 段階でネイティブマルチモーダル。前世代の Mistral Large 3（2025-12-02）は Apache 2.0 で公開。公式ドキュメントには一部旧モデルの 2026-09-30 以降の廃止計画も並ぶ。対話製品は引き続き Le Chat。",
+    "es": "Mistral presentó Mistral Large 4 el 2026-10-06, en vista previa pública y nativamente multimodal; el anterior Mistral Large 3 (2025-12-02) se publicó bajo Apache 2.0. La documentación además programa la retirada de varios modelos antiguos desde el 2026-09-30. Le Chat sigue siendo su producto de chat.",
+    "fr": "Mistral a annoncé Mistral Large 4 le 2026-10-06, en préversion publique et nativement multimodal ; le précédent Mistral Large 3 (2025-12-02) était publié sous Apache 2.0. La documentation prévoit aussi la retraite de plusieurs modèles anciens à partir du 2026-09-30. Le Chat reste le produit de conversation."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -244,7 +244,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-30",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

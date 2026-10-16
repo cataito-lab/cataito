@@ -1,7 +1,7 @@
 {
   "features": {
     "en": [
-      "Gemini 3.1 Pro multimodal",
+      "Gemini 4 multimodal",
       "Google Search deep integration",
       "1M tokens context window",
       "Google Workspace integration",
@@ -9,7 +9,7 @@
       "Code generation and execution"
     ],
     "zh": [
-      "Gemini 3.1 Pro 多模态模型",
+      "Gemini 4 多模态模型",
       "Google 搜索深度整合",
       "1M tokens 上下文窗口",
       "Google Workspace 集成",
@@ -17,7 +17,7 @@
       "代码生成与执行"
     ],
     "ja": [
-      "Gemini 3.1 Pro マルチモーダル",
+      "Gemini 4 マルチモーダル",
       "Google 検索との深い統合",
       "100万トークンのコンテキストウィンドウ",
       "Google Workspace 統合",
@@ -25,7 +25,7 @@
       "コード生成と実行"
     ],
     "es": [
-      "Gemini 3.1 Pro multimodal",
+      "Gemini 4 multimodal",
       "Integración profunda con Google Search",
       "Ventana de contexto de 1M tokens",
       "Integración con Google Workspace",
@@ -33,7 +33,7 @@
       "Generación y ejecución de código"
     ],
     "fr": [
-      "Gemini 3.1 Pro multimodal",
+      "Gemini 4 multimodal",
       "Intégration poussée à Google Search",
       "Fenêtre de contexte de 1M tokens",
       "Intégration à Google Workspace",
@@ -50,11 +50,11 @@
       "fr": "Gemini 3 Flash (de base)"
     },
     "pro": {
-      "en": "$19.99/month (Google AI Pro, Gemini 3.1 Pro)",
-      "zh": "$19.99/月（Google AI Pro、Gemini 3.1 Pro）",
-      "ja": "月額19.99ドル（Google AI Pro、Gemini 3.1 Pro）",
-      "es": "19,99 $/mes (Google AI Pro, Gemini 3.1 Pro)",
-      "fr": "19,99 $/mois (Google AI Pro, Gemini 3.1 Pro)"
+      "en": "$19.99/month (Google AI Pro)",
+      "zh": "$19.99/月（Google AI Pro）",
+      "ja": "月額19.99ドル（Google AI Pro）",
+      "es": "19,99 $/mes (Google AI Pro)",
+      "fr": "19,99 $/mois (Google AI Pro)"
     },
     "ultra": {
       "en": "$199.99/month (Google AI Ultra, Deep Think)",
@@ -173,11 +173,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Gemini 3.1 Pro and Gemini 3.5 Flash released, with Deep Think reasoning and reduced hallucination; API at $2/$12 per MTok",
-    "zh": "2026年：Gemini 3.1 Pro 与 Gemini 3.5 Flash 发布，具备 Deep Think 推理并降低幻觉；API 为 $2/$12 每百万 tokens",
-    "ja": "2026年：Gemini 3.1 Pro と Gemini 3.5 Flash を発表。Deep Think 推論を備えハルシネーションを低減。API は 100万トークンあたり $2/$12",
-    "es": "2026: se lanzan Gemini 3.1 Pro y Gemini 3.5 Flash, con razonamiento Deep Think y menos alucinaciones; API a 2/12 $ por MTok",
-    "fr": "2026 : lancement de Gemini 3.1 Pro et Gemini 3.5 Flash, avec le raisonnement Deep Think et moins d'hallucinations ; API à 2/12 $ par MTok"
+    "en": "Google has moved to Gemini 4: the official model page lists Gemini 4 Argon as the flagship reasoning model with a unified 1M context window and long decodes up to 1M tokens, under a Gemini 4 Stable banner. The API docs now point to Gemini 4 Argon and Gemini 3.8 Flash / 3.8 Live, while the Gemini 3.1 line is marked Legacy.",
+    "zh": "Google 已进入 Gemini 4：官方模型页把 Gemini 4 Argon 列为旗舰推理模型，统一 1M 上下文窗口、长解码可达 1M token，并标注为 Gemini 4 Stable；API 文档当前推荐 Gemini 4 Argon 与 Gemini 3.8 Flash / 3.8 Live，Gemini 3.1 系列已被标为 Legacy。",
+    "ja": "Google は Gemini 4 へ移行。公式モデルページでは Gemini 4 Argon がフラッグシップ推論モデルとして、統合1Mコンテキスト、最大1Mトークンの長デコードとともに Gemini 4 Stable として紹介されている。API ドキュメントの推奨は Gemini 4 Argon と Gemini 3.8 Flash / 3.8 Live で、3.1 系は Legacy の表記。",
+    "es": "Google ya está en Gemini 4: la página oficial de modelos presenta Gemini 4 Argon como el modelo insignia de razonamiento, con ventana de contexto unificada de 1M y decodificaciones de hasta 1M tokens bajo el epígrafe Gemini 4 Stable. La documentación de la API recomienda Gemini 4 Argon y Gemini 3.8 Flash / 3.8 Live, mientras la línea 3.1 aparece marcada como Legacy.",
+    "fr": "Google est passé à Gemini 4 : la page officielle des modèles présente Gemini 4 Argon comme modèle phare de raisonnement, avec une fenêtre de contexte unifiée de 1M et des générations allant jusqu'à 1M tokens sous l'étiquette Gemini 4 Stable. La documentation de l'API oriente vers Gemini 4 Argon et Gemini 3.8 Flash / 3.8 Live, tandis que la gamme 3.1 est marquée Legacy."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -256,7 +256,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

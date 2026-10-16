@@ -1,7 +1,7 @@
 {
   "features": {
     "en": [
-      "Grok 4.5 flagship reasoning model",
+      "Grok 4.7 flagship reasoning model",
       "Real-time X (Twitter) data integration",
       "Live web search & DeepSearch",
       "Native tool use & code execution",
@@ -9,7 +9,7 @@
       "Voice mode conversation"
     ],
     "zh": [
-      "Grok 4.5 旗舰推理模型",
+      "Grok 4.7 旗舰推理模型",
       "实时接入 X（推特）数据",
       "实时联网搜索与 DeepSearch",
       "原生工具调用与代码执行",
@@ -17,7 +17,7 @@
       "语音对话模式"
     ],
     "ja": [
-      "Grok 4.5 フラッグシップ推論モデル",
+      "Grok 4.7 フラッグシップ推論モデル",
       "X（Twitter）データのリアルタイム統合",
       "ライブ Web 検索と DeepSearch",
       "ネイティブなツール利用とコード実行",
@@ -25,7 +25,7 @@
       "音声モードでの会話"
     ],
     "es": [
-      "Modelo de razonamiento insignia Grok 4.5",
+      "Modelo de razonamiento insignia Grok 4.7",
       "Integración de datos de X (Twitter) en tiempo real",
       "Búsqueda web en vivo y DeepSearch",
       "Uso nativo de herramientas y ejecución de código",
@@ -33,7 +33,7 @@
       "Conversación en modo voz"
     ],
     "fr": [
-      "Modèle de raisonnement phare Grok 4.5",
+      "Modèle de raisonnement phare Grok 4.7",
       "Intégration des données X (Twitter) en temps réel",
       "Recherche web en direct et DeepSearch",
       "Utilisation native d'outils et exécution de code",
@@ -180,11 +180,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Grok 4.5 released as xAI's flagship with a 1M+ context window, native tool use, and improved real-time search",
-    "zh": "2026年：Grok 4.5 发布，作为 xAI 旗舰模型，支持 1M+ 上下文、原生工具调用和增强的实时搜索",
-    "ja": "2026年：Grok 4.5 が xAI のフラッグシップとして登場。1M+ のコンテキストウィンドウ、ネイティブなツール利用、強化されたリアルタイム検索を搭載",
-    "es": "2026: se lanza Grok 4.5 como el buque insignia de xAI, con ventana de contexto de 1M+, uso nativo de herramientas y búsqueda en tiempo real mejorada",
-    "fr": "2026 : Grok 4.5 sort comme le modèle phare de xAI, avec une fenêtre de contexte de 1M+, l'utilisation native d'outils et une recherche en temps réel améliorée"
+    "en": "Ownership and branding both changed in 2026: SpaceX announced its acquisition of xAI on 2026-02-02 (Reuters called it the biggest M&A deal to date), the unit was renamed SpaceXAI in July, and the x.ai newsroom now presents itself as SpaceXSI as of October. On the model side Grok 4.7 arrived via an official announcement dated 2026-09-21, billed as the strongest model for coding and knowledge work, after Grok 4.6 landed on 2026-08-12 with a focus on long-running agents. The product is still called Grok.",
+    "zh": "归属与品牌在 2026 年两度变动：SpaceX 于 2026-02-02 宣布收购 xAI（Reuters 称其为迄今规模最大的并购交易），2026-07 更名 SpaceXAI，2026-10 官网新闻页已显示为 SpaceXSI。模型侧推进到 Grok 4.7（官方 2026-09-21 公告，称为当前编码与知识工作最强的模型），Grok 4.6 于 2026-08-12 发布、主打长时运行智能体。产品名仍是 Grok。",
+    "ja": "2026年に所有とブランドが二度動いた。SpaceX が 2026-02-02 に xAI の買収を発表（Reuters は過去最大級の M&A と伝えた）。7月に SpaceXAI へ、10月には公式ニュースページが SpaceXSI 表記に。モデル側は Grok 4.6（2026-08-12、長時間エージェント重視）を経て、公式発表 2026-09-21 で Grok 4.7 がコーディングと知識業務で最強化と告知。製品名は引き続き Grok。",
+    "es": "Propiedad y marca cambiaron dos veces en 2026: SpaceX anunció el 2026-02-02 la compra de xAI (Reuters la calificó como la mayor operación de M&A hasta la fecha), la unidad pasó a llamarse SpaceXAI en julio y la sala de noticias de x.ai se muestra ya como SpaceXSI en octubre. En modelos, Grok 4.7 se anunció el 2026-09-21 como el más capaz para programación y trabajo de conocimiento, después de Grok 4.6 (2026-08-12), centrado en agentes de larga ejecución. El producto sigue llamándose Grok.",
+    "fr": "Propriété et marque ont changé deux fois en 2026 : SpaceX a annoncé le rachat de xAI le 2026-02-02 (Reuters y voit la plus grosse opération de M&A à ce jour), l'entité a été renommée SpaceXAI en juillet, et la salle de presse de x.ai s'affiche désormais en SpaceXSI en octobre. Côté modèles, Grok 4.7 a été annoncé le 2026-09-21 comme le plus fort pour le code et le travail de connaissance, après Grok 4.6 (2026-08-12) axé sur les agents longue durée. Le produit s'appelle toujours Grok."
   },
   "verdict": {
     "badge": "Recommended",
@@ -258,7 +258,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

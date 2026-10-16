@@ -159,11 +159,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Moonshot released Kimi K2.6, billed as the world's most powerful open-source model, with stronger long-context reasoning",
-    "zh": "2026年：月之暗面发布 Kimi K2.6，号称全球最强开源模型，长文本推理能力更强",
-    "ja": "2026年：Moonshot が Kimi K2.6 を発表。世界最強のオープンソースモデルを謳い、長文コンテキストの推論能力をさらに強化",
-    "es": "2026: Moonshot lanzó Kimi K2.6, presentado como el modelo de código abierto más potente del mundo, con un razonamiento de contexto largo más sólido",
-    "fr": "2026 : Moonshot a lancé Kimi K2.6, présenté comme le modèle open source le plus puissant au monde, avec un raisonnement à long contexte renforcé"
+    "en": "Moonshot's platform now prices Kimi K3, K2.7 and K2.6 (see the platform pricing page), so K2.6 is no longer the top tier; K3 is the current frontier model of the series.",
+    "zh": "月之暗面开放平台的模型档位目前为 Kimi K3、K2.7 与 K2.6（见平台计费页），K2.6 已不是最新一档；K3 为该系列当前的前沿档位。",
+    "ja": "月之暗面（Moonshot）のプラットフォームのモデル階層は現在 Kimi K3、K2.7、K2.6（課金ページ参照）。K2.6 は最新档ではなく、K3 がシリーズ現行のフラッグシップ。",
+    "es": "La plataforma de Moonshot tarififica ahora Kimi K3, K2.7 y K2.6 (véase la página de precios), de modo que K2.6 ya no es el nivel más alto; K3 es el modelo frontier actual de la serie.",
+    "fr": "La plateforme de Moonshot facture désormais Kimi K3, K2.7 et K2.6 (voir la page tarifs) : K2.6 n'est plus le niveau le plus élevé, K3 étant le modèle frontier actuel de la série."
   },
   "verdict": {
     "badge": "Recommended",
@@ -242,7 +242,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },
