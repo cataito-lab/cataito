@@ -1,7 +1,7 @@
 {
   "features": {
     "en": [
-      "Kling 3.0 / Kling O1 multimodal video model",
+      "Kling 4.0 multimodal video model",
       "Text-to-video and image-to-video",
       "1080p HD up to 2 minutes",
       "Audio generation and digital human",
@@ -10,7 +10,7 @@
       "Image generation and creative effects"
     ],
     "zh": [
-      "可灵 3.0 / 可灵 O1 多模态视频模型",
+      "可灵 4.0 多模态视频模型",
       "文生视频与图生视频",
       "1080p 高清最长 2 分钟",
       "音频生成与数字人",
@@ -19,7 +19,7 @@
       "图像生成与创意特效"
     ],
     "ja": [
-      "Kling 3.0/Kling O1 マルチモーダル動画モデル",
+      "Kling 4.0 マルチモーダル動画モデル",
       "テキストから動画・画像から動画",
       "1080p HD 最大2分",
       "音声生成とデジタルヒューマン",
@@ -28,7 +28,7 @@
       "画像生成とクリエイティブエフェクト"
     ],
     "es": [
-      "Modelo de vídeo multimodal Kling 3.0/Kling O1",
+      "Modelo de vídeo multimodal Kling 4.0",
       "Texto a vídeo e imagen a vídeo",
       "1080p HD hasta 2 minutos",
       "Generación de audio y humano digital",
@@ -37,7 +37,7 @@
       "Generación de imágenes y efectos creativos"
     ],
     "fr": [
-      "Modèle vidéo multimodal Kling 3.0/Kling O1",
+      "Modèle vidéo multimodal Kling 4.0",
       "Texte vers vidéo et image vers vidéo",
       "1080p HD jusqu'à 2 minutes",
       "Génération audio et humain numérique",
@@ -190,11 +190,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Kling 3.0 and Kling O1 unified multimodal model launched with 1080p 2-min video, universal reference control, smart 15s storyboard, and restructured international pricing ($6.99-$127.99/mo)",
-    "zh": "2026年：可灵 3.0 与可灵 O1 统一多模态模型发布，支持 1080p 2 分钟视频、全能参考控制、15 秒智能分镜、国际版定价调整（$6.99-$127.99/月）",
-    "ja": "2026年：Kling 3.0 と Kling O1 統合マルチモーダルモデルを発表。1080p 2分動画、ユニバーサルリファレンス制御、15秒スマートストーリーボード、国際版料金改定（月額$6.99〜$127.99）",
-    "es": "2026: Kling 3.0 y Kling O1, modelo multimodal unificado, lanzados con vídeo 1080p de 2 min, control de referencia universal, storyboard inteligente de 15s y precios internacionales reestructurados (6,99-127,99 $/mes)",
-    "fr": "2026 : Kling 3.0 et Kling O1, modèle multimodal unifié, lancé avec vidéo 1080p 2 min, contrôle de référence universel, storyboard intelligent 15s et tarification internationale restructurée (6,99 $ - 127,99 $/mois)"
+    "en": "Kling's official API pricing page now lists Kling 4.0 alongside Kling 3.0 (checked 2026-10-16); the 3.0 and O1 this page previously named are no longer the newest tier. Subscription tier prices were not re-verified in this pass, so treat the official pricing page as authoritative.",
+    "zh": "官方 API 定价页当前并列列有 Kling 4.0 与 Kling 3.0（2026-10-16 实测）；本页此前写的 3.0 与 O1 已不是最新一档。订阅档位价格本轮未逐项复核，请以官方定价页为准。",
+    "ja": "公式 API 価格ページには現在 Kling 4.0 と Kling 3.0 が並んで記載されている（2026-10-16 実測）。当ページが以前書いた 3.0 と O1 は最新档ではない。サブスク価格の再確認は今回行っていないため公式価格ページを正とする。",
+    "es": "La página oficial de precios de la API enumera ahora Kling 4.0 junto a Kling 3.0 (verificado el 2026-10-16); el 3.0 y O1 que citábamos ya no son el nivel más reciente. Los precios de los planes de suscripción no se revisaron en esta pasada, así que vale la página oficial.",
+    "fr": "La page tarifaire officielle de l'API liste désormais Kling 4.0 aux côtés de Kling 3.0 (vérifié le 2026-10-16) ; le 3.0 et O1 que nous citions ne sont plus le niveau le plus récent. Les tarifs d'abonnement n'ont pas été revérifiés ici, la page officielle fait foi."
   },
   "verdict": {
     "badge": "For Specific Needs",
@@ -263,7 +263,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-30",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://kling.ai/pricing/"

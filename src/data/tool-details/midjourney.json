@@ -1,7 +1,7 @@
 {
   "features": {
     "en": [
-      "Midjourney V7 image generation",
+      "Midjourney V8 image generation",
       "Diverse art styles",
       "Text-to-image conversion",
       "Image editing and extension",
@@ -9,7 +9,7 @@
       "Commercial licensing"
     ],
     "zh": [
-      "Midjourney V7 图像生成",
+      "Midjourney V8 图像生成",
       "艺术风格多样",
       "文本到图像转换",
       "图像编辑与扩展",
@@ -17,7 +17,7 @@
       "商业授权支持"
     ],
     "ja": [
-      "Midjourney V7 画像生成",
+      "Midjourney V8 画像生成",
       "多彩なアートスタイル",
       "テキストから画像への変換",
       "画像編集と拡張",
@@ -25,7 +25,7 @@
       "商用ライセンス対応"
     ],
     "es": [
-      "Generación de imágenes Midjourney V7",
+      "Generación de imágenes Midjourney V8",
       "Estilos artísticos diversos",
       "Conversión de texto a imagen",
       "Edición y ampliación de imágenes",
@@ -33,7 +33,7 @@
       "Licencias comerciales"
     ],
     "fr": [
-      "Génération d'images Midjourney V7",
+      "Génération d'images Midjourney V8",
       "Styles artistiques variés",
       "Conversion texte-image",
       "Édition et extension d'images",
@@ -173,11 +173,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "July 2026: Midjourney V7 released with enhanced realism and video generation support",
-    "zh": "2026年7月：Midjourney V7 发布，增强真实感并支持视频生成",
-    "ja": "2026年7月：Midjourney V7 を発表。リアリズムを強化し、動画生成に対応",
-    "es": "Julio de 2026: se lanza Midjourney V7 con mayor realismo y compatibilidad con la generación de vídeo",
-    "fr": "Juillet 2026 : lancement de Midjourney V7 avec un réalisme accru et la prise en charge de la génération de vidéos"
+    "en": "Midjourney's docs now sit on the V8 line (the documentation home shows V8.2, checked 2026-10-16); the V7 this page previously named is no longer the current version.",
+    "zh": "官方文档站当前的模型版本线为 V8（文档首页标注 V8.2，2026-10-16 实测）；本页此前写的 V7 已不是当前版本。",
+    "ja": "公式ドキュメントの現行モデル系統は V8（トップページに V8.2 の表記、2026-10-16 実測）。当ページが以前書いていた V7 は現行版ではない。",
+    "es": "La documentación oficial está ahora en la línea V8 (la portada muestra V8.2, verificado el 2026-10-16); la V7 que citábamos ya no es la versión actual.",
+    "fr": "La documentation officielle en est désormais à la gamme V8 (la page d'accueil affiche V8.2, vérifié le 2026-10-16) ; la V7 que nous citions n'est plus la version actuelle."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -256,7 +256,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },
