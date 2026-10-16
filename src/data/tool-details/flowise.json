@@ -161,7 +161,7 @@
     "fr": "Plus de mise à jour depuis la 3.1.4 du 2026-07-29 ; le dépôt GitHub a été archivé en lecture seule par les mainteneurs le 2026-08-13, à environ 55,5k étoiles, et les paquets npm et Docker sont dépréciés. Des avis de sécurité ont continué à être publiés après l'archivage (les plus récents entre le 2026-08-28 et le 09-10), sans correctif officiel à attendre."
   },
   "verdict": {
-    "badge": "Recommended",
+    "badge": "Consider Alternatives",
     "headline": {
       "en": "The open-source way to build agents without code",
       "zh": "不写代码构建智能体的开源之道",
@@ -205,22 +205,27 @@
     },
     "considerAlternatives": {
       "en": [
+        "Choosing for a new project where ongoing security fixes matter (archived 2026-08; consider Dify, LangGraph or Mastra)",
         "You need code-level control and testing (→ LangGraph, Mastra)",
         "You want an all-in-one LLMOps platform with app hosting (→ Dify)"
       ],
       "zh": [
+        "新项目选型、需要有人持续补安全洞（本项目已于 2026-08 归档，可改看 Dify、LangGraph、Mastra）",
         "你需要代码级控制与测试（→ LangGraph、Mastra）",
         "你想要带应用托管的一体化 LLMOps 平台（→ Dify）"
       ],
       "ja": [
+        "新規選定で継続的なセキュリティ修正が必要（2026-08 にアーカイブ済み。Dify、LangGraph、Mastra を候補に）",
         "コードレベルの制御とテストが必要（→ LangGraph、Mastra）",
         "アプリホスティング込みのオールインワンLLMOpsプラットフォームが欲しい（→ Dify）"
       ],
       "es": [
+        "Elegir para un proyecto nuevo donde importan los arreglos de seguridad (archivado 2026-08; mira Dify, LangGraph o Mastra)",
         "Necesitas control y pruebas a nivel de código (→ LangGraph, Mastra)",
         "Quieres una plataforma LLMOps todo en uno con hosting de apps (→ Dify)"
       ],
       "fr": [
+        "Choisir pour un nouveau projet où les correctifs de sécurité comptent (archivé en 2026-08 ; voir Dify, LangGraph ou Mastra)",
         "Vous avez besoin de contrôle et de tests au niveau du code (→ LangGraph, Mastra)",
         "Vous voulez une plateforme LLMOps tout-en-un avec hébergement d'apps (→ Dify)"
       ]
