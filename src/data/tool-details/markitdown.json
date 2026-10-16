@@ -96,14 +96,14 @@
       "Actively maintained with regular releases"
     ],
     "zh": [
-      "17 万+ 星——AI 生态中最流行的文档转换工具之一",
+      "19 万+ 星——AI 生态中最流行的文档转换工具之一",
       "格式覆盖广，统一输出 Markdown",
       "CLI 和 Python API 都简单易用，方便集成到任何流水线",
       "微软 AutoGen 团队维护，MIT 协议",
       "积极维护，定期发布"
     ],
     "ja": [
-      "17万以上のスター——AIエコシステムで最も人気のあるドキュメント変換ツールの一つ",
+      "19 万以上のスター——AIエコシステムで最も人気のあるドキュメント変換ツールの一つ",
       "広いフォーマット対応、統一されたMarkdown出力",
       "シンプルなCLIとPython API、あらゆるパイプラインに統合しやすい",
       "Microsoft AutoGenチームが開発、MITライセンス",
@@ -153,15 +153,15 @@
   },
   "latestUpdate": {
     "en": "July 2026: MarkItDown continues active development by the Microsoft AutoGen team with 173K+ stars, expanding format support and improving OCR/document structure preservation.",
-    "zh": "2026年7月：MarkItDown 由微软 AutoGen 团队持续积极开发，17万+ 星，不断扩展格式支持并改进 OCR 与文档结构保留。",
-    "ja": "2026年7月：MarkItDownはMicrosoft AutoGenチームにより活発に開発が継続され、17万以上のスターを獲得。フォーマット対応を拡大し、OCRとドキュメント構造の保持を改善。",
+    "zh": "2026年7月：MarkItDown 由微软 AutoGen 团队持续积极开发，19 万+ 星，不断扩展格式支持并改进 OCR 与文档结构保留。",
+    "ja": "2026年7月：MarkItDownはMicrosoft AutoGenチームにより活発に開発が継続され、19 万以上のスターを獲得。フォーマット対応を拡大し、OCRとドキュメント構造の保持を改善。",
     "es": "Julio 2026: MarkItDown continúa su desarrollo activo por el equipo AutoGen de Microsoft con más de 173K estrellas, ampliando el soporte de formatos y mejorando OCR y preservación de estructura.",
     "fr": "Juillet 2026 : MarkItDown poursuit son développement actif par l'équipe Microsoft AutoGen avec plus de 173K étoiles, élargissant le support des formats et améliorant l'OCR et la préservation de la structure."
   },
   "summary": {
     "en": "MarkItDown is Microsoft's lightweight Python utility that converts any file to Markdown for LLM consumption. With 173K+ stars, wide format coverage (PDF, PPT, Word, Excel, images, audio, HTML, YouTube) and a simple CLI/API, it has become the de-facto standard for preparing documents as LLM-ready Markdown.",
-    "zh": "MarkItDown 是微软出品的轻量 Python 工具，把任意文件转换为 LLM 可消费的 Markdown。17 万+ 星、格式覆盖广（PDF、PPT、Word、Excel、图片、音频、HTML、YouTube）、CLI/API 简单，已成为把文档制备成 LLM 就绪 Markdown 的事实标准。",
-    "ja": "MarkItDownは、あらゆるファイルをLLM向けMarkdownに変換するMicrosoft製の軽量Pythonユーティリティです。17万以上のスター、広範なフォーマット対応（PDF、PPT、Word、Excel、画像、音声、HTML、YouTube）、シンプルなCLI/APIを備え、LLM対応Markdownへの文書変換の事実上の標準となっています。",
+    "zh": "MarkItDown 是微软出品的轻量 Python 工具，把任意文件转换为 LLM 可消费的 Markdown。19 万+ 星、格式覆盖广（PDF、PPT、Word、Excel、图片、音频、HTML、YouTube）、CLI/API 简单，已成为把文档制备成 LLM 就绪 Markdown 的事实标准。",
+    "ja": "MarkItDownは、あらゆるファイルをLLM向けMarkdownに変換するMicrosoft製の軽量Pythonユーティリティです。19 万以上のスター、広範なフォーマット対応（PDF、PPT、Word、Excel、画像、音声、HTML、YouTube）、シンプルなCLI/APIを備え、LLM対応Markdownへの文書変換の事実上の標準となっています。",
     "es": "MarkItDown es la utilidad ligera de Python de Microsoft que convierte cualquier archivo a Markdown para consumo LLM. Con más de 173K estrellas, amplia cobertura de formatos (PDF, PPT, Word, Excel, imágenes, audio, HTML, YouTube) y CLI/API simples, se ha convertido en el estándar de facto para preparar documentos como Markdown listo para LLM.",
     "fr": "MarkItDown est l'utilitaire Python léger de Microsoft qui convertit n'importe quel fichier en Markdown pour consommation LLM. Avec plus de 173K étoiles, une large couverture de formats (PDF, PPT, Word, Excel, images, audio, HTML, YouTube) et une CLI/API simple, il est devenu le standard de facto pour préparer des documents en Markdown prêt pour LLM."
   },
@@ -176,8 +176,8 @@
     },
     "body": {
       "en": "MarkItDown solves a fundamental problem for the AI ecosystem: preparing real-world documents for LLM ingestion. Its broad format coverage (PDF, PPT, Word, Excel, images, audio, HTML, YouTube), simple one-command CLI, and Python library make it extraordinarily easy to integrate.\\n\\nBuilt by the Microsoft AutoGen team and MIT-licensed, it is arguably the most trusted option in this space with 173K+ stars. For RAG pipelines, document Q&A, or any workflow that needs clean text from messy files, MarkItDown is the reference choice. Output is optimized for LLM consumption rather than human reading, which is exactly what most AI workflows need.",
-      "zh": "MarkItDown 解决了 AI 生态的一个根本问题：为 LLM 摄入制备真实世界文档。格式覆盖广（PDF、PPT、Word、Excel、图片、音频、HTML、YouTube）、单命令 CLI、Python 库，集成极其简单。\\n\\n由微软 AutoGen 团队构建、MIT 协议，以 17 万+ 星成为该领域最受信任的选择。RAG 流水线、文档问答或任何需要从杂乱文件中提取干净文本的工作流，MarkItDown 都是参考之选。输出针对 LLM 消费而非人类阅读优化，这正是大多数 AI 工作流所需。",
-      "ja": "MarkItDownは、AIエコシステムの根本的な問題を解決します：LLM取込用に現実世界のドキュメントを準備すること。広範なフォーマット対応（PDF、PPT、Word、Excel、画像、音声、HTML、YouTube）、単一コマンドのCLI、Pythonライブラリにより、統合は非常に簡単です。\\n\\nMicrosoft AutoGenチームが開発し、MITライセンスで、17万以上のスターを持つこの分野で最も信頼される選択肢です。RAGパイプライン、ドキュメントQA、または雑多なファイルからクリーンなテキストを抽出するあらゆるワークフローで、MarkItDownが標準です。出力は人間向けではなくLLM消費向けに最適化されており、これは多くのAIワークフローが求めるものです。",
+      "zh": "MarkItDown 解决了 AI 生态的一个根本问题：为 LLM 摄入制备真实世界文档。格式覆盖广（PDF、PPT、Word、Excel、图片、音频、HTML、YouTube）、单命令 CLI、Python 库，集成极其简单。\\n\\n由微软 AutoGen 团队构建、MIT 协议，以 19 万+ 星成为该领域最受信任的选择。RAG 流水线、文档问答或任何需要从杂乱文件中提取干净文本的工作流，MarkItDown 都是参考之选。输出针对 LLM 消费而非人类阅读优化，这正是大多数 AI 工作流所需。",
+      "ja": "MarkItDownは、AIエコシステムの根本的な問題を解決します：LLM取込用に現実世界のドキュメントを準備すること。広範なフォーマット対応（PDF、PPT、Word、Excel、画像、音声、HTML、YouTube）、単一コマンドのCLI、Pythonライブラリにより、統合は非常に簡単です。\\n\\nMicrosoft AutoGenチームが開発し、MITライセンスで、19 万以上のスターを持つこの分野で最も信頼される選択肢です。RAGパイプライン、ドキュメントQA、または雑多なファイルからクリーンなテキストを抽出するあらゆるワークフローで、MarkItDownが標準です。出力は人間向けではなくLLM消費向けに最適化されており、これは多くのAIワークフローが求めるものです。",
       "es": "MarkItDown resuelve un problema fundamental del ecosistema IA: preparar documentos del mundo real para la ingesta LLM. Su amplia cobertura de formatos (PDF, PPT, Word, Excel, imágenes, audio, HTML, YouTube), CLI de un comando y biblioteca Python hacen que sea extraordinariamente fácil de integrar.\\n\\nConstruido por el equipo AutoGen de Microsoft y con licencia MIT, es probablemente la opción más confiable en este espacio con más de 173K estrellas. Para pipelines RAG, Q&A de documentos o cualquier flujo que necesite texto limpio de archivos desordenados, MarkItDown es la elección de referencia. La salida está optimizada para consumo LLM en lugar de lectura humana, que es exactamente lo que la mayoría de los flujos de IA necesitan.",
       "fr": "MarkItDown résout un problème fondamental de l'écosystème IA : préparer des documents du monde réel pour l'ingestion LLM. Sa large couverture de formats (PDF, PPT, Word, Excel, images, audio, HTML, YouTube), sa CLI en une commande et sa bibliothèque Python le rendent extraordinairement facile à intégrer.\\n\\nConstruit par l'équipe Microsoft AutoGen et sous licence MIT, c'est probablement l'option la plus fiable de cet espace avec plus de 173K étoiles. Pour les pipelines RAG, le Q&A documentaire ou tout workflow nécessitant du texte propre depuis des fichiers désordonnés, MarkItDown est le choix de référence. La sortie est optimisée pour la consommation LLM plutôt que la lecture humaine, ce qui correspond exactement aux besoins de la plupart des workflows IA."
     },
