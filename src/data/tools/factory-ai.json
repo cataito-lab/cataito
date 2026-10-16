@@ -7,7 +7,7 @@
   "descriptionJa": "エージェントネイティブなソフトウェア開発プラットフォーム。Droidsエージェントがコーディング・テスト・デプロイを自動化し、CLI版droidはTerminal-Benchで首位",
   "descriptionEs": "Plataforma de desarrollo de software nativa de agentes: los Droids de Factory automatizan codificación, pruebas y despliegue; su CLI droid lidera Terminal-Bench",
   "descriptionFr": "Plateforme de développement logiciel native agents : les Droids de Factory automatisent codage, tests et déploiement ; son CLI droid domine Terminal-Bench",
-  "url": "https://factory.ai",
+  "url": "https://factory.com",
   "logo": "/logos/tools/factory-ai.png",
   "category": "Agent",
   "tags": [

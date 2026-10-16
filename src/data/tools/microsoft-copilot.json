@@ -7,7 +7,7 @@
   "descriptionJa": "Microsoftのコンシューマー向けAIアシスタント。SmartモードによりGPT-5系モデルを無料で利用でき、長期記憶Memory、画面/カメラを理解するCopilot Vision、EdgeのCopilot ModeがWindowsエコシステムに深く統合。月$20のCopilot Proでピーク時優先とOfficeアプリ内利用を解禁",
   "descriptionEs": "El asistente de IA de consumo de Microsoft: modelos de la familia GPT-5 gratis para todos mediante enrutado automático Smart, con Memoria a largo plazo, Copilot Vision para entender pantalla/cámara y el Copilot Mode de Edge integrado a fondo en Windows — Copilot Pro a $20/mes añade prioridad en horas punta y Copilot dentro de Office",
   "descriptionFr": "L'assistant IA grand public de Microsoft : les modèles de la famille GPT-5 gratuits pour tous via le routage automatique Smart, avec Mémoire à long terme, Copilot Vision pour comprendre écran/caméra et le Copilot Mode d'Edge profondément intégré à Windows — Copilot Pro à 20 $/mois ajoute la priorité aux heures de pointe et Copilot dans Office",
-  "url": "https://copilot.microsoft.com",
+  "url": "https://copilot.com",
   "logo": "/logos/tools/microsoft-copilot.png",
   "category": "Chat",
   "tags": [
