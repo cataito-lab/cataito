@@ -173,11 +173,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: GitHub Copilot upgraded with GPT-5.6 and Claude Opus 4.6, plus more IDE support",
-    "zh": "2026年：GitHub Copilot 升级，支持 GPT-5.6、Claude Opus 4.6 和更多 IDE",
-    "ja": "2026年：GitHub Copilot が GPT-5.6 と Claude Opus 4.6 に対応し、さらに多くの IDE をサポート",
-    "es": "2026: GitHub Copilot se actualiza con GPT-5.6 y Claude Opus 4.6, además de compatibilidad con más IDE",
-    "fr": "2026 : GitHub Copilot est mis à jour avec GPT-5.6 et Claude Opus 4.6, et prend en charge davantage d'IDE"
+    "en": "GitHub Copilot's supported-models page now lists the GPT-5 through GPT-6.1 line plus Claude Fable 5 / Fable 5.1; the Claude Opus 4.6 this page previously named has been superseded. Per the GitHub changelog, GPT-5.2 and GPT-5.2-Codex were deprecated on 2026-06-05.",
+    "zh": "GitHub Copilot 官方支持模型页目前列有 GPT-5 至 GPT-6.1 系列，以及 Claude Fable 5 / Fable 5.1；本页此前写的 Claude Opus 4.6 已被换代。另据 GitHub changelog，GPT-5.2 与 GPT-5.2-Codex 已于 2026-06-05 弃用。",
+    "ja": "GitHub Copilot の公式対応モデルページには現在 GPT-5 から GPT-6.1 系と Claude Fable 5 / Fable 5.1 が並ぶ。かつて記載した Claude Opus 4.6 は世代交代済み。GitHub changelog によれば GPT-5.2 と GPT-5.2-Codex は 2026-06-05 に非推奨化。",
+    "es": "La página de modelos compatibles de GitHub Copilot enumera ahora la línea GPT-5 a GPT-6.1 más Claude Fable 5 / Fable 5.1; el Claude Opus 4.6 que citábamos ha sido sustituido. Según el changelog de GitHub, GPT-5.2 y GPT-5.2-Codex se retiraron el 2026-06-05.",
+    "fr": "La page des modèles pris en charge par GitHub Copilot liste désormais la gamme GPT-5 à GPT-6.1 ainsi que Claude Fable 5 / Fable 5.1 ; le Claude Opus 4.6 que nous citions a été remplacé. D'après le changelog GitHub, GPT-5.2 et GPT-5.2-Codex ont été retirés le 2026-06-05."
   },
   "verdict": {
     "badge": "Highly Recommended",
@@ -256,7 +256,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27",
     "pricingUrl": "https://github.com/pricing/"

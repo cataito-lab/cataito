@@ -92,31 +92,31 @@
   "pros": {
     "en": [
       "Zero cost beyond model API usage — no subscription, ever",
-      "Battle-tested: 44K+ GitHub stars, millions of installs, billions of tokens weekly",
+      "Battle-tested: 49.6K+ GitHub stars, millions of installs, billions of tokens weekly",
       "Repo map gives strong results on large codebases without huge contexts",
       "Git-native design makes every change reviewable and reversible"
     ],
     "zh": [
       "除模型 API 用量外零成本——永远没有订阅费",
-      "久经沙场：4.4 万+ GitHub star、数百万安装、每周数十亿 token",
+      "久经沙场：4.96 万+ GitHub star、数百万安装、每周数十亿 token",
       "repo map 不靠巨型上下文也能在大代码库上表现出色",
       "git 原生设计让每次改动都可审查、可回滚"
     ],
     "ja": [
       "モデルAPI利用料以外はゼロコスト——サブスクは永遠に不要",
-      "実戦で鍛えられた実績：GitHubスター4.4万超、数百万インストール、週数十億トークン",
+      "実戦で鍛えられた実績：GitHubスター4.96万超、数百万インストール、週数十億トークン",
       "repo mapにより巨大コンテキストなしでも大規模コードベースで高い成果",
       "gitネイティブ設計で全変更がレビュー可能・取り消し可能"
     ],
     "es": [
       "Coste cero más allá del uso de API del modelo: nunca hay suscripción",
-      "Probado en batalla: más de 44K estrellas en GitHub, millones de instalaciones, miles de millones de tokens semanales",
+      "Probado en batalla: más de 49,6K estrellas en GitHub, millones de instalaciones, miles de millones de tokens semanales",
       "El repo map logra buenos resultados en bases grandes sin contextos enormes",
       "El diseño nativo de git hace cada cambio revisable y reversible"
     ],
     "fr": [
       "Coût nul au-delà de l'usage API du modèle — jamais d'abonnement",
-      "Éprouvé : plus de 44K étoiles GitHub, des millions d'installations, des milliards de tokens par semaine",
+      "Éprouvé : plus de 49,6K étoiles GitHub, des millions d'installations, des milliards de tokens par semaine",
       "La repo map donne d'excellents résultats sur de grandes bases sans contextes énormes",
       "La conception native git rend chaque changement vérifiable et réversible"
     ]
@@ -154,11 +154,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Aider surpasses 44K GitHub stars and 6.8 million installs, processing over 15 billion tokens weekly; recent releases strengthen watch-mode IDE integration, local model support and automatic lint/test repair",
-    "zh": "2026 年：Aider 突破 4.4 万 GitHub star 与 680 万安装量，每周处理超 150 亿 token；近期版本强化了 watch 模式 IDE 集成、本地模型支持与自动 lint/测试修复",
-    "ja": "2026年：AiderはGitHubスター4.4万、680万インストールを突破し、週150億トークン超を処理。最近のリリースではwatchモードのIDE統合、ローカルモデル対応、lint/テスト自動修復を強化",
-    "es": "2026: Aider supera las 44K estrellas en GitHub y 6,8 millones de instalaciones, procesando más de 15 000 millones de tokens semanales; las versiones recientes refuerzan la integración IDE del modo watch, el soporte de modelos locales y la reparación automática de lint/tests",
-    "fr": "2026 : Aider dépasse 44K étoiles GitHub et 6,8 millions d'installations, traitant plus de 15 milliards de tokens par semaine ; les versions récentes renforcent l'intégration IDE du mode watch, le support des modèles locaux et la réparation automatique lint/tests"
+    "en": "Aider's last release was v0.86.0 (2025-08-09) and the GitHub repository's last push is dated 2026-05-22, at roughly 49.6k stars. On its own release cadence the project has gone a long time without an update, so treat it as a maintenance risk when choosing.",
+    "zh": "Aider 最后一次发布是 v0.86.0（2025-08-09），GitHub 仓库最近一次推送停在 2026-05-22，星标约 4.96 万。按官方发布节奏看，项目已长时间没有更新，选型时应把它当作停更风险项看待。",
+    "ja": "Aider の最終リリースは v0.86.0（2025-08-09）、GitHub リポジトリの最後の変更は 2026-05-22 で、スター数は約4.96万。本人たちのリリース頻度に照らせばかなり長く更新が止まっており、選定時は保守リスクとして見るべきだ。",
+    "es": "El último lanzamiento de Aider fue v0.86.0 (2025-08-09) y el último push del repositorio de GitHub data del 2026-05-22, con unas 49,6k estrellas. Por su propio ritmo de publicación lleva mucho tiempo sin actualizarse; trátalo como un riesgo de mantenimiento al elegir.",
+    "fr": "La dernière version d'Aider était la v0.86.0 (2025-08-09) et le dernier push du dépôt GitHub date du 2026-05-22, pour environ 49,6k étoiles. Au vu de son propre rythme de publication, le projet n'a pas été mis à jour depuis longtemps ; à considérer comme un risque de maintenance au moment de choisir."
   },
   "verdict": {
     "badge": "Recommended",
@@ -227,7 +227,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },

@@ -1,7 +1,7 @@
 {
   "features": {
     "en": [
-      "Autonomous AI coding agent powered by GPT-5-Codex",
+      "Autonomous AI coding agent built by OpenAI",
       "Multi-file code editing and generation across entire repository",
       "Isolated sandbox environment for safe code execution and testing",
       "Open-source Codex CLI for terminal-native workflow",
@@ -11,7 +11,7 @@
       "70%+ on SWE-bench Verified benchmark"
     ],
     "zh": [
-      "基于 GPT-5-Codex 的自主 AI 编程智能体",
+      "OpenAI 出品的自主 AI 编程智能体",
       "跨整个仓库的多文件代码编辑与生成",
       "隔离沙箱环境，安全执行代码和测试",
       "开源的 Codex CLI，支持终端原生工作流",
@@ -21,7 +21,7 @@
       "SWE-bench Verified 基准测试 70%+"
     ],
     "ja": [
-      "GPT-5-Codex 搭載の自律型 AI コーディングエージェント",
+      "OpenAI 製の自律型 AI コーディングエージェント",
       "リポジトリ全体のマルチファイル編集と生成",
       "分離されたサンドボックス環境で安全な実行",
       "ターミナルネイティブの Codex CLI（オープンソース）",
@@ -31,7 +31,7 @@
       "SWE-bench Verified で 70% 以上"
     ],
     "es": [
-      "Agente de codificación autónomo impulsado por GPT-5-Codex",
+      "Agente de codificación autónomo creado por OpenAI",
       "Edición y generación de múltiples archivos en todo el repositorio",
       "Entorno sandbox aislado para ejecución segura de código",
       "Codex CLI de código abierto para flujo nativo en terminal",
@@ -41,7 +41,7 @@
       "70%+ en SWE-bench Verified"
     ],
     "fr": [
-      "Agent de codage IA autonome propulsé par GPT-5-Codex",
+      "Agent de codage IA autonome conçu par OpenAI",
       "Édition et génération multi-fichiers sur l'ensemble du dépôt",
       "Environnement sandbox isolé pour exécution sécurisée",
       "Codex CLI open source pour flux terminal natif",
@@ -208,11 +208,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026.07: OpenAI Codex runs on GPT-5-Codex model, scores 70%+ on SWE-bench Verified. Available across ChatGPT Plus ($20/mo), Pro ($200/mo), Team, and Enterprise tiers. Codex CLI is open source for terminal-native workflows. Parallel agent execution supports multiple simultaneous coding tasks.",
-    "zh": "2026年7月：OpenAI Codex 基于 GPT-5-Codex 模型，SWE-bench Verified 得分 70%+。支持 ChatGPT Plus（$20/月）、Pro（$200/月）、Team 和 Enterprise 多个订阅层级。Codex CLI 已开源，支持终端原生工作流和并行多任务执行。",
-    "ja": "2026年7月：OpenAI Codex が GPT-5-Codex モデルを搭載、SWE-bench Verified で 70% 以上を達成。ChatGPT Plus（月額20ドル）、Pro（月額200ドル）、Team、Enterprise で利用可能。Codex CLI は OSS 化。",
-    "es": "Julio 2026: OpenAI Codex funciona con el modelo GPT-5-Codex, 70%+ en SWE-bench Verified. Disponible en ChatGPT Plus (20$/mes), Pro (200$/mes), Team y Enterprise. Codex CLI es de código abierto.",
-    "fr": "Juillet 2026 : OpenAI Codex fonctionne sur le modèle GPT-5-Codex, 70%+ sur SWE-bench Verified. Disponible sur ChatGPT Plus (20$/mois), Pro (200$/mois), Team et Enterprise. Codex CLI est open source."
+    "en": "The Codex CLI is still shipping fast, with rust-v0.163.0 released on 2026-10-15. OpenAI's model line has moved to the GPT-6 generation (its model list carries gpt-6-astra, gpt-6.1-sol and gpt-6-luna), so the GPT-5-Codex this page previously named no longer reflects the current lineup.",
+    "zh": "Codex CLI 仍在高频发版，GitHub releases 最新为 rust-v0.163.0（2026-10-15）。OpenAI 模型线已进入 GPT-6 世代（官方模型清单列有 gpt-6-astra、gpt-6.1-sol、gpt-6-luna），本页此前写的 GPT-5-Codex 不再反映当前模型线。",
+    "ja": "Codex CLI は高頻度でリリースが続いており、GitHub releases の最新版は rust-v0.163.0（2026-10-15）。OpenAI のモデル線は GPT-6 世代へ移行済み（公式一覧に gpt-6-astra、gpt-6.1-sol、gpt-6-luna）。かつて書いた GPT-5-Codex は現行構成を反映していない。",
+    "es": "La CLI de Codex sigue publicando versiones a buen ritmo: la más reciente en GitHub releases es rust-v0.163.0 (2026-10-15). La línea de modelos de OpenAI entró en la generación GPT-6 (su listado incluye gpt-6-astra, gpt-6.1-sol y gpt-6-luna), así que el GPT-5-Codex que citábamos ya no refleja la oferta actual.",
+    "fr": "Le CLI Codex continue de publier rapidement : la dernière release GitHub est la rust-v0.163.0 (2026-10-15). La gamme de modèles d'OpenAI est entrée dans la génération GPT-6 (la liste officielle affiche gpt-6-astra, gpt-6.1-sol et gpt-6-luna), aussi le GPT-5-Codex que nous citions ne reflète plus l'offre actuelle."
   },
   "verdict": {
     "badge": "Recommended",
@@ -291,7 +291,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-15",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },
