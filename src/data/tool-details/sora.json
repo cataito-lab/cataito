@@ -137,11 +137,11 @@
     }
   },
   "latestUpdate": {
-    "en": "April 2026: Sora discontinued — web/app shut down, API closing September 2026",
-    "zh": "2026年4月：Sora 已停止服务——Web/App 已关闭，API 将于2026年9月关闭",
-    "ja": "2026年4月：Sora サービス終了——Web/アプリ停止、APIは2026年9月に終了",
-    "es": "Abril 2026: Sora descontinuado — web/app cerrada, API cierra septiembre 2026",
-    "fr": "Avril 2026 : Sora arrêté — web/app fermés, API ferme en septembre 2026"
+    "en": "Sora is fully discontinued: the web and app experiences ended 2026-04-26 and the API ended 2026-09-24, per OpenAI's help-centre notice. Note that OpenAI's API docs page still carries leftover sora-2 / sora-2-pro entries that contradict the shutdown notice, so do not read that page as evidence the service is live.",
+    "zh": "Sora 已完全停服：网页与 App 于 2026-04-26 关闭，API 于 2026-09-24 停止（OpenAI 帮助中心公告）。本次复核另注意到 OpenAI 的 API 文档页仍残留 sora-2 / sora-2-pro 条目，与其停服公告不一致，勿据此判断服务仍在。",
+    "ja": "Sora は完全に終了した。Web とアプリは 2026-04-26、API は 2026-09-24 に停止（OpenAI ヘルプセンターの告知）。なお今回の確認では、OpenAI の API ドキュメントページに sora-2 / sora-2-pro の記述が残っており、停告知出と食い違っているため、これを根拠に稼働中と判断しないこと。",
+    "es": "Sora quedó totalmente descontinuado: la web y la app cerraron el 2026-04-26 y la API el 2026-09-24, según el aviso del centro de ayuda de OpenAI. Además, la página de documentación de la API de OpenAI todavía conserva entradas de sora-2 / sora-2-pro que contradicen ese aviso, así que no conviene tomarlas como señal de que el servicio sigue activo.",
+    "fr": "Sora est entièrement arrêté : le web et l'application ont pris fin le 2026-04-26, l'API le 2026-09-24, d'après la notice du centre d'aide d'OpenAI. À noter que la page de documentation de l'API conserve des mentions sora-2 / sora-2-pro qui contredisent cet avis ; il ne faut donc pas les lire comme la preuve que le service est encore actif."
   },
   "verdict": {
     "badge": "Consider Alternatives",
@@ -205,7 +205,7 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-30",
+    "lastVerified": "2026-10-16",
     "verdictDate": "2026-07-27",
     "pricingVerified": "2026-07-27"
   },
