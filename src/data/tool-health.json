@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-17T08:32:53.969Z",
+  "updatedAt": "2026-10-17T13:58:36.797Z",
   "summary": {
     "total": 293,
-    "ok": 292,
+    "ok": 293,
     "dead": 0,
     "unreachable": 0
   },
@@ -2249,10 +2249,10 @@
     },
     "mongodb-mcp": {
       "kind": "mcp",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-10-17"
     },
     "cloudbase-mcp": {
