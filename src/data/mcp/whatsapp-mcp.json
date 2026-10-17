@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y whatsapp-mcp",
   "logo": "/logos/mcp/whatsapp-mcp.png",
-  "stars": 6634,
+  "stars": 6639,
   "featured": false,
   "faqs": [
     {

@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y @getsentry/xcodebuild-mcp",
   "logo": "/logos/mcp/xcodebuild-mcp.png",
-  "stars": 6485,
+  "stars": 6486,
   "featured": false,
   "faqs": [
     {
