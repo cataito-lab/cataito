@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-18T08:50:27.899Z",
+  "updatedAt": "2026-10-18T14:10:39.708Z",
   "summary": {
     "total": 293,
-    "ok": 291,
+    "ok": 293,
     "dead": 0,
     "unreachable": 0
   },
@@ -449,10 +449,10 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-10-18"
     },
     "baichuan-ai": {
@@ -1329,10 +1329,10 @@
     },
     "microsoft-copilot": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-10-18"
     },
     "poe": {
