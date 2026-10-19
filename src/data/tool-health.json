@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T09:52:26.379Z",
+  "updatedAt": "2026-10-19T17:12:44.922Z",
   "summary": {
     "total": 293,
     "ok": 291,
@@ -457,10 +457,10 @@
     },
     "baichuan-ai": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-19"
     },
     "sensechat": {
@@ -1249,10 +1249,10 @@
     },
     "banani": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-10-19"
     },
     "grammarly": {
@@ -1531,7 +1531,7 @@
       "kind": "tool",
       "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 1,
+      "unreachableStreak": 2,
       "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-19"
     },
