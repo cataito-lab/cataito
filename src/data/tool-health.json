@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-21T09:21:13.778Z",
+  "updatedAt": "2026-10-21T15:40:02.443Z",
   "summary": {
     "total": 293,
-    "ok": 291,
+    "ok": 292,
     "dead": 0,
     "unreachable": 1
   },
@@ -457,10 +457,10 @@
     },
     "baichuan-ai": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-10-21"
     },
     "sensechat": {
@@ -724,7 +724,7 @@
       "status": "ok",
       "deadStreak": 0,
       "unreachableStreak": 0,
-      "lastClass": "PROTECTED",
+      "lastClass": "OK",
       "lastChecked": "2026-10-21"
     },
     "zcode": {
@@ -1531,7 +1531,7 @@
       "kind": "tool",
       "status": "unreachable",
       "deadStreak": 0,
-      "unreachableStreak": 5,
+      "unreachableStreak": 6,
       "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-21"
     },
