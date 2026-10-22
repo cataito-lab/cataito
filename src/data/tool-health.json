@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T09:23:53.316Z",
+  "updatedAt": "2026-10-22T15:42:09.888Z",
   "summary": {
     "total": 293,
     "ok": 293,
@@ -724,7 +724,7 @@
       "status": "ok",
       "deadStreak": 0,
       "unreachableStreak": 0,
-      "lastClass": "OK",
+      "lastClass": "PROTECTED",
       "lastChecked": "2026-10-22"
     },
     "zcode": {
