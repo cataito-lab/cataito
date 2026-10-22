@@ -22,7 +22,7 @@
   ],
   "installCommand": "git clone https://github.com/Thysrael/Horizon.git && cd Horizon",
   "logo": "/logos/skills/horizon.png",
-  "stars": 10933,
+  "stars": 10944,
   "featured": false,
   "faqs": [
     {
