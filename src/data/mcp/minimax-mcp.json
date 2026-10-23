@@ -24,7 +24,7 @@
   ],
   "installCommand": "uvx --from git+https://github.com/MiniMax-AI/MiniMax-MCP -- MiniMax-MCP --api-key YOUR_API_KEY",
   "logo": "/logos/mcp/minimax-mcp.png",
-  "stars": 1594,
+  "stars": 1591,
   "featured": false,
   "faqs": [
     {
