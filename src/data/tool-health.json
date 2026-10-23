@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-23T09:20:12.514Z",
+  "updatedAt": "2026-10-23T15:29:57.439Z",
   "summary": {
     "total": 293,
-    "ok": 293,
+    "ok": 291,
     "dead": 0,
     "unreachable": 0
   },
@@ -457,10 +457,10 @@
     },
     "baichuan-ai": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-23"
     },
     "sensechat": {
@@ -473,10 +473,10 @@
     },
     "stepfun": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-23"
     },
     "360-zhinao": {
