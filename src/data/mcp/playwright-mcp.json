@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx @playwright/mcp@latest",
   "logo": "/logos/mcp/playwright-mcp.png",
-  "stars": 38556,
+  "stars": 38568,
   "featured": false,
   "faqs": [
     {
