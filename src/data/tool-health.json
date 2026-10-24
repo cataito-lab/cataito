@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-24T08:52:12.288Z",
+  "updatedAt": "2026-10-24T14:08:29.634Z",
   "summary": {
     "total": 293,
-    "ok": 292,
+    "ok": 291,
     "dead": 0,
     "unreachable": 0
   },
@@ -449,10 +449,10 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-24"
     },
     "baichuan-ai": {
@@ -473,10 +473,10 @@
     },
     "stepfun": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-24"
     },
     "360-zhinao": {
@@ -1249,10 +1249,10 @@
     },
     "banani": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-10-24"
     },
     "grammarly": {
