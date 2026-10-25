@@ -23,7 +23,7 @@
   ],
   "installCommand": "uvx awslabs.core-mcp-server@latest",
   "logo": "/logos/mcp/aws-mcp.png",
-  "stars": 9829,
+  "stars": 9831,
   "featured": false,
   "faqs": [
     {
