@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @stripe/mcp",
   "logo": "/logos/mcp/stripe-mcp.png",
-  "stars": 1965,
+  "stars": 1967,
   "featured": false,
   "faqs": [
     {
