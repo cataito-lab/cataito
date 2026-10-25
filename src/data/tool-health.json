@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T09:08:25.076Z",
+  "updatedAt": "2026-10-25T14:36:09.656Z",
   "summary": {
     "total": 293,
-    "ok": 293,
+    "ok": 292,
     "dead": 0,
     "unreachable": 0
   },
@@ -473,10 +473,10 @@
     },
     "stepfun": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-25"
     },
     "360-zhinao": {
