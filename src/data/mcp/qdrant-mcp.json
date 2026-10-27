@@ -24,7 +24,7 @@
   ],
   "installCommand": "uvx mcp-server-qdrant",
   "logo": "/logos/mcp/qdrant-mcp.png",
-  "stars": 1554,
+  "stars": 1556,
   "featured": false,
   "faqs": [
     {
