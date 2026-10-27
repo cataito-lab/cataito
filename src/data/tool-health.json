@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T09:48:03.150Z",
+  "updatedAt": "2026-10-27T16:03:54.308Z",
   "summary": {
     "total": 293,
     "ok": 292,
@@ -459,7 +459,7 @@
       "kind": "tool",
       "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 2,
+      "unreachableStreak": 3,
       "lastClass": "UNREACHABLE",
       "lastChecked": "2026-10-27"
     },
