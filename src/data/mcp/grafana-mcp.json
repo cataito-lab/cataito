@@ -23,7 +23,7 @@
   ],
   "installCommand": "uvx mcp-grafana",
   "logo": "/logos/mcp/grafana-mcp.png",
-  "stars": 3616,
+  "stars": 3620,
   "featured": false,
   "faqs": [
     {

@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y slack-mcp-server@latest",
   "logo": "/logos/mcp/slack-mcp.png",
-  "stars": 1876,
+  "stars": 1878,
   "featured": false,
   "faqs": [
     {
