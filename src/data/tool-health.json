@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T17:06:50.271Z",
+  "updatedAt": "2026-10-30T10:51:26.698Z",
   "summary": {
     "total": 293,
     "ok": 292,
@@ -13,7 +13,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "claude": {
       "kind": "tool",
@@ -21,7 +21,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "gemini": {
       "kind": "tool",
@@ -29,7 +29,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "grok": {
       "kind": "tool",
@@ -37,7 +37,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "deepseek": {
       "kind": "tool",
@@ -45,7 +45,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "qwen": {
       "kind": "tool",
@@ -53,7 +53,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "wenxin": {
       "kind": "tool",
@@ -61,7 +61,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "doubao": {
       "kind": "tool",
@@ -69,7 +69,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "zhipu": {
       "kind": "tool",
@@ -77,7 +77,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "kimi": {
       "kind": "tool",
@@ -85,7 +85,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "yuanbao": {
       "kind": "tool",
@@ -93,7 +93,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "midjourney": {
       "kind": "tool",
@@ -101,7 +101,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "dalle": {
       "kind": "tool",
@@ -109,7 +109,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "stable-diffusion": {
       "kind": "tool",
@@ -117,7 +117,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "github-copilot": {
       "kind": "tool",
@@ -125,7 +125,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "cursor": {
       "kind": "tool",
@@ -133,7 +133,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "perplexity": {
       "kind": "tool",
@@ -141,7 +141,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "notion-ai": {
       "kind": "tool",
@@ -149,7 +149,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "jasper": {
       "kind": "tool",
@@ -157,7 +157,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "runway": {
       "kind": "tool",
@@ -165,7 +165,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "elevenlabs": {
       "kind": "tool",
@@ -173,7 +173,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "suno": {
       "kind": "tool",
@@ -181,7 +181,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "hugging-face": {
       "kind": "tool",
@@ -189,7 +189,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "langchain": {
       "kind": "tool",
@@ -197,7 +197,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "v0": {
       "kind": "tool",
@@ -205,7 +205,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "zapier-ai": {
       "kind": "tool",
@@ -213,7 +213,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "autogpt": {
       "kind": "tool",
@@ -221,7 +221,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "copy-ai": {
       "kind": "tool",
@@ -229,7 +229,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "descript": {
       "kind": "tool",
@@ -237,7 +237,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "replit-ai": {
       "kind": "tool",
@@ -245,7 +245,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "canva-ai": {
       "kind": "tool",
@@ -253,7 +253,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "leonardo-ai": {
       "kind": "tool",
@@ -261,7 +261,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "pika": {
       "kind": "tool",
@@ -269,7 +269,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "deepl": {
       "kind": "tool",
@@ -277,7 +277,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "tabnine": {
       "kind": "tool",
@@ -285,7 +285,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "MOVED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "character-ai": {
       "kind": "tool",
@@ -293,7 +293,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "whisper": {
       "kind": "tool",
@@ -301,7 +301,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "llama": {
       "kind": "tool",
@@ -309,7 +309,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "MOVED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "hermes-agent": {
       "kind": "tool",
@@ -317,7 +317,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "jimeng-ai": {
       "kind": "tool",
@@ -325,7 +325,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "kling-ai": {
       "kind": "tool",
@@ -333,7 +333,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "windsurf": {
       "kind": "tool",
@@ -341,7 +341,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "sora": {
       "kind": "tool",
@@ -349,7 +349,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "mistral": {
       "kind": "tool",
@@ -357,7 +357,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "ollama": {
       "kind": "tool",
@@ -365,7 +365,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "bolt-new": {
       "kind": "tool",
@@ -373,7 +373,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "heygen": {
       "kind": "tool",
@@ -381,7 +381,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "google-ai-studio": {
       "kind": "tool",
@@ -389,7 +389,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "cohere": {
       "kind": "tool",
@@ -397,7 +397,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "minimax": {
       "kind": "tool",
@@ -405,7 +405,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "ideogram": {
       "kind": "tool",
@@ -413,7 +413,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "phind": {
       "kind": "tool",
@@ -421,7 +421,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "figma-ai": {
       "kind": "tool",
@@ -429,7 +429,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "iflytek-spark": {
       "kind": "tool",
@@ -437,7 +437,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "tiangong-ai": {
       "kind": "tool",
@@ -445,23 +445,23 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "yi-lingyi": {
-      "kind": "tool",
-      "status": "ok",
-      "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
-      "lastChecked": "2026-10-29"
-    },
-    "baichuan-ai": {
       "kind": "tool",
       "status": "suspect",
       "deadStreak": 0,
       "unreachableStreak": 1,
       "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
+    },
+    "baichuan-ai": {
+      "kind": "tool",
+      "status": "ok",
+      "deadStreak": 0,
+      "unreachableStreak": 0,
+      "lastClass": "OK",
+      "lastChecked": "2026-10-30"
     },
     "sensechat": {
       "kind": "tool",
@@ -469,7 +469,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "stepfun": {
       "kind": "tool",
@@ -477,7 +477,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "360-zhinao": {
       "kind": "tool",
@@ -485,7 +485,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "meta-ai": {
       "kind": "tool",
@@ -493,7 +493,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "phi-4": {
       "kind": "tool",
@@ -501,7 +501,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "amazon-nova": {
       "kind": "tool",
@@ -509,7 +509,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "xiaomi-mimo": {
       "kind": "tool",
@@ -517,7 +517,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "adobe-firefly": {
       "kind": "tool",
@@ -525,7 +525,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "flux-ai": {
       "kind": "tool",
@@ -533,7 +533,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "veo": {
       "kind": "tool",
@@ -541,7 +541,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "luma-dream-machine": {
       "kind": "tool",
@@ -549,7 +549,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "vidu": {
       "kind": "tool",
@@ -557,7 +557,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "udio": {
       "kind": "tool",
@@ -565,7 +565,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "claude-code": {
       "kind": "tool",
@@ -573,7 +573,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "lovable": {
       "kind": "tool",
@@ -581,7 +581,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "dify": {
       "kind": "tool",
@@ -589,7 +589,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "coze": {
       "kind": "tool",
@@ -597,7 +597,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "manus": {
       "kind": "tool",
@@ -605,7 +605,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "groq": {
       "kind": "tool",
@@ -613,7 +613,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "openrouter": {
       "kind": "tool",
@@ -621,7 +621,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "codex": {
       "kind": "tool",
@@ -629,7 +629,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "qoder": {
       "kind": "tool",
@@ -637,7 +637,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "qodercn": {
       "kind": "tool",
@@ -645,7 +645,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "openclaw": {
       "kind": "tool",
@@ -653,7 +653,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "workbuddy": {
       "kind": "tool",
@@ -661,7 +661,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "workbuddy-cn": {
       "kind": "tool",
@@ -669,7 +669,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "seedance": {
       "kind": "tool",
@@ -677,7 +677,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "coze-cn": {
       "kind": "tool",
@@ -685,7 +685,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "miora": {
       "kind": "tool",
@@ -693,7 +693,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "kimi-code": {
       "kind": "tool",
@@ -701,7 +701,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "kimi-code-cn": {
       "kind": "tool",
@@ -709,7 +709,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "trae": {
       "kind": "tool",
@@ -717,7 +717,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "trae-cn": {
       "kind": "tool",
@@ -725,7 +725,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "zcode": {
       "kind": "tool",
@@ -733,7 +733,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "zcode-cn": {
       "kind": "tool",
@@ -741,7 +741,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "marvis": {
       "kind": "tool",
@@ -749,7 +749,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "nano-banana": {
       "kind": "tool",
@@ -757,7 +757,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "sensenova": {
       "kind": "tool",
@@ -765,7 +765,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "openwork": {
       "kind": "tool",
@@ -773,7 +773,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "grok-build": {
       "kind": "tool",
@@ -781,7 +781,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "hunyuan": {
       "kind": "tool",
@@ -789,7 +789,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "pangu": {
       "kind": "tool",
@@ -797,7 +797,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "nvidia-nemotron": {
       "kind": "tool",
@@ -805,7 +805,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "ibm-granite": {
       "kind": "tool",
@@ -813,7 +813,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "apple-foundation-models": {
       "kind": "tool",
@@ -821,7 +821,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "devin": {
       "kind": "tool",
@@ -829,7 +829,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "openhands": {
       "kind": "tool",
@@ -837,7 +837,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "crewai": {
       "kind": "tool",
@@ -845,7 +845,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "browser-use": {
       "kind": "tool",
@@ -853,7 +853,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "genspark": {
       "kind": "tool",
@@ -861,7 +861,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "langgraph": {
       "kind": "tool",
@@ -869,7 +869,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "microsoft-agent-framework": {
       "kind": "tool",
@@ -877,7 +877,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "pydantic-ai": {
       "kind": "tool",
@@ -885,7 +885,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "mastra": {
       "kind": "tool",
@@ -893,7 +893,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "flowise": {
       "kind": "tool",
@@ -901,7 +901,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "factory-ai": {
       "kind": "tool",
@@ -909,7 +909,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "goose": {
       "kind": "tool",
@@ -917,7 +917,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "lindy": {
       "kind": "tool",
@@ -925,7 +925,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "gumloop": {
       "kind": "tool",
@@ -933,7 +933,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "skyvern": {
       "kind": "tool",
@@ -941,7 +941,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "make-ai": {
       "kind": "tool",
@@ -949,7 +949,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "agentforce": {
       "kind": "tool",
@@ -957,7 +957,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "copilot-studio": {
       "kind": "tool",
@@ -965,7 +965,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "cline": {
       "kind": "tool",
@@ -973,7 +973,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "aider": {
       "kind": "tool",
@@ -981,7 +981,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "warp": {
       "kind": "tool",
@@ -989,7 +989,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "augment-code": {
       "kind": "tool",
@@ -997,7 +997,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "pi": {
       "kind": "tool",
@@ -1005,7 +1005,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "recraft": {
       "kind": "tool",
@@ -1013,7 +1013,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "reve": {
       "kind": "tool",
@@ -1021,7 +1021,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "playground-ai": {
       "kind": "tool",
@@ -1029,7 +1029,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "hailuo": {
       "kind": "tool",
@@ -1037,7 +1037,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "pixverse": {
       "kind": "tool",
@@ -1045,7 +1045,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "pixverse-cn": {
       "kind": "tool",
@@ -1053,7 +1053,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "metaso": {
       "kind": "tool",
@@ -1061,7 +1061,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "felo": {
       "kind": "tool",
@@ -1069,7 +1069,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "kagi": {
       "kind": "tool",
@@ -1077,7 +1077,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "fish-audio": {
       "kind": "tool",
@@ -1085,7 +1085,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "minimax-audio": {
       "kind": "tool",
@@ -1093,7 +1093,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "synthesia": {
       "kind": "tool",
@@ -1101,7 +1101,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "d-id": {
       "kind": "tool",
@@ -1109,7 +1109,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "tavus": {
       "kind": "tool",
@@ -1117,7 +1117,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "together-ai": {
       "kind": "tool",
@@ -1125,7 +1125,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "fireworks-ai": {
       "kind": "tool",
@@ -1133,7 +1133,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "replicate": {
       "kind": "tool",
@@ -1141,7 +1141,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "fal-ai": {
       "kind": "tool",
@@ -1149,7 +1149,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "cerebras": {
       "kind": "tool",
@@ -1157,7 +1157,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "sambanova": {
       "kind": "tool",
@@ -1165,7 +1165,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "novita": {
       "kind": "tool",
@@ -1173,7 +1173,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "hyperbolic": {
       "kind": "tool",
@@ -1181,7 +1181,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "cartesia": {
       "kind": "tool",
@@ -1189,7 +1189,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "exa": {
       "kind": "tool",
@@ -1197,7 +1197,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "stable-audio": {
       "kind": "tool",
@@ -1205,7 +1205,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "framer": {
       "kind": "tool",
@@ -1213,7 +1213,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "krea": {
       "kind": "tool",
@@ -1221,7 +1221,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "uizard": {
       "kind": "tool",
@@ -1229,7 +1229,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "visily": {
       "kind": "tool",
@@ -1237,7 +1237,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "relume": {
       "kind": "tool",
@@ -1245,7 +1245,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "banani": {
       "kind": "tool",
@@ -1253,7 +1253,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "grammarly": {
       "kind": "tool",
@@ -1261,7 +1261,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "quillbot": {
       "kind": "tool",
@@ -1269,7 +1269,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "rytr": {
       "kind": "tool",
@@ -1277,7 +1277,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "sudowrite": {
       "kind": "tool",
@@ -1285,7 +1285,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "prowritingaid": {
       "kind": "tool",
@@ -1293,7 +1293,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "kiro": {
       "kind": "tool",
@@ -1301,7 +1301,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "jules": {
       "kind": "tool",
@@ -1309,7 +1309,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "jetbrains-ai": {
       "kind": "tool",
@@ -1317,7 +1317,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "amp": {
       "kind": "tool",
@@ -1325,7 +1325,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "microsoft-copilot": {
       "kind": "tool",
@@ -1333,7 +1333,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "poe": {
       "kind": "tool",
@@ -1341,7 +1341,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "notebooklm": {
       "kind": "tool",
@@ -1349,7 +1349,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "consensus": {
       "kind": "tool",
@@ -1357,7 +1357,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "murf-ai": {
       "kind": "tool",
@@ -1365,7 +1365,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "krisp": {
       "kind": "tool",
@@ -1373,7 +1373,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "opusclip": {
       "kind": "tool",
@@ -1381,7 +1381,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "capcut": {
       "kind": "tool",
@@ -1389,7 +1389,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "veed": {
       "kind": "tool",
@@ -1397,7 +1397,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "photoroom": {
       "kind": "tool",
@@ -1405,7 +1405,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "lm-studio": {
       "kind": "tool",
@@ -1413,7 +1413,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "wordtune": {
       "kind": "tool",
@@ -1421,7 +1421,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "n8n": {
       "kind": "tool",
@@ -1429,7 +1429,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "gsap": {
       "kind": "tool",
@@ -1437,7 +1437,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "voicebox": {
       "kind": "tool",
@@ -1445,7 +1445,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "ui-ux-pro-max": {
       "kind": "tool",
@@ -1453,7 +1453,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "MOVED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "reasonix": {
       "kind": "tool",
@@ -1461,7 +1461,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "PROTECTED",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "impeccable": {
       "kind": "tool",
@@ -1469,7 +1469,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "remotion": {
       "kind": "tool",
@@ -1477,7 +1477,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "hyperframes": {
       "kind": "tool",
@@ -1485,7 +1485,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "firecrawl": {
       "kind": "tool",
@@ -1493,7 +1493,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "codex-dream-skin": {
       "kind": "tool",
@@ -1501,7 +1501,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "markitdown": {
       "kind": "tool",
@@ -1509,7 +1509,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "aitoearn": {
       "kind": "tool",
@@ -1517,7 +1517,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "wigolo": {
       "kind": "tool",
@@ -1525,7 +1525,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "voxcpm": {
       "kind": "tool",
@@ -1533,7 +1533,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "llamaindex": {
       "kind": "tool",
@@ -1541,7 +1541,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "qm": {
       "kind": "tool",
@@ -1549,7 +1549,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "polar": {
       "kind": "tool",
@@ -1557,7 +1557,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "deepseek-harness": {
       "kind": "tool",
@@ -1565,7 +1565,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "awesome-selfhosted": {
       "kind": "skill",
@@ -1573,7 +1573,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "superpowers": {
       "kind": "skill",
@@ -1581,7 +1581,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "grill-me": {
       "kind": "skill",
@@ -1589,7 +1589,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "grill-with-docs": {
       "kind": "skill",
@@ -1597,7 +1597,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "improve-codebase-architecture": {
       "kind": "skill",
@@ -1605,7 +1605,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "agency-agents": {
       "kind": "skill",
@@ -1613,7 +1613,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "banner-design": {
       "kind": "skill",
@@ -1621,7 +1621,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "brand": {
       "kind": "skill",
@@ -1629,7 +1629,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "design": {
       "kind": "skill",
@@ -1637,7 +1637,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "design-system": {
       "kind": "skill",
@@ -1645,7 +1645,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "slides": {
       "kind": "skill",
@@ -1653,7 +1653,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "ui-styling": {
       "kind": "skill",
@@ -1661,7 +1661,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "caveman": {
       "kind": "skill",
@@ -1669,7 +1669,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "taste-skill": {
       "kind": "skill",
@@ -1677,7 +1677,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "agent-reach": {
       "kind": "skill",
@@ -1685,7 +1685,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "media-crawler": {
       "kind": "skill",
@@ -1693,7 +1693,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "humanizer": {
       "kind": "skill",
@@ -1701,7 +1701,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "nuwa-skill": {
       "kind": "skill",
@@ -1709,7 +1709,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "find-skills": {
       "kind": "skill",
@@ -1717,7 +1717,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "book-to-skill": {
       "kind": "skill",
@@ -1725,7 +1725,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "tencentdb-agent-memory": {
       "kind": "skill",
@@ -1733,7 +1733,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "huashu-design": {
       "kind": "skill",
@@ -1741,7 +1741,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "pyvideotrans": {
       "kind": "skill",
@@ -1749,7 +1749,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "humanizer-zh": {
       "kind": "skill",
@@ -1757,7 +1757,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "ian-xiaohei-illustrations": {
       "kind": "skill",
@@ -1765,7 +1765,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "horizon": {
       "kind": "skill",
@@ -1773,7 +1773,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "gc-minimal-zine-poster": {
       "kind": "skill",
@@ -1781,7 +1781,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "guizang-social-card": {
       "kind": "skill",
@@ -1789,7 +1789,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "photo-abstract-editorial": {
       "kind": "skill",
@@ -1797,7 +1797,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "gathered-scenes-zine-skill": {
       "kind": "skill",
@@ -1805,7 +1805,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "generative-media-skills": {
       "kind": "skill",
@@ -1813,7 +1813,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "qwen-mm-plugins": {
       "kind": "skill",
@@ -1821,7 +1821,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "agent-skill-creator": {
       "kind": "skill",
@@ -1829,7 +1829,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "auto-redbook-skills": {
       "kind": "skill",
@@ -1837,7 +1837,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "global-stock-data": {
       "kind": "skill",
@@ -1845,7 +1845,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "travel-photo-abstraction": {
       "kind": "skill",
@@ -1853,7 +1853,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "photo-stamp-archive": {
       "kind": "skill",
@@ -1861,7 +1861,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "lumina-card": {
       "kind": "skill",
@@ -1869,7 +1869,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "mcp-official-servers": {
       "kind": "mcp",
@@ -1877,7 +1877,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "context7": {
       "kind": "mcp",
@@ -1885,7 +1885,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "chrome-devtools-mcp": {
       "kind": "mcp",
@@ -1893,7 +1893,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "playwright-mcp": {
       "kind": "mcp",
@@ -1901,7 +1901,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "github-mcp-server": {
       "kind": "mcp",
@@ -1909,7 +1909,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "composio": {
       "kind": "mcp",
@@ -1917,7 +1917,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "serena": {
       "kind": "mcp",
@@ -1925,7 +1925,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "task-master": {
       "kind": "mcp",
@@ -1933,7 +1933,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "blender-mcp": {
       "kind": "mcp",
@@ -1941,7 +1941,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "figma-context-mcp": {
       "kind": "mcp",
@@ -1949,7 +1949,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "unity-mcp": {
       "kind": "mcp",
@@ -1957,7 +1957,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "ida-pro-mcp": {
       "kind": "mcp",
@@ -1965,7 +1965,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "aws-mcp": {
       "kind": "mcp",
@@ -1973,7 +1973,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "desktop-commander": {
       "kind": "mcp",
@@ -1981,7 +1981,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "firecrawl-mcp": {
       "kind": "mcp",
@@ -1989,7 +1989,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "browser-tools": {
       "kind": "mcp",
@@ -1997,7 +1997,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "browser-mcp": {
       "kind": "mcp",
@@ -2005,7 +2005,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "xcodebuild-mcp": {
       "kind": "mcp",
@@ -2013,7 +2013,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "whatsapp-mcp": {
       "kind": "mcp",
@@ -2021,7 +2021,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "atlassian-mcp": {
       "kind": "mcp",
@@ -2029,7 +2029,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "magic-mcp": {
       "kind": "mcp",
@@ -2037,7 +2037,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "exa-mcp": {
       "kind": "mcp",
@@ -2045,7 +2045,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "notion-mcp-server": {
       "kind": "mcp",
@@ -2053,7 +2053,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "obsidian-mcp": {
       "kind": "mcp",
@@ -2061,7 +2061,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "antv-chart": {
       "kind": "mcp",
@@ -2069,7 +2069,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "excel-mcp": {
       "kind": "mcp",
@@ -2077,7 +2077,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "cloudflare-mcp": {
       "kind": "mcp",
@@ -2085,7 +2085,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "azure-mcp": {
       "kind": "mcp",
@@ -2093,7 +2093,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "grafana-mcp": {
       "kind": "mcp",
@@ -2101,7 +2101,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "apple-mcp": {
       "kind": "mcp",
@@ -2109,7 +2109,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "supabase-mcp": {
       "kind": "mcp",
@@ -2117,7 +2117,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "perplexity-mcp": {
       "kind": "mcp",
@@ -2125,7 +2125,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "tavily-mcp": {
       "kind": "mcp",
@@ -2133,7 +2133,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "office-word-mcp": {
       "kind": "mcp",
@@ -2141,7 +2141,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "office-ppt-mcp": {
       "kind": "mcp",
@@ -2149,7 +2149,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "slack-mcp": {
       "kind": "mcp",
@@ -2157,7 +2157,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "stripe-mcp": {
       "kind": "mcp",
@@ -2165,7 +2165,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "kubernetes-mcp": {
       "kind": "mcp",
@@ -2173,7 +2173,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "minimax-mcp": {
       "kind": "mcp",
@@ -2181,7 +2181,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "docker-mcp": {
       "kind": "mcp",
@@ -2189,7 +2189,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "elevenlabs-mcp": {
       "kind": "mcp",
@@ -2197,7 +2197,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "terraform-mcp": {
       "kind": "mcp",
@@ -2205,7 +2205,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "qdrant-mcp": {
       "kind": "mcp",
@@ -2213,7 +2213,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "duckduckgo-mcp": {
       "kind": "mcp",
@@ -2221,7 +2221,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "brave-search-mcp": {
       "kind": "mcp",
@@ -2229,7 +2229,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "searxng-mcp": {
       "kind": "mcp",
@@ -2237,7 +2237,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "gmail-mcp": {
       "kind": "mcp",
@@ -2245,7 +2245,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "mongodb-mcp": {
       "kind": "mcp",
@@ -2253,7 +2253,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "cloudbase-mcp": {
       "kind": "mcp",
@@ -2261,7 +2261,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "sentry-mcp": {
       "kind": "mcp",
@@ -2269,7 +2269,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "smithery": {
       "kind": "mcp",
@@ -2277,7 +2277,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "elasticsearch-mcp": {
       "kind": "mcp",
@@ -2285,7 +2285,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "neon-mcp": {
       "kind": "mcp",
@@ -2293,7 +2293,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "redis-mcp": {
       "kind": "mcp",
@@ -2301,7 +2301,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "edgeone-pages-mcp": {
       "kind": "mcp",
@@ -2309,7 +2309,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "anthropic-skills": {
       "kind": "skill",
@@ -2317,7 +2317,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "agent-skills": {
       "kind": "skill",
@@ -2325,7 +2325,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "browser-skill": {
       "kind": "skill",
@@ -2333,7 +2333,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "laya": {
       "kind": "tool",
@@ -2341,7 +2341,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "cli-anything": {
       "kind": "tool",
@@ -2349,7 +2349,7 @@
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     }
   }
 }
