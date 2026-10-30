@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @elastic/mcp-server-elasticsearch",
   "logo": "/logos/mcp/elasticsearch-mcp.png",
-  "stars": 726,
+  "stars": 728,
   "featured": false,
   "faqs": [
     {
