@@ -1,0 +1,244 @@
+{
+  "features": {
+    "zh": [
+      "跨应用任务执行：一句话下达需求，自动拆解并调度多个软件完成——文件夹整理、Word/Excel/PPT 与 PDF 互转、合同与纪要的关键信息提取",
+      "自然语言编程：描述需求即可生成网站与应用，边生成边预览、自动定位并修复问题——2026 年 9 月文心快码（Comate）Coding Agent 能力融入平台",
+      "流程自动化：定时任务调度、跨应用数据传递、操作录制回放，把重复操作变成标准流程",
+      "本地沙箱执行：官方称文件夹级权限控制、风险操作二次确认、数据不出设备",
+      "技能扩展：内置多种 Skills 并支持自动创建新技能，随业务需求扩展办公能力"
+    ],
+    "en": [
+      "Cross-app task execution: state a request in one sentence and it decomposes and drives multiple apps — folder cleanup, Word/Excel/PPT and PDF conversion, extracting key terms from contracts and meeting notes",
+      "Natural-language coding: describe what you want and it generates runnable websites and apps with live preview and self-fixing — Baidu Comate's coding-agent capabilities merged into the platform in September 2026",
+      "Workflow automation: scheduled tasks, data passing between apps and recorded-action replay turn repetitive operations into standard flows",
+      "Local sandbox execution: Baidu states it offers folder-level permission control, confirmation for risky operations and data that never leaves the device",
+      "Skill extension: ships with built-in Skills and can create new ones as business needs grow"
+    ],
+    "ja": [
+      "アプリ横断タスク実行：一文で要件を伝えると複数アプリを自動で操作——フォルダ整理、Word/Excel/PPT と PDF の相互変換、契約書や議事録の要点抽出",
+      "自然言語プログラミング：要件を一文で書くと動作するサイトやアプリを生成し、プレビューしながら自動修正——2026 年 9 月に文心快码（Comate）のコーディングエージェント能力が統合",
+      "ワークフロー自動化：定時タスク、アプリ間のデータ受け渡し、操作録画の再現で定型作業を標準化",
+      "ローカルサンドボックス実行：フォルダ単位の権限管理、危険操作の二重確認、データが端末外に出ないと公式が説明",
+      "スキル拡張：内蔵スキルに加え、業務に合わせて新規スキルを自動作成可能"
+    ],
+    "es": [
+      "Ejecución de tareas entre aplicaciones: pides algo en una frase y descompone y opera varias apps — ordenar carpetas, convertir Word/Excel/PPT y PDF, extraer puntos clave de contratos y actas",
+      "Programación en lenguaje natural: describes lo que quieres y genera sitios y aplicaciones ejecutables con vista previa y corrección automática — en septiembre de 2026 se integraron las capacidades de agente de código de Baidu Comate",
+      "Automatización de flujos: tareas programadas, paso de datos entre aplicaciones y repetición de acciones grabadas convierten lo repetitivo en procesos estándar",
+      "Ejecución local en sandbox: Baidu indica control de permisos por carpeta, confirmación para operaciones de riesgo y datos que no salen del equipo",
+      "Extensión por habilidades: incluye Skills integradas y puede crear nuevas según las necesidades del negocio"
+    ],
+    "fr": [
+      "Exécution de tâches inter-applications : une phrase suffit pour décomposer et piloter plusieurs logiciels — rangement de dossiers, conversion Word/Excel/PPT et PDF, extraction des points clés de contrats et comptes rendus",
+      "Programmation en langage naturel : décrivez le besoin et elle génère des sites et applications exécutables, avec aperçu en direct et correction automatique — les capacités d'agent de code de Baidu Comate ont été intégrées en septembre 2026",
+      "Automatisation de flux : tâches programmées, transferts de données entre applications et rejeu d'actions enregistrées transforment les opérations répétitives en processus standards",
+      "Exécution locale en sandbox : Baidu indique un contrôle des permissions par dossier, une confirmation pour les opérations à risque et des données qui restent sur l'appareil",
+      "Extension par compétences : des Skills intégrées et la création automatique de nouvelles selon les besoins métier"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "zh": "个人体验版 ¥0/月：每日签到领取积分，高峰时段按优先级响应、使用可能受限",
+      "en": "Personal Free ¥0/month: daily check-in earns credits; responses are priority-ranked at peak hours and availability may be limited",
+      "ja": "個人無料版 ¥0/月：毎日のサインインでクレジット獲得。ピーク時間帯は優先度制で利用が制限される場合あり",
+      "es": "Personal gratuito ¥0/mes: créditos por check-in diario; en horas punta la respuesta se ordena por prioridad y puede verse limitada",
+      "fr": "Version personnelle gratuite ¥0/mois : crédits obtenus par pointage quotidien ; aux heures de pointe, réponses priorisées et disponibilité possiblement limitée"
+    },
+    "pro": {
+      "zh": "Pro ¥9.9 首月（次月起 ¥59/月，可随时取消）：25,000 积分/月，Comate 会员权益同享，Turbo/Ultra 模式权限",
+      "en": "Pro ¥9.9 first month (then ¥59/month, cancel anytime): 25,000 credits/month, Comate membership benefits included, Turbo/Ultra mode access",
+      "ja": "Pro 初月 ¥9.9（翌月から ¥59/月、いつでも解約可）：月 25,000 クレジット、Comate 会員特典付き、Turbo/Ultra モード利用可",
+      "es": "Pro ¥9.9 el primer mes (luego ¥59/mes, cancelable en cualquier momento): 25.000 créditos/mes, beneficios de membresía Comate incluidos, acceso a modos Turbo/Ultra",
+      "fr": "Pro ¥9.9 le premier mois (puis ¥59/mois, résiliable à tout moment) : 25 000 crédits/mois, avantages membres Comate inclus, accès aux modes Turbo/Ultra"
+    },
+    "max": {
+      "zh": "Max ¥69 首月（次月起 ¥129/月）：100,000 积分/月，其余权益与 Pro 相同",
+      "en": "Max ¥69 first month (then ¥129/month): 100,000 credits/month, other benefits same as Pro",
+      "ja": "Max 初月 ¥69（翌月から ¥129/月）：月 100,000 クレジット、その他の特典は Pro と同一",
+      "es": "Max ¥69 el primer mes (luego ¥129/mes): 100.000 créditos/mes, demás beneficios iguales que Pro",
+      "fr": "Max ¥69 le premier mois (puis ¥129/mois) : 100 000 crédits/mois, autres avantages identiques à Pro"
+    },
+    "booster": {
+      "zh": "增量包 ¥10 / 5,000 积分：仅 Pro 或 Max 用户可购，购买后 1 个月内有效",
+      "en": "Booster pack ¥10 / 5,000 credits: only for Pro or Max subscribers, valid for one month after purchase",
+      "ja": "追加パック ¥10 / 5,000 クレジット：Pro または Max ユーザー限定、購入後 1 か月有効",
+      "es": "Paquete extra ¥10 / 5.000 créditos: solo para suscriptores Pro o Max, válido un mes tras la compra",
+      "fr": "Pack bonus ¥10 / 5 000 crédits : réservé aux abonnés Pro ou Max, valable un mois après l'achat"
+    },
+    "enterprise": {
+      "zh": "企业版坐席制（百度智能云）：限时 ¥132/席位/月（原价 ¥189），1 席起购，资源点每月不重置",
+      "en": "Enterprise seats via Baidu AI Cloud: limited-time ¥132/seat/month (list ¥189), from one seat; resource points do not reset monthly",
+      "ja": "エンタープライズ版は座席制（百度智能雲）：期間限定 ¥132/席/月（定価 ¥189）、1 席から。リソースポイントは月次リセットなし",
+      "es": "Versión empresarial por puestos (Baidu AI Cloud): ¥132/puesto/mes por tiempo limitado (precio de lista ¥189), desde un puesto; los puntos de recursos no se reinician cada mes",
+      "fr": "Version entreprise par siège (Baidu AI Cloud) : ¥132/siège/mois en durée limitée (tarif ¥189), à partir d'un siège ; les points de ressources ne se réinitialisent pas chaque mois"
+    }
+  },
+  "useCases": {
+    "zh": [
+      "办公文档批处理：合同、纪要、报告的关键条款提取与结构化摘要，批量格式转换",
+      "快速原型：一句话生成可运行的小应用或内部工具，边预览边修",
+      "跨应用自动化：多软件之间的数据搬运、定时触发的重复流程、操作录制回放",
+      "团队与企业接入：企业版按坐席接入业务系统，沉淀组织资产"
+    ],
+    "en": [
+      "Office document batch-processing: extract key clauses and build structured summaries from contracts, minutes and reports; bulk format conversion",
+      "Rapid prototyping: generate a runnable mini-app or internal tool from one sentence and refine it with live preview",
+      "Cross-app automation: moving data between desktop apps, scheduled repetitive flows and recorded-action replay",
+      "Team and enterprise adoption: seat-based enterprise edition connects business systems and accumulates organizational assets"
+    ],
+    "ja": [
+      "オフィス文書の一括処理：契約書・議事録・報告書の要点抽出と構造化サマリー、フォーマット一括変換",
+      "高速プロトタイピング：一文から動作する小アプリや社内ツールを生成し、プレビューしながら改善",
+      "アプリ横断の自動化：デスクトップアプリ間のデータ移動、定時実行の反復フロー、操作録画の再現",
+      "チーム・企業導入：座席制エンタープライズ版で業務システムにつなぎ、組織資産として蓄積"
+    ],
+    "es": [
+      "Procesamiento por lotes de documentos: extraer cláusulas y crear resúmenes estructurados de contratos, actas e informes; conversión de formatos en lote",
+      "Prototipado rápido: generar una mini-aplicación ejecutable o herramienta interna desde una frase y refinarla con vista previa",
+      "Automatización entre aplicaciones: mover datos entre programas de escritorio, flujos repetitivos programados y repetición de acciones grabadas",
+      "Adopción en equipos y empresas: la edición empresarial por puestos conecta sistemas de negocio y acumula activos organizativos"
+    ],
+    "fr": [
+      "Traitement par lots de documents : extraire les clauses clés et produire des résumés structurés de contrats, comptes rendus et rapports ; conversion de formats en masse",
+      "Prototypage rapide : générer une mini-application exécutable ou un outil interne en une phrase et l'affiner avec aperçu en direct",
+      "Automatisation inter-applications : transferts de données entre logiciels, flux répétitifs programmés et rejeu d'actions enregistrées",
+      "Adoption en équipe et entreprise : l'édition entreprise par siège connecte les systèmes métier et capitalise les actifs organisationnels"
+    ]
+  },
+  "pros": {
+    "zh": [
+      "开箱即用门槛低：官网一键安装、零配置，Windows 10+/macOS（M 系列）/App 三端覆盖",
+      "隐私有明确口径：本地沙箱执行、文件夹级权限、风险操作二次确认（官方称数据不出设备）",
+      "办公与编程一体：文心快码 Coding Agent 融入，Pro/Max 会员权益与 Comate 同享",
+      "免费层按日签到领积分，轻量使用零成本"
+    ],
+    "en": [
+      "Low barrier to start: one-click install with zero configuration from the official site; Windows 10+, macOS (Apple silicon) and mobile app",
+      "Privacy has a clear policy: local sandbox execution, folder-level permissions and confirmation for risky operations (Baidu states data stays on-device)",
+      "Office and coding in one: Baidu Comate's coding agent is integrated, and Pro/Max memberships share Comate benefits",
+      "Free tier earns credits via daily check-in, so light use costs nothing"
+    ],
+    "ja": [
+      "導入のハードルが低い：公式サイトからワンクリックインストール・設定不要。Windows 10+／macOS（Apple シリコン）／モバイル App の三端対応",
+      "プライバシーの方針が明確：ローカルサンドボックス実行、フォルダ単位の権限、危険操作の二重確認（データは端末内にとどまると公式が説明）",
+      "オフィスと開発の一体型：文心快码（Comate）のコーディングエージェントを統合し、Pro/Max 会員は Comate 特典を共有",
+      "無料枠は毎日のサインインでクレジットを獲得でき、軽量利用ならゼロコスト"
+    ],
+    "es": [
+      "Barrera de entrada baja: instalación con un clic y sin configuración desde el sitio oficial; Windows 10+, macOS (Apple silicon) y app móvil",
+      "Política de privacidad clara: ejecución en sandbox local, permisos por carpeta y confirmación de operaciones de riesgo (Baidu afirma que los datos no salen del equipo)",
+      "Oficina y código en un solo producto: integrado con el agente de código de Baidu Comate; las membresías Pro/Max comparten beneficios de Comate",
+      "El nivel gratuito da créditos por check-in diario, así que el uso ligero no cuesta nada"
+    ],
+    "fr": [
+      "Faible barrière d'entrée : installation en un clic sans configuration depuis le site officiel ; Windows 10+, macOS (puces Apple) et application mobile",
+      "Politique de confidentialité explicite : exécution en sandbox locale, permissions par dossier, confirmation des opérations à risque (Baidu indique que les données restent sur l'appareil)",
+      "Bureau et code réunis : l'agent de code de Baidu Comate est intégré, et les abonnements Pro/Max partagent les avantages Comate",
+      "Le niveau gratuit accumule des crédits par pointage quotidien : un usage léger ne coûte rien"
+    ]
+  },
+  "cons": {
+    "zh": [
+      "积分制成本需要算账：Pro 次月 ¥59/月、Max ¥129/月，重度使用的积分消耗细则需自行核对官网计费说明",
+      "产品很新：2026 年推出，独立深度评测少，长期稳定性与效果上限未经验证",
+      "仅国内可用：官网 dumate.cn 无国际版或英文界面，海外生态整合有限",
+      "免费版高峰时段按优先级响应，官方明示使用可能受限"
+    ],
+    "en": [
+      "Credit-based costs need budgeting: ¥59/month for Pro and ¥129/month for Max after the first month; heavy users must check the billing rules themselves",
+      "The product is new: launched in 2026, with few independent in-depth reviews — long-term stability and capability ceiling are unproven",
+      "China-only: the official site dumate.cn has no international version or English interface, and integration with overseas ecosystems is limited",
+      "Free-tier responses are priority-ranked at peak hours; Baidu itself notes availability may be limited"
+    ],
+    "ja": [
+      "クレジット制のコスト計算が必要：Pro は翌月から ¥59/月、Max は ¥129/月。ヘビーユースの消費ルールは公式の課金説明で各自確認が必要",
+      "製品が新しい：2026 年登場で独立した詳細レビューが少なく、長期の安定性や能力の上限は未検証",
+      "中国国内向けのみ：公式サイト dumate.cn に国際版や英語 UI はなく、海外エコシステムとの統合は限定的",
+      "無料版はピーク時間帯に優先度制となり、公式も利用制限の可能性を明記"
+    ],
+    "es": [
+      "El coste por créditos exige calcular: ¥59/mes para Pro y ¥129/mes para Max tras el primer mes; los usuarios intensivos deben revisar las reglas de facturación en el sitio oficial",
+      "Producto muy nuevo: lanzado en 2026, con pocas reseñas independientes a fondo; la estabilidad a largo plazo y el techo de capacidad no están probados",
+      "Solo en China: el sitio oficial dumate.cn no tiene versión internacional ni interfaz en inglés, y la integración con ecosistemas extranjeros es limitada",
+      "Las respuestas gratuitas se priorizan en horas punta; el propio Baidu advierte que el uso puede verse limitado"
+    ],
+    "fr": [
+      "Le coût en crédits demande un calcul : ¥59/mois pour Pro et ¥129/mois pour Max après le premier mois ; les gros utilisateurs doivent vérifier les règles de facturation eux-mêmes",
+      "Produit très récent : lancé en 2026, peu d'avis indépendants approfondis — stabilité long terme et plafond de capacité non éprouvés",
+      "Chine uniquement : le site officiel dumate.cn n'a ni version internationale ni interface anglaise, et l'intégration aux écosystèmes étrangers est limitée",
+      "Les réponses gratuites sont priorisées aux heures de pointe ; Baidu indique lui-même que l'usage peut être limité"
+    ]
+  },
+  "latestUpdate": {
+    "zh": "2026-10-31 官网实测：Windows（win10 及以上）、macOS（M 系列）与移动 App 三端下载可用；个人版按体验版/Pro/Max/增量包计价，企业版由百度智能云按坐席提供。",
+    "en": "Verified on the official site on 2026-10-31: downloads for Windows (win10+), macOS (Apple silicon) and the mobile app are live; personal plans are priced as Free/Pro/Max plus credit packs, and the enterprise edition is sold per seat via Baidu AI Cloud.",
+    "ja": "2026-10-31 公式サイトで確認：Windows（win10 以上）・macOS（M シリーズ）・モバイル App の三端ダウンロードが利用可能。個人版は無料版／Pro／Max／追加パックの課金体系で、企業版は百度智能雲が座席単位で提供。",
+    "es": "Verificado en el sitio oficial el 31-10-2026: descargas disponibles para Windows (win10+), macOS (Apple silicon) y la app móvil; los planes personales se ofrecen como gratuito/Pro/Max más paquetes de créditos, y la versión empresarial se vende por puestos vía Baidu AI Cloud.",
+    "fr": "Vérifié sur le site officiel le 31-10-2026 : téléchargements disponibles pour Windows (win10+), macOS (Apple silicon) et l'application mobile ; les offres personnelles se déclinent en gratuite/Pro/Max plus packs de crédits, et l'édition entreprise se vend par siège via Baidu AI Cloud."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "zh": "办公自动化和轻量编程一体的国产桌面智能体，免费能试、按量要算账",
+      "en": "A China-only desktop agent combining office automation with light coding — free to try, but budget the credits",
+      "ja": "オフィス自動化と軽量コーディングを一つにした中国製デスクトップエージェント。無料で試せ、従量課金は見極めが必要",
+      "es": "Un agente de escritorio chino que une automatización de oficina y programación ligera — gratis para probar, pero calcula los créditos",
+      "fr": "Un agent de bureau chinois mêlant automatisation bureautique et code léger — gratuit à essayer, mais calculez les crédits"
+    },
+    "body": {
+      "zh": "DuMate（百度搭子）是百度 2026 年推出的通用桌面智能体：用自然语言驱动跨应用任务，覆盖文件整理、文档批处理、定时自动化，并在文心快码（Comate）融入后具备一句话生成可运行应用的能力。隐私方面官方给出明确口径——本地沙箱执行、文件夹级权限、风险操作二次确认、数据不出设备（以上为厂商自述）。免费层每日签到领积分即可轻量使用，Pro（首月 ¥9.9、次月 ¥59）与 Max（首月 ¥69、次月 ¥129）按月给积分、权益与 Comate 同享。我们的看法：值得试用，办公自动化是真需求也是它的主战场；但在重度依赖前，先按自己的任务量核对积分消耗，也别把「新产品」的稳定性当成既定事实。以下是我们的分析，不是报道事实。",
+      "en": "DuMate (Baidu Dazi) is a general-purpose desktop agent launched by Baidu in 2026: natural-language driven cross-app tasks covering file organization, document batch-processing and scheduled automation, and — after Baidu Comate was merged in — one-sentence generation of runnable apps. On privacy the vendor gives an explicit policy: local sandbox execution, folder-level permissions, confirmation for risky operations, data staying on-device (all vendor-stated). The free tier earns daily check-in credits for light use, while Pro (¥9.9 first month, then ¥59) and Max (¥69 then ¥129) grant monthly credits and share Comate benefits. Our take: worth trying — office automation is a real need and its home turf; before leaning on it heavily, check the credit burn against your own workload and do not assume a brand-new product is stable. The following is our analysis, not reported fact.",
+      "ja": "DuMate（百度搭子）は百度が 2026 年に投入した汎用デスクトップエージェントです。自然言語でアプリ横断タスクを駆動し、ファイル整理・文書一括処理・定時自動化をカバーし、文心快码（Comate）統合後は一文から動作するアプリを生成できます。プライバシーは公式に明確な方針があります——ローカルサンドボックス実行、フォルダ単位の権限、危険操作の二重確認、データは端末内（いずれもベンダー自身の説明）。無料枠は日次サインインのクレジットで軽量利用でき、Pro（初月 ¥9.9、翌月から ¥59）と Max（¥69→¥129）は月次クレジットと Comate 特典を共有します。私たちの見方：試用する価値あり。オフィス自動化は実際の需要であり、同製品の本業です。ただし本格依存の前に、自分の作業量でクレジット消費を確認し、新しい製品の安定性を前提にしないこと。以下は私たちの分析であり、報道事実ではありません。",
+      "es": "DuMate (Baidu Dazi) es un agente de escritorio de propósito general lanzado por Baidu en 2026: tareas entre aplicaciones por lenguaje natural que cubren organización de archivos, procesamiento por lotes y automatización programada y, tras integrarse Baidu Comate, generación de aplicaciones ejecutables desde una frase. En privacidad el fabricante da una política explícita: sandbox local, permisos por carpeta, confirmación de operaciones de riesgo y datos que no salen del equipo (según el propio fabricante). El nivel gratuito da créditos por check-in diario para uso ligero, mientras que Pro (¥9.9 el primer mes, luego ¥59) y Max (¥69 y ¥129) otorgan créditos mensuales y comparten beneficios de Comate. Nuestra opinión: vale la pena probarlo — la automatización de oficina es una necesidad real y su terreno natural; antes de depender de él, calcula el consumo de créditos según tu carga y no des por estable un producto tan nuevo. Lo siguiente es nuestro análisis, no un hecho reportado.",
+      "fr": "DuMate (Baidu Dazi) est un agent de bureau polyvalent lancé par Baidu en 2026 : tâches inter-applications en langage naturel couvrant le rangement de fichiers, le traitement par lots et l'automatisation programmée, et — après l'intégration de Baidu Comate — la génération d'applications exécutables en une phrase. Sur la confidentialité, l'éditeur donne une politique explicite : sandbox locale, permissions par dossier, confirmation des opérations à risque, données conservées sur l'appareil (déclarations du fabricant). Le niveau gratuit accumule des crédits par pointage quotidien pour un usage léger, tandis que Pro (¥9.9 le premier mois, puis ¥59) et Max (¥69 puis ¥129) offrent des crédits mensuels et partagent les avantages Comate. Notre avis : à essayer — l'automatisation bureautique est un besoin réel et son terrain de jeu ; avant d'en dépendre lourdement, vérifiez la consommation de crédits selon votre charge et ne présumez pas de la stabilité d'un produit tout neuf. Ce qui suit est notre analyse, pas un fait rapporté."
+    },
+    "bestFor": {
+      "zh": [
+        "需要批量处理文档、串联多个办公软件、快速生成小工具的国内个人用户与小团队",
+        "想零成本体验智能体办公的尝鲜者"
+      ],
+      "en": [
+        "Individual users and small teams in China who batch-process documents, chain multiple office apps together or quickly generate small tools",
+        "anyone wanting a zero-cost taste of agent-driven office work"
+      ],
+      "ja": [
+        "文書を一括処理し、複数のオフィスソフトをつなぎ、小ツールを素早く作りたい中国国内の個人と小規模チーム。エージェント型オフィス作業をゼロコストで試したい人"
+      ],
+      "es": [
+        "Usuarios individuales y pequeños equipos en China que procesan documentos por lotes, encadenan varias apps de oficina o generan herramientas pequeñas con rapidez",
+        "quien quiera probar el trabajo de oficina con agentes a coste cero"
+      ],
+      "fr": [
+        "Particuliers et petites équipes en Chine qui traitent des documents en masse, enchaînent plusieurs logiciels de bureau ou génèrent rapidement des petits outils",
+        "celles et ceux qui veulent goûter au travail d'agent à coût zéro"
+      ]
+    },
+    "considerAlternatives": {
+      "zh": [
+        "以写代码为主的场景更适合 Claude Code、Cursor、Trae 等专用 IDE/CLI",
+        "需要国际模型生态或海外服务的用户，其国内版整合有限"
+      ],
+      "en": [
+        "For code-first workflows, dedicated IDEs/CLIs such as Claude Code, Cursor or Trae fit better",
+        "users needing international model ecosystems or overseas services will find its domestic integration limited"
+      ],
+      "ja": [
+        "コード中心の作業には Claude Code・Cursor・Trae などの専用 IDE/CLI が適する。国際モデルのエコシステムや海外サービスが必要なユーザーには、中国国内向けの統合は限定的"
+      ],
+      "es": [
+        "Para flujos centrados en código encajan mejor IDE/CLI dedicados como Claude Code, Cursor o Trae",
+        "quienes necesiten ecosistemas de modelos internacionales o servicios extranjeros encontrarán limitada su integración local"
+      ],
+      "fr": [
+        "Pour les flux centrés sur le code, des IDE/CLI dédiés comme Claude Code, Cursor ou Trae conviennent mieux",
+        "ceux qui ont besoin d'écosystèmes de modèles internationaux trouveront l'intégration domestique limitée"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-10-31",
+    "pricingVerified": "2026-10-31",
+    "verdictDate": "2026-10-31",
+    "pricingUrl": "https://www.dumate.cn/"
+  }
+}

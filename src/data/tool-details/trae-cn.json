@@ -43,11 +43,39 @@
   },
   "pricing": {
     "free": {
-      "en": "Completely free",
-      "zh": "完全免费",
-      "ja": "完全無料",
-      "es": "Totalmente gratis",
-      "fr": "Entièrement gratuit"
+      "zh": "免费档 ¥0/月：每月 500 积分，全部功能可用，支持 2 个云端任务同时执行",
+      "en": "Free ¥0/month: 500 credits per month, all features available, 2 concurrent cloud tasks",
+      "ja": "無料枠 ¥0/月：毎月 500 クレジット、全機能利用可、クラウドタスクは 2 件同時実行",
+      "es": "Gratis ¥0/mes: 500 créditos al mes, todas las funciones disponibles, 2 tareas en la nube simultáneas",
+      "fr": "Gratuit ¥0/mois : 500 crédits par mois, toutes les fonctions disponibles, 2 tâches cloud simultanées"
+    },
+    "lite": {
+      "zh": "Lite ¥49/月（首月 ¥39）：2,000 积分/月 + 签到多得 3000 积分，Seed-2.1 模型 2.5 折，高峰期优先响应",
+      "en": "Lite ¥49/month (first month ¥39): 2,000 credits/month + 3,000 check-in credits, Seed-2.1 at 25% price, priority at peak hours",
+      "ja": "Lite ¥49/月（初月 ¥39）：月 2,000 クレジット＋サインインで 3,000、Seed-2.1 は 2.5 折、ピーク時優先応答",
+      "es": "Lite ¥49/mes (primer mes ¥39): 2.000 créditos/mes + 3.000 por check-in, Seed-2.1 al 25 %, prioridad en horas punta",
+      "fr": "Lite ¥49/mois (1er mois ¥39) : 2 000 crédits/mois + 3 000 par pointage, Seed-2.1 à 25 %, réponses prioritaires en heure de pointe"
+    },
+    "pro": {
+      "zh": "Pro ¥99/月（首月 ¥69）：4,000 积分/月 + 签到多得 3000 积分，10 个云端任务同时执行",
+      "en": "Pro ¥99/month (first month ¥69): 4,000 credits/month + 3,000 check-in credits, 10 concurrent cloud tasks",
+      "ja": "Pro ¥99/月（初月 ¥69）：月 4,000 クレジット＋サインインで 3,000、クラウドタスク 10 件同時実行",
+      "es": "Pro ¥99/mes (primer mes ¥69): 4.000 créditos/mes + 3.000 por check-in, 10 tareas en la nube simultáneas",
+      "fr": "Pro ¥99/mois (1er mois ¥69) : 4 000 crédits/mois + 3 000 par pointage, 10 tâches cloud simultanées"
+    },
+    "proPlus": {
+      "zh": "Pro+ ¥239/月（首月 ¥219）：12,000 积分/月 + 签到多得 3000 积分，10 个云端任务同时执行",
+      "en": "Pro+ ¥239/month (first month ¥219): 12,000 credits/month + 3,000 check-in credits, 10 concurrent cloud tasks",
+      "ja": "Pro+ ¥239/月（初月 ¥219）：月 12,000 クレジット＋サインインで 3,000、クラウドタスク 10 件同時実行",
+      "es": "Pro+ ¥239/mes (primer mes ¥219): 12.000 créditos/mes + 3.000 por check-in, 10 tareas en la nube simultáneas",
+      "fr": "Pro+ ¥239/mois (1er mois ¥219) : 12 000 crédits/mois + 3 000 par pointage, 10 tâches cloud simultanées"
+    },
+    "ultra": {
+      "zh": "Ultra ¥699/月（首月 ¥629）：40,000 积分/月 + 签到多得 3000 积分，20 个云端任务同时执行，新模型优先体验",
+      "en": "Ultra ¥699/month (first month ¥629): 40,000 credits/month + 3,000 check-in credits, 20 concurrent cloud tasks, early access to new models",
+      "ja": "Ultra ¥699/月（初月 ¥629）：月 40,000 クレジット＋サインインで 3,000、クラウドタスク 20 件同時実行、新モデルを優先体験",
+      "es": "Ultra ¥699/mes (primer mes ¥629): 40.000 créditos/mes + 3.000 por check-in, 20 tareas en la nube simultáneas, acceso prioritario a nuevos modelos",
+      "fr": "Ultra ¥699/mois (1er mois ¥629) : 40 000 crédits/mois + 3 000 par pointage, 20 tâches cloud simultanées, accès prioritaire aux nouveaux modèles"
     }
   },
   "useCases": {
@@ -137,11 +165,11 @@
     ]
   },
   "latestUpdate": {
-    "en": "2026: Trae China edition stays free with Doubao and DeepSeek, adding the Work assistant",
-    "zh": "2026年：Trae 国内版保持免费，集成 Doubao 与 DeepSeek，新增 Work 助手",
-    "ja": "2026年：Trae 中国版は無料を維持し、Doubao と DeepSeek を統合、Work アシスタントを追加",
-    "es": "2026: la edición China de Trae sigue gratis con Doubao y DeepSeek y añade el asistente Work",
-    "fr": "2026 : l'édition Chine de Trae reste gratuite avec Doubao et DeepSeek et ajoute l'assistant Work"
+    "zh": "2026-10-31 官方定价页实测：国内版已从「完全免费」转为积分制——免费档每月 500 积分，会员 Lite/Pro/Pro+/Ultra 四档（¥49–¥699/月，首月有折扣），模型折扣与云端任务并发数随档位提升。",
+    "en": "Verified on the official pricing page on 2026-10-31: the China edition has moved from \"completely free\" to a credit system — a free tier with 500 credits/month plus Lite/Pro/Pro+/Ultra member tiers (¥49–¥699/month with first-month discounts), with model discounts and cloud-task concurrency rising by tier.",
+    "ja": "2026-10-31 公式料金ページで確認：中国版は「完全無料」からクレジット制へ移行——無料枠は月 500 クレジット、Lite/Pro/Pro+/Ultra の 4 ティア（¥49〜¥699/月、初月割引あり）。モデル割引とクラウドタスクの同時実行数はティアに応じて拡大。",
+    "es": "Verificado en la página oficial de precios el 31-10-2026: la edición China pasó de «totalmente gratis» a un sistema de créditos — nivel gratuito de 500 créditos/mes más los niveles Lite/Pro/Pro+/Ultra (¥49–¥699/mes con descuento el primer mes); los descuentos de modelos y la concurrencia de tareas en la nube aumentan por nivel.",
+    "fr": "Vérifié sur la page tarifaire officielle le 31-10-2026 : l'édition Chine est passée de « entièrement gratuit » à un système de crédits — niveau gratuit de 500 crédits/mois plus les palans Lite/Pro/Pro+/Ultra (¥49–¥699/mois, 1er mois remisé) ; remises modèles et concurrence des tâches cloud croissantes par palier."
   },
   "verdict": {
     "badge": "Worth Trying",
@@ -210,9 +238,9 @@
     }
   },
   "meta": {
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-10-31",
     "verdictDate": "2026-07-27",
-    "pricingVerified": "2026-07-27",
+    "pricingVerified": "2026-10-31",
     "pricingUrl": "https://www.trae.cn/pricing/"
   },
   "pricingInfo": {

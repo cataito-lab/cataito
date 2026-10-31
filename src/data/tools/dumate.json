@@ -1,0 +1,28 @@
+{
+  "slug": "dumate",
+  "name": "DuMate",
+  "nameZh": "百度搭子",
+  "description": "百度推出的通用桌面智能体：用自然语言驱动跨应用任务——文件整理、文档批处理、数据分析、定时自动化，并支持一句话生成可运行的应用。2026 年 9 月文心快码（Comate）Coding Agent 能力融入，Windows、macOS 与 App 三端，官方称本地沙箱执行、数据不出设备。",
+  "descriptionEn": "Baidu's general-purpose desktop agent: natural-language driven cross-app tasks — file organization, document batch-processing, data analysis and scheduled automation — plus one-sentence generation of runnable apps. Baidu Comate's coding-agent capabilities merged into it in September 2026. Available for Windows, macOS and mobile; Baidu states it runs in a local sandbox with data staying on-device.",
+  "descriptionJa": "百度が提供する汎用デスクトップエージェント。自然言語でアプリ横断のタスク（ファイル整理、ドキュメント一括処理、データ分析、定型タスクの自動化）を指示でき、一文から動作するアプリも生成します。2026 年 9 月に文心快码（Comate）のコーディングエージェント能力が統合。Windows・macOS・モバイル App に対応し、ローカルサンドボックスで実行されデータが端末外に出ないと公式は説明しています。",
+  "descriptionEs": "Agente de escritorio de propósito general de Baidu: tareas entre aplicaciones con lenguaje natural — organización de archivos, procesamiento por lotes de documentos, análisis de datos y automatización programada — además de generar aplicaciones ejecutables desde una frase. En septiembre de 2026 se integraron las capacidades de agente de código de Baidu Comate. Disponible para Windows, macOS y móvil; Baidu afirma que se ejecuta en un sandbox local sin que los datos salgan del equipo.",
+  "descriptionFr": "Agent de bureau polyvalent de Baidu : tâches inter-applications en langage naturel — organisation de fichiers, traitement par lots de documents, analyse de données et automatisation programmée — et génération d'applications exécutables en une phrase. Les capacités d'agent de code de Baidu Comate y ont été intégrées en septembre 2026. Disponible sur Windows, macOS et mobile ; Baidu indique une exécution locale en sandbox, les données restant sur l'appareil.",
+  "url": "https://www.dumate.cn",
+  "logo": "/logos/tools/dumate.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Baidu",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": false
+  }
+}

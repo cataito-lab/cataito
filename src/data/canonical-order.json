@@ -197,7 +197,8 @@
     "polar",
     "deepseek-harness",
     "laya",
-    "cli-anything"
+    "cli-anything",
+    "dumate"
   ],
   "skills": [
     "awesome-selfhosted",

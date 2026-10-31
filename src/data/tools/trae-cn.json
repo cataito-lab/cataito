@@ -2,16 +2,16 @@
   "slug": "trae-cn",
   "name": "Trae",
   "nameZh": "Trae",
-  "description": "字节跳动 AI 原生 IDE 国内版，免费且无需 VPN，深度集成 Doubao-1.5-pro 与 DeepSeek 模型，专为中文开发者优化",
-  "descriptionEn": "ByteDance's AI-native IDE China edition, free and no VPN required, deeply integrating Doubao-1.5-pro and DeepSeek models, optimized for Chinese developers",
-  "descriptionJa": "ByteDance の AI ネイティブ IDE 中国版。無料で VPN 不要、Doubao-1.5-pro と DeepSeek モデルを深く統合し、中国語開発者向けに最適化",
-  "descriptionEs": "IDE nativo de IA de ByteDance edición China, gratis y sin VPN, con integración profunda de los modelos Doubao-1.5-pro y DeepSeek, optimizado para desarrolladores chinos",
-  "descriptionFr": "IDE natif IA de ByteDance édition Chine, gratuit et sans VPN, intégrant en profondeur les modèles Doubao-1.5-pro et DeepSeek, optimisé pour les développeurs chinois",
+  "description": "字节跳动 AI 原生 IDE 国内版，基于 VS Code、无需 VPN。免费档每月 500 积分，另设 Lite/Pro/Pro+/Ultra 会员积分档，深度集成 Doubao 与 DeepSeek、Seed 系模型，专为中文开发者优化。",
+  "descriptionEn": "ByteDance's AI-native IDE China edition, built on VS Code with no VPN required. The free tier includes 500 credits per month, with Lite/Pro/Pro+/Ultra member tiers on top; deeply integrates Doubao, DeepSeek and Seed models for Chinese developers.",
+  "descriptionJa": "ByteDance の AI ネイティブ IDE 中国版。VS Code ベースで VPN 不要。無料枠は月 500 クレジットで、Lite/Pro/Pro+/Ultra の会員ティアを用意。Doubao・DeepSeek・Seed 系モデルを深く統合し、中国語開発者向けに最適化。",
+  "descriptionEs": "IDE nativo de IA de ByteDance edición China, basado en VS Code y sin VPN. El nivel gratuito incluye 500 créditos al mes, con niveles de membresía Lite/Pro/Pro+/Ultra; integra en profundidad los modelos Doubao, DeepSeek y Seed para desarrolladores chinos.",
+  "descriptionFr": "IDE natif IA de ByteDance édition Chine, basé sur VS Code et sans VPN. Le niveau gratuit inclut 500 crédits par mois, avec des palans d'abonnement Lite/Pro/Pro+/Ultra ; intègre en profondeur les modèles Doubao, DeepSeek et Seed pour les développeurs chinois.",
   "url": "https://www.trae.cn",
   "logo": "/logos/tools/trae-cn.png",
   "category": "Code",
   "tags": [
-    "Free"
+    "Freemium"
   ],
   "featured": false,
   "developer": "ByteDance",
