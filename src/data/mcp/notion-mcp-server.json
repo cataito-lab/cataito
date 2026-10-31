@@ -2,11 +2,11 @@
   "slug": "notion-mcp-server",
   "name": "Notion MCP Server",
   "nameZh": "Notion 官方 MCP",
-  "description": "Notion 官方 MCP 服务器。智能体可读写 Notion 页面与数据库、搜索工作区、管理评论，把知识库变成 AI 可操作的工作台。",
-  "descriptionEn": "Notion's official MCP server. Agents can read and write Notion pages and databases, search the workspace and manage comments — turning your knowledge base into an AI-operable workspace.",
-  "descriptionJa": "Notion公式MCPサーバー。エージェントがNotionページとデータベースの読み書き、ワークスペース検索、コメント管理を実行でき、ナレッジベースをAIが操作できる作業空間に。",
-  "descriptionEs": "El servidor MCP oficial de Notion. Los agentes pueden leer y escribir páginas y bases de datos de Notion, buscar en el espacio de trabajo y gestionar comentarios.",
-  "descriptionFr": "Le serveur MCP officiel de Notion. Les agents peuvent lire et écrire des pages et bases de données Notion, rechercher dans l'espace de travail et gérer les commentaires.",
+  "description": "Notion 官方的本地自托管 MCP 服务器。智能体可读写 Notion 页面与数据库、搜索工作区、管理评论，把知识库变成 AI 可操作的工作台。官方已转向托管版 Remote Notion MCP，本仓库不再积极维护，未来可能关停。",
+  "descriptionEn": "Notion's official self-hosted MCP server. Agents can read and write Notion pages and databases, search the workspace and manage comments — turning your knowledge base into an AI-operable workspace. Notion has shifted to the hosted Remote Notion MCP and no longer actively maintains this repository, which may eventually be sunset.",
+  "descriptionJa": "Notion 公式のセルフホスト型 MCP サーバー。エージェントが Notion のページやデータベースを読み書きし、ワークスペースを検索、コメントを管理できます。Notion はホスト版の Remote Notion MCP への移行を進めており、このリポジトリは積極的なメンテナンス対象外で、将来廃止される可能性があります。",
+  "descriptionEs": "El servidor MCP oficial de Notion para autoalojar. Los agentes pueden leer y escribir páginas y bases de datos de Notion, buscar en el espacio de trabajo y gestionar comentarios. Notion ha migrado al Remote Notion MCP alojado y ya no mantiene activamente este repositorio, que podría desaparecer en el futuro.",
+  "descriptionFr": "Le serveur MCP officiel de Notion, à auto-héberger. Les agents peuvent lire et écrire des pages et bases de données Notion, rechercher dans l'espace de travail et gérer les commentaires. Notion s'est tourné vers le Remote Notion MCP hébergé et ne maintient plus activement ce dépôt, qui pourrait être fermé à l'avenir.",
   "developer": "Notion",
   "developerZh": "Notion",
   "repo": "makenotion/notion-mcp-server",
@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y @notionhq/notion-mcp-server",
   "logo": "/logos/mcp/notion-mcp-server.png",
-  "stars": 4688,
+  "stars": 4689,
   "featured": false,
   "faqs": [
     {
@@ -52,11 +52,11 @@
         "fr": "Comment connecter Notion à Claude ou Cursor ?"
       },
       "answer": {
-        "zh": "在 MCP 配置里加入 npx -y @notionhq/notion-mcp-server，环境变量提供 Notion 集成令牌（在 notion.so/profile/integrations 创建），再把要操作的页面分享给该集成即可。",
-        "en": "Add npx -y @notionhq/notion-mcp-server to your MCP config with a Notion integration token (created at notion.so/profile/integrations) as an environment variable, then share the target pages with that integration.",
-        "ja": "MCP 設定に npx -y @notionhq/notion-mcp-server を追加し、環境変数で Notion インテグレーショントークン（notion.so/profile/integrations で作成）を渡します。操作したいページをそのインテグレーションに共有すれば完了です。",
-        "es": "Añade npx -y @notionhq/notion-mcp-server a tu configuración MCP con un token de integración de Notion (creado en notion.so/profile/integrations) como variable de entorno, y comparte las páginas objetivo con esa integración.",
-        "fr": "Ajoutez npx -y @notionhq/notion-mcp-server à votre configuration MCP avec un jeton d'intégration Notion (créé sur notion.so/profile/integrations) en variable d'environnement, puis partagez les pages cibles avec cette intégration."
+        "zh": "首选官方托管版 Remote Notion MCP：按 developers.notion.com/docs/mcp 的指引经 OAuth 授权即可，无需集成令牌、JSON 配置或手动分享页面。本地自托管版仍可用：在 MCP 配置里运行 npx -y @notionhq/notion-mcp-server，环境变量提供 Notion 集成令牌（在 notion.so/profile/integrations 创建），再把要操作的页面分享给该集成。",
+        "en": "The recommended path is the official hosted Remote Notion MCP: follow developers.notion.com/docs/mcp and authorize via OAuth — no integration tokens, JSON config or manual page sharing needed. The self-hosted server still works: run npx -y @notionhq/notion-mcp-server in your MCP config with a Notion integration token (created at notion.so/profile/integrations) as an environment variable, then share the target pages with that integration.",
+        "ja": "推奨は公式ホスト版の Remote Notion MCP です。developers.notion.com/docs/mcp の手順に沿って OAuth で認可すれば、インテグレーショントークンや JSON 設定、ページの手動共有は不要です。セルフホスト版も引き続き利用可能で、MCP 設定で npx -y @notionhq/notion-mcp-server を実行し、環境変数で Notion インテグレーショントークン（notion.so/profile/integrations で作成）を渡して、操作したいページをそのインテグレーションに共有します。",
+        "es": "La vía recomendada es el Remote Notion MCP alojado oficialmente: sigue developers.notion.com/docs/mcp y autoriza mediante OAuth, sin tokens de integración, configuración JSON ni compartir páginas manualmente. El servidor autoalojado sigue funcionando: ejecuta npx -y @notionhq/notion-mcp-server en tu configuración MCP con un token de integración de Notion (creado en notion.so/profile/integrations) como variable de entorno, y comparte las páginas objetivo con esa integración.",
+        "fr": "La voie recommandée est le Remote Notion MCP hébergé officiellement : suivez developers.notion.com/docs/mcp et autorisez via OAuth — sans jeton d'intégration, configuration JSON ni partage manuel de pages. Le serveur auto-hébergé fonctionne toujours : lancez npx -y @notionhq/notion-mcp-server dans votre configuration MCP avec un jeton d'intégration Notion (créé sur notion.so/profile/integrations) en variable d'environnement, puis partagez les pages cibles avec cette intégration."
       }
     },
     {
