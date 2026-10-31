@@ -9,7 +9,7 @@
   "descriptionFr": "Un serveur MCP connectant Blender aux agents IA. Modélisation 3D en langage naturel : création de scènes, édition de matériaux et exécution de scripts Python Blender.",
   "developer": "Siddharth Ahuja",
   "developerZh": "Siddharth Ahuja",
-  "repo": "ahujasid/blender-mcp",
+  "repo": "ahujasid/mcp-for-blender",
   "clients": [
     "claude",
     "cursor",
@@ -18,11 +18,12 @@
   "category": "Design",
   "tags": [
     "Free",
-    "Open Source"
+    "Open Source",
+    "Freemium"
   ],
-  "installCommand": "uvx blender-mcp",
+  "installCommand": "uvx mcp-for-blender",
   "logo": "/logos/mcp/blender-mcp.png",
-  "stars": 32833,
+  "stars": 32836,
   "featured": false,
   "faqs": [
     {
@@ -50,11 +51,11 @@
         "fr": "Comment configurer Blender MCP ?"
       },
       "answer": {
-        "zh": "两步：① 在 Blender 里安装配套 addon.py 插件并启动连接；② 在 MCP 客户端配置 uvx blender-mcp（需要 Python 的 uv 工具）。需要 Blender 3.0 以上版本。",
-        "en": "Two steps: 1) install the companion addon.py in Blender and start the connection; 2) configure uvx blender-mcp in your MCP client (requires the uv tool for Python). Blender 3.0+ is required.",
-        "ja": "2 ステップです。① Blender に付属の addon.py をインストールして接続を開始、② MCP クライアントに uvx blender-mcp を設定（Python の uv ツールが必要）。Blender 3.0 以上が必要です。",
-        "es": "Dos pasos: 1) instala el addon.py complementario en Blender e inicia la conexión; 2) configura uvx blender-mcp en tu cliente MCP (requiere la herramienta uv de Python). Se necesita Blender 3.0 o superior.",
-        "fr": "Deux étapes : 1) installez l'addon.py dans Blender et démarrez la connexion ; 2) configurez uvx blender-mcp dans votre client MCP (nécessite l'outil uv de Python). Blender 3.0+ est requis."
+        "zh": "最省事的是官方一键安装脚本（macOS/Linux 走 install.sh，Windows 走 PowerShell 脚本），会自动装 uv、配置 MCP 客户端并安装 Blender 插件；也可以手动执行 uvx mcp-for-blender setup。项目原名 blender-mcp，2026 年 9 月改名 mcp-for-blender，旧配置无需更改，仍可正常使用。",
+        "en": "The easiest path is the official one-command installer (install.sh on macOS/Linux, a PowerShell script on Windows), which sets up uv, configures your MCP clients and installs the Blender addon automatically; alternatively run uvx mcp-for-blender setup manually. The project was formerly blender-mcp and was renamed mcp-for-blender in September 2026 — existing configs keep working.",
+        "ja": "一番簡単なのは公式のワンコマンドインストーラーです（macOS/Linux は install.sh、Windows は PowerShell スクリプト）。uv の導入、MCP クライアントの設定、Blender アドオンのインストールを自動で行います。手動では uvx mcp-for-blender setup を実行します。旧名は blender-mcp で、2026 年 9 月に mcp-for-blender に改名されました。既存の設定はそのまま使えます。",
+        "es": "Lo más sencillo es el instalador oficial de un comando (install.sh en macOS/Linux, un script de PowerShell en Windows), que instala uv, configura los clientes MCP e instala el complemento de Blender automáticamente; también puedes ejecutar uvx mcp-for-blender setup manualmente. El proyecto se llamaba blender-mcp y pasó a llamarse mcp-for-blender en septiembre de 2026; las configuraciones existentes siguen funcionando.",
+        "fr": "Le plus simple est l'installateur officiel en une commande (install.sh sur macOS/Linux, un script PowerShell sur Windows), qui installe uv, configure les clients MCP et installe l'addon Blender automatiquement ; vous pouvez aussi lancer uvx mcp-for-blender setup manuellement. Le projet s'appelait blender-mcp et a été renommé mcp-for-blender en septembre 2026 — les configurations existantes continuent de fonctionner."
       }
     },
     {
@@ -66,11 +67,11 @@
         "fr": "Blender MCP est-il gratuit ?"
       },
       "answer": {
-        "zh": "免费开源（MIT），Blender 本身也是免费软件，全程零成本。它是社区最火的创意类 MCP 服务器之一，GitHub 星数超过两万五。",
-        "en": "Free and open source (MIT) — and Blender itself is free software, so the whole stack costs nothing. It is one of the most popular creative MCP servers, with over 25,000 GitHub stars.",
-        "ja": "無料のオープンソース（MIT）で、Blender 自体も無料ソフトウェアなので全工程ゼロコストです。GitHub スター 2.5 万超の、最も人気のあるクリエイティブ系 MCP サーバーの一つです。",
-        "es": "Gratuito y de código abierto (MIT), y Blender también es software libre: todo el conjunto cuesta cero. Es uno de los servidores MCP creativos más populares, con más de 25 000 estrellas en GitHub.",
-        "fr": "Gratuit et open source (MIT) — Blender lui-même est un logiciel libre, donc l'ensemble ne coûte rien. C'est l'un des serveurs MCP créatifs les plus populaires, avec plus de 25 000 étoiles GitHub."
+        "zh": "核心免费开源（MIT），Blender 本身也是免费软件，场景编辑与 Poly Haven、Sketchfab、Poly Pizza 素材库全程零成本，它是社区最火的创意类 MCP 服务器之一。可选的 Premium 订阅（每月 10–100 美元）用于不经自备 API key 调用 Meshy、Tripo、Hyper3D Rodin 等第三方 AI 3D 生成；自带这些服务的 API key 也可以免费接入，直接向供应商付费。",
+        "en": "The core is free and open source (MIT) — and Blender itself is free software, so scene editing and the Poly Haven, Sketchfab and Poly Pizza asset libraries cost nothing; it is one of the most popular creative MCP servers. An optional Premium subscription (US$10–100/month) covers hosted AI 3D generation via Meshy, Tripo and Hyper3D Rodin without your own API keys; you can instead bring your own keys and pay those providers directly.",
+        "ja": "コアは無料のオープンソース（MIT）で、Blender 自体も無料ソフトウェアのため、シーン編集と Poly Haven・Sketchfab・Poly Pizza のアセット利用は一切費用がかかりません。コミュニティで最も人気のあるクリエイティブ系 MCP サーバーの一つです。オプションの Premium サブスクリプション（月 10〜100 ドル）は、独自の API キーなしで Meshy・Tripo・Hyper3D Rodin の AI 3D 生成を利用するためのものです。自分の API キーを持ち込めば、各プロバイダーに直接支払う形で無料で接続できます。",
+        "es": "El núcleo es gratuito y de código abierto (MIT), y Blender también es software libre: la edición de escenas y las bibliotecas Poly Haven, Sketchfab y Poly Pizza no cuestan nada; es uno de los servidores MCP creativos más populares. La suscripción Premium opcional (10–100 USD/mes) sirve para generar modelos 3D con IA vía Meshy, Tripo y Hyper3D Rodin sin claves API propias; también puedes llevar tus propias claves y pagar directamente a esos proveedores.",
+        "fr": "Le cœur est gratuit et open source (MIT) — et Blender lui-même est un logiciel libre : l'édition de scènes et les bibliothèques Poly Haven, Sketchfab et Poly Pizza ne coûtent rien ; c'est l'un des serveurs MCP créatifs les plus populaires. L'abonnement Premium optionnel (10–100 USD/mois) sert à générer des modèles 3D par IA via Meshy, Tripo et Hyper3D Rodin sans clés API personnelles ; vous pouvez aussi apporter vos propres clés et payer directement ces fournisseurs."
       }
     }
   ]
