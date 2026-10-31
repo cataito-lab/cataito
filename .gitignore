@@ -105,3 +105,6 @@ _preview_shots/
 _cfp_*/
 
 .zcode/
+
+# Python 运行缓存（非项目代码）
+Python/

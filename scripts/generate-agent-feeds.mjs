@@ -217,6 +217,34 @@ for (const [fullName, it] of badgeInfo) {
   fs.writeFileSync(path.join(dir, repo + '.svg'), svg);
 }
 
+// 孤儿清理：掉榜项目的旧徽章会带着过期排名继续被外链引用，须删除。
+// 只作用于 public/embed/project/，与上方写入集合（badgeEsc(org)/repo.svg）取差集。
+const badgeRoot = path.join(ROOT, 'public', 'embed', 'project');
+const expected = new Set(
+  [...badgeInfo].map(([fullName]) => {
+    const [org, repo] = fullName.split('/');
+    // 注意用 '/' 拼接而非 path.join——Windows 下后者产生反斜杠，永远匹配不上
+    return badgeEsc(org) + '/' + repo + '.svg';
+  }),
+);
+let removedBadges = 0;
+const walkBadges = (d) => {
+  for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+    const p = path.join(d, e.name);
+    if (e.isDirectory()) {
+      walkBadges(p);
+      if (fs.readdirSync(p).length === 0) fs.rmdirSync(p);
+    } else if (e.name.endsWith('.svg')) {
+      const rel = path.relative(badgeRoot, p);
+      if (!expected.has(path.relative(badgeRoot, p).split(path.sep).join('/'))) {
+        fs.unlinkSync(p);
+        removedBadges++;
+      }
+    }
+  }
+};
+walkBadges(badgeRoot);
+
 console.log(
-  `✔ agent feeds 已生成：llms.txt(${(llmsTxt.length / 1024).toFixed(0)}KB) llms-full.txt rss/{blog,tutorials,ranking}.xml 项目徽章 SVG ×${badgeInfo.size}`,
+  `✔ agent feeds 已生成：llms.txt(${(llmsTxt.length / 1024).toFixed(0)}KB) llms-full.txt rss/{blog,tutorials,ranking}.xml 项目徽章 SVG ×${badgeInfo.size}${removedBadges ? `（清理孤儿徽章 ×${removedBadges}）` : ''}`,
 );
