@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-03T11:55:27.565Z",
+  "updatedAt": "2026-11-03T18:06:07.064Z",
   "summary": {
     "total": 294,
-    "ok": 292,
+    "ok": 294,
     "dead": 0,
     "unreachable": 0
   },
@@ -412,7 +412,7 @@
       "status": "ok",
       "deadStreak": 0,
       "unreachableStreak": 0,
-      "lastClass": "PROTECTED",
+      "lastClass": "OK",
       "lastChecked": "2026-11-03"
     },
     "phind": {
@@ -449,10 +449,10 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-03"
     },
     "baichuan-ai": {
@@ -2353,10 +2353,10 @@
     },
     "dumate": {
       "kind": "tool",
-      "status": "suspect",
-      "deadStreak": 1,
+      "status": "ok",
+      "deadStreak": 0,
       "unreachableStreak": 0,
-      "lastClass": "DEAD",
+      "lastClass": "OK",
       "lastChecked": "2026-11-03"
     }
   }
