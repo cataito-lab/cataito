@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-04T12:06:05.219Z",
+  "updatedAt": "2026-11-04T18:16:34.990Z",
   "summary": {
     "total": 294,
-    "ok": 294,
+    "ok": 293,
     "dead": 0,
     "unreachable": 0
   },
@@ -457,10 +457,10 @@
     },
     "baichuan-ai": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-11-04"
     },
     "sensechat": {
