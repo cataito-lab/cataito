@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y @neondatabase/mcp-server-neon",
   "logo": "/logos/mcp/neon-mcp.png",
-  "stars": 660,
+  "stars": 662,
   "featured": false,
   "faqs": [
     {
