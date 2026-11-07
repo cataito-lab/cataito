@@ -25,7 +25,7 @@
   ],
   "installCommand": "npx -y task-master",
   "logo": "/logos/mcp/task-master.png",
-  "stars": 28310,
+  "stars": 28316,
   "featured": false,
   "faqs": [
     {
