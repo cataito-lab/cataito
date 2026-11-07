@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-07T11:02:31.518Z",
+  "updatedAt": "2026-11-07T16:40:12.258Z",
   "summary": {
     "total": 294,
-    "ok": 293,
+    "ok": 294,
     "dead": 0,
     "unreachable": 0
   },
@@ -449,10 +449,10 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-07"
     },
     "baichuan-ai": {
