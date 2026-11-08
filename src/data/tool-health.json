@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-08T11:16:13.572Z",
+  "updatedAt": "2026-11-08T16:48:45.412Z",
   "summary": {
     "total": 294,
-    "ok": 292,
+    "ok": 293,
     "dead": 0,
     "unreachable": 0
   },
@@ -449,18 +449,18 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "ok",
-      "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
-      "lastChecked": "2026-11-08"
-    },
-    "baichuan-ai": {
-      "kind": "tool",
       "status": "suspect",
       "deadStreak": 0,
       "unreachableStreak": 1,
       "lastClass": "UNREACHABLE",
+      "lastChecked": "2026-11-08"
+    },
+    "baichuan-ai": {
+      "kind": "tool",
+      "status": "ok",
+      "deadStreak": 0,
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-08"
     },
     "sensechat": {
@@ -473,10 +473,10 @@
     },
     "stepfun": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-08"
     },
     "360-zhinao": {
