@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y chrome-devtools-mcp@latest",
   "logo": "/logos/mcp/chrome-devtools-mcp.png",
-  "stars": 55033,
+  "stars": 55049,
   "featured": false,
   "faqs": [
     {
