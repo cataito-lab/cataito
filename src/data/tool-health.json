@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-11T11:52:36.723Z",
+  "updatedAt": "2026-11-11T18:08:23.481Z",
   "summary": {
     "total": 294,
-    "ok": 292,
+    "ok": 294,
     "dead": 0,
     "unreachable": 0
   },
@@ -449,18 +449,18 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-11"
     },
     "baichuan-ai": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-11"
     },
     "sensechat": {
