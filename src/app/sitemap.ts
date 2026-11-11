@@ -1,7 +1,5 @@
 import { MetadataRoute } from 'next';
 import { tools, toolDetails, skills, skillDetails, mcp as mcpServers, mcpDetails } from '@/data/aggregated';
-import blogPosts from '@/data/blogPosts.json';
-import tutorials from '@/data/tutorials.json';
 import { routing, TEMP_NOINDEX_LOCALES } from '@/i18n/routing';
 import { rankingUpdatedAt } from '@/lib/ranking-history';
 import { CATEGORY_SLUGS } from '@/lib/categories';
@@ -31,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastDataChange = dataDate(rankingUpdatedAt());
   // 抓取预算减法（2026-09-24 GSC 分析）：政策/法务类页面只需 en/zh 进 sitemap，
   // ja/es/fr 版保留可访问但不再向 Google 申报（近 90 天五语政策页零展示）
-  const multilingualPaths = ['', '/tools', '/skills', '/mcp', '/submit', '/blog', '/tutorials', '/ranking'];
+  const multilingualPaths = ['', '/tools', '/skills', '/mcp', '/submit', '/ranking'];
   const enZhOnlyPaths = ['/about', '/privacy', '/disclaimer', '/editorial-policy', '/report'];
   const staticPages = [
     ...multilingualPaths.flatMap((path) =>
@@ -72,27 +70,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  // Blog pages（publishedAt 是裸日期 "YYYY-MM-DD"，过 dataDate() 转 ISO 8601 Z，
-  // 否则 Next 直接字符串插值会输出不合规的 lastmod）
-  const blogPages = blogPosts.flatMap((post: any) =>
-    locales.map((locale) => ({
-      url: `${BASE_URL}/${locale}/blog/${post.slug}`,
-      lastModified: dataDate(post.publishedAt),
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-    }))
-  );
-
-  // Tutorial pages（同上）
-  const tutorialPages = tutorials.flatMap((tutorial: any) =>
-    locales.map((locale) => ({
-      url: `${BASE_URL}/${locale}/tutorials/${tutorial.slug}`,
-      lastModified: dataDate(tutorial.publishedAt),
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-    }))
-  );
-
   // Skill detail pages（lastmod = 单条审计日期）
   const skillPages = skills.flatMap((skill: any) =>
     locales.map((locale) => ({
@@ -117,5 +94,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // 228 页近 90 天 100% 零展示，模板化数据卡片与 github.com 正面竞争无胜算。
   // 页面保留可访问（外链/榜单内链不 404），metadata 加 noindex, follow。
 
-  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...tutorialPages, ...skillPages, ...mcpPages];
+  return [...staticPages, ...categoryPages, ...toolPages, ...skillPages, ...mcpPages];
 }

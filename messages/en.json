@@ -40,12 +40,9 @@
     "skills": "Skills",
     "mcp": "MCP",
     "ranking": "Rankings",
-    "blog": "Blog",
     "submit": "Submit Resource",
     "searchPlaceholder": "Search AI resources...",
     "about": "About",
-    "tutorials": "Tutorials",
-    "resources": "Resources",
     "ecosystem": "Ecosystem"
   },
   "hero": {
@@ -396,35 +393,6 @@
     "title": "All AI Tools",
     "subtitle": "Browse the complete directory — filter by category or search"
   },
-  "blog": {
-    "title": "AI Blog & News",
-    "subtitle": "Stay updated with the latest AI trends, tool reviews, and industry insights",
-    "latestNews": "Latest from the Blog",
-    "latestNewsSubtitle": "AI news, model comparisons, and in-depth insights",
-    "viewAll": "Browse All",
-    "readMore": "Read More",
-    "readTime": "min read",
-    "publishedOn": "Published on",
-    "by": "By",
-    "share": "Share this article",
-    "shareOnTwitter": "Share on Twitter",
-    "shareOnLinkedIn": "Share on LinkedIn",
-    "shareOnFacebook": "Share on Facebook",
-    "copyLink": "Copy Link",
-    "linkCopied": "Link copied!",
-    "backToBlog": "Back to Blog",
-    "relatedTools": "Related Tools",
-    "categories": {
-      "all": "All",
-      "news": "News",
-      "comparison": "Comparisons",
-      "listicle": "Lists",
-      "tutorial": "Tutorials",
-      "analysis": "Analysis",
-      "guide": "Guides"
-    },
-    "adLabel": "Advertisement"
-  },
   "about": {
     "metaTitle": "About Cataito — Independent AI Tools Directory",
     "metaDescription": "Cataito is an independent, multilingual portal for the AI ecosystem. Learn who we are, how we curate and verify AI tools, and how to reach us.",
@@ -505,31 +473,6 @@
       "Image": "Image"
     },
     "faqTitle": "Frequently Asked Questions"
-  },
-  "tutorials": {
-    "title": "AI Tutorials",
-    "subtitle": "Step-by-step guides to master AI tools, agents, and workflows",
-    "readTime": "min read",
-    "readTutorial": "Read Tutorial",
-    "backToList": "Back to Tutorials",
-    "relatedTutorials": "Related Tutorials",
-    "emptyTitle": "Tutorials coming soon",
-    "emptyDesc": "We are preparing in-depth, image-rich tutorials. Check back soon!",
-    "difficulties": {
-      "beginner": "Beginner",
-      "intermediate": "Intermediate",
-      "advanced": "Advanced"
-    },
-    "selectPlatform": "Your operating system",
-    "platforms": {
-      "windows": "Windows",
-      "macos": "macOS",
-      "linux": "Linux"
-    },
-    "highlightsTitle": "AI Tutorials",
-    "highlightsSubtitle": "Step-by-step guides to master AI tools and workflows",
-    "viewAll": "Browse All",
-    "all": "All"
   },
   "sites": {
     "tools": {

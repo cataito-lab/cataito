@@ -1,5 +1,6 @@
 'use client';
 
+import { ExternalLink, GitFork, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Clipboard, LayoutGrid, Award, MonitorSmartphone, ChevronDown } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
@@ -7,29 +8,12 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import ToolTldr from '@/components/ToolTldr';
 import { Tool, PLATFORM_META, getLocalizedDescription } from '@/components/ToolCard';
-import { ExternalLink, GitFork, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone, ChevronDown } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
 import AdUnit from '@/components/AdUnit';
 import LogoTile from '@/components/LogoTile';
 import { categoryToSlug } from '@/lib/categories';
 import { useState } from 'react';
-
-interface RelatedPost {
-  slug: string;
-  category: string;
-  title: unknown;
-  excerpt: unknown;
-}
-
-interface RelatedTutorial {
-  slug: string;
-  title: Record<string, string>;
-  excerpt: Record<string, string>;
-  difficulty: string;
-  readTime: number;
-  coverImage?: string;
-}
 
 interface ToolDetailClientProps {
   tool: Tool;
@@ -39,8 +23,6 @@ interface ToolDetailClientProps {
   details: unknown;
   sameMaker: Tool[];
   relatedTools: Tool[];
-  relatedPosts: RelatedPost[];
-  relatedTutorials: RelatedTutorial[];
   tldr: TldrData;
   healthStatus: string | null;
 }
@@ -65,11 +47,10 @@ const TAG_COLORS: Record<string, string> = {
   'API': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
 };
 
-export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, relatedPosts, relatedTutorials, tldr, healthStatus }: ToolDetailClientProps) {
+export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, tldr, healthStatus }: ToolDetailClientProps) {
   const t = useTranslations('common');
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
-  const tTutorials = useTranslations('tutorials');
   const [searchQuery, setSearchQuery] = useState('');
   const [copiedIndex, setCopiedIndex] = useState<string | null>(null);
   const description = getLocalizedDescription(tool, locale);
@@ -567,7 +548,6 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                         <summary className="px-8 py-6 border-b border-[var(--muted-border)] bg-[var(--muted-bg)] cursor-pointer list-none hover:bg-[var(--muted-bg)]/80 transition [&::-webkit-details-marker]:hidden flex items-center justify-between">
                           <div className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
-                              <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
                                                           </div>
                                                           <div>
                                                             <h2 className="text-xl font-bold text-[var(--foreground)]">
@@ -673,82 +653,8 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
           )}
 
           {/* Related Blog Posts */}
-          {relatedPosts.length > 0 && (
-            <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
-              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
-                <Newspaper className="w-5 h-5 text-indigo-500" />
-                {t('relatedArticles')}
-              </h2>
-              <div className="space-y-4">
-                {relatedPosts.map((post) => (
-                  <Link
-                    key={post.slug}
-                    href={`/blog/${post.slug}`}
-                    className="block p-4 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
-                  >
-                    <div className="text-sm text-indigo-600 dark:text-indigo-400 mb-1 capitalize">
-                      {post.category}
-                    </div>
-                    <h3 className="font-medium text-[var(--foreground)] mb-1">
-                      {getLocalized(post.title, locale) as string}
-                    </h3>
-                    <p className="text-sm text-[var(--muted)] line-clamp-2">
-                      {getLocalized(post.excerpt, locale) as string}
-                    </p>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Related Tutorials */}
-          {relatedTutorials.length > 0 && (
-            <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
-              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-indigo-500" />
-                {t('relatedTutorials')}
-              </h2>
-              <div className="space-y-4">
-                {relatedTutorials.map((tut) => (
-                                  <Link
-                                    key={tut.slug}
-                                    href={`/tutorials/${tut.slug}`}
-                                    className="block p-4 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
-                                  >
-                                    <div className="flex gap-4">
-                                      {tut.coverImage && (
-                                        <div className="flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden bg-[var(--card-bg)]">
-                                          <img
-                                            src={tut.coverImage}
-                                            alt=""
-                                            className="w-full h-full object-contain"
-                                            loading="lazy"
-                                          />
-                                        </div>
-                                      )}
-                                      <div className="flex-1 min-w-0">
-                                        <div className="flex items-center gap-3 mb-1">
-                                          <span className="text-xs font-medium text-[var(--primary)] capitalize">
-                                            {tTutorials(`difficulties.${tut.difficulty}`)}
-                                          </span>
-                                          <span className="text-xs text-[var(--muted)]">
-                                            {tut.readTime} {tTutorials('readTime')}
-                                          </span>
-                                        </div>
-                                        <h3 className="font-medium text-[var(--foreground)] mb-1">
-                                          {getLocalized(tut.title, locale) as string}
-                                        </h3>
-                                        <p className="text-sm text-[var(--muted)] line-clamp-2">
-                                          {getLocalized(tut.excerpt, locale) as string}
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </Link>
-                                ))}
-              </div>
-            </div>
-          )}
-        </article>
+{/* Related Tutorials */}
+</article>
 
         {/* Newsletter */}
         <div className="mt-8">

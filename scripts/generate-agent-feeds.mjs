@@ -5,8 +5,6 @@
  * 产出（写入 public/，随静态导出部署）：
  *   llms.txt            — llmstxt.org 规范：站点索引，给 AI 检索器的「目录页」
  *   llms-full.txt       — 全量事实版：每条目的描述/定价档位/verdict 一句话/核验日期
- *   rss/blog.xml        — 博客 feed
- *   rss/tutorials.xml   — 教程 feed
  *   rss/ranking.xml     — 排行榜 feed（当前 Top 10 + 数据日期）
  *
  * 由 `npm run build` 自动调用（数据更新即刷新，无需手工维护）。
@@ -20,8 +18,6 @@ import { createRequire } from 'node:module';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
 const { loadTools, loadToolDetails, loadSkills, loadMcp, DATA_DIR } = require('./lib/load-data.cjs');
-const blogPosts = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'blogPosts.json'), 'utf8'));
-const tutorials = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'tutorials.json'), 'utf8'));
 const ranking = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'ranking.json'), 'utf8'));
 
 const BASE = 'https://cataito.com';
@@ -48,12 +44,6 @@ const skillLines = skills
 const mcpLines = mcp
   .map((m) => `- [${m.name}](${BASE}/en/mcp/${m.slug}): ${trunc(m.descriptionEn, 140)}`)
   .join('\n');
-const blogLines = blogPosts
-  .map((b) => `- [${b.title?.en ?? b.slug}](${BASE}/en/blog/${b.slug}): ${trunc(b.excerpt?.en, 140)}`)
-  .join('\n');
-const tutorialLines = tutorials
-  .map((t) => `- [${t.title?.en ?? t.slug}](${BASE}/en/tutorials/${t.slug}): ${trunc(t.excerpt?.en, 140)}`)
-  .join('\n');
 
 const llmsTxt = `# Cataito
 
@@ -73,12 +63,6 @@ ${mcpLines}
 
 ## Monthly Ecosystem Report
 - [AI Ecosystem Report](${BASE}/en/report): month-over-month open-source AI growth computed from daily star snapshots — total ecosystem size, top gainers and notable newcomers.
-
-## Blog
-${blogLines}
-
-## Tutorials
-${tutorialLines}
 
 ## About this site
 - [About]( ${BASE}/en/about): mission and methodology.
@@ -136,30 +120,6 @@ const rssItem = ({ title, link, desc, date }) =>
   `<item><title>${esc(title)}</title><link>${esc(link)}</link><guid>${esc(link)}</guid><description>${esc(desc)}</description><pubDate>${new Date(date).toUTCString()}</pubDate></item>`;
 
 fs.mkdirSync(path.join(ROOT, 'public', 'rss'), { recursive: true });
-
-fs.writeFileSync(
-  path.join(ROOT, 'public', 'rss', 'blog.xml'),
-  rssFeed({
-    title: 'Cataito Blog',
-    link: `${BASE}/en/blog`,
-    description: 'AI ecosystem analysis and tool reviews from Cataito',
-    items: blogPosts.map((b) =>
-      rssItem({ title: b.title?.en ?? b.slug, link: `${BASE}/en/blog/${b.slug}`, desc: b.excerpt?.en ?? '', date: b.publishedAt }),
-    ),
-  }),
-);
-
-fs.writeFileSync(
-  path.join(ROOT, 'public', 'rss', 'tutorials.xml'),
-  rssFeed({
-    title: 'Cataito Tutorials',
-    link: `${BASE}/en/tutorials`,
-    description: 'Step-by-step AI tool tutorials in 5 languages',
-    items: tutorials.map((t) =>
-      rssItem({ title: t.title?.en ?? t.slug, link: `${BASE}/en/tutorials/${t.slug}`, desc: t.excerpt?.en ?? '', date: t.publishedAt }),
-    ),
-  }),
-);
 
 const top10 = ranking.boards?.[0]?.items?.slice(0, 10) ?? [];
 fs.writeFileSync(
@@ -246,5 +206,5 @@ const walkBadges = (d) => {
 walkBadges(badgeRoot);
 
 console.log(
-  `✔ agent feeds 已生成：llms.txt(${(llmsTxt.length / 1024).toFixed(0)}KB) llms-full.txt rss/{blog,tutorials,ranking}.xml 项目徽章 SVG ×${badgeInfo.size}${removedBadges ? `（清理孤儿徽章 ×${removedBadges}）` : ''}`,
+  `✔ agent feeds 已生成：llms.txt(${(llmsTxt.length / 1024).toFixed(0)}KB) llms-full.txt rss/ranking.xml 项目徽章 SVG ×${badgeInfo.size}${removedBadges ? `（清理孤儿徽章 ×${removedBadges}）` : ''}`,
 );

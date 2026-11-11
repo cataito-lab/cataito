@@ -3,7 +3,6 @@ import { notFound } from 'next/navigation';
 import McpDetailClient from './McpDetailClient';
 import { mcp as mcpServers } from '@/data/aggregated';
 import { mcpDetails } from '@/data/aggregated';
-import tutorials from '@/data/tutorials.json';
 import { generateAlternates, getMcpMetaDescription } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
@@ -70,23 +69,11 @@ export default async function McpDetailPage({ params }: Props) {
   if (!entry) notFound();
 
   // 关联教程（related.mcp 显式声明），只传渲染需要的字段
-  const relatedTutorials = tutorials
-    .filter((tut: any) => (tut.related?.mcp || []).includes(slug))
-    .map((tut: any) => ({
-          slug: tut.slug,
-          title: tut.title,
-          excerpt: tut.excerpt,
-          difficulty: tut.difficulty,
-          readTime: tut.readTime,
-          coverImage: tut.coverImage,
-        }));
-
   return (
       <McpDetailClient
         server={entry}
         locale={locale}
         details={(mcpDetails as Record<string, any>)[slug]}
-        relatedTutorials={relatedTutorials}
       />
     );
 }

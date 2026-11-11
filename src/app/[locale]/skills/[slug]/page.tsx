@@ -3,7 +3,6 @@ import { notFound } from 'next/navigation';
 import SkillDetailClient from './SkillDetailClient';
 import { skills } from '@/data/aggregated';
 import { skillDetails } from '@/data/aggregated';
-import tutorials from '@/data/tutorials.json';
 import { generateAlternates, getSkillMetaDescription } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
@@ -70,23 +69,11 @@ export default async function SkillDetailPage({ params }: Props) {
   if (!skill) notFound();
 
   // 关联教程（related.skills 显式声明），只传渲染需要的字段
-  const relatedTutorials = tutorials
-    .filter((tut: any) => (tut.related?.skills || []).includes(slug))
-    .map((tut: any) => ({
-          slug: tut.slug,
-          title: tut.title,
-          excerpt: tut.excerpt,
-          difficulty: tut.difficulty,
-          readTime: tut.readTime,
-          coverImage: tut.coverImage,
-        }));
-
   return (
       <SkillDetailClient
         skill={skill}
         locale={locale}
         details={(skillDetails as Record<string, any>)[slug]}
-        relatedTutorials={relatedTutorials}
       />
     );
 }

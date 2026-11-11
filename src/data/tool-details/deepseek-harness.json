@@ -282,7 +282,7 @@
         {
           "step": 1,
           "title": "Install and start the Web UI",
-          "content": "Install Node.js, then run `npx @deepseek-ai/dsh web` to start the Web UI, served at http://127.0.0.1:3080 by default. The dsh process uses its invoking directory as the default filesystem location. To run from source, clone the repository, run pnpm install, pnpm run build, and pnpm dsh web.\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "content": "Install Node.js, then run `npx @deepseek-ai/dsh web` to start the Web UI, served at http://127.0.0.1:3080 by default. The dsh process uses its invoking directory as the default filesystem location. To run from source, clone the repository, run pnpm install, pnpm run build, and pnpm dsh web.",
           "commands": [
             {
               "label": "Start Web UI",
@@ -297,7 +297,7 @@
         {
           "step": 2,
           "title": "Configure a model",
-          "content": "Open Settings → Models, enter a DeepSeek API key, and save it. The model route becomes usable immediately without restarting the server. To add other providers, choose Add provider and select one from the installed catalog (Anthropic, OpenAI, etc.), or choose Add a custom provider for a company gateway or self-hosted OpenAI-compatible endpoint — supply a lowercase Provider ID, base URL, API protocol, credential, and at least one model. You can also fetch available models from the endpoint before saving.\n\n![](images/tutorials/dsh-settings-models.png)",
+          "content": "Open Settings → Models, enter a DeepSeek API key, and save it. The model route becomes usable immediately without restarting the server. To add other providers, choose Add provider and select one from the installed catalog (Anthropic, OpenAI, etc.), or choose Add a custom provider for a company gateway or self-hosted OpenAI-compatible endpoint — supply a lowercase Provider ID, base URL, API protocol, credential, and at least one model. You can also fetch available models from the endpoint before saving.",
           "commands": [
             {
               "label": "Custom provider YAML (vision model)",
@@ -354,7 +354,7 @@
         {
           "step": 1,
           "title": "安装并启动 Web UI",
-          "content": "安装 Node.js 后，运行 `npx @deepseek-ai/dsh web` 启动 Web UI，默认服务地址为 http://127.0.0.1:3080。dsh 进程会把调用目录作为默认文件系统位置。也可以从源码运行：克隆仓库后依次执行 pnpm install、pnpm run build、pnpm dsh web。\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "content": "安装 Node.js 后，运行 `npx @deepseek-ai/dsh web` 启动 Web UI，默认服务地址为 http://127.0.0.1:3080。dsh 进程会把调用目录作为默认文件系统位置。也可以从源码运行：克隆仓库后依次执行 pnpm install、pnpm run build、pnpm dsh web。",
           "commands": [
             {
               "label": "启动 Web UI",
@@ -369,7 +369,7 @@
         {
           "step": 2,
           "title": "配置模型",
-          "content": "打开「设置 → 模型」，输入 DeepSeek API 密钥并保存，模型路由会立即可用，无需重启服务器。要接入其他提供方，选择「添加提供方」并从已安装目录中选取（Anthropic、OpenAI 等）；对于公司网关或自建 OpenAI 兼容端点，选择「添加自定义提供方」——提供小写 Provider ID、基础 URL、API 协议、凭据和至少一个模型。保存前还可以从端点「获取可用模型」。\n\n![](images/tutorials/dsh-settings-models.png)",
+          "content": "打开「设置 → 模型」，输入 DeepSeek API 密钥并保存，模型路由会立即可用，无需重启服务器。要接入其他提供方，选择「添加提供方」并从已安装目录中选取（Anthropic、OpenAI 等）；对于公司网关或自建 OpenAI 兼容端点，选择「添加自定义提供方」——提供小写 Provider ID、基础 URL、API 协议、凭据和至少一个模型。保存前还可以从端点「获取可用模型」。",
           "commands": [
             {
               "label": "自定义提供方 YAML（视觉模型示例）",
@@ -426,7 +426,7 @@
         {
           "step": 1,
           "title": "Web UI のインストールと起動",
-          "content": "Node.js をインストールし、`npx @deepseek-ai/dsh web` を実行して Web UI を起動します。デフォルトでは http://127.0.0.1:3080 で提供されます。dsh プロセスは呼び出し元ディレクトリをデフォルトのファイルシステム位置として使用します。ソースから実行するには、リポジトリをクローンし、pnpm install、pnpm run build、pnpm dsh web を実行します。\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "content": "Node.js をインストールし、`npx @deepseek-ai/dsh web` を実行して Web UI を起動します。デフォルトでは http://127.0.0.1:3080 で提供されます。dsh プロセスは呼び出し元ディレクトリをデフォルトのファイルシステム位置として使用します。ソースから実行するには、リポジトリをクローンし、pnpm install、pnpm run build、pnpm dsh web を実行します。",
           "commands": [
             {
               "label": "Web UI を起動",
@@ -441,7 +441,7 @@
         {
           "step": 2,
           "title": "モデルを設定する",
-          "content": "「設定 → モデル」を開き、DeepSeek API キーを入力して保存します。モデルルートはサーバー再起動なしで即座に利用可能になります。他のプロバイダーを追加するには「プロバイダーを追加」を選択してカタログから選ぶか（Anthropic、OpenAI など）、企業ゲートウェイやセルフホストの OpenAI 互換エンドポイントには「カスタムプロバイダーを追加」を選択します——小文字の Provider ID、ベース URL、API プロトコル、資格情報、少なくとも1つのモデルを指定します。保存前にエンドポイントから利用可能なモデルを取得することもできます。\n\n![](images/tutorials/dsh-settings-models.png)",
+          "content": "「設定 → モデル」を開き、DeepSeek API キーを入力して保存します。モデルルートはサーバー再起動なしで即座に利用可能になります。他のプロバイダーを追加するには「プロバイダーを追加」を選択してカタログから選ぶか（Anthropic、OpenAI など）、企業ゲートウェイやセルフホストの OpenAI 互換エンドポイントには「カスタムプロバイダーを追加」を選択します——小文字の Provider ID、ベース URL、API プロトコル、資格情報、少なくとも1つのモデルを指定します。保存前にエンドポイントから利用可能なモデルを取得することもできます。",
           "commands": [
             {
               "label": "カスタムプロバイダー YAML（ビジョンモデル）",
@@ -498,7 +498,7 @@
         {
           "step": 1,
           "title": "Instala y lanza la interfaz web",
-          "content": "Instala Node.js y ejecuta `npx @deepseek-ai/dsh web` para iniciar la interfaz web, servida en http://127.0.0.1:3080 por defecto. El proceso dsh usa su directorio de invocación como ubicación predeterminada del sistema de archivos. Para ejecutar desde el código fuente, clona el repositorio y ejecuta pnpm install, pnpm run build y pnpm dsh web.\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "content": "Instala Node.js y ejecuta `npx @deepseek-ai/dsh web` para iniciar la interfaz web, servida en http://127.0.0.1:3080 por defecto. El proceso dsh usa su directorio de invocación como ubicación predeterminada del sistema de archivos. Para ejecutar desde el código fuente, clona el repositorio y ejecuta pnpm install, pnpm run build y pnpm dsh web.",
           "commands": [
             {
               "label": "Iniciar interfaz web",
@@ -513,7 +513,7 @@
         {
           "step": 2,
           "title": "Configura un modelo",
-          "content": "Abre Configuración → Modelos, introduce una clave de API de DeepSeek y guárdala. La ruta del modelo queda disponible de inmediato sin reiniciar el servidor. Para añadir otros proveedores, elige \"Añadir proveedor\" y selecciona uno del catálogo instalado (Anthropic, OpenAI, etc.), o elige \"Añadir un proveedor personalizado\" para una pasarela corporativa o un endpoint compatible con OpenAI autohospedado — proporciona un Provider ID en minúsculas, URL base, protocolo de API, credencial y al menos un modelo. También puedes obtener los modelos disponibles del endpoint antes de guardar.\n\n![](images/tutorials/dsh-settings-models.png)",
+          "content": "Abre Configuración → Modelos, introduce una clave de API de DeepSeek y guárdala. La ruta del modelo queda disponible de inmediato sin reiniciar el servidor. Para añadir otros proveedores, elige \"Añadir proveedor\" y selecciona uno del catálogo instalado (Anthropic, OpenAI, etc.), o elige \"Añadir un proveedor personalizado\" para una pasarela corporativa o un endpoint compatible con OpenAI autohospedado — proporciona un Provider ID en minúsculas, URL base, protocolo de API, credencial y al menos un modelo. También puedes obtener los modelos disponibles del endpoint antes de guardar.",
           "commands": [
             {
               "label": "YAML de proveedor personalizado (modelo de visión)",
@@ -570,7 +570,7 @@
         {
           "step": 1,
           "title": "Installez et lancez l'interface web",
-          "content": "Installez Node.js, puis exécutez `npx @deepseek-ai/dsh web` pour démarrer l'interface web, servie sur http://127.0.0.1:3080 par défaut. Le processus dsh utilise son répertoire d'invocation comme emplacement système de fichiers par défaut. Pour exécuter depuis les sources, clonez le dépôt, puis exécutez pnpm install, pnpm run build et pnpm dsh web.\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "content": "Installez Node.js, puis exécutez `npx @deepseek-ai/dsh web` pour démarrer l'interface web, servie sur http://127.0.0.1:3080 par défaut. Le processus dsh utilise son répertoire d'invocation comme emplacement système de fichiers par défaut. Pour exécuter depuis les sources, clonez le dépôt, puis exécutez pnpm install, pnpm run build et pnpm dsh web.",
           "commands": [
             {
               "label": "Démarrer l'interface web",
@@ -585,7 +585,7 @@
         {
           "step": 2,
           "title": "Configurez un modèle",
-          "content": "Ouvrez Paramètres → Modèles, saisissez une clé API DeepSeek et enregistrez-la. La route du modèle devient utilisable immédiatement sans redémarrer le serveur. Pour ajouter d'autres fournisseurs, choisissez « Ajouter un fournisseur » et sélectionnez-en un dans le catalogue installé (Anthropic, OpenAI, etc.), ou choisissez « Ajouter un fournisseur personnalisé » pour une passerelle d'entreprise ou un endpoint compatible OpenAI auto-hébergé — fournissez un Provider ID en minuscules, une URL de base, un protocole API, une information d'identification et au moins un modèle. Vous pouvez aussi récupérer les modèles disponibles de l'endpoint avant d'enregistrer.\n\n![](images/tutorials/dsh-settings-models.png)",
+          "content": "Ouvrez Paramètres → Modèles, saisissez une clé API DeepSeek et enregistrez-la. La route du modèle devient utilisable immédiatement sans redémarrer le serveur. Pour ajouter d'autres fournisseurs, choisissez « Ajouter un fournisseur » et sélectionnez-en un dans le catalogue installé (Anthropic, OpenAI, etc.), ou choisissez « Ajouter un fournisseur personnalisé » pour une passerelle d'entreprise ou un endpoint compatible OpenAI auto-hébergé — fournissez un Provider ID en minuscules, une URL de base, un protocole API, une information d'identification et au moins un modèle. Vous pouvez aussi récupérer les modèles disponibles de l'endpoint avant d'enregistrer.",
           "commands": [
             {
               "label": "YAML de fournisseur personnalisé (modèle de vision)",

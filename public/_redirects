@@ -14,8 +14,8 @@
 /tools /en/tools 301
 /skills /en/skills 301
 /mcp /en/mcp 301
-/blog /en/blog 301
-/tutorials /en/tutorials 301
+/blog /en/ 301
+/tutorials /en/ 301
 /ranking /en/ranking 301
 /submit /en/submit 301
 /about /en/about 301
@@ -29,8 +29,8 @@
 /tool/:splat /en/tool/:splat 301
 /skills/:splat /en/skills/:splat 301
 /mcp/:splat /en/mcp/:splat 301
-/tutorials/:splat /en/tutorials/:splat 301
-/blog/:splat /en/blog/:splat 301
+/tutorials/:splat /en/ 301
+/blog/:splat /en/ 301
 # 旧分类名一步直达最终目标（GSC 诊断 2026-09-11：若先命中下方 /category/:splat
 # 会形成 /category/platform → /en/category/platform → /en/category/open-source 二跳链，
 # 即 GSC「重定向错误」的来源）。CF Pages 按顺序首条命中，必须放在 splat 规则之前。
@@ -50,8 +50,8 @@
 /en/tools/ /en/tools 301
 /en/skills/ /en/skills 301
 /en/mcp/ /en/mcp 301
-/en/blog/ /en/blog 301
-/en/tutorials/ /en/tutorials 301
+/en/blog/ /en/ 301
+/en/tutorials/ /en/ 301
 /en/ranking/ /en/ranking 301
 /en/submit/ /en/submit 301
 /en/about/ /en/about 301
@@ -61,8 +61,8 @@
 /zh/tools/ /zh/tools 301
 /zh/skills/ /zh/skills 301
 /zh/mcp/ /zh/mcp 301
-/zh/blog/ /zh/blog 301
-/zh/tutorials/ /zh/tutorials 301
+/zh/blog/ /zh/ 301
+/zh/tutorials/ /zh/ 301
 /zh/ranking/ /zh/ranking 301
 /zh/submit/ /zh/submit 301
 /zh/about/ /zh/about 301
@@ -72,8 +72,8 @@
 /ja/tools/ /ja/tools 301
 /ja/skills/ /ja/skills 301
 /ja/mcp/ /ja/mcp 301
-/ja/blog/ /ja/blog 301
-/ja/tutorials/ /ja/tutorials 301
+/ja/blog/ /ja/ 301
+/ja/tutorials/ /ja/ 301
 /ja/ranking/ /ja/ranking 301
 /ja/submit/ /ja/submit 301
 /ja/about/ /ja/about 301
@@ -83,8 +83,8 @@
 /es/tools/ /es/tools 301
 /es/skills/ /es/skills 301
 /es/mcp/ /es/mcp 301
-/es/blog/ /es/blog 301
-/es/tutorials/ /es/tutorials 301
+/es/blog/ /es/ 301
+/es/tutorials/ /es/ 301
 /es/ranking/ /es/ranking 301
 /es/submit/ /es/submit 301
 /es/about/ /es/about 301
@@ -94,8 +94,8 @@
 /fr/tools/ /fr/tools 301
 /fr/skills/ /fr/skills 301
 /fr/mcp/ /fr/mcp 301
-/fr/blog/ /fr/blog 301
-/fr/tutorials/ /fr/tutorials 301
+/fr/blog/ /fr/ 301
+/fr/tutorials/ /fr/ 301
 /fr/ranking/ /fr/ranking 301
 /fr/submit/ /fr/submit 301
 /fr/about/ /fr/about 301

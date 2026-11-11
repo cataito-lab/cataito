@@ -28,9 +28,6 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
               <Link href="/en/tools" className="text-[var(--muted)] hover:text-[var(--foreground)]">
                 Tools
               </Link>
-              <Link href="/en/blog" className="text-[var(--muted)] hover:text-[var(--foreground)]">
-                Blog
-              </Link>
             </nav>
           </div>
         </header>

@@ -1,6 +1,6 @@
 # TECH_SPEC — 技术规格
 
-> Cataito 技术架构与约定。运维/部署见 `docs/OPERATIONS.md`。最后更新：2026-09-06
+> Cataito 技术架构与约定。运维/部署见 `docs/OPERATIONS.md`。最后更新：2026-11-10
 
 ## 技术栈
 
@@ -18,11 +18,11 @@
 ## 目录结构要点
 
 ```
-src/app/[locale]/     全部页面路由（tools/tool/skills/mcp/blog/tutorials/ranking/...）
+src/app/[locale]/     全部页面路由（tools/tool/skills/mcp/ranking/...；blog/tutorials 已于 2026-11-10 下架归档）
                       每个动态段都有 generateStaticParams；列表页 revalidate=3600
 src/components/       28+ 组件；ToolCard 内含 getLocalizedDescription / PLATFORM_META 复用辅助
 src/data/*.json       主档+详情成对（tools/toolDetails、skills/skillDetails、mcp/mcpDetails）
-                      + blogPosts + tutorials + ranking.json
+                      + ranking.json（blogPosts/tutorials 已随 2026-11-10 下架归档）
 src/i18n/             routing.ts（语言与 noindex 单一来源）/ request.ts / navigation.ts
 src/lib/              categories.ts（16 分类单一来源）、seo.ts（hreflang/JSON-LD）、
                       sites.ts（生态子站：tools + aihot）、adsense.ts、form-guard.tsx（表单防滥用）、brandColors.ts
@@ -50,9 +50,9 @@ docs/                 OPERATIONS.md、TECH_SPEC.md、ranking/（RUNBOOK/IDEAS/AL
 
 - hreflang / canonical：`src/lib/seo.ts` `generateAlternates`；与 noindex 策略联动（`TEMP_NOINDEX_LOCALES` 过滤）
 - JSON-LD：`src/lib/seo.ts` 各 `generate*JsonLd` 单一来源。Article 的 `dateModified` 缺省取 `datePublished`（Google 规范期望两字段成对，缺失会进富文本结果质量提示区并可能被 GSC 误报为内容问题）；SoftwareApplication 用 `verdictDate` / `lastVerified`
-- sitemap：`src/app/sitemap.ts`。lastmod 走 `dataDate()` 取各页真实数据日期，**禁回退 `new Date()`**——全站每天"集体变更"会稀释 Google 对 lastmod 的信任（2026-09-11 GSC 诊断后修）；`dataDate()` 内部统一输出 ISO 8601（Z 后缀），博客/教程的裸日期不要绕开它直传
+- sitemap：`src/app/sitemap.ts`。lastmod 走 `dataDate()` 取各页真实数据日期，**禁回退 `new Date()`**——全站每天"集体变更"会稀释 Google 对 lastmod 的信任（2026-09-11 GSC 诊断后修）；`dataDate()` 内部统一输出 ISO 8601（Z 后缀），各页真实数据日期统一走它，禁绕开直传
 - Consent Mode v2：`GoogleAnalytics.tsx` 默认全 denied，`ConsentBanner.tsx` 按用户选择 update（localStorage `catai-consent`）
-- AdSense：`src/lib/adsense.ts` 常量源（ID 硬编码即配置）；广告仅博客详情 + 工具详情两类长内容页；CSP 白名单在 `public/_headers`（Google 广告域变更会导致广告消失，`https://cataito-lab.github.io` 是排行榜客户端拉取活数据的唯一 fetch 目标——新增任何前端 fetch/外部域名必须先补 `connect-src`，否则浏览器静默拦截，页面回退到 SSR 静态壳）
+- AdSense：`src/lib/adsense.ts` 常量源（ID 硬编码即配置）；广告仅工具详情长内容页（博客详情随 blog 版块 2026-11-10 下架移除）；CSP 白名单在 `public/_headers`（Google 广告域变更会导致广告消失，`https://cataito-lab.github.io` 是排行榜客户端拉取活数据的唯一 fetch 目标——新增任何前端 fetch/外部域名必须先补 `connect-src`，否则浏览器静默拦截，页面回退到 SSR 静态壳）
 - 表单防滥用：`src/lib/form-guard.tsx`（honeypot + 时间陷阱 + Turnstile 可选启用）
 
 ## 排行榜（核心差异化资产）

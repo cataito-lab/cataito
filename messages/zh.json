@@ -40,12 +40,9 @@
     "skills": "技能",
     "mcp": "MCP",
     "ranking": "排行榜",
-    "blog": "博客",
     "submit": "提交资源",
     "searchPlaceholder": "搜索 AI 资源...",
     "about": "关于我们",
-    "tutorials": "教程",
-    "resources": "资源",
     "ecosystem": "生态"
   },
   "hero": {
@@ -396,35 +393,6 @@
     "title": "全部 AI 工具",
     "subtitle": "浏览完整目录 —— 按分类筛选或搜索"
   },
-  "blog": {
-    "title": "AI 博客与资讯",
-    "subtitle": "了解最新 AI 趋势、工具评测和行业动态",
-    "latestNews": "最新博客资讯",
-    "latestNewsSubtitle": "AI 资讯、模型对比与深度洞察",
-    "viewAll": "浏览全部",
-    "readMore": "阅读全文",
-    "readTime": "分钟阅读",
-    "publishedOn": "发布于",
-    "by": "作者",
-    "share": "分享文章",
-    "shareOnTwitter": "分享到 Twitter",
-    "shareOnLinkedIn": "分享到 LinkedIn",
-    "shareOnFacebook": "分享到 Facebook",
-    "copyLink": "复制链接",
-    "linkCopied": "链接已复制！",
-    "backToBlog": "返回博客",
-    "relatedTools": "相关工具推荐",
-    "categories": {
-      "all": "全部",
-      "news": "资讯",
-      "comparison": "对比",
-      "listicle": "盘点",
-      "tutorial": "教程",
-      "analysis": "分析",
-      "guide": "指南"
-    },
-    "adLabel": "广告"
-  },
   "about": {
     "metaTitle": "关于 Cataito — 独立的 AI 工具导航",
     "metaDescription": "Cataito 是一个独立的多语言 AI 生态门户。了解我们是谁、如何收录与核实 AI 工具，以及联系方式。",
@@ -505,31 +473,6 @@
       "Image": "图像"
     },
     "faqTitle": "常见问题"
-  },
-  "tutorials": {
-    "title": "AI 教程",
-    "subtitle": "手把手教你掌握 AI 工具、智能体与工作流",
-    "readTime": "分钟阅读",
-    "readTutorial": "阅读教程",
-    "backToList": "返回教程",
-    "relatedTutorials": "相关教程",
-    "emptyTitle": "教程即将上线",
-    "emptyDesc": "我们正在准备图文并茂的深度教程，敬请期待！",
-    "difficulties": {
-      "beginner": "入门",
-      "intermediate": "进阶",
-      "advanced": "高级"
-    },
-    "selectPlatform": "你的操作系统",
-    "platforms": {
-      "windows": "Windows",
-      "macos": "macOS",
-      "linux": "Linux"
-    },
-    "highlightsTitle": "AI 教程",
-    "highlightsSubtitle": "手把手教程，快速上手 AI 工具与工作流",
-    "viewAll": "浏览全部",
-    "all": "全部"
   },
   "sites": {
     "tools": {

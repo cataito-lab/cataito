@@ -40,12 +40,9 @@
     "skills": "スキル",
     "mcp": "MCP",
     "ranking": "ランキング",
-    "blog": "ブログ",
     "submit": "リソースを登録",
     "searchPlaceholder": "AIリソースを検索...",
     "about": "サイトについて",
-    "tutorials": "チュートリアル",
-    "resources": "リソース",
     "ecosystem": "エコシステム"
   },
   "hero": {
@@ -396,35 +393,6 @@
     "title": "すべての AI ツール",
     "subtitle": "完全なディレクトリを閲覧 —— カテゴリで絞り込みや検索"
   },
-  "blog": {
-    "title": "AIブログ＆ニュース",
-    "subtitle": "最新のAIトレンド、ツールレビュー、業界インサイトをお届けします",
-    "latestNews": "ブログの最新記事",
-    "latestNewsSubtitle": "AIニュース、モデル比較、詳細な考察",
-    "viewAll": "すべて見る",
-    "readMore": "続きを読む",
-    "readTime": "分で読める",
-    "publishedOn": "公開日",
-    "by": "著者",
-    "share": "記事をシェア",
-    "shareOnTwitter": "Twitterでシェア",
-    "shareOnLinkedIn": "LinkedInでシェア",
-    "shareOnFacebook": "Facebookでシェア",
-    "copyLink": "リンクをコピー",
-    "linkCopied": "リンクをコピーしました！",
-    "backToBlog": "ブログに戻る",
-    "relatedTools": "関連ツール",
-    "categories": {
-      "all": "すべて",
-      "news": "ニュース",
-      "comparison": "比較",
-      "listicle": "リスト",
-      "tutorial": "チュートリアル",
-      "analysis": "分析",
-      "guide": "ガイド"
-    },
-    "adLabel": "広告"
-  },
   "about": {
     "metaTitle": "Cataitoについて — 独立系AIツールディレクトリ",
     "metaDescription": "Cataitoは独立系・多言語対応のAIエコシステムポータルです。私たちの理念、AIツールの掲載・検証方法、お問い合わせ先をご紹介します。",
@@ -505,31 +473,6 @@
       "Image": "画像"
     },
     "faqTitle": "よくある質問"
-  },
-  "tutorials": {
-    "title": "AIチュートリアル",
-    "subtitle": "AIツール・エージェント・ワークフローをステップバイステップで学ぶ",
-    "readTime": "分で読める",
-    "readTutorial": "チュートリアルを読む",
-    "backToList": "チュートリアル一覧に戻る",
-    "relatedTutorials": "関連チュートリアル",
-    "emptyTitle": "チュートリアル準備中",
-    "emptyDesc": "図解付きの深いチュートリアルを準備中です。お楽しみに！",
-    "difficulties": {
-      "beginner": "初心者",
-      "intermediate": "中級",
-      "advanced": "上級"
-    },
-    "selectPlatform": "お使いのOS",
-    "platforms": {
-      "windows": "Windows",
-      "macos": "macOS",
-      "linux": "Linux"
-    },
-    "highlightsTitle": "AIチュートリアル",
-    "highlightsSubtitle": "AIツールとワークフローを段階的に学べるガイド",
-    "viewAll": "すべて見る",
-    "all": "すべて"
   },
   "sites": {
     "tools": {

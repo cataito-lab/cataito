@@ -40,12 +40,9 @@
     "skills": "Skills",
     "mcp": "MCP",
     "ranking": "Classement",
-    "blog": "Blog",
     "submit": "Soumettre une Ressource",
     "searchPlaceholder": "Rechercher des ressources IA...",
     "about": "À propos",
-    "tutorials": "Tutoriels",
-    "resources": "Ressources",
     "ecosystem": "Écosystème"
   },
   "hero": {
@@ -353,35 +350,6 @@
     "title": "Tous les outils IA",
     "subtitle": "Parcourez l'annuaire complet — filtrez par catégorie ou recherchez"
   },
-  "blog": {
-    "title": "Blog IA et Actualités",
-    "subtitle": "Restez informé des dernières tendances IA, des critiques d'outils et des insights de l'industrie",
-    "latestNews": "Dernières publications du blog",
-    "latestNewsSubtitle": "Actualités IA, comparatifs de modèles et analyses approfondies",
-    "viewAll": "Voir tout",
-    "readMore": "Lire la Suite",
-    "readTime": "min de lecture",
-    "publishedOn": "Publié le",
-    "by": "Par",
-    "share": "Partager l'article",
-    "shareOnTwitter": "Partager sur Twitter",
-    "shareOnLinkedIn": "Partager sur LinkedIn",
-    "shareOnFacebook": "Partager sur Facebook",
-    "copyLink": "Copier le Lien",
-    "linkCopied": "Lien copié !",
-    "backToBlog": "Retour au Blog",
-    "relatedTools": "Outils connexes",
-    "categories": {
-      "all": "Tout",
-      "news": "Actualités",
-      "comparison": "Comparaisons",
-      "listicle": "Listes",
-      "tutorial": "Tutoriels",
-      "analysis": "Analyse",
-      "guide": "Guides"
-    },
-    "adLabel": "Publicité"
-  },
   "skills": {
     "metaTitle": "Skills et Serveurs MCP pour Agents IA",
     "metaDescription": "Découvrez des skills pour agents IA, serveurs MCP et packs installables de la communauté. Parcourez par agent : Claude, Cursor, Codex, WorkBuddy et plus.",
@@ -505,31 +473,6 @@
       "Image": "Image"
     },
     "faqTitle": "Questions fréquentes"
-  },
-  "tutorials": {
-    "title": "Tutoriels IA",
-    "subtitle": "Guides pas à pas pour maîtriser les outils, agents et flux de travail IA",
-    "readTime": "min de lecture",
-    "readTutorial": "Lire le tutoriel",
-    "backToList": "Retour aux tutoriels",
-    "relatedTutorials": "Tutoriels connexes",
-    "emptyTitle": "Tutoriels à venir",
-    "emptyDesc": "Nous préparons des tutoriels détaillés et illustrés. Revenez bientôt !",
-    "difficulties": {
-      "beginner": "Débutant",
-      "intermediate": "Intermédiaire",
-      "advanced": "Avancé"
-    },
-    "selectPlatform": "Votre système d'exploitation",
-    "platforms": {
-      "windows": "Windows",
-      "macos": "macOS",
-      "linux": "Linux"
-    },
-    "highlightsTitle": "Tutoriels IA",
-    "highlightsSubtitle": "Guides pas à pas pour maîtriser les outils et flux de travail IA",
-    "viewAll": "Voir tout",
-    "all": "Tous"
   },
   "sites": {
     "tools": {

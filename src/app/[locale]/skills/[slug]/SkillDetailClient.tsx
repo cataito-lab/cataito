@@ -1,5 +1,6 @@
 'use client';
 
+import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award, Camera } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
@@ -8,7 +9,6 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
 import DOMPurify from 'isomorphic-dompurify';
-import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award , BookOpen, Camera } from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
 import type { Skill } from '../SkillsClient';
 import { fetchReadmeInstallHtml } from '@/lib/readme-parser';
@@ -20,7 +20,6 @@ interface SkillDetails {
   verdict: Record<string, string>;
   useCases: Record<string, string[]>;
   portfolio?: string[];
-  tutorials?: Record<string, string>;
 }
 
 const getLocalized = (field: Record<string, string | string[]> | undefined, locale: string): string | string[] | undefined => {
@@ -56,22 +55,11 @@ interface SkillDetailClientProps {
   skill: Skill;
   locale: string;
   details?: SkillDetails;
-  relatedTutorials: RelatedTutorial[];
 }
 
-interface RelatedTutorial {
-  slug: string;
-  title: Record<string, string>;
-  excerpt: Record<string, string>;
-  difficulty: string;
-  readTime: number;
-  coverImage?: string;
-}
-
-export default function SkillDetailClient({ skill, locale, details, relatedTutorials }: SkillDetailClientProps) {
+export default function SkillDetailClient({ skill, locale, details }: SkillDetailClientProps) {
   const t = useTranslations('common');
   const tSkills = useTranslations('skills');
-  const tTutorials = useTranslations('tutorials');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
   const [readmeInstallHtml, setReadmeInstallHtml] = useState<string | undefined>(undefined);
@@ -432,49 +420,7 @@ export default function SkillDetailClient({ skill, locale, details, relatedTutor
           <FaqSection faqs={skill.faqs} locale={locale} title={tSkills('faqTitle')} />
 
           {/* Related Tutorials */}
-          {relatedTutorials.length > 0 && (
-            <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8 mt-8">
-              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-indigo-500" />
-                {t('relatedTutorials')}
-              </h2>
-              <div className="space-y-4">
-                {relatedTutorials.map((tut) => (
-                  <Link
-                    key={tut.slug}
-                    href={`/tutorials/${tut.slug}`}
-                    className="block p-4 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
-                  >
-                    <div className="flex gap-4">
-                      {tut.coverImage && (
-                        <div className="flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden bg-[var(--card-bg)]">
-                          <img src={tut.coverImage} alt="" className="w-full h-full object-contain" loading="lazy" />
-                        </div>
-                      )}
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-3 mb-1">
-                      <span className="text-xs font-medium text-[var(--primary)] capitalize">
-                        {tTutorials(`difficulties.${tut.difficulty}`)}
-                      </span>
-                      <span className="text-xs text-[var(--muted)]">
-                        {tut.readTime} {tTutorials('readTime')}
-                      </span>
-                    </div>
-                    <h3 className="font-medium text-[var(--foreground)] mb-1">
-                      {getLocalized(tut.title, locale) as string}
-                    </h3>
-                    <p className="text-sm text-[var(--muted)] line-clamp-2">
-                      {getLocalized(tut.excerpt, locale) as string}
-                    </p>
-                        </div>
-                      </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
-
-        </article>
+</article>
       </main>
       <Footer />
     </>

@@ -21,7 +21,6 @@ const TASKS = [
   { data: 'skillDetails.json', schema: 'skillDetails.schema.json', load: loadSkillDetails },
   { data: 'mcp.json',         schema: 'mcp.schema.json',         load: loadMcp },
   { data: 'mcpDetails.json',  schema: 'mcpDetails.schema.json',  load: loadMcpDetails },
-  { data: 'blogPosts.json',   schema: 'blogPosts.schema.json',   load: () => JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'blogPosts.json'), 'utf8')) },
 ];
 
 /** 加载并编译 schema */

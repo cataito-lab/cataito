@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * 数据文件结构验证脚本
- * 验证 tools.json、toolDetails.json、blogPosts.json、skills.json 的必填字段与五语言完整性。
+ * 验证 tools.json、toolDetails.json、skills.json、mcp/ 的必填字段与五语言完整性。
  * 退出码 0 = 全部通过，1 = 存在错误。
  */
 
@@ -209,59 +209,6 @@ function validateToolDetails() {
   }
 }
 
-// ─── 3. blogPosts.json ───────────────────────────────────────────
-function validateBlogPosts() {
-  console.log('\n━━━ blogPosts.json ━━━');
-  const data = loadJSON('blogPosts.json');
-  if (!data) return;
-
-  if (!Array.isArray(data)) {
-    error('期望数组，实际为 ' + typeof data);
-    return;
-  }
-  ok(`共 ${data.length} 篇博文`);
-
-  const REQUIRED_FIELDS = ['slug', 'title', 'excerpt', 'content', 'author', 'publishedAt', 'category', 'tags', 'coverImage', 'readTime'];
-  const I18N_FIELDS = ['title', 'excerpt', 'content'];
-  const slugs = new Set();
-
-  data.forEach((post, i) => {
-    const prefix = `blogPosts[${i}]`;
-
-    // 必填字段
-    for (const field of REQUIRED_FIELDS) {
-      if (!(field in post)) {
-        error(`${prefix} (${post.slug || '?'}): 缺少必填字段 "${field}"`);
-      }
-    }
-
-    // slug 唯一性
-    if (post.slug) {
-      if (slugs.has(post.slug)) {
-        error(`${prefix}: slug "${post.slug}" 重复`);
-      }
-      slugs.add(post.slug);
-    }
-
-    // 五语言字段检查
-    for (const field of I18N_FIELDS) {
-      if (field in post) {
-        checkI18nKeys(post[field], `${prefix}.${field}`);
-      }
-    }
-
-    // tags 应为数组
-    if ('tags' in post && !Array.isArray(post.tags)) {
-      error(`${prefix} (${post.slug}): tags 应为数组`);
-    }
-
-    // readTime 应为正数
-    if ('readTime' in post && (typeof post.readTime !== 'number' || post.readTime <= 0)) {
-      error(`${prefix} (${post.slug}): readTime 应为正数`);
-    }
-  });
-}
-
 // ─── 4. src/data/skills/ ────────────────────────────────────────
 function validateSkills() {
   console.log('\n━━━ src/data/skills/ ━━━');
@@ -353,7 +300,6 @@ console.log('🔍 数据文件结构验证开始\n');
 
 validateTools();
 validateToolDetails();
-validateBlogPosts();
 // ─── 5. src/data/mcp/ ────────────────────────────────
 function validateMcp() {
   console.log('\n━━━ src/data/mcp/ ━━━');

@@ -8,8 +8,6 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ToolGrid from '@/components/ToolGrid';
 import FeaturedAgents from '@/components/FeaturedAgents';
-import BlogHighlights from '@/components/BlogHighlights';
-import TutorialHighlights from '@/components/TutorialHighlights';
 import Newsletter from '@/components/Newsletter';
 import SubmitCTA from '@/components/SubmitCTA';
 import EditorialIntro from '@/components/EditorialIntro';
@@ -268,9 +266,6 @@ export default function HomePageClient() {
             <Link href="/skills" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
               {tNav('skills')}
             </Link>
-            <Link href="/tutorials" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
-              {tNav('tutorials')}
-            </Link>
             <Link href="/ranking" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
               {tNav('ranking')}
             </Link>
@@ -297,8 +292,6 @@ export default function HomePageClient() {
           </div>
         </section>
 
-        <TutorialHighlights />
-        <BlogHighlights />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <Newsletter />
         </div>

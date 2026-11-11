@@ -40,12 +40,9 @@
     "skills": "Skills",
     "mcp": "MCP",
     "ranking": "Ranking",
-    "blog": "Blog",
     "submit": "Enviar Recurso",
     "searchPlaceholder": "Buscar recursos de IA...",
     "about": "Acerca de",
-    "tutorials": "Tutoriales",
-    "resources": "Recursos",
     "ecosystem": "Ecosistema"
   },
   "hero": {
@@ -353,35 +350,6 @@
     "title": "Todas las herramientas de IA",
     "subtitle": "Explora el directorio completo: filtra por categoría o busca"
   },
-  "blog": {
-    "title": "Blog de IA y Noticias",
-    "subtitle": "Mantente al día con las últimas tendencias de IA, reseñas de herramientas y noticias de la industria",
-    "latestNews": "Lo último del blog",
-    "latestNewsSubtitle": "Noticias de IA, comparativas de modelos e ideas en profundidad",
-    "viewAll": "Ver todo",
-    "readMore": "Leer Más",
-    "readTime": "min de lectura",
-    "publishedOn": "Publicado el",
-    "by": "Por",
-    "share": "Compartir artículo",
-    "shareOnTwitter": "Compartir en Twitter",
-    "shareOnLinkedIn": "Compartir en LinkedIn",
-    "shareOnFacebook": "Compartir en Facebook",
-    "copyLink": "Copiar Enlace",
-    "linkCopied": "¡Enlace copiado!",
-    "backToBlog": "Volver al Blog",
-    "relatedTools": "Herramientas relacionadas",
-    "categories": {
-      "all": "Todo",
-      "news": "Noticias",
-      "comparison": "Comparaciones",
-      "listicle": "Listas",
-      "tutorial": "Tutoriales",
-      "analysis": "Análisis",
-      "guide": "Guías"
-    },
-    "adLabel": "Publicidad"
-  },
   "skills": {
     "metaTitle": "Skills y Servidores MCP para Agentes IA",
     "metaDescription": "Descubre skills para agentes de IA, servidores MCP y paquetes instalables de la comunidad. Navega por agente: Claude, Cursor, Codex, WorkBuddy y más.",
@@ -505,31 +473,6 @@
       "Image": "Imagen"
     },
     "faqTitle": "Preguntas frecuentes"
-  },
-  "tutorials": {
-    "title": "Tutoriales de IA",
-    "subtitle": "Guías paso a paso para dominar herramientas, agentes y flujos de trabajo de IA",
-    "readTime": "min de lectura",
-    "readTutorial": "Leer tutorial",
-    "backToList": "Volver a tutoriales",
-    "relatedTutorials": "Tutoriales relacionados",
-    "emptyTitle": "Tutoriales próximamente",
-    "emptyDesc": "¡Estamos preparando tutoriales detallados con imágenes. Vuelve pronto!",
-    "difficulties": {
-      "beginner": "Principiante",
-      "intermediate": "Intermedio",
-      "advanced": "Avanzado"
-    },
-    "selectPlatform": "Tu sistema operativo",
-    "platforms": {
-      "windows": "Windows",
-      "macos": "macOS",
-      "linux": "Linux"
-    },
-    "highlightsTitle": "Tutoriales de IA",
-    "highlightsSubtitle": "Guías paso a paso para dominar herramientas y flujos de trabajo de IA",
-    "viewAll": "Ver todo",
-    "all": "Todas"
   },
   "sites": {
     "tools": {

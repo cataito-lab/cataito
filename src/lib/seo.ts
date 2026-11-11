@@ -33,7 +33,7 @@ export const DEFAULT_TWITTER_IMAGES = ['https://cataito.com/logo.png'];
 
 /**
  * 为指定路径生成 hreflang + canonical alternates 对象
- * @param path 以 / 开头的路径，如 /tool/chatgpt 或 /blog
+ * @param path 以 / 开头的路径，如 /tool/chatgpt
  * @param currentLocale 当前页面语言（必填）；canonical 自引用到该语言版本
  *        （多语言站点最佳实践：每个语言页 canonical 指向自身，避免被 /en 合并而不被收录）
  *        设为必填是为了让新增页面若漏传 locale 时 `next build` 直接 TypeScript 报错，防止 canonical 退化为全部指向 /en。
@@ -63,8 +63,6 @@ export function generateAlternates(path: string, currentLocale: string) {
     // alternates 会整体覆盖 layout 级，这里才能保证每个页面都带 feed 声明
     types: {
       'application/rss+xml': [
-        { url: '/rss/blog.xml', title: 'Cataito Blog' },
-        { url: '/rss/tutorials.xml', title: 'Cataito Tutorials' },
         { url: '/rss/ranking.xml', title: 'Cataito GitHub AI Rankings' },
       ],
     },
