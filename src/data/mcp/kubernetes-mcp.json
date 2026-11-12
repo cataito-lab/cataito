@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y mcp-server-kubernetes",
   "logo": "/logos/mcp/kubernetes-mcp.png",
-  "stars": 1611,
+  "stars": 1612,
   "featured": false,
   "faqs": [
     {
