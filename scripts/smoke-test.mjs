@@ -38,7 +38,6 @@ const PAGES = [
   // 所有语言首页
   ...LOCALES.map((l) => `/${l}`),
   // 核心功能页面（以英文为例，确认路由可正常渲染）
-  '/en/blog',
   '/en/submit',
   '/en/privacy',
   '/en/disclaimer',
