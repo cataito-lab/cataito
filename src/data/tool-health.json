@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T12:11:16.078Z",
+  "updatedAt": "2026-11-13T18:08:49.785Z",
   "summary": {
     "total": 294,
     "ok": 293,
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 3,
+      "deadStreak": 4,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-13"
