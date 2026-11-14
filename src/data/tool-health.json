@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-14T11:27:32.345Z",
+  "updatedAt": "2026-11-14T16:45:34.366Z",
   "summary": {
     "total": 294,
-    "ok": 293,
+    "ok": 292,
     "dead": 1,
     "unreachable": 0
   },
@@ -449,10 +449,10 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-11-14"
     },
     "baichuan-ai": {
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 5,
+      "deadStreak": 6,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-14"
