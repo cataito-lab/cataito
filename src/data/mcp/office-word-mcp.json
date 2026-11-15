@@ -24,7 +24,7 @@
   ],
   "installCommand": "pip install -r https://raw.githubusercontent.com/GongRzhe/Office-Word-MCP-Server/main/requirements.txt",
   "logo": "/logos/mcp/office-word-mcp.png",
-  "stars": 2114,
+  "stars": 2115,
   "featured": false,
   "faqs": [
     {

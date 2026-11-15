@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y @upstash/context7-mcp",
   "logo": "/logos/mcp/context7.png",
-  "stars": 64777,
+  "stars": 64814,
   "featured": false,
   "faqs": [
     {
