@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T11:56:35.113Z",
+  "updatedAt": "2026-11-15T17:27:49.327Z",
   "summary": {
     "total": 294,
     "ok": 292,
@@ -140,7 +140,7 @@
       "status": "ok",
       "deadStreak": 0,
       "unreachableStreak": 0,
-      "lastClass": "PROTECTED",
+      "lastClass": "OK",
       "lastChecked": "2026-11-15"
     },
     "notion-ai": {
@@ -459,7 +459,7 @@
       "kind": "tool",
       "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 1,
+      "unreachableStreak": 2,
       "lastClass": "UNREACHABLE",
       "lastChecked": "2026-11-15"
     },
@@ -1340,7 +1340,7 @@
       "status": "ok",
       "deadStreak": 0,
       "unreachableStreak": 0,
-      "lastClass": "PROTECTED",
+      "lastClass": "OK",
       "lastChecked": "2026-11-15"
     },
     "notebooklm": {
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 7,
+      "deadStreak": 8,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-15"
