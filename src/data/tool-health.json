@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-16T12:43:23.828Z",
+  "updatedAt": "2026-11-16T20:42:38.279Z",
   "summary": {
     "total": 294,
-    "ok": 290,
+    "ok": 293,
     "dead": 1,
     "unreachable": 0
   },
@@ -457,10 +457,10 @@
     },
     "baichuan-ai": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 3,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-16"
     },
     "sensechat": {
@@ -473,10 +473,10 @@
     },
     "stepfun": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-16"
     },
     "360-zhinao": {
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 9,
+      "deadStreak": 10,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-16"
@@ -1737,10 +1737,10 @@
     },
     "huashu-design": {
       "kind": "skill",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-16"
     },
     "pyvideotrans": {
