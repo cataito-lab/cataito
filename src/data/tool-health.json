@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-18T13:01:12.575Z",
+  "updatedAt": "2026-11-18T19:09:00.915Z",
   "summary": {
     "total": 294,
-    "ok": 291,
-    "dead": 1,
+    "ok": 292,
+    "dead": 2,
     "unreachable": 0
   },
   "tools": {
@@ -473,10 +473,10 @@
     },
     "stepfun": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-18"
     },
     "360-zhinao": {
@@ -873,8 +873,8 @@
     },
     "microsoft-agent-framework": {
       "kind": "tool",
-      "status": "suspect",
-      "deadStreak": 1,
+      "status": "dead",
+      "deadStreak": 2,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-18"
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 13,
+      "deadStreak": 14,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-18"
