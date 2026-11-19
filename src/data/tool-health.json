@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-19T13:00:37.977Z",
+  "updatedAt": "2026-11-19T19:12:30.010Z",
   "summary": {
     "total": 294,
-    "ok": 291,
+    "ok": 292,
     "dead": 2,
     "unreachable": 0
   },
@@ -140,7 +140,7 @@
       "status": "ok",
       "deadStreak": 0,
       "unreachableStreak": 0,
-      "lastClass": "PROTECTED",
+      "lastClass": "OK",
       "lastChecked": "2026-11-19"
     },
     "notion-ai": {
@@ -449,10 +449,10 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-19"
     },
     "baichuan-ai": {
@@ -874,7 +874,7 @@
     "microsoft-agent-framework": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 3,
+      "deadStreak": 4,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-19"
@@ -1340,7 +1340,7 @@
       "status": "ok",
       "deadStreak": 0,
       "unreachableStreak": 0,
-      "lastClass": "PROTECTED",
+      "lastClass": "OK",
       "lastChecked": "2026-11-19"
     },
     "notebooklm": {
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 15,
+      "deadStreak": 16,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-19"
