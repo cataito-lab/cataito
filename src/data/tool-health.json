@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T12:37:38.912Z",
+  "updatedAt": "2026-11-21T17:47:39.809Z",
   "summary": {
     "total": 294,
     "ok": 292,
@@ -874,7 +874,7 @@
     "microsoft-agent-framework": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 7,
+      "deadStreak": 8,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-21"
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 19,
+      "deadStreak": 20,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-21"
