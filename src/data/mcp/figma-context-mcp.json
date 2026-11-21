@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y figma-developer-mcp --figma-api-key=<key> --stdio",
   "logo": "/logos/mcp/figma-context-mcp.png",
-  "stars": 16268,
+  "stars": 16270,
   "featured": false,
   "faqs": [
     {
