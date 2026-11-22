@@ -23,7 +23,7 @@
   ],
   "installCommand": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git && cd Generative-Media-Skills",
   "logo": "/logos/skills/generative-media-skills.png",
-  "stars": 47,
+  "stars": 49,
   "featured": false,
   "faqs": [
     {
