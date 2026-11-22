@@ -23,7 +23,7 @@
   ],
   "installCommand": "docker mcp gateway run",
   "logo": "/logos/mcp/docker-mcp.png",
-  "stars": 1642,
+  "stars": 1643,
   "featured": false,
   "faqs": [
     {

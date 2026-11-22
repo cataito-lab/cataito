@@ -25,7 +25,7 @@
   ],
   "installCommand": "npx -y @supabase/mcp-server-supabase@latest",
   "logo": "/logos/mcp/supabase-mcp.png",
-  "stars": 3021,
+  "stars": 3022,
   "featured": false,
   "faqs": [
     {
