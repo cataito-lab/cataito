@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y @modelcontextprotocol/server-filesystem <dir>",
   "logo": "/logos/mcp/mcp-official-servers.png",
-  "stars": 92168,
+  "stars": 92179,
   "featured": false,
   "faqs": [
     {

@@ -23,7 +23,7 @@
   ],
   "installCommand": "npx -y tavily-mcp@latest",
   "logo": "/logos/mcp/tavily-mcp.png",
-  "stars": 2499,
+  "stars": 2497,
   "featured": false,
   "faqs": [
     {
