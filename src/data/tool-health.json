@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-24T14:51:15.733Z",
+  "updatedAt": "2026-11-24T20:54:38.415Z",
   "summary": {
     "total": 294,
-    "ok": 292,
+    "ok": 291,
     "dead": 2,
     "unreachable": 0
   },
@@ -449,10 +449,10 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-11-24"
     },
     "baichuan-ai": {
@@ -874,7 +874,7 @@
     "microsoft-agent-framework": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 13,
+      "deadStreak": 14,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-24"
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 25,
+      "deadStreak": 26,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-24"
