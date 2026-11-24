@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y @coplay/unity-mcp",
   "logo": "/logos/mcp/unity-mcp.png",
-  "stars": 16140,
+  "stars": 16152,
   "featured": false,
   "faqs": [
     {

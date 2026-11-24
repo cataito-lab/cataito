@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y mcp-obsidian --vault /path/to/your/vault",
   "logo": "/logos/mcp/obsidian-mcp.png",
-  "stars": 4550,
+  "stars": 4551,
   "featured": false,
   "faqs": [
     {
