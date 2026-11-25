@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-25T14:18:55.075Z",
+  "updatedAt": "2026-11-25T20:15:06.602Z",
   "summary": {
     "total": 294,
-    "ok": 289,
+    "ok": 292,
     "dead": 2,
     "unreachable": 0
   },
@@ -457,10 +457,10 @@
     },
     "baichuan-ai": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-25"
     },
     "sensechat": {
@@ -473,10 +473,10 @@
     },
     "stepfun": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-25"
     },
     "360-zhinao": {
@@ -874,7 +874,7 @@
     "microsoft-agent-framework": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 15,
+      "deadStreak": 16,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-25"
@@ -1057,10 +1057,10 @@
     },
     "metaso": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-25"
     },
     "felo": {
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 27,
+      "deadStreak": 28,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-25"
