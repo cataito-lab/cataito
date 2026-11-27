@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-27T13:50:31.339Z",
+  "updatedAt": "2026-11-27T19:41:32.442Z",
   "summary": {
     "total": 294,
-    "ok": 288,
+    "ok": 290,
     "dead": 2,
     "unreachable": 0
   },
@@ -449,18 +449,18 @@
     },
     "yi-lingyi": {
       "kind": "tool",
-      "status": "suspect",
-      "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
-      "lastChecked": "2026-11-27"
-    },
-    "baichuan-ai": {
-      "kind": "tool",
       "status": "ok",
       "deadStreak": 0,
       "unreachableStreak": 0,
       "lastClass": "OK",
+      "lastChecked": "2026-11-27"
+    },
+    "baichuan-ai": {
+      "kind": "tool",
+      "status": "suspect",
+      "deadStreak": 0,
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-11-27"
     },
     "sensechat": {
@@ -874,7 +874,7 @@
     "microsoft-agent-framework": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 19,
+      "deadStreak": 20,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-27"
@@ -1057,10 +1057,10 @@
     },
     "metaso": {
       "kind": "tool",
-      "status": "ok",
+      "status": "suspect",
       "deadStreak": 0,
-      "unreachableStreak": 0,
-      "lastClass": "OK",
+      "unreachableStreak": 1,
+      "lastClass": "UNREACHABLE",
       "lastChecked": "2026-11-27"
     },
     "felo": {
@@ -1145,10 +1145,10 @@
     },
     "fal-ai": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-27"
     },
     "cerebras": {
@@ -1249,10 +1249,10 @@
     },
     "banani": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-27"
     },
     "grammarly": {
@@ -1273,10 +1273,10 @@
     },
     "rytr": {
       "kind": "tool",
-      "status": "suspect",
+      "status": "ok",
       "deadStreak": 0,
-      "unreachableStreak": 1,
-      "lastClass": "UNREACHABLE",
+      "unreachableStreak": 0,
+      "lastClass": "OK",
       "lastChecked": "2026-11-27"
     },
     "sudowrite": {
@@ -1458,7 +1458,7 @@
     "reasonix": {
       "kind": "tool",
       "status": "dead",
-      "deadStreak": 31,
+      "deadStreak": 32,
       "unreachableStreak": 0,
       "lastClass": "DEAD",
       "lastChecked": "2026-11-27"
