@@ -25,7 +25,7 @@
   ],
   "installCommand": "env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp",
   "logo": "/logos/mcp/firecrawl-mcp.png",
-  "stars": 7925,
+  "stars": 7928,
   "featured": false,
   "faqs": [
     {
