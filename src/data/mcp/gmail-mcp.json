@@ -24,7 +24,7 @@
   ],
   "installCommand": "npx -y gmail-mcp-server",
   "logo": "/logos/mcp/gmail-mcp.png",
-  "stars": 1172,
+  "stars": 1171,
   "featured": false,
   "faqs": [
     {
